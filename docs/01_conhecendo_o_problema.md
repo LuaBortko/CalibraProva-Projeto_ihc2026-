@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** 19/08/2026
+**Status:**  🟨 não iniciada  
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -59,15 +59,17 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 
 | Nome completo | Matrícula | GitHub |
 |---|---:|---|
-| {{...}} | {{...}} | {{...}} |
+| Beatriz Manaia Lourenço Berto |22.125.060-8 | [Beatriz manaia Lourenço Berto](https://github.com/beatrizmanaia26)|
+| Luana Bortko Rodrigues |24.123.006-9 | [Luana Bortko Rodrigues](https://github.com/LuaBortko) |
+| Nuno Martins Guilhermino da Silva |22.126.099-5 |  [Nuno Martins Guilhermino da Silva ](https://github.com/nunomgs136) |
 
 ## 0.2 Título atual do TCC
 
-{{...}}
+Estrutura e formatação das provas o ENEM: Impacto no desempenho geral dos participantes
 
 ## 0.3 Orientador(a)
 
-{{...}}
+Charles Henrique Porto Ferreira
 
 ## 0.4 Qual é o resultado principal atualmente previsto no TCC?
 
