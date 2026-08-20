@@ -36,10 +36,10 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | Avaliar se o formato da prova do enem interfere o desempenho do aluno |
+| Tema central do TCC | Avaliar se o formato da prova do ENEM interfere o desempenho do aluno |
 | Resultado técnico esperado do TCC | Análise da prova do ENEM |
 | O TCC já previa interface? | sim |
-| Capacidade técnica que pode gerar valor para pessoas | Avaliação do formatos das provas de forma automatica |
+| Capacidade técnica que pode gerar valor para pessoas | Avaliação do formatos das provas de forma automática |
 | Usuário principal adotado em IHC | Docentes |
 | Objetivo principal desse usuário | Melhorar aula | <!-- avaliar formato prova -> melhorar criação prova -> avaliar melhor alunos -> melhor aula --> 
 | Interface/recorte explorado na disciplina | não terá recorte |
@@ -50,9 +50,9 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 ## Resumo do projeto pela perspectiva do usuário
 <!--
 Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolhido, o que precisa alcançar, qual problema enfrenta ou qual atividade precisa executar, em qual contexto e como a contribuição do TCC se relaciona com essa situação.
-O usuário seria um docente que quer conseguir avaliar melhor seus alunos em suas provas
 -->
-Um docente precisa conseguir avaliar melhor seus alunos em suas aulas 
+Um docente precisa ser capaz de avaliar seus alunos de forma mais precisa durante suas aulas. Atualmente, enfrenta insegurança quanto à sua capacidade de garantir que as avaliações realmente mensurem os conhecimentos adquiridos pelos alunos ao longo das aulas [H]. Para isso, pode recorrer à Inteligência Artificial (IA) e ao seu próprio repertório como ferramentas de apoio na elaboração e validação das questões e das provas. O tema do TCC investiga o possível impacto do formato da prova do Exame Nacional do Ensino Médio (ENEM) no desempenho dos candidatos. Para fins da disciplina de IHC, será desenvolvida uma interface que permita a inserção de provas no formato do ENEM, possibilitando a extração de métricas relacionadas a características das questões que podem impactar o desempenho dos candidatos.
+
 <!--
 > **Estrutura sugerida:** “`{{tipo de usuário}}` precisa `{{objetivo}}` em `{{contexto}}`. Atualmente enfrenta `{{problema/limitação}}` e utiliza `{{processo/alternativa atual}}`. O tema do TCC investiga `{{contribuição técnica}}`. Para fins da disciplina de IHC, será explorada uma interface que permita `{{forma de uso da contribuição}}`.”
 
