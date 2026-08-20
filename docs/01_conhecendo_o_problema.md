@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
 **Data:** 19/08/2026
-**Status:**  🟨 não iniciada  
+**Status:**  🟨 iniciada  
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -74,13 +74,13 @@ Charles Henrique Porto Ferreira
 ## 0.4 Qual é o resultado principal atualmente previsto no TCC?
 
 Marque e descreva:
-
+<!-- DEBATER -->
 - [ ] sistema/aplicação interativa;
 - [ ] algoritmo;
 - [ ] modelo de IA/ML/LLM;
 - [ ] biblioteca/API/framework;
 - [ ] análise de dataset;
-- [ ] estudo/benchmark/avaliação experimental;
+- [X] estudo/benchmark/avaliação experimental;
 - [ ] infraestrutura/backend;
 - [ ] componente embarcado/IoT;
 - [ ] outro: {{...}}.
@@ -89,11 +89,11 @@ Marque e descreva:
 
 ## 0.5 O TCC já previa desenvolvimento de interface com usuário?
 
-- [ ] Sim, a interface já faz parte do TCC.
+- [X] Sim, a interface já faz parte do TCC.
 - [ ] Parcialmente; existe alguma interação, mas ainda não está bem definida.
 - [ ] Não. O TCC é predominantemente técnico e não previa interface.
 
-**Explique o que está formalmente previsto no TCC:** {{...}}
+**Explique o que está formalmente previsto no TCC:** A partir do upload de uma prova de mesmo formato do ENEM, o sistema analisa suas características estruturais e, utilizando as correlações observadas no ENEM, estima seu nível potencial de dificuldade ao oferecer visualização de informações como: uso de elementos visuais, nível de formalidade, construção de distratores, ordem de apresentação das questões e tempo médio de leitura da prova e das questões.
 
 > Esta resposta serve para separar o compromisso do TCC do projeto da disciplina. Mesmo quando a opção for **não**, a equipe irá definir uma interface para exercitar IHC.
 
@@ -103,32 +103,31 @@ Marque e descreva:
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-{{...}}
+Análise se formato da prova do ENEM, mensurado por meio de características como: ordem de apresentação das questões na prova, nível de formalidade; análise do tempo médio de resolução, quantidade de palavras por enunciado, presença de imagens, e construção dos distratores) trazem impacto no desempenho dos candidatos.
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
-{{[F/H/?] ...}}
+[F] Historicamente, estudos sobre a formatação da prova do ENEM são escassos, não recebendo a mesma atenção que outros fatores influentes, como o perfil socioeconômico dos candidatos, revisado por \textcite{Dutra2023}. Ademais, as pesquisas relacionadas frequentemente possuem abordagens e motivações diferentes, analisando itens de provas específicas prioritariamente para revelar limitações do ensino básico nas escolas brasileiras \cite{Cestaro2020, lopes2015estudo}. Consequentemente, há uma carência de investigações atualizadas que isolem o impacto das características estruturais dos itens no desempenho dos alunos.
+<!-- VERIFICAR MELHOR JEITO DE CITAR AS REFERENCIAS -->
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
-Complete, se ajudar:
-
-> “Nosso TCC produz, melhora, analisa ou permite `{{capacidade}}`.”
-
-Exemplos: otimizar consultas; classificar imagens; detectar anomalias; comparar modelos; identificar padrões; prever demanda; analisar desempenho; gerar resumos; recomendar configurações.
-
-{{...}}
+Nosso TCC tem como objetivo analisa como características estruturais dos itens do ENEM, como extensão do enunciado, uso de elementos visuais, nível de formalidade, construção de distratores, análise do tempo médio de resolução e ordem de apresentação das questões, influenciam o desempenho dos participantes, a fim de identificar padrões que contribuem para a compreensão do impacto do formato do exame na avaliação das competências dos candidatos e, a partir dos resultados observados, desenvolvemos uma aplicação que analisa o PDF de uma prova enviada e retorna as métricas e suas respectivas influências no desempenho do estudante."
 
 ## 1.4 O que se espera que esteja diferente **para pessoas, organizações ou processos** se essa contribuição for bem-sucedida?
 
-{{[F/H/?] ...}}
+[H] Poderá fornecer subsídios para que professores e elaboradores de provas avaliem características estruturais de suas avaliações, contribuindo para ajustes que tornem o nível de dificuldade mais adequado aos objetivos propostos.
 
 ## 1.5 O que é mérito técnico/científico do TCC e o que seria uma possível aplicação prática?
 
+<!-- MELHORAR ESSA ESCRITA--> 
+
 | Mérito/contribuição técnica | Possível aplicação/valor em uso |
 |---|---|
-| {{...}} | {{...}} |
-
+| Análise de aspectos da estrutura do enem em provas de 2020 a 2025 com execao de 2021 | Mérito/contribuição técnica |
+| Identificação se essas estruturas impactam o desempenho dos candidatos nessas provas| Mérito/contribuição técnica |
+| Analise de outras provas no mesmo formato do ENEM com base base nos reusltados obtidos para detectar o impacto das mesmas estruturas em outros tipos de prova |Possível aplicação/valor em uso  |
+<!-- pegar como isso ta escrito no tcc p melhorar aqui, tambem nao sei se da para segmentar mais -->
 ---
 
 # 2. Entendendo as pessoas envolvidas
