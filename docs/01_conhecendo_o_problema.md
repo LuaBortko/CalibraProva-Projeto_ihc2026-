@@ -85,7 +85,7 @@ Marque e descreva:
 - [ ] componente embarcado/IoT;
 - [ ] outro: {{...}}.
 
-**Descrição:** {{...}}
+**Descrição:** Análise das características estruturais das provas do ENEM e de seu possível impacto no desempenho dos estudantes.
 
 ## 0.5 O TCC já previa desenvolvimento de interface com usuário?
 
@@ -103,12 +103,17 @@ Marque e descreva:
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-Análise se formato da prova do ENEM, mensurado por meio de características como: ordem de apresentação das questões na prova, nível de formalidade; análise do tempo médio de resolução, quantidade de palavras por enunciado, presença de imagens, e construção dos distratores) trazem impacto no desempenho dos candidatos.
+Analisa se o formato das provas do ENEM, mensurado por características como a ordem de apresentação das questões, o nível de formalidade, o tempo médio de resolução, a quantidade de palavras por enunciado, a presença de imagens e a construção dos distratores, impacta o desempenho dos candidatos.
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
-[F] Historicamente, estudos sobre a formatação da prova do ENEM são escassos, não recebendo a mesma atenção que outros fatores influentes, como o perfil socioeconômico dos candidatos, revisado por \textcite{Dutra2023}. Ademais, as pesquisas relacionadas frequentemente possuem abordagens e motivações diferentes, analisando itens de provas específicas prioritariamente para revelar limitações do ensino básico nas escolas brasileiras \cite{Cestaro2020, lopes2015estudo}. Consequentemente, há uma carência de investigações atualizadas que isolem o impacto das características estruturais dos itens no desempenho dos alunos.
-<!-- VERIFICAR MELHOR JEITO DE CITAR AS REFERENCIAS -->
+[F] Historicamente, estudos sobre a formatação da prova do ENEM são escassos, não recebendo a mesma atenção que outros fatores influentes, como o perfil socioeconômico dos candidatos, revisado por DUTRA. Ademais, as pesquisas relacionadas frequentemente possuem abordagens e motivações diferentes, analisando itens de provas específicas prioritariamente para revelar limitações do ensino básico nas escolas brasileiras (CESTARO, LOPES). Consequentemente, há uma carência de investigações atualizadas que isolem o impacto das características estruturais dos itens no desempenho dos alunos.
+
+- DUTRA, Janderson Ferreira; FIRMINO JUNIOR, João Batista; FERNANDES, Damires Yluska de Souza. Fatores que podem interferir no desempenho de estudantes no ENEM: uma revisão sistemática da literatura. Revista Brasileira de Informática na Educação, 2022. DOI: 10.5753/rbie.2023.3087.
+
+- CESTARO, Débora Cristina; KLEINKE, Maurício Urban; ALLE, Lupe Furtado. Uma análise do desempenho dos participantes e do conteúdo abordado em itens de genética e biologia evolutiva do Exame Nacional do Ensino Médio (ENEM): implicações curriculares. Investigações em Ensino de Ciências, v. 25, n. 3, 2020, p. 503. DOI: 10.22600/1518-8795.ienci2020v25n3p503.
+
+- LOPES, José Christian; RUBINI, Gustavo; MASSUNAGA, Marcelo de Oliveira S.; BARROSO, Marta Feijó. Estudo das questões de Física da prova de Ciências da Natureza do ENEM. Anais da Reunião da Associação Brasileira de Avaliação Educacional (ABAVE), Florianópolis, SC, Brasil, v. 8, 2015.
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
@@ -120,23 +125,16 @@ Nosso TCC tem como objetivo analisa como características estruturais dos itens 
 
 ## 1.5 O que é mérito técnico/científico do TCC e o que seria uma possível aplicação prática?
 
-<!-- MELHORAR ESSA ESCRITA--> 
-
 | Mérito/contribuição técnica | Possível aplicação/valor em uso |
 |---|---|
-| Análise de aspectos da estrutura do enem em provas de 2020 a 2025 com execao de 2021 | Mérito/contribuição técnica |
-| Identificação se essas estruturas impactam o desempenho dos candidatos nessas provas| Mérito/contribuição técnica |
-| Analise de outras provas no mesmo formato do ENEM com base base nos reusltados obtidos para detectar o impacto das mesmas estruturas em outros tipos de prova |Possível aplicação/valor em uso  |
-<!-- pegar como isso ta escrito no tcc p melhorar aqui, tambem nao sei se da para segmentar mais -->
----
+| Análise de características estruturais das provas do ENEM entre 2020 e 2025, com exceção da edição de 2021. | Aplicação da metodologia de análise a outras provas identificando características estruturais que possam influenciar o desempenho. |
+| Identificação de possíveis relações entre as características estruturais analisadas e o desempenho dos candidatos. | |
 
 # 2. Entendendo as pessoas envolvidas
 
 ## 2.1 Quem interage diretamente com o produto, se já existe interface prevista?
 
-Se não houver interface prevista no TCC, escreva `NÃO SE APLICA AO ESCOPO ORIGINAL` e prossiga para 2.2.
-
-{{[F/H/?] ...}}
+[F] Docentes/Elaboradores de prova interagem diretamente com o produto.
 
 ## 2.2 Quem poderia **usar, configurar, administrar, operar, interpretar ou tomar decisões** a partir da contribuição técnica?
 
@@ -144,19 +142,22 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 | Perfil | Relação com a contribuição | O que faria | Status/evidência |
 |---|---|---|---|
-| {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
+| Usuário final | Impacto direto | Upload da prova, inserção de seus parâmetros e analise das métricas obtidas | F |
 
 ## 2.3 Existem pessoas afetadas que não usariam a interface diretamente?
 
 | Stakeholder | Como é afetado | Usa interface? | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | sim/não | {{...}} |
+| Alunos | Terão uma avaliação mais condizente | Não | H |
 
-## 2.4 Que características desses perfis podem influenciar a interação?
+## 2.4 Que características desses perfis podem influenciar a interação? 
+<!-- VOLTAR DPS DA ENTREGA 3
 
-Considere conhecimento do domínio, experiência tecnológica, frequência de uso, necessidades de acessibilidade, responsabilidade profissional, familiaridade com métricas, linguagem técnica, urgência etc.
-
+<!-- Considere conhecimento do domínio, experiência tecnológica, frequência de uso, necessidades de acessibilidade, responsabilidade profissional, familiaridade com métricas, linguagem técnica, urgência etc.
 {{[F/H/?] ...}}
+-->
+[H] Um docente tem um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação, 
+(complementar depois de outras entregas)
 
 ---
 
@@ -164,9 +165,8 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 ## 3.1 O que o usuário está tentando conseguir no mundo real?
 
-Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”.
-
-{{[F/H/?] ...}}
+<!-- Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”. -->
+[H] Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes.
 
 ## 3.2 Quais são as atividades mais importantes?
 
