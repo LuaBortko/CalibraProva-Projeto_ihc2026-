@@ -130,6 +130,8 @@ Nosso TCC tem como objetivo analisa como características estruturais dos itens 
 | Análise de características estruturais das provas do ENEM entre 2020 e 2025, com exceção da edição de 2021. | Aplicação da metodologia de análise a outras provas identificando características estruturais que possam influenciar o desempenho. |
 | Identificação de possíveis relações entre as características estruturais analisadas e o desempenho dos candidatos. | |
 
+---
+
 # 2. Entendendo as pessoas envolvidas
 
 ## 2.1 Quem interage diretamente com o produto, se já existe interface prevista?
@@ -172,17 +174,18 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 | ID | Atividade/objetivo | Quem realiza | Frequência/criticidade inicial | Status/evidência |
 |---|---|---|---|---|
-| A01 | {{...}} | {{...}} | {{...}} | {{...}} |
-| A02 | {{...}} | {{...}} | {{...}} | {{...}} |
-| A03 | {{...}} | {{...}} | {{...}} | {{...}} |
+| A01 | Upload de prova estilo ENEM em pdf | Usuário final | De acordo com a aplicação de alguma avaliação | F |
+| A02 | Inserção de dados da prova para análise | Usuário final | De acordo com a aplicação de alguma avaliação | F |
+| A03 | Exibição das métricas da prova em um dashboard | Sistema | De acordo com o upload de uma prova | F |
+| A04 | Análise das métricas extraídas a partir da prova | Usuário final | De acordo com a aplicação de alguma avaliação | F |
 
 ## 3.3 Qual atividade parece mais frequente? Por quê?
 
-{{[F/H/?] ...}}
+[F] Upload da prova 
 
 ## 3.4 Qual parece mais crítica? Que consequência existe se for mal executada?
 
-{{[F/H/?] ...}}
+[F] A A04 é a mais crítica, pois, caso as métricas apresentadas sejam imprecisas podem levar o docente a uma análise incorreta e, consequentemente, à elaboração de uma avaliação que não mensure adequadamente o conhecimento dos estudantes.
 
 ---
 
@@ -224,31 +227,32 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 
 ## 5.1 Onde e em quais situações a interação poderia ocorrer?
 
-{{[F/H/?] ...}}
+[F] De acordo com a aplicação de alguma avaliação.
 
 ## 5.2 Em quais dispositivos/equipamentos?
 
-{{[F/H/?] ...}}
+[F] Computadores.
 
 ## 5.3 Existem condições físicas relevantes?
 
-Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
-
-{{[F/H/?] ...}}
+<!-- Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
+-->
+[F] Será necessário um computador e conexão com a internet.
 
 ## 5.4 Existem fatores sociais ou organizacionais?
-
+<!--
 Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade profissional, auditoria, turnos e colaboração.
+-->
 
-{{[F/H/?] ...}}
+[F] Não.
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
-{{[F/H/?] ...}}
+[F] Não.
 
 ## 5.6 Um erro pode produzir consequência relevante? Qual?
 
-{{[F/H/?] ...}}
+[F] Sim, pois caso as métricas apresentadas pelo nosso sistema sejam imprecisas, podem levar o docente a uma análise incorreta e, consequentemente, à elaboração de uma avaliação que não mensure adequadamente o conhecimento dos estudantes.
 
 ---
 
@@ -294,7 +298,7 @@ Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, 
 
 Explique qual parte da interface será usada como recorte da disciplina e por que esse fluxo é relevante.
 
-{{...}}
+Como a interface proposta possui um escopo reduzido, o fluxo completo será considerado como recorte da disciplina. Contemplando o envio de uma prova com estrutura semelhante à do ENEM, a análise de suas características estruturais e a apresentação de métricas associadas às relações observadas entre essas características e o desempenho dos candidatos no ENEM. A partir dos resultados, o docente poderá identificar essas características do formato da prova, auxiliando na decisão sobre possíveis ajustes na avaliação.
 
 ### Caminho B — TCC não possui interface prevista
 
@@ -315,25 +319,26 @@ Responda:
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
-{{...}}
+Um docente com acesso a um computador, conexão a internet e com o minimo letramento digital
 
-**Por que esse perfil foi escolhido?** {{...}}
+**Por que esse perfil foi escolhido?** 
+
+Seria o perfil do nosso usuário final
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-{{...}}
+Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes.
 
 ## 7.4 Que interface será explorada na disciplina?
-
+<!--
 Complete:
-
 > **Para fins da disciplina de IHC, será projetada uma interface que permita a `{{perfil}}` utilizar `{{capacidade/resultado do TCC}}` para `{{objetivo}}`, no contexto de `{{situação}}`.**
-
-{{...}}
+-->
+Para fins da disciplina de IHC, será projetada uma interface que permita ao docente utilizar métricas relacionadas ao possível impacto das características estruturais das provas no desempenho dos estudantes para apoiar a elaboração de avaliações que representem de forma mais adequada seus conhecimentos, no contexto do processo de ensino e avaliação.
 
 ## 7.5 Qual é a relação dessa interface com o TCC?
 
-- [ ] Já fazia parte do TCC.
+- [X] Já fazia parte do TCC.
 - [ ] É um aprofundamento de algo parcialmente previsto.
 - [ ] É uma extensão conceitual criada para a disciplina.
 - [ ] É um protótipo demonstrativo de aplicação potencial.
@@ -351,20 +356,20 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim/não/talvez | {{...}} | {{...}} |
-| Configuração/parametrização | sim/não/talvez | {{...}} | {{...}} |
-| Entrada/upload/seleção de dados | sim/não/talvez | {{...}} | {{...}} |
-| Acompanhamento de processamento | sim/não/talvez | {{...}} | {{...}} |
-| Relatório/resultados | sim/não/talvez | {{...}} | {{...}} |
-| Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
-| Comparação de resultados | sim/não/talvez | {{...}} | {{...}} |
-| Explicabilidade/detalhamento | sim/não/talvez | {{...}} | {{...}} |
-| Administração/configurações globais | sim/não/talvez | {{...}} | {{...}} |
-| Usuários/perfis/permissões | sim/não/talvez | {{...}} | {{...}} |
-| CRUD de entidade do domínio | sim/não/talvez | {{...}} | {{...}} |
-| Auditoria/logs | sim/não/talvez | {{...}} | {{...}} |
-| Alertas/ocorrências | sim/não/talvez | {{...}} | {{...}} |
-| Ajuda/documentação | sim/não/talvez | {{...}} | {{...}} |
+| Dashboard/visão geral | sim | {{...}} | F |
+| Configuração/parametrização | não | {{...}} | F |
+| Entrada/upload/seleção de dados | sim | {{...}} | F |
+| Acompanhamento de processamento | não | {{...}} | F |
+| Relatório/resultados | não | {{...}} | F |
+| Histórico com busca/filtros | não | {{...}} | F |
+| Comparação de resultados | não | {{...}} | F |
+| Explicabilidade/detalhamento | sim | {{...}} | H |
+| Administração/configurações globais | não | {{...}} | F |
+| Usuários/perfis/permissões | não | {{...}} | F |
+| CRUD de entidade do domínio | não | {{...}} | F |
+| Auditoria/logs | não | {{...}} | F |
+| Alertas/ocorrências | não | {{...}} | F |
+| Ajuda/documentação | não | {{...}} | F |
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
@@ -376,13 +381,16 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Benefício esperado | Problema/necessidade | Usuário | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| Avaliar se características específicas da prova poderiam impactar o desempenho dos alunos | A possibilidade de o formato da prova impactar no desempenho dos estudantes | Docentes | F |
 
 ## 9.2 Que ações o usuário deverá conseguir realizar?
 
 | ID | O usuário precisa conseguir... | Para alcançar... | Prioridade inicial |
 |---|---|---|---|
-| F01 | {{ação}} | {{objetivo}} | alta/média/baixa |
+<!--| F01 | {{ação}} | {{objetivo}} | alta/média/baixa | -->
+| F01 | Fazer upload de prova múltipla escolha em pdf | Ter um material para a análise | alta |
+| F02 | Fazer a inserção de dados da prova para análise | Sistema conhecer os parâmetros da prova | alta |
+| F03 | Analisar as métricas extraídas a partir da prova(visualização gráfica, indicadores quantitativos, análise de correlação entre variáveis estruturais e desempenho) | Avaliação do possível impacto do formato da prova no desempenho dos alunos | alta |
 
 ## 9.3 Tecnologias/restrições já definidas no TCC
 
@@ -390,7 +398,11 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 
 | Tecnologia/restrição | Por que existe | Possível impacto na interação |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Python | Dnálise de dados | {{ex.: limitações de dispositivo, latência, sensores}} |
+| Vue | Desenvolvimento da aplicação web | {{ex.: limitações de dispositivo, latência, sensores}} |
+| PyMuPDF | Extração dos textos dos enunciados e da existência de imagens|  |
+| S-BERT | Analise dos distratores |  |
+| XLM-roBERTa | Analise da formalidade |  |
 
 ---
 
@@ -398,9 +410,10 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 
 | ID | Hipótese/dúvida | Por que importa | Como poderá ser investigada |
 |---|---|---|---|
-| H01 | {{...}} | {{...}} | Entrega 2/3/7/... |
-| H02 | {{...}} | {{...}} | {{...}} |
-| H03 | {{...}} | {{...}} | {{...}} |
+| H01 | O formato da prova impacta do desempenho do aluno |  | Entrega 2/3/7/... |
+| H02 | Poderá fornecer subsídios para que professores e elaboradores de provas avaliem características estruturais de suas avaliações, contribuindo para ajustes que tornem o nível de dificuldade mais adequado aos objetivos propostos | {{...}} | {{...}} |
+| H03 | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes | {{...}} | {{...}} |
+| H04 | Um docente tem um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | {{...}} | {{...}} |
 
 Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
@@ -410,23 +423,23 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 | Pergunta | Síntese atual |
 |---|---|
-| Qual é a contribuição central do TCC? | {{...}} |
-| O TCC já previa interface? | {{...}} |
-| Quem é o usuário prioritário de IHC? | {{...}} |
-| O que ele precisa alcançar? | {{...}} |
-| Qual problema/atividade será estudado? | {{...}} |
-| Como isso acontece hoje? | {{...}} |
-| Qual é o contexto de uso? | {{...}} |
-| Que interface/recorte será explorado? | {{...}} |
-| Como a interface se relaciona ao TCC? | {{...}} |
-| Quais pontos ainda são hipóteses? | {{H01...}} |
+| Qual é a contribuição central do TCC? | Analisar se o formato da prova do ENEM impacta no desempenho dos candidatos |
+| O TCC já previa interface? | Sim |
+| Quem é o usuário prioritário de IHC? | Docentes |
+| O que ele precisa alcançar? | Melhor as aulas |
+| Qual problema/atividade será estudado? | Melhoria da elaboração de provas |
+| Como isso acontece hoje? | {{...}} | 
+| Qual é o contexto de uso? | De acordo com a elaboração das avaliações |
+| Que interface/recorte será explorado? | Não terá recorte |
+| Como a interface se relaciona ao TCC? | Representa o MVP do TCC |
+| Quais pontos ainda são hipóteses? | H01, H02, H03, H04 |
 
 ### Delimitação
 
 **Dentro do escopo de IHC:** {{...}}  
 **Fora do escopo de IHC:** {{...}}  
 **Dentro do escopo formal do TCC:** {{...}}  
-**Interface da disciplina será implementada no TCC?** não definido / sim / não — {{justificativa, se houver}}
+**Interface da disciplina será implementada no TCC?** Sim
 
 ---
 
@@ -458,23 +471,24 @@ Essa síntese ajuda a apresentar o projeto para público não especializado sem 
 
 ---
 
-# Checklist de qualidade
+# Checklist de qualidade 
+<!-- REVISAR DPS -->
 
-- [ ] Está clara a diferença entre tema do TCC, escopo formal do TCC e escopo de IHC.
-- [ ] A equipe declarou se o TCC já previa interface.
+- [x] Está clara a diferença entre tema do TCC, escopo formal do TCC e escopo de IHC.
+- [x] A equipe declarou se o TCC já previa interface.
 - [ ] Se não previa, foi derivado um usuário plausível e um objetivo de uso.
-- [ ] A interface de IHC não foi apresentada como obrigação automática do TCC.
-- [ ] A contribuição do TCC foi descrita sem começar por tecnologias de implementação.
-- [ ] Usuários diretos e stakeholders foram diferenciados.
-- [ ] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
-- [ ] Objetivo do usuário não foi confundido com objetivo do projeto.
-- [ ] Processo/problema atual foi descrito antes da solução.
-- [ ] Existe situação concreta de uso/problema.
-- [ ] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
+- [x] A interface de IHC não foi apresentada como obrigação automática do TCC.
+- [x] A contribuição do TCC foi descrita sem começar por tecnologias de implementação.
+- [x] Usuários diretos e stakeholders foram diferenciados.
+- [x] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
+- [x] Objetivo do usuário não foi confundido com objetivo do projeto.
+- [x] Processo/problema atual foi descrito antes da solução.
+- [x] Existe situação concreta de uso/problema.
+- [x] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
 - [ ] Mercado/alternativas existentes foram levantados inicialmente.
-- [ ] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
-- [ ] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
-- [ ] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
-- [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
-- [ ] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
+- [x] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
+- [x] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
+- [x] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
+- [x] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
+- [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
 - [ ] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
