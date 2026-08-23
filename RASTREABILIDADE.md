@@ -8,16 +8,16 @@ Para projetos cujo TCC não previa interface, esta matriz é especialmente impor
 
 | Elemento | Registro da equipe | Evidência/justificativa | Estado |
 |---|---|---|---|
-| Tema do TCC | {{...}} | {{documento/TCC}} | definido |
-| Resultado técnico esperado | {{algoritmo, análise, sistema, modelo, API...}} | {{...}} | definido |
-| O TCC previa interface? | sim / não / parcialmente | {{...}} | definido |
-| Capacidade/contribuição central | {{o que a tecnologia permite}} | {{...}} | definido |
-| Possíveis beneficiários/stakeholders | {{...}} | {{fonte ou hipótese}} | F / H / ? |
-| Usuário escolhido para IHC | {{...}} | {{por que esse perfil}} | F / H / ? |
-| Objetivo principal do usuário | {{...}} | {{...}} | F / H / ? |
-| Contexto de uso adotado | {{...}} | {{...}} | F / H / ? |
-| Interface/recorte de IHC | {{...}} | {{como deriva dos itens acima}} | proposta / revisada |
-| Relação com o TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra | {{...}} | definido |
+| Tema do TCC | Estrutura e formatação das provas o ENEM: Impacto no desempenho geral dos participantes | TCC | definido |
+| Resultado técnico esperado | análise e sistema | TCC | definido |
+| O TCC previa interface? | sim | MVP | definido |
+| Capacidade/contribuição central | analisar se o formato da prova do ENEM impacta no desempenho dos candidatos | TCC | definido |
+| Possíveis beneficiários/stakeholders | docentes e alunos | hipótese | H |
+| Usuário escolhido para IHC | docente | pois ele é o único usuário que utiliza o sistema | F |
+| Objetivo principal do usuário | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes. | [H] | [H] |
+| Contexto de uso adotado | Uma docente, ao elaborar uma prova para seus estudantes, deseja garnatir que está os avaliando com base nos conhecimentos obtidos nas aulas, por isso, utiliza nosso sistema para identificar o impacto do formato de sua prova no desempenho de seus alunos. | [H] | H  |
+| Interface/recorte de IHC | Não | Deriva da contribuição central do TCC, do docente como usuário direto e da necessidade de analisar a prova antes de sua aplicação. | revisada |
+| Relação com o TCC | parte prevista | [F] | definido |
 
 > Se o escopo de IHC mudar ao longo do semestre, preserve a decisão anterior no histórico e registre **qual evidência motivou a mudança**.
 
@@ -27,8 +27,10 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 
 | ID | Afirmação / dúvida inicial | Tipo | Por que importa | Como/onde investigar | Evidência obtida | Estado atual | Impacto no projeto |
 |---|---|---|---|---|---|---|---|
-| H01 | {{...}} | H / ? | {{...}} | Entrega 2 / 3 / 7 / outra | {{link/fonte ou PENDENTE}} | aberta / sustentada / refutada / refinada | {{...}} |
-| H02 | {{...}} | H / ? | {{...}} | {{...}} | {{...}} | aberta | {{...}} |
+| H01 | O formato da prova impacta do desempenho do aluno | H | Fundamenta a proposta do TCC, pois é necessário verificar se características estruturais da prova apresentam relação com o desempenho dos candidatos. | TCC | [link repositório tcc](https://github.com/beatrizmanaia26/TCC-DesempenhoEnem) | aberta | alto |
+| H02 | Poderá fornecer subsídios para que professores e elaboradores de provas avaliem características estruturais de suas avaliações, contribuindo para ajustes que tornem o nível de dificuldade mais adequado aos objetivos propostos | H | Permite verificar se os resultados obtidos pelo TCC possuem aplicabilidade prática e podem efetivamente apoiar a elaboração e revisão de avaliações. | TCC | MVP | aberta | alto |
+| H03 | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes | H | Permite avaliar se a utilização dos resultados pode contribuir para o processo de ensino, indo além da análise das avaliações em si.| Entrega 7 | Não tem | aberta | alto |
+| H04 | Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | H | É importante para compreender o perfil e o contexto de uso do público-alvo, orientando o desenvolvimento de uma interface compatível com suas necessidades e conhecimentos tecnológicos. | Entrega 3 | Não tem | aberta | alto |
 
 ## 3. Rastreabilidade entre contribuição técnica, necessidades e artefatos
 
