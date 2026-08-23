@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
 **Data:** 19/08/2026
-**Status:**  🟨 iniciada  
+**Status:** 🟩 Concluida
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -109,12 +109,6 @@ Analisa se o formato das provas do ENEM, mensurado por características como a o
 
 [F] Historicamente, estudos sobre a formatação da prova do ENEM são escassos, não recebendo a mesma atenção que outros fatores influentes, como o perfil socioeconômico dos candidatos, revisado por DUTRA. Ademais, as pesquisas relacionadas frequentemente possuem abordagens e motivações diferentes, analisando itens de provas específicas prioritariamente para revelar limitações do ensino básico nas escolas brasileiras (CESTARO, LOPES). Consequentemente, há uma carência de investigações atualizadas que isolem o impacto das características estruturais dos itens no desempenho dos alunos.
 
-- DUTRA, Janderson Ferreira; FIRMINO JUNIOR, João Batista; FERNANDES, Damires Yluska de Souza. Fatores que podem interferir no desempenho de estudantes no ENEM: uma revisão sistemática da literatura. Revista Brasileira de Informática na Educação, 2022. DOI: 10.5753/rbie.2023.3087.
-
-- CESTARO, Débora Cristina; KLEINKE, Maurício Urban; ALLE, Lupe Furtado. Uma análise do desempenho dos participantes e do conteúdo abordado em itens de genética e biologia evolutiva do Exame Nacional do Ensino Médio (ENEM): implicações curriculares. Investigações em Ensino de Ciências, v. 25, n. 3, 2020, p. 503. DOI: 10.22600/1518-8795.ienci2020v25n3p503.
-
-- LOPES, José Christian; RUBINI, Gustavo; MASSUNAGA, Marcelo de Oliveira S.; BARROSO, Marta Feijó. Estudo das questões de Física da prova de Ciências da Natureza do ENEM. Anais da Reunião da Associação Brasileira de Avaliação Educacional (ABAVE), Florianópolis, SC, Brasil, v. 8, 2015.
-
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
 Nosso TCC tem como objetivo analisa como características estruturais dos itens do ENEM, como extensão do enunciado, uso de elementos visuais, nível de formalidade, construção de distratores, análise do tempo médio de resolução e ordem de apresentação das questões, influenciam o desempenho dos participantes, a fim de identificar padrões que contribuem para a compreensão do impacto do formato do exame na avaliação das competências dos candidatos e, a partir dos resultados observados, desenvolvemos uma aplicação que analisa o PDF de uma prova enviada e retorna as métricas e suas respectivas influências no desempenho do estudante."
@@ -158,7 +152,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 <!-- Considere conhecimento do domínio, experiência tecnológica, frequência de uso, necessidades de acessibilidade, responsabilidade profissional, familiaridade com métricas, linguagem técnica, urgência etc.
 {{[F/H/?] ...}}
 -->
-[H] Um docente tem um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação, 
+[H] Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação, 
 (complementar depois de outras entregas)
 
 ---
@@ -193,33 +187,33 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 ## 4.1 Como essas atividades são realizadas hoje, antes da interface imaginada na disciplina?
 
-Pode existir software concorrente, linha de comando, planilha, notebook, script, painel técnico, processo manual, consulta a logs, análise visual, troca de mensagens, decisão por especialista etc.
-
-{{[F/H/?] ...}}
+[F] Atualmente, os docentes não dispõem de uma ferramenta que os auxilie, antes da aplicação da avaliação, a identificar características relacionadas à estrutura e à elaboração das questões que podem influenciar o desempenho dos alunos. Dessa forma, a análise prévia dessas características depende, principalmente, do conhecimento, da experiência e do repertório do próprio docente.
 
 ## 4.2 O que é difícil, demorado, confuso, repetitivo, arriscado ou pouco transparente?
 
-{{[F/H/?] ...}}
+[F] Identificar se a avaliação mede apenas o conhecimento teórico dos alunos, ou seja, se o desempenho da prova não é impactado pelo formato da avaliação.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
-{{[F/H/?] ...}}
+[F] O docente precisa interpretar as métricas e características estruturais identificadas na prova, como tempo médio, quantidade de palavras, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, além da relação dessas características com o desempenho observada no ENEM. A partir dessas informações, poderá identificar quais características apresentam maior influência sobre o desempenho e decidir quais aspectos da avaliação devem ser ajustados, buscando reduzir a interferência do formato da prova para que o resultado reflita principalmente os conhecimentos e competências avaliados.
 
 ## 4.4 O que acontece quando a atividade falha ou quando o resultado é interpretado incorretamente?
 
-{{[F/H/?] ...}}
+[F] Caso o resultado seja incorreto ou seja interpretado de forma equivocada, o professor poderá realizar ajustes na prova com base em parâmetros inadequados. Isso pode resultar em uma avaliação na qual as características do formato tenham ainda mais influência sobre o desempenho dos alunos, fazendo com que a nota seja menos representativa dos conhecimentos e competências que a avaliação deveria mensurar.
 
 ## 4.5 Conte uma situação concreta.
 
 Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificuldade e consequência. **Não descreva ainda a futura solução.**
 
-{{[F/H/?] narrativa...}}
+[H] Uma docente está elaborando uma prova para avaliar os conhecimentos adquiridos pelos estudantes ao longo das aulas. Antes da aplicação, ela deseja garantir que o desempenho dos alunos seja influenciado principalmente pelos conhecimentos e competências que pretende avaliar, e não por características relacionadas ao formato da prova. No entanto, ela tem dificuldade para identificar se aspectos como a extensão dos enunciados, a presença de imagens, a formalidade da linguagem, os distratores e a ordem das questões podem interferir no desempenho dos estudantes. Como consequência, pode aplicar uma avaliação na qual o resultado dos alunos seja influenciado não apenas pelo conhecimento adquirido, mas também pelas características estruturais da própria prova. 
 
 ## 4.6 Que evidência existe hoje?
 
 | Evidência/fonte | O que sustenta | Limitação |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+|DUTRA, J. F.; FIRMINO JUNIOR, J. B.; FERNANDES, D. Y. S. (2022). Fatores que podem interferir no desempenho de estudantes no ENEM: uma revisão sistemática da literatura.| Sustenta que o desempenho dos participantes no ENEM pode estar relacionado a diferentes fatores e apresenta um panorama dos fatores investigados pela literatura. Também permite identificar quais aspectos do desempenho no ENEM já foram estudados. | A revisão não tem como foco específico o impacto das características estruturais ou de formatação das questões sobre o desempenho. |
+| CESTARO, D. C.; KLEINKE, M. U.; ALLE, L. F. (2020). Uma análise do desempenho dos participantes e do conteúdo abordado em itens de genética e biologia evolutiva do ENEM: implicações curriculares. | Demonstra que características e conteúdos específicos dos itens do ENEM podem ser analisados em relação ao desempenho dos participantes, evidenciando a possibilidade de investigar o comportamento dos itens da avaliação. | O estudo possui um recorte específico em questões de genética e biologia evolutiva e tem foco nas implicações curriculares, não na influência das características estruturais ou de formatação dos itens. |
+| LOPES, J. C.; RUBINI, G.; MASSUNAGA, M. O. S.; BARROSO, M. F. (2015). Estudo das questões de Física da prova de Ciências da Natureza do ENEM. | Demonstra a existência de pesquisas que analisam as questões do ENEM considerando suas características e o desempenho dos participantes, contribuindo para a compreensão de como os itens podem ser investigados. | O estudo é direcionado às questões de Física da área de Ciências da Natureza e não investiga especificamente o conjunto de características estruturais analisadas pelo TCC. |
 
 ---
 
@@ -233,11 +227,11 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 
 [F] Computadores.
 
-## 5.3 Existem condições físicas relevantes?
+## 5.3 Existem condições físas relevantes?
 
 <!-- Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
 -->
-[F] Será necessário um computador e conexão com a internet.
+[F] Será necessário um computador e conexão com a internet e o docente ser do Estado de São Paulo, pois os dados do ENEM que utilizaremos como base para analisar as provas por meio do sistema consideram o recorte geográfico desse Estado.
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 <!--
@@ -264,29 +258,64 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 | Alternativa atual | Quem usa | Para quê | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| da experiência e do repertório do próprio docente | docente | identificar, antes da aplicação da avaliação, características relacionadas à estrutura e à elaboração das questões que podem influenciar o desempenho dos alunos | [F] |
+| utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos | [F] |
 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 
-{{[F/H/?] ...}}
+[F] Sim. Foram identificados produtos que atuam na área de avaliação educacional e análise de questões, embora não sejam equivalentes ao nosso TCC. Entre eles estão Lucida, Xcalibre, Keptune Item Analysis e OpenEduCat Quiz. Essas ferramentas oferecem funcionalidades relacionadas à criação, aplicação, correção, gerenciamento e/ou análise de avaliações.
+
+A principal diferença em relação ao nosso MVP está no momento e objetivo da análise: enquanto essas soluções possuem forte foco na criação, aplicação ou análise dos resultados das avaliações, nosso MVP busca realizar uma análise preventiva, antes da aplicação da prova, a partir de um PDF, utilizando características estruturais dos itens e as relações observadas na análise do ENEM para auxiliar o docente na decisão sobre possíveis ajustes na avaliação.
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
-Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.
+[F] O público já pode estar familiarizado com:
+
+- Lucida → plataforma educacional / dashboard de avaliação e desempenho
+  
+- Xcalibre → interface de análise psicométrica e TRI
+  
+- Keptune Item Analysis → interface de análise de itens e métricas de avaliação
+  
+- OpenEduCat Quiz → plataforma educacional para criação e gerenciamento de avaliações
+  
+  
+<!--Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.-->
 
 {{[F/H/?] ...}}
 
 ## 6.4 O que essas soluções parecem fazer bem?
 
-{{[F/H/?] ...}}
+[F] 
+
+A Lucida parece fazer bem a integração de diferentes etapas do processo de avaliação em uma única plataforma. A ferramenta oferece recursos para criação de provas e simulados, correção das avaliações, análise do desempenho dos alunos e acompanhamento de seus pontos fortes e dificuldades. Destaca-se também pela apresentação de métricas por questão e por aluno, permitindo identificar questões potencialmente problemáticas, níveis de dificuldade e conteúdos que precisam ser reforçados. Dessa forma, a plataforma centraliza informações da avaliação e do desempenho dos estudantes, auxiliando o docente na interpretação dos resultados e na tomada de decisões pedagógicas.
+
+A Keptune.ai é uma plataforma voltada à análise psicométrica de avaliações. A partir do upload de um arquivo CSV contendo as respostas dos participantes, a plataforma realiza, com auxílio de inteligência artificial, os cálculos necessários para estimar características dos itens, como dificuldade e discriminação, além de identificar itens psicometricamente fracos.
+
+O XCalibre é uma plataforma destinada à análise de avaliações com base na Teoria de Resposta ao Item (TRI). A partir dos resultados de uma prova, a ferramenta estima parâmetros dos itens, como dificuldade, discriminação e p-value, além de disponibilizar relatórios com os resultados obtidos na análise.
+
+Qstione é uma plataforma que disponibiliza ferramentas para a análise da qualidade de avaliações. Após a aplicação de uma prova elaborada na própria plataforma, seus resultados podem ser analisados segundo critérios baseados na Teoria de Resposta ao Item (TRI), permitindo avaliar a qualidade dos itens e obter uma medida geral do desempenho dos alunos.
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
-{{[F/H/?] ...}}
+[F] Em relação ao problema específico do nosso MVP, a principal limitação dessas soluções é que não têm como foco a análise preventiva das características estruturais de uma avaliação antes de sua aplicação, utilizando como referência relações observadas no desempenho dos candidatos no ENEM. As ferramentas analisadas concentram-se principalmente na criação, aplicação, correção ou análise psicométrica das avaliações a partir dos resultados obtidos pelos participantes. Dessa forma, não identificamos, entre as soluções analisadas, uma ferramenta que tenha como objetivo específico avaliar previamente características como extensão dos enunciados, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, relacionando-as ao possível impacto no desempenho dos estudantes.
+
+ASSESSMENT SYSTEMS CORPORATION. Xcalibre: Item Response Theory Analysis Software, Designed to Make IRT Easier. [S. l.], 2026. Disponível em: https://assess.com/xcalibre/. Acesso em: 23 ago. 2026.
+
+KEPTUNE.AI. Item Analysis Calculator for Tests and Exams. [S. l.], 2026. Disponível em: https://keptune.ai/tools/item-analysis. Acesso em: 23 ago. 2026.
+
+OPENEDUCAT. Quiz & Assessment Software. [S. l.], [s. d.]. Disponível em: https://openeducat.org/feature-quiz/. Acesso em: 23 ago. 2026.
+
+LUCIDA. Lucida: crie atividades com IA em segundos. [S. l.], [s. d.]. Disponível em: https://lucidaexam.com/. Acesso em: 23 ago. 2026.
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 
-{{[F/H/?] ...}}
+[F] Os padrões identificados foram:
+1-A maioria das ferramentas utilizam o mesmo ícone para simbolizar o upload de uma prova/material, já o texto após esse ícone varia, por exemplo: "Upload CSV or Excel files", "Arraste e solte seu material. Faça upload de múltiplos arquivos PDF, DOC, DOCX ou TXT. Limite até aproximadamente 350.000 palavras no total.", entre outros.
+
+2-Possibilidade de exportar os resultados para diferentes tipos de arquivo como excel e word.
+
+3-Mostrar os resultados das analises com diferentes métricas (gráficos de pizza, coluna, porcentagem, entre outros) e com cores distintas.
 
 ---
 
@@ -298,7 +327,7 @@ Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, 
 
 Explique qual parte da interface será usada como recorte da disciplina e por que esse fluxo é relevante.
 
-Como a interface proposta possui um escopo reduzido, o fluxo completo será considerado como recorte da disciplina. Contemplando o envio de uma prova com estrutura semelhante à do ENEM, a análise de suas características estruturais e a apresentação de métricas associadas às relações observadas entre essas características e o desempenho dos candidatos no ENEM. A partir dos resultados, o docente poderá identificar essas características do formato da prova, auxiliando na decisão sobre possíveis ajustes na avaliação.
+Como a interface proposta possui um escopo reduzido, o fluxo completo será considerado como recorte da disciplina. Contemplando o envio de uma prova com estrutura semelhante à do ENEM, a análise de suas características estruturais e a apresentação de métricas associadas às relações observadas entre essas características e o desempenho dos candidatos no ENEM. Como a análise realizada no TCC possui um recorte geográfico específico para o estado de São Paulo, os resultados obtidos são inicialmente aplicáveis a esse contexto. Dessa forma, o público priorizado para a utilização da interface será composto por docentes que atuam no estado de São Paulo. A partir dos resultados, o docente poderá identificar características do formato da prova que podem estar relacionadas ao desempenho dos estudantes, auxiliando na decisão sobre possíveis ajustes na avaliação.
 
 ### Caminho B — TCC não possui interface prevista
 
@@ -319,11 +348,11 @@ Responda:
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
-Um docente com acesso a um computador, conexão a internet e com o minimo letramento digital
+Um docente do Estado de São Paulo com acesso a um computador, conexão a internet e com o minimo letramento digital.
 
 **Por que esse perfil foi escolhido?** 
 
-Seria o perfil do nosso usuário final
+Seria o perfil do nosso usuário final.
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
@@ -356,20 +385,20 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim | {{...}} | F |
-| Configuração/parametrização | não | {{...}} | F |
-| Entrada/upload/seleção de dados | sim | {{...}} | F |
-| Acompanhamento de processamento | não | {{...}} | F |
-| Relatório/resultados | não | {{...}} | F |
-| Histórico com busca/filtros | não | {{...}} | F |
-| Comparação de resultados | não | {{...}} | F |
-| Explicabilidade/detalhamento | sim | {{...}} | H |
-| Administração/configurações globais | não | {{...}} | F |
-| Usuários/perfis/permissões | não | {{...}} | F |
-| CRUD de entidade do domínio | não | {{...}} | F |
-| Auditoria/logs | não | {{...}} | F |
-| Alertas/ocorrências | não | {{...}} | F |
-| Ajuda/documentação | não | {{...}} | F |
+| Dashboard/visão geral | sim | Apresentar uma visão geral das métricas extraídas da prova e de suas possíveis relações com o desempenho dos estudantes, utilizando diferentes formatos de apresentação de dados, tanto quantitativos quanto visuais, incluindo diversos tipos de gráficos.  | F |
+| Configuração/parametrização | não | | F |
+| Entrada/upload/seleção de dados | sim |Permitir ao docente inserir uma prova para que suas características estruturais sejam automaticamente extraídas e analisadas pelo sistema, além de possibilitar a inserção manual de dados específicos como parâmetros para análise. | F |
+| Acompanhamento de processamento | não |  | F |
+| Relatório/resultados | não |  | F |
+| Histórico com busca/filtros | não |  | F |
+| Comparação de resultados | não |  | F |
+| Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | H |
+| Administração/configurações globais | não |  | F |
+| Usuários/perfis/permissões | não |  | F |
+| CRUD de entidade do domínio | não |  | F |
+| Auditoria/logs | não |  | F |
+| Alertas/ocorrências | não |  | F |
+| Ajuda/documentação | não |  | F |
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
@@ -381,16 +410,17 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Benefício esperado | Problema/necessidade | Usuário | Status/evidência |
 |---|---|---|---|
-| Avaliar se características específicas da prova poderiam impactar o desempenho dos alunos | A possibilidade de o formato da prova impactar no desempenho dos estudantes | Docentes | F |
+| Avaliar se características estruturais específicas da prova poderiam impactar o desempenho dos alunos | A possibilidade de o formato da prova impactar no desempenho dos estudantes | Docentes | F |
 
 ## 9.2 Que ações o usuário deverá conseguir realizar?
 
 | ID | O usuário precisa conseguir... | Para alcançar... | Prioridade inicial |
 |---|---|---|---|
-<!--| F01 | {{ação}} | {{objetivo}} | alta/média/baixa | -->
 | F01 | Fazer upload de prova múltipla escolha em pdf | Ter um material para a análise | alta |
 | F02 | Fazer a inserção de dados da prova para análise | Sistema conhecer os parâmetros da prova | alta |
 | F03 | Analisar as métricas extraídas a partir da prova(visualização gráfica, indicadores quantitativos, análise de correlação entre variáveis estruturais e desempenho) | Avaliação do possível impacto do formato da prova no desempenho dos alunos | alta |
+
+<!--| F01 | {{ação}} | {{objetivo}} | alta/média/baixa | -->
 
 ## 9.3 Tecnologias/restrições já definidas no TCC
 
@@ -398,11 +428,11 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 
 | Tecnologia/restrição | Por que existe | Possível impacto na interação |
 |---|---|---|
-| Python | Dnálise de dados | {{ex.: limitações de dispositivo, latência, sensores}} |
-| Vue | Desenvolvimento da aplicação web | {{ex.: limitações de dispositivo, latência, sensores}} |
-| PyMuPDF | Extração dos textos dos enunciados e da existência de imagens|  |
-| S-BERT | Analise dos distratores |  |
-| XLM-roBERTa | Analise da formalidade |  |
+| Python | Análise de dados | latência |
+| Vue | Desenvolvimento da aplicação web | - |
+| PyMuPDF | Extração dos textos dos enunciados e da existência de imagens| latência |
+| S-BERT | Analise dos distratores | latência |
+| XLM-roBERTa | Analise da formalidade | latência |
 
 ---
 
@@ -413,7 +443,8 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 | H01 | O formato da prova impacta do desempenho do aluno |  | Entrega 2/3/7/... |
 | H02 | Poderá fornecer subsídios para que professores e elaboradores de provas avaliem características estruturais de suas avaliações, contribuindo para ajustes que tornem o nível de dificuldade mais adequado aos objetivos propostos | {{...}} | {{...}} |
 | H03 | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes | {{...}} | {{...}} |
-| H04 | Um docente tem um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | {{...}} | {{...}} |
+| H04 | Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | {{...}} | {{...}} |
+
 
 Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
@@ -428,7 +459,7 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 | Quem é o usuário prioritário de IHC? | Docentes |
 | O que ele precisa alcançar? | Melhor as aulas |
 | Qual problema/atividade será estudado? | Melhoria da elaboração de provas |
-| Como isso acontece hoje? | {{...}} | 
+| Como isso acontece hoje? | não achamos ferramentas que identifiquem previamente características da prova que podem influenciar o desempenho dos alunos, dependendo principalmente do conhecimento e experiência de cada docente | 
 | Qual é o contexto de uso? | De acordo com a elaboração das avaliações |
 | Que interface/recorte será explorado? | Não terá recorte |
 | Como a interface se relaciona ao TCC? | Representa o MVP do TCC |
@@ -436,9 +467,9 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 ### Delimitação
 
-**Dentro do escopo de IHC:** {{...}}  
-**Fora do escopo de IHC:** {{...}}  
-**Dentro do escopo formal do TCC:** {{...}}  
+**Dentro do escopo de IHC:** o MVP do TCC, englobando o desenvolvimento e avaliação da interface que permite ao docente fazer upload de uma prova, inserir parâmetros quando necessário e visualizar e interpretar as métricas relacionadas às características estruturais da avaliação.
+**Fora do escopo de IHC:** Nada
+**Dentro do escopo formal do TCC:** Tudo
 **Interface da disciplina será implementada no TCC?** Sim
 
 ---
@@ -463,9 +494,9 @@ A Entrega 1 é uma **fotografia inicial do conhecimento**. Ela pode e deve ser r
 
 Prepare uma explicação de até três frases:
 
-1. **Problema/atividade humana:** {{...}}
-2. **Contribuição técnica do TCC:** {{...}}
-3. **Como uma pessoa poderia utilizar essa contribuição:** {{...}}
+1. **Problema/atividade humana:** Elaborar avaliações que representem adequadamente o conhecimento dos estudantes.
+2. **Contribuição técnica do TCC:** Identificar possíveis relações entre características do formato das provas do ENEM e o desempenho dos candidatos.
+3. **Como uma pessoa poderia utilizar essa contribuição:** Utilizar essas relações como apoio para revisar e aprimorar a estrutura de futuras avaliações.
 
 Essa síntese ajuda a apresentar o projeto para público não especializado sem reduzir seu mérito técnico.
 
@@ -485,10 +516,10 @@ Essa síntese ajuda a apresentar o projeto para público não especializado sem 
 - [x] Processo/problema atual foi descrito antes da solução.
 - [x] Existe situação concreta de uso/problema.
 - [x] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
-- [ ] Mercado/alternativas existentes foram levantados inicialmente.
+- [x] Mercado/alternativas existentes foram levantados inicialmente.
 - [x] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
 - [x] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
 - [x] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
 - [x] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
 - [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
-- [ ] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
+- [x] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
