@@ -280,11 +280,12 @@ A principal diferença em relação ao nosso MVP está no momento e objetivo da 
 - Keptune Item Analysis → interface de análise de itens e métricas de avaliação
   
 - OpenEduCat Quiz → plataforma educacional para criação e gerenciamento de avaliações
+
+- Qstione → plataforma educional para correção automática e análise de métricas de avaliação
   
   
 <!--Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.-->
 
-{{[F/H/?] ...}}
 
 ## 6.4 O que essas soluções parecem fazer bem?
 
@@ -297,6 +298,8 @@ A Keptune.ai é uma plataforma voltada à análise psicométrica de avaliações
 O XCalibre é uma plataforma destinada à análise de avaliações com base na Teoria de Resposta ao Item (TRI). A partir dos resultados de uma prova, a ferramenta estima parâmetros dos itens, como dificuldade, discriminação e p-value, além de disponibilizar relatórios com os resultados obtidos na análise.
 
 Qstione é uma plataforma que disponibiliza ferramentas para a análise da qualidade de avaliações. Após a aplicação de uma prova elaborada na própria plataforma, seus resultados podem ser analisados segundo critérios baseados na Teoria de Resposta ao Item (TRI), permitindo avaliar a qualidade dos itens e obter uma medida geral do desempenho dos alunos.
+
+OpenEduCat é uma plataforma que oferece diversas ferramentas para a administração de instituições de ensino. Além de funcionalidades relacionadas a aspectos logísticos, como transporte e gerenciamento de funcionários, a plataforma permite o gerenciamento de informações acadêmicas, como notas e dados dos estudantes. Também é disponibilizada uma funcionalidade para análise de itens de prova. Por meio da digitalização das avaliações utilizando OMR, após a aplicação da prova, a plataforma apresenta índices de dificuldade e discriminação dos itens, além de uma análise dos distratores, indicando quais alternativas incorretas foram mais selecionadas pelos alunos.
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
@@ -387,20 +390,20 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim | Apresentar uma visão geral das métricas extraídas da prova e de suas possíveis relações com o desempenho dos estudantes, utilizando diferentes formatos de apresentação de dados, tanto quantitativos quanto visuais, incluindo diversos tipos de gráficos.  | F |
-| Configuração/parametrização | não | | F |
-| Entrada/upload/seleção de dados | sim |Permitir ao docente inserir uma prova para que suas características estruturais sejam automaticamente extraídas e analisadas pelo sistema, além de possibilitar a inserção manual de dados específicos como parâmetros para análise. | F |
-| Acompanhamento de processamento | não |  | F |
-| Relatório/resultados | não |  | F |
-| Histórico com busca/filtros | não |  | F |
-| Comparação de resultados | não |  | F |
-| Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | H |
-| Administração/configurações globais | não |  | F |
-| Usuários/perfis/permissões | não |  | F |
-| CRUD de entidade do domínio | não |  | F |
-| Auditoria/logs | não |  | F |
-| Alertas/ocorrências | não |  | F |
-| Ajuda/documentação | não |  | F |
+| Dashboard/visão geral | sim | Apresentar uma visão geral das métricas extraídas da prova e de suas possíveis relações com o desempenho dos estudantes, utilizando diferentes formatos de apresentação de dados, tanto quantitativos quanto visuais, incluindo diversos tipos de gráficos.  | Tem evidência. |
+| Configuração/parametrização | não | | Tem evidência.  |
+| Entrada/upload/seleção de dados | sim |Permitir ao docente inserir uma prova para que suas características estruturais sejam automaticamente extraídas e analisadas pelo sistema, além de possibilitar a inserção manual de dados específicos como parâmetros para análise. | Tem evidência.  |
+| Acompanhamento de processamento | não |  | Tem evidência.  |
+| Relatório/resultados | não |  | Tem evidência.  |
+| Histórico com busca/filtros | não |  | Tem evidência.  |
+| Comparação de resultados | não |  | Tem evidência.  |
+| Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | Não tem evidência no momento.  |
+| Administração/configurações globais | não |  | Tem evidência.  |
+| Usuários/perfis/permissões | não |  | Tem evidência.  |
+| CRUD de entidade do domínio | não |  | Tem evidência.  |
+| Auditoria/logs | não |  | Tem evidência.  |
+| Alertas/ocorrências | não |  | Tem evidência.  |
+| Ajuda/documentação | não |  | Tem evidência.  |
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
