@@ -1,8 +1,8 @@
 # Entrega 2 — Público-alvo e análise de concorrência
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
-**Responsabilidade mínima:** cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa.
+*Data:* 26/10/2026 <br>
+*Status:* 🟨 em andamento <br>
+*Responsabilidade mínima:* cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa. <br>
 
 ## Objetivo da atividade
 
@@ -30,13 +30,17 @@ Retome o mapa inicial de alternativas e produtos citado na Entrega 1. Aqui a equ
 
 | Item citado na Entrega 1 | Tipo | Por que foi citado | Status inicial | Decisão nesta entrega |
 |---|---|---|---|---|
-| {{...}} | concorrente / análogo / ferramenta cotidiana / processo manual | {{...}} | F / H / ? | analisar / descartar com justificativa |
+| Lucida | análogo | Por ser uma plataforma educacional que oferece recursos de análise do desempenho dos alunos e acompanhamento de seus pontos fortes e dificuldades| F | analisar |
+| Keptune | análogo | Estima características dos itens das provas, como dificuldade e discriminação, além de identificar itens psicometricamente fracos. | F | analisar |
+| Xcalibre | análogo | A ferramenta estima parâmetros dos itens, como dificuldade, discriminação e métricas estatística, além de disponibilizar relatórios com os resultados obtidos na análise. | F | analisar |
+| OpenEduCat | análogo | Disponibiliza uma funcionalidade para analisar itens das prova, como índices de dificuldade e discriminação dos itens e análise dos distratores. | F | A plataforma será descartada da análise, pois, além de ser paga, apresenta diversas funcionalidades que não estão alinhadas ao escopo definido para o projeto. Adicionalmente, não foram encontradas, em fontes de acesso gratuito, capturas de tela das funcionalidades relevantes para a análise proposta. |
+| Qstione | análogo | Analisa a qualidade dos itens de uma prova de acordo com a Teoria de Resposta ao Item (TRI) | F | Não foi possível obter acesso à plataforma nem encontrar capturas de tela que permitissem compreender adequadamente seu funcionamento e suas principais interações. |
 
 Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, atualize `H01`, `H02`... em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 ## 1. Público-alvo desta análise
 
-{{descrever e ligar à Entrega 1}}
+O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A interface em desenvolvimento busca permitir que esses profissionais façam o upload de uma prova, insiram parâmetros quando necessário e visualizem e interpretem métricas relacionadas às características estruturais da avaliação antes de sua aplicação. Essas informações poderão auxiliá-los na análise de possíveis ajustes na prova, buscando reduzir a influência de seu formato no desempenho dos alunos e fazer com que a avaliação mensure, principalmente, os conhecimentos e competências que pretende avaliar.
 
 ## 2. Concorrentes diretos/indiretos
 
@@ -79,6 +83,7 @@ Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte id
 
 ## 3. Softwares que o público-alvo usa no cotidiano
 
+<!--Citar 5 softwares  + genéricos focados em São Paulo -->
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
