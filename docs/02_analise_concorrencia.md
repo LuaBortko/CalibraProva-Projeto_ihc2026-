@@ -44,17 +44,78 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 ## 2. Concorrentes diretos/indiretos
 
-### Análise C01 — {{produto}}
+### Análise C01 — Lucida
 
 **Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 
 **Tipo:** análogo  
 **Link oficial:** {{URL}}  
 **Data de acesso:** 27/08/2026
 
+#### Contexto e proposta
+
+{{...}}
+
+#### Funcionalidades relevantes
+
+| Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
+|---|---|---|---|
+| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+
+#### Experiência do usuário e opiniões
+
+Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
+
+#### Preço/modelo de negócio
+
+{{...}}
+
+#### Padrões e tendências percebidos
+
+{{...}}
+
+#### Pontos positivos, limitações e lições
+
+| Ponto | Evidência | Implicação para nosso projeto |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+
+### Análise C02 — Keptune.ai
+
 **Autor(a):** Beatriz Manaia Lourenço Berto — RA:22.125.060-8  
 **Tipo:** análogo  
-**Link oficial:** {{URL}}  
+**Link oficial:** [keptune](https://keptune.ai/tools/item-analysis?utm_source)
 **Data de acesso:** 27/08/2026
+
+#### Contexto e proposta
+
+{{...}}
+
+#### Funcionalidades relevantes
+
+| Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
+|---|---|---|---|
+| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+
+#### Experiência do usuário e opiniões
+
+Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
+
+#### Preço/modelo de negócio
+
+{{...}}
+
+#### Padrões e tendências percebidos
+
+{{...}}
+
+#### Pontos positivos, limitações e lições
+
+| Ponto | Evidência | Implicação para nosso projeto |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+### Análise C03 — XCalibre
 
 **Autor(a):** Luana Bortko Rodrigues — RA:24.123.006-9  
 **Tipo:** análogo  
@@ -111,8 +172,6 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 | histórico + filtros | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
 | administração/CRUD | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
 | comparação de resultados | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-
-> O objetivo não é concluir “todo concorrente tem dashboard, então teremos um”. O padrão só será adotado se apoiar uma tarefa rastreável.
 
 ## 4. Síntese comparativa da equipe
 
