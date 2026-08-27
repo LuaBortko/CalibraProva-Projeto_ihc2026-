@@ -46,10 +46,20 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 ### Análise C01 — {{produto}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** direto / indireto / análogo  
+**Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 
+**Tipo:** análogo  
 **Link oficial:** {{URL}}  
-**Data de acesso:** {{dd/mm/aaaa}}
+**Data de acesso:** 27/08/2026
+
+**Autor(a):** Beatriz Manaia Lourenço Berto — RA:22.125.060-8  
+**Tipo:** análogo  
+**Link oficial:** {{URL}}  
+**Data de acesso:** 27/08/2026
+
+**Autor(a):** Luana Bortko Rodrigues — RA:24.123.006-9  
+**Tipo:** análogo  
+**Link oficial:** {{URL}}  
+**Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
 
