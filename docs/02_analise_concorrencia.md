@@ -84,26 +84,40 @@ Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte id
 
 **Autor(a):** Beatriz Manaia Lourenço Berto — RA:22.125.060-8  
 **Tipo:** análogo  
-**Link oficial:** [keptune](https://keptune.ai/tools/item-analysis?utm_source)
+**Link oficial:** [keptune](https://keptune.ai/)
 **Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
 
-{{...}}
+A Keptune.ai é uma plataforma de análise de dados que disponibiliza, entre suas ferramentas, recursos para análise de itens de avaliações e exames. A partir do upload de arquivos CSV ou Excel contendo as respostas dos participantes, a ferramenta permite calcular métricas relacionadas aos itens, como dificuldade, discriminação e outros indicadores de desempenho, além de identificar questões potencialmente problemáticas ou com desempenho inadequado que possam necessitar de revisão. Para realizar a análise, o usuário pode fornecer informações sobre os itens e definir os critérios desejados, enquanto a inteligência artificial auxilia no processamento e na geração dos resultados.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+| Upload de arquivos de respostas dos participantes | Precisa fazer o upload de um arquivo em formato CSV ou Excel, seguindo a estrutura especificada pela plataforma para permitir a realização da análise dos itens | `../assets/02_concorrencia/keptune_upload1.jpeg` , `../assets/02_concorrencia/keptune_upload2.jpeg` | Processo bastante intuitivo. |
+
+| Utilização de inteligência artificial para realizar a análise | Na parte de chat, conseguimos conversar com IA para solicitar análise dos itens (calcular métricas como dificuldade e discriminação, identificando itens que podem precisar de revisão, entre outros)| `../assets/02_concorrencia/keptune_analise1` , `../assets/02_concorrencia/keptune_analise2`  | Plataforma com uma ótimo UX, design bem amigável e rápida em responder |
+
+| Visualização de resultados em tabelas, gráficos e outros formatos | Após solicitar uma análise ou fazer uma pergunta à IA, a ferramenta apresenta os resultados no próprio chat, por meio de tabelas, gráficos e outras visualizações, além de disponibilizá-los na seção lateral de tabelas.| `../assets/02_concorrencia/keptune_analise1` , `../assets/02_concorrencia/keptune_analise2`, `../assets/02_concorrencia/keptune_analise3` , `../assets/02_concorrencia/keptune_analise4` | Boa visualização de resultados, gera diferentes gráficos e formatos com diversas cores e categoria as visualizações entre chat e aba lateral, facilitando a organização, além de sugerir recomendações |
 
 #### Experiência do usuário e opiniões
 
 Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
 
-#### Preço/modelo de negócio
+<!-- mercado, a experiência dos usuários com o keptune.ai é predominantemente positiva, destacando-se pela facilidade de uso, custo-benefício acessível e agilidade nas respostas da inteligência artificial. A plataforma é projetada para democratizar a análise de dados, permitindo que pessoas sem conhecimento em programação realizem tarefas complexas — como limpeza automatizada de dados, testes estatísticos e geração de gráficos — utilizando apenas comandos em linguagem natural em um chat interativo. A interface é descrita como intuitiva, amigável e visualmente atraente, com uma organização que separa os resultados entre a área de conversação e uma aba lateral de tabelas e subconsultas, facilitando o fluxo de trabalho e a consulta posterior. Um dos grandes diferenciais apontados é o custo: a ferramenta oferece um plano gratuito generoso e planos pagos a partir de US$ 5/mês, sendo considerada mais acessível que concorrentes como o Julius AI, em parte devido à sua eficiente execução de código diretamente no navegador, o que reduz custos computacionais e aumenta a privacidade dos dados. Além disso, a transparência é valorizada, pois o usuário pode ver cada etapa da transformação dos dados e editar o código Python gerado pelas visualizações, o que confere maior controle sobre as análises. Em termos de confiabilidade e segurança, análises de sites como o Scamadviser e Gridinsoft atestam que o keptune.ai é legítimo e confiável, com certificado SSL válido e baixo risco de golpe. No entanto, há alguns pontos de atenção: a principal limitação relatada é a exigência de um formato específico de arquivo (CSV ou Excel) para o upload, o que pode exigir um preparo prévio dos dados e representar uma barreira inicial para usuários menos experientes. Outro aspecto relevante é que a base de usuários e o número de avaliações públicas ainda são reduzidos — em uma plataforma de avaliações, a nota é de 4,5 de 5, mas com apenas 5 avaliações; ferramentas de comparação como o Toolradar indicam que ainda não há avaliações de usuários, e o Scamadviser aponta um baixo volume de visitantes, o que é esperado para um site em fase de crescimento. Além disso, é importante não confundir o keptune.ai com a plataforma Neptune.ai, que é focada em rastreamento de experimentos de machine learning e foi recentemente adquirida pela OpenAI, o que não tem relação com o keptune.ai e pode gerar equívocos. Em comparação direta com o Julius AI, o keptune.ai é apresentado como uma alternativa mais barata e com maior flexibilidade, especialmente por executar o código no navegador do usuário, garantindo mais privacidade e controle. Em resumo, a experiência do usuário com o keptune.ai é amplamente positiva, marcada por uma interface intuitiva, respostas rápidas da IA, recursos abrangentes e custo acessível, sendo uma opção atraente para quem busca análise de dados sem programação. A principal ressalva é a necessidade de adaptar os arquivos ao formato exigido e o fato de a plataforma ainda estar em consolidação, com um número limitado de avaliações públicas disponíveis.
 
-{{...}}
+Links de referência:
+
+Site oficial e descrição da ferramenta: https://keptune.ai/
+
+Página de avaliações e recursos: https://keptune.tenereteam.com/
+
+Análise de confiabilidade (Scamadviser): https://www.scamadviser.com/check-website/keptune.ai
+
+Análise de segurança (Gridinsoft): https://pt.gridinsoft.com/domain/keptune.ai
+
+Comparação com Julius AI: https://keptune.ai/articles/julius-ai-alternative -->
 
 #### Padrões e tendências percebidos
 
@@ -114,6 +128,7 @@ Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte id
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
 | {{...}} | {{...}} | {{...}} |
+
 
 ### Análise C03 — XCalibre
 
