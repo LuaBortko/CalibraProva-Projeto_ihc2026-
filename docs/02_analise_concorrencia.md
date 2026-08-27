@@ -134,26 +134,29 @@ Comparação com Julius AI: https://keptune.ai/articles/julius-ai-alternative --
 
 **Autor(a):** Luana Bortko Rodrigues — RA:24.123.006-9  
 **Tipo:** análogo  
-**Link oficial:** {{URL}}  
+**Link oficial:** [xcalibre](https://assess.com/xcalibre/)  
 **Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
 
-{{...}}
+O Xcalibre é uma ferramenta voltada à análise psicométrica de avaliações, com ênfase na Teoria de Resposta ao Item (TRI). A partir dos dados de respostas de uma avaliação, a ferramenta permite estimar parâmetros relacionados aos itens, como dificuldade e discriminação, além de disponibilizar estatísticas complementares, visualizações e relatórios técnicos que auxiliam na avaliação do desempenho dos itens e da prova como um todo.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+| Input de arquivo | O usuário insere um arquivo nos formatos .txt ou .dat contendo os dados da avaliação e fornece parâmetros adicionais necessários para que o sistema interprete corretamente a estrutura e o conteúdo do arquivo. | `../assets/02_concorrencia/xcalibraInput1.png` e `../assets/02_concorrencia/xcalibraInput2.png`| A tela para upload e o local para colocar os parâmetros é confuso e tem um layout pouco chamativo |
+| Configuração da análise e dos resultados | O usuário define parâmetros relacionados à análise e seleciona as informações e formatos que deseja obter como resultado do processamento. | `../assets/02_concorrencia/xcalibraConf.png` | A interface concentra diversas opções de configuração e utiliza terminologia técnica, exigindo conhecimento prévio do usuário para compreender e selecionar adequadamente os parâmetros. |
+| Visualização de estatísticas dos itens | Os resultados da análise são apresentados por meio de tabelas que sintetizam estatísticas dos parâmetros estimados para os itens, como média, desvio-padrão, mínimo e máximo. |  `../assets/02_concorrencia/xcalibraResp.png` | A organização em tabelas facilita a consulta e a comparação dos valores obtidos |
+| Visualização gráfica dos resultados | Os resultados também são apresentados por meio de gráficos que representam relações entre os parâmetros obtidos na análise, como dificuldade e discriminação dos itens. |  `../assets/02_concorrencia/xcalibraRespGraf.png` | A representação gráfica complementa os resultados numéricos e facilita a identificação visual de padrões e relações entre os parâmetros analisados. |
 
 #### Experiência do usuário e opiniões
 
-Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
+As avaliações encontradas sobre o Xcalibre indicam, de modo geral, uma experiência de uso positiva. Hurtz (2022) caracteriza o software como relativamente amigável ao usuário e destaca sua interface gráfica para configuração das análises e apresentação dos resultados . De forma semelhante, uma revisão anterior de Du Toit (1996) destaca a facilidade de uso e a organização lógica da interface gráfica . Apesar desses aspectos positivos, a utilização da ferramenta envolve conceitos e parâmetros específicos da TRI, o que pode exigir conhecimento prévio do usuário. Além disso, foram encontrados poucos relatos públicos e recentes sobre a experiência de uso do Xcalibre.
 
-#### Preço/modelo de negócio
+- HURTZ, Gregory M. Measurement: Interdisciplinary Research and Perspectives, 2022. Disponível em: https://www.tandfonline.com/doi/full/10.1080/15366367.2022.2026736?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
-{{...}}
+- GIERL, Mark J.; ACKERMAN, Terry. Software Review: XCALIBRE — Marginal Maximum-Likelihood Estimation Program, Windows Version 1.10. Applied Psychological Measurement, v. 20, n. 3, p. 303–307, 1996. Disponível em: https://assess.com/docs/Xcalibre_1996_review.pdf?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
 #### Padrões e tendências percebidos
 
