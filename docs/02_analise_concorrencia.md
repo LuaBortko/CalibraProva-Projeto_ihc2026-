@@ -150,7 +150,7 @@ O Xcalibre é uma ferramenta voltada à análise psicométrica de avaliações, 
 
 #### Experiência do usuário e opiniões
 
-As avaliações encontradas sobre o Xcalibre indicam, de modo geral, uma experiência de uso positiva. Hurtz (2022) caracteriza o software como relativamente amigável ao usuário e destaca sua interface gráfica para configuração das análises e apresentação dos resultados . De forma semelhante, uma revisão anterior de Du Toit (1996) destaca a facilidade de uso e a organização lógica da interface gráfica . Apesar desses aspectos positivos, a utilização da ferramenta envolve conceitos e parâmetros específicos da TRI, o que pode exigir conhecimento prévio do usuário. Além disso, foram encontrados poucos relatos públicos e recentes sobre a experiência de uso do Xcalibre.
+Não encontramos muitas avaliações sobre o software do xcalibre, mas as que encontramos indicam, de modo geral, uma experiência de uso positiva. Hurtz (2022) caracteriza o software como relativamente amigável ao usuário e destaca sua interface gráfica para configuração das análises e apresentação dos resultados . De forma semelhante, uma revisão anterior de Du Toit (1996) destaca a facilidade de uso e a organização lógica da interface gráfica . Apesar desses aspectos positivos, a utilização da ferramenta envolve conceitos e parâmetros específicos da TRI, o que pode exigir conhecimento prévio do usuário. Além disso, foram encontrados poucos relatos públicos e recentes sobre a experiência de uso do Xcalibre.
 
 - HURTZ, Gregory M. Measurement: Interdisciplinary Research and Perspectives, 2022. Disponível em: https://www.tandfonline.com/doi/full/10.1080/15366367.2022.2026736?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
@@ -158,15 +158,17 @@ As avaliações encontradas sobre o Xcalibre indicam, de modo geral, uma experi�
 
 #### Padrões e tendências percebidos
 
-{{...}}
+A análise evidencia a necessidade de conhecimento prévio sobre os dados de entrada e sobre conceitos básicos de TRI, tornando a configuração inicial mais complexa. Em contrapartida, observa-se uma preocupação em facilitar a interpretação dos resultados por meio de tabelas, gráficos e relatórios que reúnem as métricas previamente selecionadas pelo usuário.
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
-> Repita a subseção para C02, C03... até atender à quantidade da equipe.
+| **Limitação — Complexidade da entrada de dados** | O Xcalibre exige que o usuário conheça a estrutura do arquivo de entrada e forneça parâmetros adicionais para que os dados sejam interpretados corretamente. | Buscar simplificar a entrada de dados, permitindo que o docente envie a prova com o mínimo possível de configurações adicionais. |
+| **Limitação — Necessidade de conhecimento específico** | A configuração e a interpretação das análises envolvem conceitos específicos da TRI e terminologia técnica. | Apresentar as métricas de maneira acessível ao docente, oferecendo explicações sobre seu significado e sua relação com o desempenho dos estudantes. |
+| **Ponto positivo — Apresentação visual dos resultados** | Os resultados são apresentados por meio de tabelas e gráficos, facilitando a visualização das métricas obtidas. | Utilizar recursos visuais para facilitar a compreensão das características estruturais identificadas e de suas possíveis relações com o desempenho. |
+| **Ponto positivo — Geração de relatórios** | O Xcalibre permite gerar relatórios contendo as métricas e os resultados configurados pelo usuário. | Considerar a apresentação dos resultados de forma organizada e consolidada, facilitando sua consulta pelo docente. |
+| **Ponto positivo — Personalização dos resultados** | O usuário pode selecionar previamente quais informações e resultados deseja incluir nos arquivos de saída. | Avaliar a possibilidade de permitir que o docente selecione ou filtre as métricas que considera mais relevantes para sua análise. |
 
 ## 3. Softwares que o público-alvo usa no cotidiano
 
