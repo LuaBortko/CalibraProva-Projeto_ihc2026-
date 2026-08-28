@@ -94,39 +94,70 @@ A Keptune.ai é uma plataforma de análise de dados que disponibiliza, entre sua
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
 | Upload de arquivos de respostas dos participantes | Precisa fazer o upload de um arquivo em formato CSV ou Excel, seguindo a estrutura especificada pela plataforma para permitir a realização da análise dos itens | `../assets/02_concorrencia/keptune_upload1.jpeg` , `../assets/02_concorrencia/keptune_upload2.jpeg` | Processo bastante intuitivo. |
-
 | Utilização de inteligência artificial para realizar a análise | Na parte de chat, conseguimos conversar com IA para solicitar análise dos itens (calcular métricas como dificuldade e discriminação, identificando itens que podem precisar de revisão, entre outros)| `../assets/02_concorrencia/keptune_analise1` , `../assets/02_concorrencia/keptune_analise2`  | Plataforma com uma ótimo UX, design bem amigável e rápida em responder |
-
 | Visualização de resultados em tabelas, gráficos e outros formatos | Após solicitar uma análise ou fazer uma pergunta à IA, a ferramenta apresenta os resultados no próprio chat, por meio de tabelas, gráficos e outras visualizações, além de disponibilizá-los na seção lateral de tabelas.| `../assets/02_concorrencia/keptune_analise1` , `../assets/02_concorrencia/keptune_analise2`, `../assets/02_concorrencia/keptune_analise3` , `../assets/02_concorrencia/keptune_analise4` | Boa visualização de resultados, gera diferentes gráficos e formatos com diversas cores e categoria as visualizações entre chat e aba lateral, facilitando a organização, além de sugerir recomendações |
 
 #### Experiência do usuário e opiniões
 
 Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
 
-<!-- mercado, a experiência dos usuários com o keptune.ai é predominantemente positiva, destacando-se pela facilidade de uso, custo-benefício acessível e agilidade nas respostas da inteligência artificial. A plataforma é projetada para democratizar a análise de dados, permitindo que pessoas sem conhecimento em programação realizem tarefas complexas — como limpeza automatizada de dados, testes estatísticos e geração de gráficos — utilizando apenas comandos em linguagem natural em um chat interativo. A interface é descrita como intuitiva, amigável e visualmente atraente, com uma organização que separa os resultados entre a área de conversação e uma aba lateral de tabelas e subconsultas, facilitando o fluxo de trabalho e a consulta posterior. Um dos grandes diferenciais apontados é o custo: a ferramenta oferece um plano gratuito generoso e planos pagos a partir de US$ 5/mês, sendo considerada mais acessível que concorrentes como o Julius AI, em parte devido à sua eficiente execução de código diretamente no navegador, o que reduz custos computacionais e aumenta a privacidade dos dados. Além disso, a transparência é valorizada, pois o usuário pode ver cada etapa da transformação dos dados e editar o código Python gerado pelas visualizações, o que confere maior controle sobre as análises. Em termos de confiabilidade e segurança, análises de sites como o Scamadviser e Gridinsoft atestam que o keptune.ai é legítimo e confiável, com certificado SSL válido e baixo risco de golpe. No entanto, há alguns pontos de atenção: a principal limitação relatada é a exigência de um formato específico de arquivo (CSV ou Excel) para o upload, o que pode exigir um preparo prévio dos dados e representar uma barreira inicial para usuários menos experientes. Outro aspecto relevante é que a base de usuários e o número de avaliações públicas ainda são reduzidos — em uma plataforma de avaliações, a nota é de 4,5 de 5, mas com apenas 5 avaliações; ferramentas de comparação como o Toolradar indicam que ainda não há avaliações de usuários, e o Scamadviser aponta um baixo volume de visitantes, o que é esperado para um site em fase de crescimento. Além disso, é importante não confundir o keptune.ai com a plataforma Neptune.ai, que é focada em rastreamento de experimentos de machine learning e foi recentemente adquirida pela OpenAI, o que não tem relação com o keptune.ai e pode gerar equívocos. Em comparação direta com o Julius AI, o keptune.ai é apresentado como uma alternativa mais barata e com maior flexibilidade, especialmente por executar o código no navegador do usuário, garantindo mais privacidade e controle. Em resumo, a experiência do usuário com o keptune.ai é amplamente positiva, marcada por uma interface intuitiva, respostas rápidas da IA, recursos abrangentes e custo acessível, sendo uma opção atraente para quem busca análise de dados sem programação. A principal ressalva é a necessidade de adaptar os arquivos ao formato exigido e o fato de a plataforma ainda estar em consolidação, com um número limitado de avaliações públicas disponíveis.
+A experiência com o keptune.ai é, no geral, bem positiva. O que mais se destaca é a facilidade de usar, o preço acessível e a rapidez da IA para responder. A plataforma foi feita pra facilitar a análise de dados, permitindo que qualquer pessoa, mesmo sem saber programar, faça coisas como limpar dados, rodar testes estatísticos e gerar gráficos só conversando com o chat.
 
-Links de referência:
+A interface é bonita e fácil de entender. Os resultados aparecem no chat, mas também ficam guardados numa aba lateral com tabelas e consultas, o que ajuda a organizar o trabalho. A ferramenta é rápida, aceita vários tipos de perguntas e mostra os dados de formas diferentes (tabelas, gráficos etc.), com cores que ajudam na interpretação.
 
-Site oficial e descrição da ferramenta: https://keptune.ai/
+Um ponto forte é o custo: tem um plano grátis bem generoso e os planos pagos começam em US$ 5/mês, o que sai mais barato que alguns concorrentes. Outra coisa legal é que dá pra ver cada passo da transformação dos dados e até editar o código Python gerado pelos gráficos, dando mais controle pra quem usa. Sobre segurança, sites como Scamadviser e Gridinsoft dizem que o keptune.ai é confiável, tem certificado SSL e baixo risco de golpe.
 
-Página de avaliações e recursos: https://keptune.tenereteam.com/
+A principal desvantagem é que o arquivo precisa estar num formato específico (CSV ou Excel) e seguir a estrutura que a plataforma exige, o que pode ser um obstáculo pra quem não tá acostumado. Além disso, ainda tem poucos usuários e avaliações públicas: no site keptune.tenereteam.com, a nota é 4,5 de 5, mas só com 5 avaliações. O Scamadviser também mostra que o site tem pouco tráfego, o que é normal pra uma plataforma que ainda tá crescendo. E sobre o Toolradar, ele não é um site de avaliações de usuários, é mais uma base de dados pra IA, então não tem avaliações de pessoas lá.
+ 
+- KEPTUNE. Keptune: data analysis AI for Excel, CSVs & databases. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/. Acesso em: 28 ago. 2026.
 
-Análise de confiabilidade (Scamadviser): https://www.scamadviser.com/check-website/keptune.ai
+- TENERETEAM. Keptune: avaliações e recursos. [S. l.]: Tenereteam, [s. d.]. Disponível em: https://keptune.tenereteam.com/. Acesso em: 28 ago. 2026.
 
-Análise de segurança (Gridinsoft): https://pt.gridinsoft.com/domain/keptune.ai
+- SCAMADVISER. Keptune.ai: análise de confiabilidade do site. [S. l.]: ScamAdviser, [s. d.]. Disponível em: https://www.scamadviser.com/check-website/keptune.ai. Acesso em: 28 ago. 2026.
 
-Comparação com Julius AI: https://keptune.ai/articles/julius-ai-alternative -->
+- GRIDINSOFT. Keptune.ai: análise de segurança e reputação do domínio. [S. l.]: Gridinsoft, [s. d.]. Disponível em: https://pt.gridinsoft.com/domain/keptune.ai. Acesso em: 28 ago. 2026.
+
+- KEPTUNE. Julius AI vs Keptune AI. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/articles/julius-ai-alternative. Acesso em: 28 ago. 2026.
 
 #### Padrões e tendências percebidos
 
-{{...}}
+1. Interface conversacional como padrão dominante
+   
+ - A estrutura do keptune.ai segue o modelo de chat-first, ou seja, a interação principal acontece por meio de um chat, assim como ChatGPT, Copilot e Gemini. O usuário faz perguntas em linguagem natural e a IA responde com análises prontas. Isso é uma tendência clara de democratização do acesso à dados.
+
+2. Integração entre linguagem natural e execução de código
+   
+ - A plataforma não só responde com texto, mas também executa código (Python) por trás dos panos e devolve os resultados em forma de tabelas e gráficos. Isso lembra ferramentas tem a vantagem de mostrar o código gerado e permitir edição, dando mais transparência e controle ao usuário.
+
+3. Organização dos resultados entre chat e painel lateral
+   
+ - Os resultados aparecem no chat (para interação imediata) e também são salvos em uma aba lateral com tabelas e subconsultas. Isso ajuda a manter o histórico e facilita a consulta depois, algo que melhora a experiência de quem usa a ferramenta para análises mais longas.
+
+4. Tendência de "IA como cientista de dados pessoal"
+   
+ - A IA pode atuar como um assistente, fazendo análises exploratórias, gerando insights e sugerindo próximos passos.
+
+5. Transparência e controle como diferencial
+   
+ - O keptune.ai mostra cada etapa da transformação dos dados e permite editar o código Python. Esse padrão de transparência algorítmica está se tornando cada vez mais valorizado por usuários que querem entender o que está sendo feito com seus dados.
+
+6. Custo acessível e plano gratuito
+   
+ - Oferecer planos gratuitos com funcionalidades básicas e planos pagos acessíveis (a partir de US$ 5/mês) também é um padrão comum entre ferramentas SaaS.
+
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
+|**Ponto positivo — Interface com informações precisas e diretas** | A interface é visualmente atraente, com organização clara entre chat e aba lateral, apenas com o necessário  informações em tela e organizado de forma que não fique poluído visualmente. | Devemos priorizar um design limpo e funcional, separando bem as áreas de interação para evitar sobrecarga de informações e facilitar a navegação. Isso ajuda a reduzir a curva de aprendizado e melhora a experiência do usuário, especialmente para quem não tem familiaridade com ferramentas de análise de dados. |
+|**Ponto positivo — Agilidade nas respostas da IA** | A ferramenta processa comandos e gera análises (tabelas, gráficos, estatísticas) em poucos segundos. | Nenhuma, não integraremos nosso sistema com Inteligência Artifical. |
+|**Ponto positivo — Transparência e controle sobre os dados** | O usuário pode ver cada etapa da transformação dos dados e editar o código Python gerado pelas visualizações. | Precisamos garantir a transparência por meio de explicações claras e acessíveis sobre cada métrica apresentada. Isso inclui: descrições do que cada indicador significa, como foi calculado. Podemos usar tooltips, ícones de ajuda, glossário e seções de "como interpretar" no dashboard. Isso fornece ao docente controle interpretativo e reduz o risco de uso incorreto das métricas, já que ele poderá compreender o que está vendo e tomar decisões mais embasadas. |
+|**Ponto positivo — Variedade de visualizações e análises** | {{...}} | {{...}} |
+|**Ponto positivo — Custo benefício** | {{...}} | {{...}} |
+|**Limitação —Formato específico de arquivo para upload** | lançada em 2024.... | {{...}} |
+|**Limitação —Ferramenta em fase de crescimento**  | {{...}} | {{...}} |
+<!--|**Lições —P MIM N FAZ SENTIDO COLOCAR PQ JA TEM PONTO POSITIVO E LIMITACAO AI APRENDO OCM ELAS**  | {{...}} | {{...}} |-->
 
 ### Análise C03 — XCalibre
 
