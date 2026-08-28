@@ -53,22 +53,20 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 #### Contexto e proposta
 
-{{...}}
+A plataforma foi desenvolvida para auxiliar no diagnóstico de dificuldades em sala de aula. Por meio da criação de provas, do escaneamento de folhas de resposta e da disponibilização de métricas detalhadas, como dificuldade e discriminação dos itens, além da identificação de questões com baixo desempenho e distratores efetivos, a Lucida oferece aos docentes informações que auxiliam na identificação dos conteúdos que necessitam de maior atenção e reforço em sala de aula.
 
 #### Funcionalidades relevantes
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| {{...}} | {{...}} | `../assets/02_concorrencia/...` | {{...}} |
+| Criação de prova | Na plataforma, o professor pode fazer uma prova através do upload de material, além da escolha de alguns parâmetros, como nível de dificuldade desejado, número de questões, entre outros | `/workspaces/CalibraProva-Projeto_ihc2026-/assets/02_concorrencia/criacao_prova1.png` `/workspaces/CalibraProva-Projeto_ihc2026-/assets/02_concorrencia/criacao_prova2.png` `/workspaces/CalibraProva-Projeto_ihc2026-/assets/02_concorrencia/criacao_prova3.png` `assets/02_concorrencia/criacao_prova4.png ` | {{...}} | 
+| Análise e métricas de provas | Após a aplicação de uma prova, o professor pode inserir na plataforma a folha de respostas dos alunos, assim sendo calculadas a dificuldade e fator discriminatório de cada questão, além de apontar questões fracas e distratores efetivos  | `assets/02_concorrencia/analiselucida1.png`| As informações estão bem organizadas e fáceis de compreender | 
 
 #### Experiência do usuário e opiniões
 
 Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte identificável. Não trate opinião isolada como verdade universal.
 
-#### Preço/modelo de negócio
-
-{{...}}
-
+No momento não existem avaliações públicas da plataforma fora de poucas avaliações positivas presentes no site da plataforma. A experiência do grupo utilizando a ferramenta ocorreu de forma relativamente tranquila, sem grandes problemas técnicos ou confusões em como utilizar do site, apenas um problema com o upload de folha de respostas na etapa de correção de provas. O site contém um visual limpo e minimalista, com poucos botões e funcionalidades bem explicadas, seja na homepage ou dentro da área do usuário.
 #### Padrões e tendências percebidos
 
 {{...}}
