@@ -260,8 +260,10 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 | Alternativa atual | Quem usa | Para quê | Status/evidência |
 |---|---|---|---|
-| da experiência e do repertório do próprio docente | docente | identificar, antes da aplicação da avaliação, características relacionadas à estrutura e à elaboração das questões que podem influenciar o desempenho dos alunos | [F] |
-| utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos | [F] |
+| Da experiência e do repertório do próprio docente | docente | identificar, antes da aplicação da avaliação, características relacionadas à estrutura e à elaboração das questões que podem influenciar o desempenho dos alunos | [F] |
+| Utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos para melhorar nas próximas avaliações | [F] |
+| Utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos para melhorar nas próximas avaliações | [F] |
+| Solicitam feedback dos alunos após a prova | docentes | identificar características relacionadas à estrutura e à elaboração das questões que  alunos acreditam podem ter influenciado o seu desempenho | [F] |
 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 

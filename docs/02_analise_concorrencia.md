@@ -48,7 +48,7 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 **Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 
 **Tipo:** análogo  
-**Link oficial:** {{URL}}  
+**Link oficial:** [lucida]()
 **Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
@@ -75,7 +75,8 @@ No momento não existem avaliações públicas da plataforma fora de poucas aval
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+|**Ponto positivo —xxxxxx** | {{...}} | {{...}} |
+|**Limitação —xxxx** | {{...}}| {{...}} |
 
 
 ### Análise C02 — Keptune.ai
@@ -109,16 +110,6 @@ Um ponto forte é o custo: tem um plano grátis bem generoso e os planos pagos c
 
 A principal desvantagem é que o arquivo precisa estar num formato específico (CSV ou Excel) e seguir a estrutura que a plataforma exige, o que pode ser um obstáculo pra quem não tá acostumado. Além disso, ainda tem poucos usuários e avaliações públicas: no site keptune.tenereteam.com, a nota é 4,5 de 5, mas só com 5 avaliações. O Scamadviser também mostra que o site tem pouco tráfego, o que é normal pra uma plataforma que ainda tá crescendo. E sobre o Toolradar, ele não é um site de avaliações de usuários, é mais uma base de dados pra IA, então não tem avaliações de pessoas lá.
  
-- KEPTUNE. Keptune: data analysis AI for Excel, CSVs & databases. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/. Acesso em: 28 ago. 2026.
-
-- TENERETEAM. Keptune: avaliações e recursos. [S. l.]: Tenereteam, [s. d.]. Disponível em: https://keptune.tenereteam.com/. Acesso em: 28 ago. 2026.
-
-- SCAMADVISER. Keptune.ai: análise de confiabilidade do site. [S. l.]: ScamAdviser, [s. d.]. Disponível em: https://www.scamadviser.com/check-website/keptune.ai. Acesso em: 28 ago. 2026.
-
-- GRIDINSOFT. Keptune.ai: análise de segurança e reputação do domínio. [S. l.]: Gridinsoft, [s. d.]. Disponível em: https://pt.gridinsoft.com/domain/keptune.ai. Acesso em: 28 ago. 2026.
-
-- KEPTUNE. Julius AI vs Keptune AI. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/articles/julius-ai-alternative. Acesso em: 28 ago. 2026.
-
 #### Padrões e tendências percebidos
 
 1. Interface conversacional como padrão dominante
@@ -153,10 +144,11 @@ A principal desvantagem é que o arquivo precisa estar num formato específico (
 |**Ponto positivo — Interface com informações precisas e diretas** | A interface é visualmente atraente, com organização clara entre chat e aba lateral, apenas com o necessário  informações em tela e organizado de forma que não fique poluído visualmente. | Devemos priorizar um design limpo e funcional, separando bem as áreas de interação para evitar sobrecarga de informações e facilitar a navegação. Isso ajuda a reduzir a curva de aprendizado e melhora a experiência do usuário, especialmente para quem não tem familiaridade com ferramentas de análise de dados. |
 |**Ponto positivo — Agilidade nas respostas da IA** | A ferramenta processa comandos e gera análises (tabelas, gráficos, estatísticas) em poucos segundos. | Nenhuma, não integraremos nosso sistema com Inteligência Artifical. |
 |**Ponto positivo — Transparência e controle sobre os dados** | O usuário pode ver cada etapa da transformação dos dados e editar o código Python gerado pelas visualizações. | Precisamos garantir a transparência por meio de explicações claras e acessíveis sobre cada métrica apresentada. Isso inclui: descrições do que cada indicador significa, como foi calculado. Podemos usar tooltips, ícones de ajuda, glossário e seções de "como interpretar" no dashboard. Isso fornece ao docente controle interpretativo e reduz o risco de uso incorreto das métricas, já que ele poderá compreender o que está vendo e tomar decisões mais embasadas. |
-|**Ponto positivo — Variedade de visualizações e análises** | {{...}} | {{...}} |
-|**Ponto positivo — Custo benefício** | {{...}} | {{...}} |
-|**Limitação —Formato específico de arquivo para upload** | lançada em 2024.... | {{...}} |
-|**Limitação —Ferramenta em fase de crescimento**  | {{...}} | {{...}} |
+|**Ponto positivo — Variedade de visualizações e análises** | A plataforma gera resultados personalizados conforme solicitado à I.A., produzindo múltiplos formatos de visualização: tabelas resumo com médias e desvios; gráficos de distribuição dos parâmetros (boxplots); listas detalhadas de itens com problemas (com motivos: discriminação baixa, acaso elevado, dificuldade extrema); gráficos de barras com distribuição de dificuldade por área; contagens e percentuais de itens por motivo de revisão. Os resultados ficam salvos na aba lateral para consulta posterior. | Propomos um dashboard que organize as métricas extraídas em seções claras e objetivas, garantindo fácil compreensão pelos docentes. A ferramenta poderá conter: tabelas; gráficos variados; lista de itens com alertas, contendo motivos destacados e sugestões de ajuste; e gráficos de barras para distribuição de dificuldade por área.Para facilitar a interpretação, incluiremos tooltips explicativos em cada métrica, um glossário de termos técnicos e ícones de ajuda com recomendações práticas. Também disponibilizaremos botões de exportação (CSV/PDF) para que o docente possa salvar ou compartilhar os resultados. As cores serão usadas estrategicamente(vermelho para parâmetros críticos e verde para adequados). |
+|**Ponto positivo — Custo benefício** | A plataforma oferece plano gratuito generoso e planos pagos a partir de US$ 5/mês, sendo mais acessível que alguns concorrentes  | Nenhuma, nosso sistema será 100% gratuito e disponível para todos|
+|**Limitação —Formato específico de arquivo para upload** |O upload exige que os arquivos estejam nos formatos CSV ou Excel e sigam uma estrutura específica, o que pode representar uma barreira para usuários menos experientes. Essa exigência pode dificultar ou até impedir o uso da plataforma por alguns docentes que não possuem seus dados organizados nesse formato.| Idealmente, o sistema deveria possibilitar o upload de diferentes tipos de arquivos e formatos de prova, de modo a atender ao maior número possível de usuários. Entretanto, nesta primeira versão, considerando o escopo e as funcionalidades desenvolvidas com base na estrutura das provas do ENEM, o sistema aceitará apenas arquivos em formato PDF que apresentem uma estrutura semelhante à utilizada pelo exame.|
+|**Limitação —Ferramenta em fase de crescimento**  | Plataforma recente (Termos e Condições de junho/2024) e ainda tem pouco tráfego (~2.187 visitas/mês), o que é normal para uma ferramenta nova. Isso indica que o mercado ainda está aberto para soluções focadas em nichos específicos  | Como o Keptune ainda não domina o mercado de análise de itens educacionais, há espaço para uma solução mais especializada e focada, como a nossa, direcionada a docentes do Estado de São Paulo que desejam analisar provas estilo ENEM antes da aplicação. |
+
 <!--|**Lições —P MIM N FAZ SENTIDO COLOCAR PQ JA TEM PONTO POSITIVO E LIMITACAO AI APRENDO OCM ELAS**  | {{...}} | {{...}} |-->
 
 ### Análise C03 — XCalibre
@@ -182,10 +174,6 @@ O Xcalibre é uma ferramenta voltada à análise psicométrica de avaliações, 
 #### Experiência do usuário e opiniões
 
 Não encontramos muitas avaliações sobre o software do xcalibre, mas as que encontramos indicam, de modo geral, uma experiência de uso positiva. Hurtz (2022) caracteriza o software como relativamente amigável ao usuário e destaca sua interface gráfica para configuração das análises e apresentação dos resultados . De forma semelhante, uma revisão anterior de Du Toit (1996) destaca a facilidade de uso e a organização lógica da interface gráfica . Apesar desses aspectos positivos, a utilização da ferramenta envolve conceitos e parâmetros específicos da TRI, o que pode exigir conhecimento prévio do usuário. Além disso, foram encontrados poucos relatos públicos e recentes sobre a experiência de uso do Xcalibre.
-
-- HURTZ, Gregory M. Measurement: Interdisciplinary Research and Perspectives, 2022. Disponível em: https://www.tandfonline.com/doi/full/10.1080/15366367.2022.2026736?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
-
-- GIERL, Mark J.; ACKERMAN, Terry. Software Review: XCALIBRE — Marginal Maximum-Likelihood Estimation Program, Windows Version 1.10. Applied Psychological Measurement, v. 20, n. 3, p. 303–307, 1996. Disponível em: https://assess.com/docs/Xcalibre_1996_review.pdf?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
 #### Padrões e tendências percebidos
 
@@ -241,8 +229,20 @@ Liste recomendações com origem explícita.
 - **RC02:** {{...}}
 
 ## Referências
+<!--{{fontes dos produtos, avaliações e literatura}} -->
+- KEPTUNE. Keptune: data analysis AI for Excel, CSVs & databases. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/. Acesso em: 28 ago. 2026.
 
-{{fontes dos produtos, avaliações e literatura}}
+- TENERETEAM. Keptune: avaliações e recursos. [S. l.]: Tenereteam, [s. d.]. Disponível em: https://keptune.tenereteam.com/. Acesso em: 28 ago. 2026.
+
+- SCAMADVISER. Keptune.ai: análise de confiabilidade do site. [S. l.]: ScamAdviser, [s. d.]. Disponível em: https://www.scamadviser.com/check-website/keptune.ai. Acesso em: 28 ago. 2026.
+
+- GRIDINSOFT. Keptune.ai: análise de segurança e reputação do domínio. [S. l.]: Gridinsoft, [s. d.]. Disponível em: https://pt.gridinsoft.com/domain/keptune.ai. Acesso em: 28 ago. 2026.
+
+- KEPTUNE. Julius AI vs Keptune AI. [S. l.]: Keptune, [s. d.]. Disponível em: https://keptune.ai/articles/julius-ai-alternative. Acesso em: 28 ago. 2026.
+
+- HURTZ, Gregory M. Measurement: Interdisciplinary Research and Perspectives, 2022. Disponível em: https://www.tandfonline.com/doi/full/10.1080/15366367.2022.2026736?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
+
+- GIERL, Mark J.; ACKERMAN, Terry. Software Review: XCALIBRE — Marginal Maximum-Likelihood Estimation Program, Windows Version 1.10. Applied Psychological Measurement, v. 20, n. 3, p. 303–307, 1996. Disponível em: https://assess.com/docs/Xcalibre_1996_review.pdf?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
 ## Checklist
 
