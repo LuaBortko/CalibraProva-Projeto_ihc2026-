@@ -191,8 +191,39 @@ A análise evidencia a necessidade de conhecimento prévio sobre os dados de ent
 
 ## 3. Softwares que o público-alvo usa no cotidiano
 
-<!--Citar 5 softwares  + genéricos focados em São Paulo -->
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
+
+<!-- Google Sala de Aula (Classroom)
+
+O Google Sala de Aula é uma das principais referências em plataformas de gestão educacional no Brasil. Uma pesquisa da Sociedade Brasileira de Computação (SBC, 2024) apontou que a plataforma é utilizada por 31% dos professores. Durante a pandemia, outro levantamento registrou um crescimento de 8,1% para 82,8% em sua utilização. A ferramenta é amplamente empregada para organização de aulas, disponibilização de materiais, aplicação e correção de atividades.
+
+Influência sobre as expectativas: o Classroom estabeleceu uma referência de centralização, organização e simplicidade. Os professores já estão habituados a encontrar materiais, atividades, prazos e resultados em um único ambiente. Além disso, sua interface limpa e a integração com outras ferramentas Google criam uma expectativa de navegação intuitiva e fluxo de uso simples, fazendo com que plataformas mais complexas ou fragmentadas possam apresentar maior barreira de adoção.
+
+Ferramentas de IA — ChatGPT e Gemini
+
+Uma pesquisa publicada na Revista de Produtos Educacionais e Pesquisas em Ensino (UENP, 2025), realizada com 156 professores da educação básica brasileira, identificou que 82,7% utilizam ferramentas de IA, com destaque para o ChatGPT (82,7%) e o Gemini (32,7%). Os principais usos estão relacionados ao planejamento de aulas (69,9%) e à elaboração de materiais didáticos (71,2%).
+
+Influência sobre as expectativas: a popularização da IA generativa elevou a expectativa por automação e assistência inteligente. Professores passam a valorizar ferramentas capazes de reduzir tarefas repetitivas, sugerir atividades, gerar conteúdos, auxiliar na correção e adaptar materiais. Assim, mesmo plataformas que não tenham a IA como funcionalidade principal podem ser avaliadas pelo público em relação ao quanto economizam tempo e esforço.
+
+Kahoot!
+
+O Kahoot! é uma referência em gamificação e avaliação interativa. No levantamento do IFAL (2025), a ferramenta aparece entre os aplicativos interativos mais mencionados para gamificação, atividades avaliativas, verificação da aprendizagem e revisão de conteúdo. Outro levantamento identificou que 55% dos professores utilizam questionários gamificados, como Kahoot!, Quizizz e Socrative, enquanto um estudo com doutores apontou preferência de 50% pelo Kahoot! para a realização de quizzes.
+
+Influência sobre as expectativas: o Kahoot! ajudou a consolidar a percepção de que atividades avaliativas podem ser dinâmicas, visuais e interativas. Dessa forma, elementos como feedback imediato, pontuação, desafios e competição saudável passaram a ser associados a uma experiência de aprendizagem mais envolvente. Para novas ferramentas educacionais, isso cria uma expectativa de que a avaliação não seja apenas funcional, mas também engajadora.
+
+Google Forms
+
+O Google Forms é amplamente utilizado para criação e aplicação de questionários e avaliações. A pesquisa do IFAL (2025) o cita entre os recursos digitais utilizados para elaboração de avaliações, listas de exercícios e provas, incluindo recursos de correção automática. Estudos também relatam sua utilização por professores de diferentes disciplinas para aplicação de avaliações e coleta de dados.
+
+Influência sobre as expectativas: o Forms estabeleceu um padrão de facilidade e rapidez na criação de avaliações. Os professores passaram a esperar recursos como criação simplificada de formulários, correção automática, organização das respostas e possibilidade de análise dos resultados. Dessa forma, funcionalidades que antes poderiam ser consideradas diferenciais passam a ser percebidas como requisitos básicos de usabilidade.
+
+YouTube
+
+O YouTube consolidou-se como um importante recurso complementar ao ensino. A pesquisa da SBC (2024) apontou que 17% dos professores utilizam a plataforma. Estudos também destacam seu uso como apoio ao processo de ensino e aprendizagem, especialmente em disciplinas como Matemática, devido à facilidade de acesso e à utilização de recursos audiovisuais.
+
+Influência sobre as expectativas: o YouTube contribuiu para estabelecer a expectativa de que conteúdos educacionais podem ser visuais, acessíveis e consumidos de forma rápida e intuitiva. Isso aumenta a valorização de recursos multimídia, como vídeos, imagens e conteúdos interativos, além da possibilidade de complementar materiais tradicionais com diferentes formatos de aprendizagem.
+-->
+
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
@@ -243,6 +274,13 @@ Liste recomendações com origem explícita.
 - HURTZ, Gregory M. Measurement: Interdisciplinary Research and Perspectives, 2022. Disponível em: https://www.tandfonline.com/doi/full/10.1080/15366367.2022.2026736?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
 
 - GIERL, Mark J.; ACKERMAN, Terry. Software Review: XCALIBRE — Marginal Maximum-Likelihood Estimation Program, Windows Version 1.10. Applied Psychological Measurement, v. 20, n. 3, p. 303–307, 1996. Disponível em: https://assess.com/docs/Xcalibre_1996_review.pdf?utm_source=chatgpt.com. Acesso em: 27 ago. 2026.
+
+- SANTOS, Amanda da Silva; SANTOS, [nome completo do coautor]. Percepções docentes sobre o uso de recursos digitais: um estudo com professores dos cursos de licenciatura do IFAL-Campus Maceió. Maceió: Instituto Federal de Alagoas, 2025. Trabalho de Conclusão de Curso (Licenciatura em Ciências Biológicas) – Instituto Federal de Alagoas, Campus Maceió. Disponível em: https://repositorio.ifal.edu.br/server/api/core/bitstreams/e7bb7a93-9870-48db-825c-fb43f0838228/content. Acesso em: 2 set. 2026.
+
+- OLIVEIRA, Arthur Marques de; TUSSI, Graziela Bergonsi. Docência e inteligência artificial (IA): caminhos na era da educação 5.0. Revista de Produtos Educacionais e Pesquisas em Ensino, Cornélio Procópio, v. 9, n. 2, p. 106–122, 2025. Disponível em: https://periodicos.uenp.edu.br/index.php/reppe/article/view/2048. Acesso em: 2 set. 2026.
+
+- LIMA, A. P. et al. This diversity of perspectives, previous experiences, and the rate of non-use of DTRs in face-to-face education. Revista Brasileira de Informática na Educação (RBIE), Porto Alegre, v. 32, p. 533–567, 2024. DOI: https://doi.org/10.5753/rbie.2024.3894. Disponível em: https://journals-sol.sbc.org.br/index.php/rbie/article/download/3894/2971/22967. Acesso em: 2 set. 2026.
+
 
 ## Checklist
 
