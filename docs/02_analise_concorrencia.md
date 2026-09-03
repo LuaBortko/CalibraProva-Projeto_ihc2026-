@@ -48,7 +48,7 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 **Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 
 **Tipo:** análogo  
-**Link oficial:** [lucida]()
+**Link oficial:** [Lucida](https://lucidaexam.com/)
 **Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
@@ -69,14 +69,17 @@ Use avaliações públicas, relatos, estudos, testes próprios ou outra fonte id
 No momento não existem avaliações públicas da plataforma fora de poucas avaliações positivas presentes no site da plataforma. A experiência do grupo utilizando a ferramenta ocorreu de forma relativamente tranquila, sem grandes problemas técnicos ou confusões em como utilizar do site, apenas um problema com o upload de folha de respostas na etapa de correção de provas. O site contém um visual limpo e minimalista, com poucos botões e funcionalidades bem explicadas, seja na homepage ou dentro da área do usuário.
 #### Padrões e tendências percebidos
 
-{{...}}
+A plataforma faz um esforço maior para auxiliar os usuários a compreenderem as estatísticas que estão sendo mostradas para eles, através de gráficos e tabelas, além de possuir indicadores separados por cor para indicar se a prova obteve bons resultados ou não.  
+
+Também é possível perceber o uso de IAs para auxiliar docentes a facilitarem o seu trabalho, neste caso servindo como formulador de prova, corretor e analista para calcular os dados relevantes sobre os resultados da prova. 
 
 #### Pontos positivos, limitações e lições
 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
-|**Ponto positivo —xxxxxx** | {{...}} | {{...}} |
-|**Limitação —xxxx** | {{...}}| {{...}} |
+|**Ponto positivo — Interface amigável** | A interface é simples de utilizar, com instruções claras sobre o que o usuário deve fazer para poder ter o melhor uso da plataforma, além de não precisar de conhecimentos de programação ou de informática. | Uma plataforma amigável para pessoas com menor letramento digital |
+|**Limitação — Customização Limitada** | As avaliações que podem ser avaliadas pela plataforma são feitas apenas em provas criadas pela plataforma e scanea apenas folhas de respostas geradas também pela ferramenta. Enquanto o professor pode editar os resultados dados pela IA, não pode inserir questões criadas anteriormente ou | {{...}} |
+|**Ponto Positivo — Variedade de métricas** | A ferramenta disponibiliza várias métricas para auxiliar o professor a se adaptar de acordo com as dificuldades de cada turma, oferencendo dificuldade e fator discriminatório, além de análise de distratores efetivos, questões fracas e comparação entre aluno e a turma completa.  | Oferecer métricas relevantes para melhorar a formulação de provas.|
 
 
 ### Análise C02 — Keptune.ai
