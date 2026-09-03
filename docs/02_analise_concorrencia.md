@@ -235,11 +235,16 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 
 | Padrão observado | Produto(s) | Para qual tarefa serve | Vantagem percebida | Risco/limitação | Aplicável ao nosso escopo? |
 |---|---|---|---|---|---|
-| dashboard | {{...}} | {{...}} | {{...}} | {{...}} | sim/não/talvez |
-| relatório | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-| histórico + filtros | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-| administração/CRUD | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-| comparação de resultados | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
+| Dashboard | Ferramentas de IA; Google Forms; Kahoot; Google Classroom | Apresentar uma visão geral das principais informações e resultados | Centraliza informações e facilita a visualização inicial dos resultados por meio de elementos visuais | Pode concentrar muitas informações e dificultar a compreensão se não houver boa organização, hierarquia visual e descrição adequada | Sim |
+| Relatório | Ferramentas de IA; Google Classroom; Kahoot!; Google Forms | Organizar e apresentar os resultados da análise de forma estruturada, permitindo consultar informações com diferentes níveis de detalhamento | Facilita a interpretação dos resultados e o acesso às informações de forma organizada, reunindo e estruturando os dados obtidos | O excesso de informações pode dificultar a localização dos dados mais relevantes | Não |
+| Histórico + filtros | Ferramentas de IA; YouTube | Consultar informações ou interações anteriores e localizar conteúdos específicos | Facilita a recuperação de informações e a localização de conteúdos relevantes | Aumenta a complexidade da interface e pode não ser necessário para o escopo atual | Não |
+| Administração/CRUD | Google Classroom; Google Forms; Ferramentas de IA; Kahoot | Gerenciar usuários, turmas, atividades e conteúdos | Permite organizar e administrar diferentes elementos do sistema | Adiciona funcionalidades que não são essenciais para a análise proposta | Não |
+| Comparação de resultados | Ferramentas de IA | Comparar informações ou resultados obtidos em diferentes análises | Facilita a identificação de diferenças e padrões entre os resultados | Pode gerar uma interface mais complexa quando há muitos resultados ou elementos para comparar | Não |
+| Detalhamento pós-processamento | Ferramentas de IA | Permitir que o usuário consulte detalhes e explicações após a obtenção dos resultados | Permite aprofundar a análise sem sobrecarregar a visualização inicial | O excesso de informações pode dificultar a navegação e a compreensão dos resultados | Sim |
+| Upload | Google Forms; Ferramentas de IA; YouTube; Kahoot | Enviar arquivos, textos ou outras informações para serem processados pelo sistema | Torna a entrada de dados simples e direta para o usuário | É necessário validar o formato, o tamanho e o conteúdo dos dados enviados | Sim |
+
+<!-- VER  DASHBOARD DO GOOGLE CLASSROOM / OLHAR COMPARAR RESULTADOS/ VER TBM PRODUTOS DO DETALHAMENTO -->
+
 
 ## 4. Síntese comparativa da equipe
 
