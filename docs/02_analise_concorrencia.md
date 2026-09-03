@@ -48,8 +48,8 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 **Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 <br>
 **Tipo:** análogo  <br>
-**Link oficial:** [Lucida](https://lucidaexam.com/) <br>
-**Data de acesso:** 27/08/2026
+**Link oficial:** [lucida]()<br>
+**Data de acesso:** 27/08/2026<br>
 
 #### Contexto e proposta
 
@@ -196,21 +196,23 @@ A análise evidencia a necessidade de conhecimento prévio sobre os dados de ent
 
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
 
-<!-- Google Sala de Aula (Classroom)
+Google Sala de Aula (Classroom) para que serve/é utilizada e funcionalidades q dao (não colocar % de uso e tal)
 
-O Google Sala de Aula é uma das principais referências em plataformas de gestão educacional no Brasil. Uma pesquisa da Sociedade Brasileira de Computação (SBC, 2024) apontou que a plataforma é utilizada por 31% dos professores. Durante a pandemia, outro levantamento registrou um crescimento de 8,1% para 82,8% em sua utilização. A ferramenta é amplamente empregada para organização de aulas, disponibilização de materiais, aplicação e correção de atividades.
+Google Sala de Aula (Classroom)
+
+O Google Sala de Aula é uma plataforma de gestão de ensino que centraliza a organização de aulas, materiais, atividades e a comunicação entre professores e alunos. A ferramenta permite a criação de turmas, o compartilhamento de arquivos (como apresentações, documentos e links), a definição de prazos, a aplicação de atividades e trabalhos, e o feedback direto sobre o desempenho dos estudantes. Sua integração com outros recursos do Google (como Drive, Documentos, Planilhas e Meet) torna o fluxo de trabalho mais ágil, permitindo que professores e alunos acessem tudo em um único ambiente.
 
 Influência sobre as expectativas: o Classroom estabeleceu uma referência de centralização, organização e simplicidade. Os professores já estão habituados a encontrar materiais, atividades, prazos e resultados em um único ambiente. Além disso, sua interface limpa e a integração com outras ferramentas Google criam uma expectativa de navegação intuitiva e fluxo de uso simples, fazendo com que plataformas mais complexas ou fragmentadas possam apresentar maior barreira de adoção.
 
 Ferramentas de IA — ChatGPT e Gemini
 
-Uma pesquisa publicada na Revista de Produtos Educacionais e Pesquisas em Ensino (UENP, 2025), realizada com 156 professores da educação básica brasileira, identificou que 82,7% utilizam ferramentas de IA, com destaque para o ChatGPT (82,7%) e o Gemini (32,7%). Os principais usos estão relacionados ao planejamento de aulas (69,9%) e à elaboração de materiais didáticos (71,2%).
+O ChatGPT e o Gemini são exemplos ferramentas de inteligência artificial generativa que auxiliam professores no planejamento, na criação de conteúdos e na automação de tarefas repetitivas. Com elas, é possível gerar planos de aula, elaborar atividades e exercícios, criar roteiros, produzir textos explicativos, formular questões de avaliação e até adaptar materiais para diferentes níveis de aprendizado. Essas ferramentas também permitem simular diálogos, sugerir exemplos práticos e oferecer suporte na correção de produções textuais, agilizando o trabalho docente e ampliando as possibilidades criativas.
 
 Influência sobre as expectativas: a popularização da IA generativa elevou a expectativa por automação e assistência inteligente. Professores passam a valorizar ferramentas capazes de reduzir tarefas repetitivas, sugerir atividades, gerar conteúdos, auxiliar na correção e adaptar materiais. Assim, mesmo plataformas que não tenham a IA como funcionalidade principal podem ser avaliadas pelo público em relação ao quanto economizam tempo e esforço.
 
 Kahoot!
 
-O Kahoot! é uma referência em gamificação e avaliação interativa. No levantamento do IFAL (2025), a ferramenta aparece entre os aplicativos interativos mais mencionados para gamificação, atividades avaliativas, verificação da aprendizagem e revisão de conteúdo. Outro levantamento identificou que 55% dos professores utilizam questionários gamificados, como Kahoot!, Quizizz e Socrative, enquanto um estudo com doutores apontou preferência de 50% pelo Kahoot! para a realização de quizzes.
+O Kahoot! é uma plataforma de gamificação que transforma a revisão de conteúdo e a avaliação em uma experiência interativa e dinâmica. Professores podem criar quizzes, enquetes, jogos de perguntas e respostas e desafios em tempo real, nos quais os alunos participam por meio de dispositivos móveis ou computadores. A ferramenta oferece feedback imediato após cada resposta, exibe rankings de pontuação e permite incluir imagens, vídeos e música para tornar as atividades mais atraentes. É amplamente utilizado para revisão de conteúdos, avaliações formativas e como estratégia de engajamento em sala de aula.
 
 Influência sobre as expectativas: o Kahoot! ajudou a consolidar a percepção de que atividades avaliativas podem ser dinâmicas, visuais e interativas. Dessa forma, elementos como feedback imediato, pontuação, desafios e competição saudável passaram a ser associados a uma experiência de aprendizagem mais envolvente. Para novas ferramentas educacionais, isso cria uma expectativa de que a avaliação não seja apenas funcional, mas também engajadora.
 
@@ -222,10 +224,9 @@ Influência sobre as expectativas: o Forms estabeleceu um padrão de facilidade 
 
 YouTube
 
-O YouTube consolidou-se como um importante recurso complementar ao ensino. A pesquisa da SBC (2024) apontou que 17% dos professores utilizam a plataforma. Estudos também destacam seu uso como apoio ao processo de ensino e aprendizagem, especialmente em disciplinas como Matemática, devido à facilidade de acesso e à utilização de recursos audiovisuais.
+O YouTube é uma plataforma de compartilhamento de vídeos que se tornou um recurso complementar essencial no ensino. Professores utilizam a ferramenta para disponibilizar videoaulas, conteúdos explicativos, documentários, animações e outros materiais audiovisuais que auxiliam na compreensão de conceitos abordados em sala de aula. Além disso, a plataforma permite a criação de playlists organizadas por tema, o compartilhamento de links com os alunos e a utilização de vídeos como ponto de partida para debates, pesquisas e atividades práticas, enriquecendo o repertório didático com diferentes linguagens.
 
 Influência sobre as expectativas: o YouTube contribuiu para estabelecer a expectativa de que conteúdos educacionais podem ser visuais, acessíveis e consumidos de forma rápida e intuitiva. Isso aumenta a valorização de recursos multimídia, como vídeos, imagens e conteúdos interativos, além da possibilidade de complementar materiais tradicionais com diferentes formatos de aprendizagem.
--->
 
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
