@@ -46,9 +46,9 @@ O público-alvo desta análise são docentes, perfil priorizado na Entrega 1. A 
 
 ### Análise C01 — Lucida
 
-**Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 
-**Tipo:** análogo  
-**Link oficial:** [Lucida](https://lucidaexam.com/)
+**Autor(a):** Nuno Martins Guilhrmino da Silva — RA:22.126.099-5 <br>
+**Tipo:** análogo  <br>
+**Link oficial:** [Lucida](https://lucidaexam.com/) <br>
 **Data de acesso:** 27/08/2026
 
 #### Contexto e proposta
