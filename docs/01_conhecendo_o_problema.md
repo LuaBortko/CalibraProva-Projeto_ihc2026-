@@ -400,6 +400,7 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 | Histórico com busca/filtros | não |  | Tem evidência.  |
 | Comparação de resultados | não |  | Tem evidência.  |
 | Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | Não tem evidência no momento.  |
+| Exportar análise | sim | Permite ao docente salvar em seu dispositivo as análises das métricas extraídas pelo sistema | Tem evidência.  |
 | Administração/configurações globais | não |  | Tem evidência.  |
 | Usuários/perfis/permissões | não |  | Tem evidência.  |
 | CRUD de entidade do domínio | não |  | Tem evidência.  |

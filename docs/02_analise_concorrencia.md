@@ -148,7 +148,7 @@ A principal desvantagem é que o arquivo precisa estar num formato específico (
 |**Ponto positivo — Agilidade nas respostas da IA** | A ferramenta processa comandos e gera análises (tabelas, gráficos, estatísticas) em poucos segundos. | Nenhuma, não integraremos nosso sistema com Inteligência Artifical. |
 |**Ponto positivo — Transparência e controle sobre os dados** | O usuário pode ver cada etapa da transformação dos dados e editar o código Python gerado pelas visualizações. | Precisamos garantir a transparência por meio de explicações claras e acessíveis sobre cada métrica apresentada. Isso inclui: descrições do que cada indicador significa, como foi calculado. Podemos usar tooltips, ícones de ajuda, glossário e seções de "como interpretar" no dashboard. Isso fornece ao docente controle interpretativo e reduz o risco de uso incorreto das métricas, já que ele poderá compreender o que está vendo e tomar decisões mais embasadas. |
 |**Ponto positivo — Variedade de visualizações e análises** | A plataforma gera resultados personalizados conforme solicitado à I.A., produzindo múltiplos formatos de visualização: tabelas resumo com médias e desvios; gráficos de distribuição dos parâmetros (boxplots); listas detalhadas de itens com problemas (com motivos: discriminação baixa, acaso elevado, dificuldade extrema); gráficos de barras com distribuição de dificuldade por área; contagens e percentuais de itens por motivo de revisão. Os resultados ficam salvos na aba lateral para consulta posterior. | Propomos um dashboard que organize as métricas extraídas em seções claras e objetivas, garantindo fácil compreensão pelos docentes. A ferramenta poderá conter: tabelas; gráficos variados; lista de itens com alertas, contendo motivos destacados e sugestões de ajuste; e gráficos de barras para distribuição de dificuldade por área.Para facilitar a interpretação, incluiremos tooltips explicativos em cada métrica, um glossário de termos técnicos e ícones de ajuda com recomendações práticas. Também disponibilizaremos botões de exportação (CSV/PDF) para que o docente possa salvar ou compartilhar os resultados. As cores serão usadas estrategicamente(vermelho para parâmetros críticos e verde para adequados). |
-|**Ponto positivo — Custo benefício** | A plataforma oferece plano gratuito generoso e planos pagos a partir de US$ 5/mês, sendo mais acessível que alguns concorrentes  | Nenhuma, nosso sistema será 100% gratuito e disponível para todos|
+|**Ponto positivo — Custo benefício** | A plataforma oferece plano gratuito generoso e planos pagos a partir de US$ 5/mês, sendo mais acessível que alguns concorrentes | Nenhuma, nosso sistema será 100% gratuito e disponível para todos|
 |**Limitação —Formato específico de arquivo para upload** |O upload exige que os arquivos estejam nos formatos CSV ou Excel e sigam uma estrutura específica, o que pode representar uma barreira para usuários menos experientes. Essa exigência pode dificultar ou até impedir o uso da plataforma por alguns docentes que não possuem seus dados organizados nesse formato.| Idealmente, o sistema deveria possibilitar o upload de diferentes tipos de arquivos e formatos de prova, de modo a atender ao maior número possível de usuários. Entretanto, nesta primeira versão, considerando o escopo e as funcionalidades desenvolvidas com base na estrutura das provas do ENEM, o sistema aceitará apenas arquivos em formato PDF que apresentem uma estrutura semelhante à utilizada pelo exame.|
 |**Limitação —Ferramenta em fase de crescimento**  | Plataforma recente (Termos e Condições de junho/2024) e ainda tem pouco tráfego (~2.187 visitas/mês), o que é normal para uma ferramenta nova. Isso indica que o mercado ainda está aberto para soluções focadas em nichos específicos  | Como o Keptune ainda não domina o mercado de análise de itens educacionais, há espaço para uma solução mais especializada e focada, como a nossa, direcionada a docentes do Estado de São Paulo que desejam analisar provas estilo ENEM antes da aplicação. |
 
@@ -196,26 +196,6 @@ A análise evidencia a necessidade de conhecimento prévio sobre os dados de ent
 
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
 
-Google Sala de Aula (Classroom) para que serve/é utilizada e funcionalidades q dao (não colocar % de uso e tal)
-
-Google Sala de Aula (Classroom)
-
-O Google Sala de Aula é uma plataforma de gestão de ensino que centraliza a organização de aulas, materiais, atividades e a comunicação entre professores e alunos. A ferramenta permite a criação de turmas, o compartilhamento de arquivos (como apresentações, documentos e links), a definição de prazos, a aplicação de atividades e trabalhos, e o feedback direto sobre o desempenho dos estudantes. Sua integração com outros recursos do Google (como Drive, Documentos, Planilhas e Meet) torna o fluxo de trabalho mais ágil, permitindo que professores e alunos acessem tudo em um único ambiente.
-
-Influência sobre as expectativas: o Classroom estabeleceu uma referência de centralização, organização e simplicidade. Os professores já estão habituados a encontrar materiais, atividades, prazos e resultados em um único ambiente. Além disso, sua interface limpa e a integração com outras ferramentas Google criam uma expectativa de navegação intuitiva e fluxo de uso simples, fazendo com que plataformas mais complexas ou fragmentadas possam apresentar maior barreira de adoção.
-
-Ferramentas de IA — ChatGPT e Gemini
-
-O ChatGPT e o Gemini são exemplos ferramentas de inteligência artificial generativa que auxiliam professores no planejamento, na criação de conteúdos e na automação de tarefas repetitivas. Com elas, é possível gerar planos de aula, elaborar atividades e exercícios, criar roteiros, produzir textos explicativos, formular questões de avaliação e até adaptar materiais para diferentes níveis de aprendizado. Essas ferramentas também permitem simular diálogos, sugerir exemplos práticos e oferecer suporte na correção de produções textuais, agilizando o trabalho docente e ampliando as possibilidades criativas.
-
-Influência sobre as expectativas: a popularização da IA generativa elevou a expectativa por automação e assistência inteligente. Professores passam a valorizar ferramentas capazes de reduzir tarefas repetitivas, sugerir atividades, gerar conteúdos, auxiliar na correção e adaptar materiais. Assim, mesmo plataformas que não tenham a IA como funcionalidade principal podem ser avaliadas pelo público em relação ao quanto economizam tempo e esforço.
-
-Kahoot!
-
-O Kahoot! é uma plataforma de gamificação que transforma a revisão de conteúdo e a avaliação em uma experiência interativa e dinâmica. Professores podem criar quizzes, enquetes, jogos de perguntas e respostas e desafios em tempo real, nos quais os alunos participam por meio de dispositivos móveis ou computadores. A ferramenta oferece feedback imediato após cada resposta, exibe rankings de pontuação e permite incluir imagens, vídeos e música para tornar as atividades mais atraentes. É amplamente utilizado para revisão de conteúdos, avaliações formativas e como estratégia de engajamento em sala de aula.
-
-Influência sobre as expectativas: o Kahoot! ajudou a consolidar a percepção de que atividades avaliativas podem ser dinâmicas, visuais e interativas. Dessa forma, elementos como feedback imediato, pontuação, desafios e competição saudável passaram a ser associados a uma experiência de aprendizagem mais envolvente. Para novas ferramentas educacionais, isso cria uma expectativa de que a avaliação não seja apenas funcional, mas também engajadora.
-
 Google Forms
 
 O Google Forms é amplamente utilizado para criação e aplicação de questionários e avaliações. A pesquisa do IFAL (2025) o cita entre os recursos digitais utilizados para elaboração de avaliações, listas de exercícios e provas, incluindo recursos de correção automática. Estudos também relatam sua utilização por professores de diferentes disciplinas para aplicação de avaliações e coleta de dados.
@@ -231,7 +211,16 @@ Influência sobre as expectativas: o YouTube contribuiu para estabelecer a expec
 
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{link local}} | {{...}} |
+| Google Sala de Aula (Classroom) | Centraliza aulas, materiais, atividades e comunicação. Cria turmas, compartilha arquivos, define prazos, aplica trabalhos e dá feedback. Integra-se ao Drive, Docs, Planilhas e Meet. | Centralização, simplicidade, navegação intuitiva, integração com ecossistema. | {{link local}} | {{...}} |
+| Ferramentas de IA — ChatGPT | IA generativa para planejamento, criação de conteúdo e automação. Gera planos, atividades, exercícios, roteiros, textos, questões, adapta materiais, simula diálogos, sugere exemplos e auxilia na correção. | Automação, assistência inteligente, redução de tarefas repetitivas. | `assets/02_concorrencia/chatGPT.upload.jpeg`, `assets/02_concorrencia/chatGPT.conversa.jpeg`| {{...}} |
+
+
+
+
+| Kahoot! | Gamificação para revisão e avaliação interativa. Cria quizzes, enquetes, jogos em tempo real. Feedback imediato, rankings, imagens, vídeos e música. Para revisão, avaliação formativa e engajamento.| Feedback imediato, pontuação, competição saudável, elementos lúdicos. | {{link local}} | {{...}} |
+| Google Forms| Criação e aplicação de questionários e avaliações. Elabora provas, listas de exercícios, com correção automática, organização de respostas e análise de resultados. | Simplicidade, correção automática, organização de dados, integração com Planilhas. | {{link local}} | {{...}} |
+| YouTube | Plataforma de vídeos para complementar o ensino. Disponibiliza videoaulas, conteúdos explicativos, documentários, animações. Cria playlists, compartilha links, enriquece o repertório didático com linguagem audiovisual. | Acessibilidade, conteúdo visual, linguagem próxima do aluno. | {{link local}} | {{...}} |
+
 
 ## 3.1 Padrões de interface relevantes ao escopo de IHC
 
