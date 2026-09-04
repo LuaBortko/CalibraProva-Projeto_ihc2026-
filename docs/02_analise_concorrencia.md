@@ -234,28 +234,30 @@ Registre somente padrões encontrados nas soluções analisadas e que possam ter
 | Administração/CRUD | Google Classroom; Google Forms; Ferramentas de IA; Kahoot | Gerenciar usuários, turmas, atividades e conteúdos | Permite organizar e administrar diferentes elementos do sistema | Adiciona funcionalidades que não são essenciais para a análise proposta | Não |
 | Comparação de resultados | Ferramentas de IA | Comparar informações ou resultados obtidos em diferentes análises | Facilita a identificação de diferenças e padrões entre os resultados | Pode gerar uma interface mais complexa quando há muitos resultados ou elementos para comparar | Não |
 | Detalhamento pós-processamento | Ferramentas de IA | Permitir que o usuário consulte detalhes e explicações após a obtenção dos resultados | Permite aprofundar a análise sem sobrecarregar a visualização inicial | O excesso de informações pode dificultar a navegação e a compreensão dos resultados | Sim |
-| Upload | Google Forms; Ferramentas de IA; YouTube; Kahoot | Enviar arquivos, textos ou outras informações para serem processados pelo sistema | Torna a entrada de dados simples e direta para o usuário | É necessário validar o formato, o tamanho e o conteúdo dos dados enviados | Sim |
-
-<!-- VER  DASHBOARD DO GOOGLE CLASSROOM / OLHAR COMPARAR RESULTADOS/ VER TBM PRODUTOS DO DETALHAMENTO -->
-
+| Upload | Google Forms; Ferramentas de IA; YouTube; Kahoot; Google Classroom | Enviar arquivos, textos ou outras informações para serem processados pelo sistema | Torna a entrada de dados simples e direta para o usuário | É necessário validar o formato, o tamanho e o conteúdo dos dados enviados | Sim |
 
 ## 4. Síntese comparativa da equipe
 
 | Critério | C01 | C02 | C03 | Oportunidade para o projeto |
 |---|---|---|---|---|
-| Navegação |  |  |  |  |
-| Feedback/estado |  |  |  |  |
-| Prevenção/recuperação de erro |  |  |  |  |
-| Terminologia |  |  |  |  |
-| Acessibilidade |  |  |  |  |
-| Eficiência |  |  |  |  |
+| Dashboard | X | X | - | Julgamos adequado adotá-lo no projeto, utilizando diferentes recursos de visualização, como gráficos, cores, indicadores e legendas, para facilitar a identificação de padrões e diferenças entre as métricas. Deve-se, entretanto, manter uma hierarquia visual adequada para evitar excesso de informações. |
+| Descrição de como funciona | - | X | - | Achamos relevante adotar o padrão visto em C02, principalmente porque as métricas utilizadas no projeto podem exigir conhecimento prévio para serem interpretadas. As explicações devem ser apresentadas de forma objetiva, sem sobrecarregar a interface principal. |
+| Upload de arquivos | X | X | X | Consideramos adequado seguir o padrão dos produtos analisados, adaptando-o ao contexto do projeto para tornar o envio da prova simples e reduzir a necessidade de configurações técnicas por parte do docente. |
+| Exportação / download dos resultados | - | - | X | Embora não pretendamos reproduzir necessariamente o formato de relatório (como é apresentado no C03), consideramos relevante oferecer uma forma de exportar as métricas apresentadas no dashboard, permitindo seu uso e consulta fora da ferramenta. |
 
 ## 5. Recomendações derivadas
 
 Liste recomendações com origem explícita.
 
-- **RC01:** {{recomendação}} — derivada de {{C01/C02/evidência}}.
-- **RC02:** {{...}}
+- **RC01:** Utilizar diferentes recursos visuais, como gráficos, indicadores, cores e legendas, para apresentar as métricas e facilitar a identificação e interpretação dos resultados — derivada de **C01 e C02**.
+
+- **RC02:** Desenvolver uma etapa de upload simples e clara, com orientações sobre o arquivo esperado e as informações necessárias para a análise — derivada de **C01, C02 e C03**.
+
+- **RC03:** Disponibilizar explicações sobre o funcionamento da análise, o significado das métricas e a forma como os resultados foram obtidos, permitindo que o usuário compreenda melhor as informações apresentadas — derivada de **C02**.
+
+- **RC04:** Permitir a exportação ou o download das métricas e resultados apresentados no dashboard, possibilitando que o usuário armazene e consulte os resultados posteriormente — derivada de **C03**.
+
+- **RC05:** Desenvolver uma interface simples, organizada e intuitiva, priorizando a visibilidade das informações relevantes e evitando o excesso de elementos na apresentação dos resultados — derivada das **observações da equipe durante a análise das soluções C01, C02 e C03**.
 
 ## Referências
 <!--{{fontes dos produtos, avaliações e literatura}} -->
