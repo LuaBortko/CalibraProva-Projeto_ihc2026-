@@ -78,7 +78,7 @@ Também é possível perceber o uso de IAs para auxiliar docentes a facilitarem 
 | Ponto | Evidência | Implicação para nosso projeto |
 |---|---|---|
 |**Ponto positivo — Interface amigável** | A interface é simples de utilizar, com instruções claras sobre o que o usuário deve fazer para poder ter o melhor uso da plataforma, além de não precisar de conhecimentos de programação ou de informática. | Uma plataforma amigável para pessoas com menor letramento digital |
-|**Limitação — Customização Limitada** | As avaliações que podem ser avaliadas pela plataforma são feitas apenas em provas criadas pela plataforma e scanea apenas folhas de respostas geradas também pela ferramenta. Enquanto o professor pode editar os resultados dados pela IA, não pode inserir questões criadas anteriormente ou | {{...}} |
+|**Limitação — Customização Limitada** | As avaliações que podem ser avaliadas pela plataforma são feitas apenas em provas criadas pela plataforma e scanea apenas folhas de respostas geradas também pela ferramenta. Enquanto o professor pode editar os resultados dados pela IA, não pode inserir questões criadas anteriormente ou | Não séra um problema pois o usuário poderá fazer o upload a prova de sua escolha na plataforma |
 |**Ponto Positivo — Variedade de métricas** | A ferramenta disponibiliza várias métricas para auxiliar o professor a se adaptar de acordo com as dificuldades de cada turma, oferencendo dificuldade e fator discriminatório, além de análise de distratores efetivos, questões fracas e comparação entre aluno e a turma completa.  | Oferecer métricas relevantes para melhorar a formulação de provas.|
 
 
@@ -269,6 +269,16 @@ Liste recomendações com origem explícita.
 
 - LIMA, A. P. et al. This diversity of perspectives, previous experiences, and the rate of non-use of DTRs in face-to-face education. Revista Brasileira de Informática na Educação (RBIE), Porto Alegre, v. 32, p. 533–567, 2024. DOI: https://doi.org/10.5753/rbie.2024.3894. Disponível em: https://journals-sol.sbc.org.br/index.php/rbie/article/download/3894/2971/22967. Acesso em: 2 set. 2026.
 
+- Lucida — Crie atividades com IA em segundos. Disponível em: <https://lucidaexam.com/>. Acesso em: 6 set.. 2026.
+
+- GRUETZMACHER, Felipe. UX Writing acessível: como guiar pessoas sem barreiras. Disponível em: <https://www.pertodigital.com.br/blog/ux-writing-acessivel-como-guiar-pessoas-sem-barreiras>. Acesso em: 6 set.. 2026.
+
+- GORDON, Kelley. Visual Hierarchy in UX: Definition. Disponível em: <https://www.nngroup.com/articles/visual-hierarchy-ux-definition/?lm=why-does-a-design-look-good-part2&pt=article>. Acesso em: 6 set.. 2026.
+
+- GORDON, Kelley. 5 Principles of Visual Design in UX. Disponível em: <https://www.nngroup.com/articles/principles-visual-design/?lm=screen-resolution-and-page-layout&pt=article>. Acesso em: 6 set.. 2026.
+
+
+
 
 ## Checklist
 
@@ -280,6 +290,6 @@ Liste recomendações com origem explícita.
 - [X] Foram analisados concorrentes e/ou interfaces representativas ao público.
 - [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
 - [X] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
-- [ ] Opiniões de UX têm fonte.
+- [X] Opiniões de UX têm fonte.
 - [X] A síntese compara critérios comuns e produz recomendações.
 - [X] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
