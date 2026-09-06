@@ -196,23 +196,13 @@ A análise evidencia a necessidade de conhecimento prévio sobre os dados de ent
 
 Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
 
-Google Forms
-
-O Google Forms é amplamente utilizado para criação e aplicação de questionários e avaliações. A pesquisa do IFAL (2025) o cita entre os recursos digitais utilizados para elaboração de avaliações, listas de exercícios e provas, incluindo recursos de correção automática. Estudos também relatam sua utilização por professores de diferentes disciplinas para aplicação de avaliações e coleta de dados.
-
-Influência sobre as expectativas: o Forms estabeleceu um padrão de facilidade e rapidez na criação de avaliações. Os professores passaram a esperar recursos como criação simplificada de formulários, correção automática, organização das respostas e possibilidade de análise dos resultados. Dessa forma, funcionalidades que antes poderiam ser consideradas diferenciais passam a ser percebidas como requisitos básicos de usabilidade.
-
-YouTube
-
-O YouTube é uma plataforma de compartilhamento de vídeos que se tornou um recurso complementar essencial no ensino. Professores utilizam a ferramenta para disponibilizar videoaulas, conteúdos explicativos, documentários, animações e outros materiais audiovisuais que auxiliam na compreensão de conceitos abordados em sala de aula. Além disso, a plataforma permite a criação de playlists organizadas por tema, o compartilhamento de links com os alunos e a utilização de vídeos como ponto de partida para debates, pesquisas e atividades práticas, enriquecendo o repertório didático com diferentes linguagens.
-
-Influência sobre as expectativas: o YouTube contribuiu para estabelecer a expectativa de que conteúdos educacionais podem ser visuais, acessíveis e consumidos de forma rápida e intuitiva. Isso aumenta a valorização de recursos multimídia, como vídeos, imagens e conteúdos interativos, além da possibilidade de complementar materiais tradicionais com diferentes formatos de aprendizagem.
-
-
 | Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
 |---|---|---|---|---|
-| Google Sala de Aula (Classroom) | Centraliza aulas, materiais, atividades e comunicação. Cria turmas, compartilha arquivos, define prazos, aplica trabalhos e dá feedback. Integra-se ao Drive, Docs, Planilhas e Meet. | Centralização, simplicidade, navegação intuitiva, integração com ecossistema. |`assets/02_concorrencia/googleClassroom-inicio.jpeg`, | integrações facilitam usabilidade, plataforma apenas com informaões necessárias nas respectivas etapas(Interface limpa) |
-googleClassroom-inicio <!--VER TUTORIAL PASSO A PASSO E PEGAR PRINTS DE LA>
+| Google Sala de Aula (Classroom) | Centraliza aulas, materiais, atividades e comunicação. Cria turmas, compartilha arquivos, define prazos, aplica trabalhos e dá feedback. Integra-se ao Drive, Docs, Planilhas e Meet. | Centralização, simplicidade, navegação intuitiva, integração com ecossistema. |`assets/02_concorrencia/googleClassroo
+m-inicio.jpeg`, `assets/02_concorrencia/googleClassroo
+m-muralAvisos.jpeg`,`assets/02_concorrencia/googleClassroo
+m-criarAtividade.jpeg`| integrações facilitam usabilidade, plataforma apenas com informaões necessárias nas respectivas etapas(Interface limpa) |
+googleClassroom-inicio 
 
 | Ferramentas de IA — ChatGPT | IA generativa para planejamento, criação de conteúdo e automação. Gera planos, atividades, exercícios, roteiros, textos, questões, adapta materiais, simula diálogos, sugere exemplos e auxilia na correção. | Automação, assistência inteligente, redução de tarefas repetitivas. |`assets/02_concorrencia/chatGPT.upload.jpeg`, `assets/02_concorrencia/chatGPT.conversa.jpeg`| valorização ferramentas que economizam tempo e personalizam conteúdos |
 | Kahoot! | Gamificação para revisão e avaliação interativa. Cria quizzes, enquetes, jogos em tempo real. Feedback imediato, rankings, imagens, vídeos e música. Para revisão, avaliação formativa e engajamento.| Feedback imediato, pontuação, competição saudável, elementos lúdicos. | `assets/02_concorrencia/kahoot-criar.jpeg`,`assets/02_concorrencia/kahoot-inicio.jpeg`,`assets/02_concorrencia/kahoot-relatorio.jpeg`,`assets/02_concorrencia/kahoot-relatorio2.jpeg`, `assets/02_concorrencia/kahoot-criacao.jpeg`, `assets/02_concorrencia/kahoot-criacao2.jpeg`,| Avaliação pode ser dinâmica e engajadora; não apenas funcional, dashboard com reusltados facilita compreensão geral|
