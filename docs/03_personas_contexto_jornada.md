@@ -59,7 +59,59 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 - {{...}}
 
-> Repita para P02, P03... Cada integrante deve produzir ao menos uma persona.
+### Persona P02 — {{nome fictício}}
+
+**Autor(a):** {{nome — matrícula}}  
+**Tipo:** primária / secundária  
+**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação  
+**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}
+
+![Persona P02](../assets/03_personas/persona_p01.svg)
+
+| Campo | Descrição |
+|---|---|
+| Faixa etária / contexto relevante | {{somente o que impacta o uso}} |
+| Ocupação/papel | {{...}} |
+| Conhecimento do domínio | {{...}} |
+| Experiência tecnológica | {{...}} |
+| Objetivos | {{...}} |
+| Necessidades | {{...}} |
+| Dores/frustrações | {{...}} |
+| Motivadores | {{...}} |
+| Restrições/acessibilidade | {{...}} |
+| Ambiente típico de uso | {{...}} |
+| Comportamentos relevantes | {{...}} |
+
+**Decisões de design influenciadas por P02:**
+
+- {{...}}
+
+### Persona P03 — {{nome fictício}}
+
+**Autor(a):** {{nome — matrícula}}  
+**Tipo:** primária / secundária  
+**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação  
+**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}
+
+![Persona P03](../assets/03_personas/persona_p01.svg)
+
+| Campo | Descrição |
+|---|---|
+| Faixa etária / contexto relevante | {{somente o que impacta o uso}} |
+| Ocupação/papel | {{...}} |
+| Conhecimento do domínio | {{...}} |
+| Experiência tecnológica | {{...}} |
+| Objetivos | {{...}} |
+| Necessidades | {{...}} |
+| Dores/frustrações | {{...}} |
+| Motivadores | {{...}} |
+| Restrições/acessibilidade | {{...}} |
+| Ambiente típico de uso | {{...}} |
+| Comportamentos relevantes | {{...}} |
+
+**Decisões de design influenciadas por P03:**
+
+- {{...}}
 
 ### Síntese das personas
 
