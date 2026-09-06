@@ -1,7 +1,7 @@
 # Entrega 2 — Público-alvo e análise de concorrência
 
 *Data:* 26/10/2026 <br>
-*Status:* 🟨 em andamento <br>
+*Status:* 🟩 Concluida <br>
 *Responsabilidade mínima:* cada integrante analisa pelo menos 1 concorrente/interface representativa; a equipe produz síntese comparativa. <br>
 
 ## Objetivo da atividade
@@ -272,14 +272,14 @@ Liste recomendações com origem explícita.
 
 ## Checklist
 
-- [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
-- [ ] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
-- [ ] Há pelo menos uma análise completa por integrante.
-- [ ] Cada análise contém prints legíveis da interface.
-- [ ] Prints mostram telas/estados relevantes, não apenas logos/homepage.
-- [ ] Foram analisados concorrentes e/ou interfaces representativas ao público.
+- [X] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
+- [X] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
+- [X] Há pelo menos uma análise completa por integrante.
+- [X] Cada análise contém prints legíveis da interface.
+- [X] Prints mostram telas/estados relevantes, não apenas logos/homepage.
+- [X] Foram analisados concorrentes e/ou interfaces representativas ao público.
 - [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
-- [ ] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
+- [X] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
 - [ ] Opiniões de UX têm fonte.
-- [ ] A síntese compara critérios comuns e produz recomendações.
-- [ ] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
+- [X] A síntese compara critérios comuns e produz recomendações.
+- [X] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.

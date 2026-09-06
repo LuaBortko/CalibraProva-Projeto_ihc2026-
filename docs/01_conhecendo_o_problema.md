@@ -197,7 +197,9 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
-[F] O docente precisa interpretar as métricas e características estruturais identificadas na prova, como tempo médio, quantidade de palavras, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, além da relação dessas características com o desempenho observada no ENEM. A partir dessas informações, poderá identificar quais características apresentam maior influência sobre o desempenho e decidir quais aspectos da avaliação devem ser ajustados, buscando reduzir a interferência do formato da prova para que o resultado reflita principalmente os conhecimentos e competências avaliados.
+[F] O docente precisa interpretar as métricas e características estruturais identificadas na prova, como tempo médio, quantidade de palavras, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, além da relação dessas características com o desempenho observado no ENEM. A partir dessas informações, poderá identificar quais características apresentam maior influência sobre o desempenho e decidir quais aspectos da avaliação devem ser ajustados, buscando reduzir a interferência do formato da prova para que o resultado reflita principalmente os conhecimentos e competências avaliados.
+
+Para auxiliar nessa interpretação, o docente poderá utilizar a ferramenta de detalhamento, que permite compreender como cada métrica foi calculada e quais elementos da prova contribuíram para o resultado apresentado. Dessa forma, poderá analisar os dados de maneira mais precisa, identificar possíveis fatores que estejam influenciando o desempenho dos estudantes e tomar decisões mais fundamentadas sobre quais aspectos da avaliação devem ser mantidos ou ajustados.
 
 ## 4.4 O que acontece quando a atividade falha ou quando o resultado é interpretado incorretamente?
 
@@ -427,6 +429,7 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 | F01 | Fazer upload de prova múltipla escolha em pdf | Ter um material para a análise | alta |
 | F02 | Fazer a inserção de dados da prova para análise | Sistema conhecer os parâmetros da prova | alta |
 | F03 | Analisar as métricas extraídas a partir da prova(visualização gráfica, indicadores quantitativos, análise de correlação entre variáveis estruturais e desempenho) | Avaliação do possível impacto do formato da prova no desempenho dos alunos | alta |
+| F04 | Observar o detalhamento das métricas para compreender como cada métrica foi calculada e quais elementos da prova contribuíram para o resultado apresentado | Avaliação do possível impacto do formato da prova no desempenho dos alunos | alta |
 
 <!--| F01 | {{ação}} | {{objetivo}} | alta/média/baixa | -->
 
