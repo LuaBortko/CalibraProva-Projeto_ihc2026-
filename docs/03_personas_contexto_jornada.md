@@ -131,11 +131,26 @@ Explique diferenças entre os perfis e qual persona é prioritária. Evite perso
 ## 2. Mapa de empatia — equipe
 <!-- Mulher branca entre 46/47 anos  de são paulo, casada escola publica --> 
 **Persona escolhida:** P01<br>
-**Justificativa:** A persona do professor de escola foi escolhida como principal por estar mais alinhada ao público-alvo do TCC. Como o projeto investiga a relação entre o formato das questões do ENEM e o desempenho dos estudantes, esse perfil possui contato mais direto com alunos que se preparam para esse exame e pode utilizar os resultados da ferramenta como apoio em sua prática pedagógica. As demais personas também são relevantes, mas possuem uma relação menos direta com o contexto central do projeto.
+**Justificativa:** A persona da professora que da aula em uma escola foi escolhida como principal por estar mais alinhada ao público-alvo do TCC. Como o projeto investiga a relação entre o formato das questões do ENEM e o desempenho dos estudantes, esse perfil possui contato mais direto com alunos que se preparam para esse exame e pode utilizar os resultados da ferramenta como apoio em sua prática pedagógica. As demais personas também são relevantes, mas possuem uma relação menos direta com o contexto central do projeto.
 
 ![Mapa de empatia](../assets/03_personas/mapa_empatia.png)
 
 Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos. Diferencie **evidência** de **hipótese**.
+ 
+**O que vê**
+[H] Maria observa um ambiente educacional marcado por diferentes desafios. Percebe professores que precisam conciliar múltiplos empregos e coordenadores pedagógicos cada vez mais exigentes em relação aos resultados. Também observa a desvalorização da profissão docente e colegas frustrados com as formas tradicionais de ensinar e avaliar. Em seu cotidiano, presencia alunos desinteressados pelas aulas, com dificuldades para realizar atividades e, em alguns casos, utilizando ferramentas de inteligência artificial em substituição ao processo de aprendizagem. Além disso, percebe pessoas próximas priorizando o trabalho em detrimento da vida pessoal, o que reforça sua preocupação com o equilíbrio entre carreira e família.
+
+**Ouve**
+[H]Maria mantém contato frequente com conteúdos e pessoas relacionados à educação. Acompanha pesquisas acadêmicas e conteúdos sobre educação inclusiva, além de interagir com uma comunidade de professores no YouTube. É influenciada por ideias de Paulo Freire e por histórias de mulheres que considera inspiradoras, como Maria da Penha e Elza Soares, além de reconhecer sua mãe como uma referência de resiliência. No cotidiano, também utiliza ferramentas digitais, como PowerPoint para preparar aulas e ChatGPT para auxiliar na correção de textos, e gosta de ouvir podcasts. Busca ainda informações sobre atualidades e temas relacionados à sua área de atuação.
+
+**Diz/Faz**
+[H]Maria demonstra orgulho de seu trabalho e costuma falar sobre seu amor pela leitura e sobre as dificuldades enfrentadas na profissão docente. Busca manter-se informada sobre assuntos da atualidade e lê artigos e pesquisas relacionados à sua área. Procura agir em prol da inclusão social e demonstra preocupação com grupos marginalizados. Em seu tempo livre, gosta de assistir a séries, viajar com a família e tricotar roupas para si mesma e para suas gatas. Também utiliza ferramentas tecnológicas para auxiliar em atividades profissionais e busca incorporar novos recursos à sua rotina.
+
+**Dores**
+[H]Entre suas principais dificuldades estão a criação de aulas capazes de manter a atenção dos alunos e a elaboração de avaliações que representem adequadamente seus conhecimentos. Também enfrenta desafios para tornar suas aulas mais inclusivas. A necessidade de cumprir prazos e lidar com uma rotina extensa de preparação de aulas, elaboração e correção de avaliações contribui para sua sobrecarga. Além disso, preocupa-se com a segurança no ambiente escolar, com a conciliação entre trabalho e família e com a possibilidade de seus alunos não aprenderem adequadamente o conteúdo trabalhado.
+
+**Ganhos**
+[H]Maria busca melhorar continuamente sua prática profissional, oferecendo aulas mais interessantes, inclusivas e relevantes. Deseja ter ferramentas que facilitem seu trabalho e permitam compreender melhor as dificuldades e o desempenho de seus alunos. Também valoriza a possibilidade de manter seus conhecimentos atualizados e utilizar novas tecnologias de maneira produtiva. No âmbito pessoal, busca estabilidade financeira, maior equilíbrio entre vida profissional e familiar e, futuramente, condições para se aposentar e dedicar mais tempo à família e ao lazer.
 
 ## 3. Contexto de uso — consolidação
 
