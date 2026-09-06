@@ -42,10 +42,10 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P01 — Antenor da Costa Silva
 <!-- Presencial e Escola -->
-**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9  
-**Tipo:** primário  
-**Base de evidências:** Proto-persona a validar
-**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04
+**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9<br>  
+**Tipo:** primário  <br>
+**Base de evidências:** Proto-persona a validar<br>
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br>
 
 ![Persona P01](../assets/03_personas/persona_p01.svg)
 
@@ -69,10 +69,10 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P02 — {{nome fictício}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** primária / secundária  
-**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação  
-**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}
+**Autor(a):** {{nome — matrícula}} <br> 
+**Tipo:** primária / secundária  <br>
+**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação <br> 
+**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}<br>
 
 ![Persona P02](../assets/03_personas/persona_p01.svg)
 
@@ -96,10 +96,10 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P03 — {{nome fictício}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** primária / secundária  
-**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação  
-**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}
+**Autor(a):** {{nome — matrícula}}  <br>
+**Tipo:** primária / secundária  <br>
+**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação <br> 
+**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}<br>
 
 ![Persona P03](../assets/03_personas/persona_p01.svg)
 
@@ -126,7 +126,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 Explique diferenças entre os perfis e qual persona é prioritária. Evite personas duplicadas que só mudam nome/foto.
 
 ## 2. Mapa de empatia — equipe
-
+<!-- Mulher branca entre 46/47 anos  de são paulo, casada escola publica --> 
 **Persona escolhida:** {{P01}}  
 **Justificativa:** {{por que esse perfil é relevante}}
 
