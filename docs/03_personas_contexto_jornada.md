@@ -97,32 +97,32 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 - *Explicações integradas e acessíveis*: João valoriza o entendimento profundo e busca melhorar continuamente suas práticas. Ele precisa compreender o que cada métrica significa e como se relaciona com o desempenho, para ajustar suas provas de forma fundamentada.
 - *Interface limpa:* João tem alta experiência tecnológica, mas enfrenta forte cobrança e dificuldade em conciliar demandas. Ele não quer perder tempo navegando em interfaces confusas. Além disso, ele valoriza a clareza para focar no que é essencial.
 
-### Persona P03 — {{nome fictício}}
+### Persona P03 — Vera Coelho 
 
-**Autor(a):** {{nome — matrícula}}  <br>
-**Tipo:** primária / secundária  <br>
-**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação <br> 
-**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}<br>
+**Autor(a):** Nuno Martins Guilhermino da Silva - 22.126.099-5  <br>
+**Tipo:** Primária <br>
+**Base de evidências:** Observação <br> 
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
 
-![Persona P03](../assets/03_personas/persona_p01.svg)
+![Persona P03](../assets/03_personas/personaP03Foto.jpg)
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | {{somente o que impacta o uso}} |
-| Ocupação/papel | {{...}} |
-| Conhecimento do domínio | {{...}} |
-| Experiência tecnológica | {{...}} |
-| Objetivos | {{...}} |
-| Necessidades | {{...}} |
-| Dores/frustrações | {{...}} |
-| Motivadores | {{...}} |
-| Restrições/acessibilidade | {{...}} |
-| Ambiente típico de uso | {{...}} |
-| Comportamentos relevantes | {{...}} |
+| Faixa etária / contexto relevante | 32 anos. Professora de inglês em uma escola online de línguas|
+| Ocupação/papel | É professora de inglês à distância, trabalhando em uma escolinha de línguas.  |
+| Conhecimento do domínio | Possui conhecimento intermediário/avançado sobre ensino de língua inglesa e experiência prática na elaboração e aplicação de avaliações, mas não necessariamente possui conhecimento especializado em análise estatística de itens. |
+| Experiência tecnológica | Utiliza computadores e plataformas digitais regularmente para ministrar aulas, preparar materiais e acompanhar alunos. Possui familiaridade com ferramentas como Microsoft Office e plataformas de ensino a distância, mas pode não estar familiarizada com ferramentas especializadas de análise de avaliações. |
+| Objetivos | Seu maior objetivo como profissional é que seus alunos saiam de suas aulas se sentindo mais confiantes em suas habilidades e preparados para lidarem com usos da língua inglesa em situações reais de forma autônoma.|
+| Necessidades | Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade. |
+| Dores/frustrações | Ela se sente frustrada quando a energia na qual lhe é dada em sala de aula não se traduz em um ambiente de avaliação. Tem dificuldade para determinar se o baixo desempenho dos alunos representa uma dificuldade real no conteúdo ou se é um resultado de um trabalho mal-feito, a deixando insegura sobre a sua qualidade como educadora e a segurança do seu emprego. |
+| Motivadores | Seu maior motivador é poder ver em tempo real os resultados dos seus esforços transparecendo em seus alunos, além de ver-los engajando com suas aulas. Outro lado deste engajamento que a motiva é a qualidade resultar em manter o seu emprego. |
+| Restrições/acessibilidade | Não apresenta necessidades específicas de acessibilidade identificadas. Possui boa conexão com a internet e letramento digital suficiente para utilizar plataformas educacionais.| 
+| Ambiente típico de uso | Ela faz todas as suas atividades de docência, incluindo planejamento e formulação de atividades do seu escritório em sua casa, utilizando o seu computador pessoal. |
+| Comportamentos relevantes | Costuma elaborar e revisar avaliações entre outras atividades profissionais, buscando reutilizar ou adaptar questões de avaliações anteriores. Consulta materiais e ferramentas digitais para preparar suas aulas e avaliações. Após uma prova, acompanha o desempenho individual dos alunos para identificar conteúdos que precisam ser reforçados.  |
 
 **Decisões de design influenciadas por P03:**
 
-- {{...}}
+Como ela possui conhecimento limitado sobre métricas de avaliação, as métricas devem ser apresentadas de forma clara, contextualizada e acompanhadas de explicações que facilitem sua interpretação. Isso reduz a necessidade de conhecimento estatístico prévio e permite que a professora utilize os resultados para avaliar a qualidade das questões e o desempenho dos alunos.
 
 ### Síntese das personas
 
