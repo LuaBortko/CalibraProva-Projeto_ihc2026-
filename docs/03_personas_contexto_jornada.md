@@ -1,7 +1,7 @@
 # Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada
 
-**Data:** {{03/09/2026}}  
-**Status:** 🟨  em andamento
+**Data:** {{03/09/2026}}<br>  
+**Status:** 🟨  em andamento <br>
 **Responsabilidade:** 1 persona por integrante; 1 mapa de empatia, 1 contexto de uso consolidado e 1 jornada por equipe (salvo orientação diferente do docente).
 
 ## Objetivo da atividade
@@ -42,7 +42,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P01 — Maria da Costa Silva
 
-**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9<br>  
+**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9  
 **Tipo:** primário<br>
 **Base de evidências:** Proto-persona a validar<br>
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br>
@@ -54,11 +54,11 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 | Faixa etária / contexto relevante | 46 anos, professora da educação básica, atuando no ensino médio de uma escola pública do estado de São Paulo. |
 | Ocupação/papel | Professora de Literatura do ensino médio |
 | Conhecimento do domínio | Possui conhecimento sobre práticas pedagógicas, avaliação e preparação de estudantes do ensino médio. Tem familiaridade com o contexto do ENEM e com as dificuldades apresentadas pelos alunos na interpretação e resolução de questões. |
-| Experiência tecnológica | Possui experiência básica a intermediária com ferramentas digitais utilizadas no ambiente escolar, como computadores, plataformas educacionais e editores de documentos. |
-| Objetivos | Conseguir impactar a vida de seus estudantes, com aulas engajantes; Ter estabilidade financeira e profissional; Conseguir mais tempo com a família |
+| Experiência tecnológica | Possui experiência básica a intermediária com ferramentas digitais utilizadas no ambiente escolar, como computadores, plataformas educacionais e editores de documentos. Também tem experiência no uso de ferramentas de IA, para auxilio na correção de textos |
+| Objetivos | Conseguir impactar a vida de seus estudantes, com aulas engajantes; Ter estabilidade financeira e profissional; Conseguir mais tempo com a família; Queria ter um maior impacto social por meio do conhecimento e ações sociais |
 | Necessidades | Necessita manter seus conhecimentos atualizados, especialmente em relação a novas tecnologias, e contar com recursos que auxiliem no planejamento de aulas interessantes e relevantes. Também valoriza um bom relacionamento com os alunos e busca formas de contribuir para seu desenvolvimento por meio da educação. |
-| Dores/frustrações | Sente dificuldade em criar aulas capazes de manter a atenção dos alunos e em elaborar avaliações que representem adequadamente seus conhecimentos. Também enfrenta desafios para tornar suas aulas mais inclusivas, além da pressão para cumprir suas obrigações dentro dos prazos. A rotina de trabalho pode dificultar a conciliação entre vida profissional e familiar. |
-| Motivadores | Busca melhorar continuamente sua prática como professora e oferecer aulas mais interessantes e engajantes para seus alunos. Se sente motivada por soluções que facilitem seu trabalho e permitam realizar essas atividades de forma mais eficiente. |
+| Dores/frustrações | Sente dificuldade em criar aulas capazes de manter a atenção dos estudantes e em elaborar avaliações que representem adequadamente seus conhecimentos, tendo medo que seus alunos não consigam absorver corretamente o conteúdo dado em suas aulas. Também enfrenta desafios para tornar suas aulas mais inclusivas, além da pressão para cumprir suas obrigações dentro dos prazos. A rotina de trabalho pode dificultar a conciliação entre vida profissional e familiar. |
+| Motivadores | Busca melhorar continuamente sua prática como professora e oferecer aulas mais interessantes e engajantes para seus alunos. Sente-se motivada por soluções que facilitem seu trabalho e permitam realizar suas atividades de forma mais eficiente, além de valorizar a inclusão social e a redução das desigualdades enfrentadas por grupos marginalizados. |
 | Restrições/acessibilidade | Possui tempo limitado para análises devido à rotina de trabalho. Tem um conhecimento básico/intermediário de técnologia e pouco conhecimento de métricas de estátistica |
 | Ambiente típico de uso | Escola pública, sala dos professores ou sala de aula, utilizando computador ou notebook. |
 | Comportamentos relevantes | Costuma buscar informações que possam auxiliar no planejamento das aulas e na preparação dos alunos para avaliações. Prefere resultados objetivos e visualizações que permitam identificar rapidamente padrões e possíveis relações entre as características das questões e o desempenho. |
