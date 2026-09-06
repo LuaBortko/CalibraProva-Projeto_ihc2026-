@@ -28,16 +28,24 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 | Item da Entrega 1 | Status inicial | Evidência disponível agora | Como será tratado nesta entrega |
 |---|---|---|---|
-| {{usuário/objetivo/característica/H01...}} | F / H / ? | {{...}} | incorporar / manter como hipótese / descartar / investigar |
+| Docentes/elaboradores de provas como usuários diretos | F | A Entrega 1 identifica docentes/elaboradores de provas como os usuários que interagem diretamente com o produto. | Incorporar |
+| Docente do Estado de São Paulo como perfil priorizado | F | O recorte do TCC utiliza dados do ENEM referentes ao Estado de São Paulo, e a Entrega 1 definiu esse perfil como prioritário para a interface. | Incorporar |
+| Necessidade de conhecimento tecnológico para utilizar a ferramenta | H04 | A Entrega 1 registra essa característica como hipótese, sem evidência suficiente para afirmar o nível de conhecimento tecnológico do público. | Manter como hipótese e investigar |
+| Uso da ferramenta durante a elaboração de avaliações | H04 | A Entrega 1 relaciona o uso à aplicação/elaboração de avaliações, mas não apresenta evidência sobre a frequência ou o momento exato de uso. | Manter como hipótese e investigar |
+| Aprimorar as avaliações para que representem melhor o desempenho dos estudantes | H03 | Registrado como objetivo esperado na Entrega 1, mas ainda como hipótese quanto ao benefício efetivamente percebido pelo usuário. | Manter como hipótese e investigar |
+| Docente precisa interpretar métricas sobre características estruturais das provas | F | A Entrega 1 identifica as métricas e características estruturais que precisam ser interpretadas para apoiar decisões sobre a avaliação. | Incorporar |
+| Docente possui dificuldade para identificar possíveis efeitos das características estruturais da prova | F | Atualmente essa análise depende principalmente do conhecimento, experiência e repertório do próprio docente. | Incorporar |
+| Alunos são afetados pelos resultados da ferramenta | H | A Entrega 1 identifica os alunos como stakeholders afetados, mas não como usuários diretos da interface. | Manter como hipótese e não representar como usuário da persona |
+| Resultados da análise podem fornecer subsídios para docentes/elaboradores avaliarem características estruturais das provas e ajustarem sua dificuldade | H02 | A Entrega 1 apresenta essa possibilidade como uma contribuição do projeto, mas ainda não há evidência de que os usuários realmente utilizariam essas informações dessa forma. | Manter como hipótese e investigar |
 
 ## 1. Personas
 
-### Persona P01 — {{nome fictício}}
-
-**Autor(a):** {{nome — matrícula}}  
-**Tipo:** primária / secundária  
-**Base de evidências:** entrevista / questionário / literatura / observação / proto-persona a validar / combinação  
-**Hipóteses da Entrega 1 relacionadas:** {{H01, H02 ou —}}
+### Persona P01 — Antenor da Costa Silva
+<!-- Presencial e Escola -->
+**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9  
+**Tipo:** primário  
+**Base de evidências:** Proto-persona a validar
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04
 
 ![Persona P01](../assets/03_personas/persona_p01.svg)
 
