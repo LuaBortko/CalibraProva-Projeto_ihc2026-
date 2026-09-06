@@ -40,32 +40,32 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ## 1. Personas
 
-### Persona P01 — Antenor da Costa Silva
-<!-- Presencial e Escola -->
+### Persona P01 — Maria da Costa Silva
+
 **Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9<br>  
-**Tipo:** primário  <br>
+**Tipo:** primário<br>
 **Base de evidências:** Proto-persona a validar<br>
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br>
 
-![Persona P01](../assets/03_personas/persona_p01.svg)
+![Persona P01](../assets/03_personas/persona_p01.jpg)
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | {{somente o que impacta o uso}} |
-| Ocupação/papel | {{...}} |
-| Conhecimento do domínio | {{...}} |
-| Experiência tecnológica | {{...}} |
-| Objetivos | {{...}} |
-| Necessidades | {{...}} |
-| Dores/frustrações | {{...}} |
-| Motivadores | {{...}} |
-| Restrições/acessibilidade | {{...}} |
-| Ambiente típico de uso | {{...}} |
-| Comportamentos relevantes | {{...}} |
+| Faixa etária / contexto relevante | 46 anos, professora da educação básica, atuando no ensino médio de uma escola pública do estado de São Paulo. |
+| Ocupação/papel | Professora de Literatura do ensino médio |
+| Conhecimento do domínio | Possui conhecimento sobre práticas pedagógicas, avaliação e preparação de estudantes do ensino médio. Tem familiaridade com o contexto do ENEM e com as dificuldades apresentadas pelos alunos na interpretação e resolução de questões. |
+| Experiência tecnológica | Possui experiência básica a intermediária com ferramentas digitais utilizadas no ambiente escolar, como computadores, plataformas educacionais e editores de documentos. |
+| Objetivos | Conseguir impactar a vida de seus estudantes, com aulas engajantes; Ter estabilidade financeira e profissional; Conseguir mais tempo com a família |
+| Necessidades | Necessita manter seus conhecimentos atualizados, especialmente em relação a novas tecnologias, e contar com recursos que auxiliem no planejamento de aulas interessantes e relevantes. Também valoriza um bom relacionamento com os alunos e busca formas de contribuir para seu desenvolvimento por meio da educação. |
+| Dores/frustrações | Sente dificuldade em criar aulas capazes de manter a atenção dos alunos e em elaborar avaliações que representem adequadamente seus conhecimentos. Também enfrenta desafios para tornar suas aulas mais inclusivas, além da pressão para cumprir suas obrigações dentro dos prazos. A rotina de trabalho pode dificultar a conciliação entre vida profissional e familiar. |
+| Motivadores | Busca melhorar continuamente sua prática como professora e oferecer aulas mais interessantes e engajantes para seus alunos. Se sente motivada por soluções que facilitem seu trabalho e permitam realizar essas atividades de forma mais eficiente. |
+| Restrições/acessibilidade | Possui tempo limitado para análises devido à rotina de trabalho. Tem um conhecimento básico/intermediário de técnologia e pouco conhecimento de métricas de estátistica |
+| Ambiente típico de uso | Escola pública, sala dos professores ou sala de aula, utilizando computador ou notebook. |
+| Comportamentos relevantes | Costuma buscar informações que possam auxiliar no planejamento das aulas e na preparação dos alunos para avaliações. Prefere resultados objetivos e visualizações que permitam identificar rapidamente padrões e possíveis relações entre as características das questões e o desempenho. |
 
 **Decisões de design influenciadas por P01:**
 
-- {{...}}
+- A experiência tecnológica básica a intermediária e a falta de conhecimento estatístico avançado de P01 influenciaram a escolha por uma interface simples, objetiva e com resultados apresentados de forma visual. Sua rotina de trabalho e disponibilidade limitada de tempo também levaram à priorização de interações diretas e à redução de etapas desnecessárias.
 
 ### Persona P02 — João Paulo de Aquino Gonzaga
 
@@ -130,10 +130,10 @@ Explique diferenças entre os perfis e qual persona é prioritária. Evite perso
 
 ## 2. Mapa de empatia — equipe
 <!-- Mulher branca entre 46/47 anos  de são paulo, casada escola publica --> 
-**Persona escolhida:** {{P01}}  
-**Justificativa:** {{por que esse perfil é relevante}}
+**Persona escolhida:** P01<br>
+**Justificativa:** A persona do professor de escola foi escolhida como principal por estar mais alinhada ao público-alvo do TCC. Como o projeto investiga a relação entre o formato das questões do ENEM e o desempenho dos estudantes, esse perfil possui contato mais direto com alunos que se preparam para esse exame e pode utilizar os resultados da ferramenta como apoio em sua prática pedagógica. As demais personas também são relevantes, mas possuem uma relação menos direta com o contexto central do projeto.
 
-![Mapa de empatia](../assets/03_personas/mapa_empatia.svg)
+![Mapa de empatia](../assets/03_personas/mapa_empatia.png)
 
 Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos. Diferencie **evidência** de **hipótese**.
 
