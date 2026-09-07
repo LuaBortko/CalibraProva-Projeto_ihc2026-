@@ -69,7 +69,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P02 — João Paulo de Aquino Gonzaga
 
-**Autor(a):** Beatriz Manaia Lourenço Berto <br> 
+**Autor(a):** Beatriz Manaia Lourenço Berto RA:22.125.060-8<br> 
 **Tipo:** primária <br>
 **Base de evidências:** proto-persona a validar <br> 
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
@@ -156,24 +156,107 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 
 | Dimensão | Descrição | Implicação de design |
 |---|---|---|
-| Usuários | {{...}} | {{...}} |
-| Tarefas | {{...}} | {{...}} |
-| Equipamentos | {{...}} | {{...}} |
-| Ambiente físico | {{...}} | {{...}} |
-| Ambiente social/organizacional | {{...}} | {{...}} |
-| Papéis/permissões/governança | {{...}} | {{...}} |
-| Volume de dados/histórico | {{...}} | {{...}} |
+| Usuários | O sistema será utilizado principalmente por docentes e elaboradores de provas interessados em analisar características estruturais de avaliações antes de sua aplicação. Os perfis podem apresentar diferentes níveis de conhecimento tecnológico e estatístico. | A interface deve ser acessível a usuários com diferentes níveis de conhecimento, utilizando linguagem clara e apresentando as métricas de forma objetiva e interpretável. |
+| Tarefas | O usuário realiza o upload da prova em PDF, insere os dados necessários para a análise, visualiza as métricas obtidas e consulta o detalhamento dos cálculos e resultados para identificar possíveis características da prova que possivelmente mais influenciamque o desempenho. | As tarefas devem seguir um fluxo simples e direto, com poucas etapas e orientações claras. As métricas devem ser apresentadas de forma visual, acompanhadas de explicações e detalhamentos quando necessário. |
+| Equipamentos | O acesso ocorre principalmente por computador ou notebook, especialmente por meio do dispositivo utilizado pelo docente em suas atividades profissionais. | Priorizar uma interface web adequada para telas de computador e notebook, garantindo boa organização das informações e legibilidade dos gráficos, indicadores e tabelas. |
+| Ambiente físico | O sistema pode ser utilizado em casa, durante a preparação de atividades e avaliações, ou na instituição de ensino, especialmente em horários disponíveis entre as atividades ou aulas dos docentes. | O sistema deve permitir uma utilização autônoma e eficiente, sem depender de condições específicas do ambiente. As principais informações devem ser facilmente identificadas para reduzir o tempo necessário para realizar as tarefas. |
+| Ambiente social/organizacional | O uso ocorre no contexto de trabalho, principalmente durante o planejamento e preparação de avaliações. Os resultados podem servir como apoio à tomada de decisões sobre a estrutura das provas. | A interface deve apresentar os resultados de maneira organizada, facilitando sua consulta e interpretação pelo docente. |
+| Papéis/permissões/governança | O docente atua como usuário responsável pelo envio das provas e pela consulta e interpretação dos resultados gerados pelo sistema. Não há necessidade de diferentes níveis de permissão para a realização da análise. | Manter o fluxo de acesso e utilização simples, evitando a inclusão de mecanismos administrativos ou níveis de permissão que não sejam necessários ao escopo atual. |
+| Volume de dados/histórico | A análise é realizada a partir de provas em PDF e dos dados necessários para sua análise. O sistema pode lidar com diversas questões e métricas referentes a uma mesma avaliação, com base nos estudos do TCC sobre o ENEM, mas o histórico de múltiplas avaliações não é o foco | Organizar os resultados da análise e utilizar recursos como tabelas, gráficos, indicadores e tooltips/popup para o detalhamento, evitando sobrecarregar a interface |
 
 ## 4. Jornada do usuário — equipe
 
-**Persona:** {{P01}}  
-**Objetivo da jornada:** {{...}}  
-**Início e fim da jornada:** {{...}}
+**Persona:** P01
+**Objetivo da jornada:** Avaliar o possível impacto do formato da prova no desempenho dos alunos, identificando oportunidades de melhoria em sua estrutura antes de sua aplicação.
+**Início e fim da jornada:** 
+*Início da jornada:* Maria acabou de elaborar uma prova de múltipla escolha para sua turma. Antes de aplicá-la, ela revisa as questões e percebe que não tem certeza se aspectos estruturais da avaliação (como extensão dos enunciados, presença de imagens, ordem das questões e linguagem utilizada) podem influenciar o desempenho dos alunos. Como busca elaborar avaliações mais justas e já tem interesse em utilizar tecnologias para aprimorar sua prática, ela decide utilizar a plataforma como uma segunda opinião baseada em dados do ENEM.
+
+*Fim da jornada:* Após analisar os resultados fornecidos pela plataforma, Maria identifica possíveis características da prova que podem estar associadas ao desempenho dos alunos. Ela utiliza essas informações, em conjunto com sua experiência pedagógica, para decidir se deve reformular determinadas questões antes da aplicação. A experiência pode levá-la a retornar à plataforma futuramente para analisar novas provas ou versões revisadas, buscando aprimorar continuamente suas avaliações.
+
+<!--
+**Jornada:** descreve o que motiva o usuário a chegar à interface, o que acontece durante sua interação com o produto e o que acontece depois que ele sai da interface.
+
+A jornada consiste em pegar um **dia típico do usuário, focado no produto**, para representar o que acontece desde o primeiro momento em que ele é motivado a utilizar a aplicação até o momento posterior ao seu uso.
+
+Uma forma simples de criar a jornada é partir da persona, apresentar sua rotina e identificar uma necessidade. A partir dessa necessidade, a pessoa possui determinados motivadores que existem **antes de entrar na internet ou na interface**.
+
+
+RESPOSTA: Maria acabou de finalizar a elaboração de uma prova de múltipla escolha para sua turma do 3º ano.
+
+Ela revisa as questões, mas fica com uma sensação de insegurança: “Será que os alunos vão entender os enunciados? As imagens podem atrapalhar? A ordem das questões pode cansá-los?”
+
+Ela lembra que viu em uma formação uma ferramenta que analisa provas antes da aplicação, identificando características estruturais que podem impactar o desempenho.
+
+Motivada pelo desejo de fazer uma avaliação justa e que reflita o aprendizado, ela decide testar a plataforma.
+
+Por exemplo:
+
+> “Preciso realizar X e, para conseguir fazer X, preciso ter a informação Y.”
+
+======A partir disso, é possível identificar **o que o usuário precisa para chegar até a interface** e quais fatores o motivam a utilizá-la.
+
+### Antes da interface
+
+* O que motiva o usuário a procurar o produto?  A insegurança sobre se o formato estrutural da prova (extensão dos enunciados, presença de imagens, ordem das questões, formalidade da linguagem) pode estar interferindo no desempenho dos alunos, fazendo com que a nota reflita mais o cansaço ou a dificuldade de leitura do que o domínio do conteúdo ensinado. Ela quer validar se sua avaliação realmente mede o conhecimento teórico. 
+
+* Qual necessidade ele possui? Garantir que a avaliação seja justa, equitativa e precisa, ou seja, que o resultado do aluno dependa principalmente do que ele aprendeu, e não de barreiras impostas pelo design da prova. Além disso, ela precisa economizar tempo e reduzir a incerteza no momento de revisar a prova antes de aplicá-la.
+
+* O que ele precisa ter ou saber antes de chegar à interface? 1. Ter a prova em PDF (estilo múltipla escolha).
+2. Saber que a ferramenta é um MVP experimental baseado em correlações do ENEM, e que os resultados são indicativos, não diagnósticos definitivos.
+3. Entender que o uso é voluntário e não substitui a experiência pedagógica dela.
+
+* Quais fatores podem estimular sua decisão de utilizar o produto?- Curiosidade científica: "O que os dados do ENEM dizem sobre provas com esse formato?"
+- Desejo de inovação na prática: Ela busca constantemente novas tecnologias para melhorar suas aulas (conforme o perfil).
+- Baixo risco e custo zero: A ferramenta é gratuita, rápida e não exige cadastro. Se não ajudar, ela não perdeu nada.
+- Complemento à experiência: Ela já revisa provas manualmente; a ferramenta oferece uma "segunda opinião" baseada em dados, que ela pode aceitar ou rejeitar.
+
+A ideia é que o produto possua elementos que funcionem como **gatilhos de motivação**, fazendo com que, ao chegar à interface, o usuário já esteja motivado e possua as informações necessárias para realizar sua tarefa.
+
+### Durante a interface
+
+O que o usuário precisa realizar dentro da interface?
+Precisa enviar o arquivo de sua prova para que a plataforma possa processá-lo e gerar as métricas de avaliação.
+
+Quais informações ele precisa encontrar?
+Precisa identificar onde realizar o upload, quais formatos de arquivo são aceitos e quais informações ou requisitos são necessários para que a prova seja analisada.
+ 
+Quais ações precisa executar?
+Precisa selecionar o arquivo da prova em seu dispositivo, realizar o upload e confirmar o envio para iniciar a análise.
+
+Quais elementos podem facilitar sua interação?
+Um botão de upload visualmente destacado, acompanhado de instruções breves sobre como enviar a prova. Indicadores de progresso e uma mensagem de confirmação após o envio também podem fornecer feedback sobre o estado da operação.
+
+Existem barreiras que podem impedir ou dificultar que ele alcance seu objetivo?
+Sim. Uma interface pouco intuitiva pode dificultar a localização do recurso de upload. Formatos de arquivo não informados, mensagens de erro pouco claras ou ausência de feedback após o envio também podem gerar dúvidas sobre como proceder ou se a prova foi carregada corretamente.
+
+Se o usuário chega à interface já motivado e encontra as informações necessárias, ele tende a conseguir realizar suas tarefas com maior facilidade. O objetivo é que ele tenha uma experiência satisfatória, sem barreiras desnecessárias, e consiga sair da interface tendo alcançado seu objetivo com sucesso.
+
+### Depois da interface
+
+Também é necessário compreender o que acontece depois que o usuário utiliza o produto:
+
+O que ele faz depois de sair da interface?
+Utiliza as métricas fornecidas pela interface para avaliar a qualidade das questões e, caso identifique problemas, reformula a prova antes de aplicá-la aos alunos.
+
+Ele conseguiu alcançar seu objetivo?
+Hipoteticamente, sim. A partir das métricas apresentadas pela interface, a persona consegue identificar possíveis problemas na elaboração da prova e realizar ajustes para que a avaliação represente de forma mais adequada o conhecimento dos alunos.
+
+Ficou satisfeito com a experiência?
+Hipoteticamente, sim. Caso consiga compreender as métricas e utilizá-las para identificar e corrigir problemas em sua avaliação, a persona tende a ficar satisfeita, especialmente por conseguir realizar essa análise de forma rápida e com maior segurança sobre a qualidade de sua prova.
+* Possui algum motivo para voltar a utilizar o produto? Sim, para cada vez mais aperfeicoar suas provas baseadas na analise do enem, afinal ao voltar provavelmente ja teria auustado os pontos apontados nas anlises previas 
+* Recomendaria o produto para outras pessoas?nao sei ,ano sabemos o resultado do sistema 
+*Existe algum elemento que o estimule a retornar?** Sim. A possibilidade de aprimorar continuamente suas provas a partir das análises realizadas o estimula a retornar ao sistema, especialmente para avaliar novas versões das avaliações e verificar se os ajustes realizados apresentaram resultados melhores.
+
+
+Assim, a jornada deve considerar **o que motiva o usuário antes de chegar à interface, o que ele faz e usufrui dentro da interface e o que acontece depois que ele utiliza o produto**.
+
+-->
 
 | Etapa | Situação/ação | Objetivo | Pensamento/emoção | Dor | Oportunidade de design | Evidência |
 |---|---|---|---|---|---|---|
-| 1 | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-
+| 1 O que motiva a usar a interface | Maria finaliza uma prova de múltipla escolha e decide analisá-la antes de aplicá-la aos alunos| Verificar se características estruturais da prova podem interferir no desempenho e obter uma segunda opinião sobre sua avaliação, para auxiliar na avaliação justa dos usuários e melorar suas aulas. | “Será que meus alunos terão dificuldade por causa da forma como a prova foi elaborada, e não pelo conteúdo?” Sente insegurança e busca maior confiança. | Não possui uma forma rápida e baseada em dados para identificar possíveis problemas estruturais na prova. A revisão manual depende principalmente de sua própria experiência. | Deixar clara a proposta da ferramenta, seus benefícios e limitações; comunicar que a análise é indicativa e baseada em correlações do ENEM, funcionando como complemento à avaliação pedagógica. | Persona: professora que busca aprimorar suas práticas e utilizar tecnologias para melhorar suas avaliações. |
+| 2 o que acontece durante sua interação com o produto | Maria acessa a plataforma, envia o PDF da prova e analisa as métricas e informações apresentadas. | Compreender os resultados da análise e identificar possíveis pontos de atenção na prova para fazer uma prova que avalie apenas os conhecimentos teóricos dos alunos. | “Agora consigo enxergar aspectos da prova que talvez não tivesse percebido sozinha e que podem me ajudar a fazer uma prova onde o formato poderá impactar minimamente o desempenho” Curiosidade e interesse, mas pode ter dúvidas sobre como as métricas foram calculadas.} | Pode não compreender o significado das métricas, ter dúvidas sobre os resultados ou encontrar dificuldades no upload e na interpretação das informações. | Oferecer upload simples, instruções claras, feedback de processamento e detalhamento das métricas por meio de tooltips ou informações explicativas. | Requisitos e funcionalidades definidas para o MVP; necessidade de detalhamento das métricas para apoiar sua interpretação. |
+| 3 o que acontece depois que ele sai da interface | Maria utiliza os resultados da análise para revisar e, se necessário, ajustar a prova antes de aplicá-la. Após a aplicação, utiliza o desempenho dos alunos para identificar quais conteúdos foram compreendidos ou precisam ser mais trabalhados em suas aulas. | Elaborar avaliações que meçam de forma mais adequada o conhecimento dos alunos, permitindo identificar suas dificuldades e compreender quais conteúdos precisam ser reforçados em aula. | “Quero ter certeza de que o resultado da prova representa o que meus alunos realmente aprenderam, para saber como ajudá-los a avançar.” | Uma avaliação influenciada por características estruturais pode dificultar a interpretação do desempenho dos alunos e fazer com que Maria tenha uma percepção equivocada sobre o que eles realmente aprenderam. | Apresentar as métricas de forma clara e interpretável, permitindo que Maria compreenda os possíveis fatores estruturais da prova que podem interferir em sua avaliação e utilize essas informações como apoio à sua decisão pedagógica. | Persona e hipótese da jornada: a professora utiliza avaliações para acompanhar a aprendizagem dos alunos e orientar o planejamento das aulas. |
 > A jornada pode incluir etapas **antes, durante e depois** do uso do produto. Não transforme a jornada em lista de telas.
 
 ## Síntese
@@ -185,7 +268,7 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 
 ## Checklist
 
-- [x] Existe pelo menos uma persona por integrante.
+- [X] Existe pelo menos uma persona por integrante.
 - [ ] As personas não são apenas diferenças demográficas superficiais.
 - [x] Está claro o que é dado real e o que é hipótese/proto-persona.
 - [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.

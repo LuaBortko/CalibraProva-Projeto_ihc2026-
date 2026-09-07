@@ -149,7 +149,6 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Alunos | Terão uma avaliação mais condizente | Não | H |
 
 ## 2.4 Que características desses perfis podem influenciar a interação? 
-<!-- VOLTAR DPS DA ENTREGA 3
 
 <!-- Considere conhecimento do domínio, experiência tecnológica, frequência de uso, necessidades de acessibilidade, responsabilidade profissional, familiaridade com métricas, linguagem técnica, urgência etc.
 {{[F/H/?] ...}}
