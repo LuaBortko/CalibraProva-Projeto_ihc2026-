@@ -180,15 +180,18 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 
 Quais necessidades e objetivos devem obrigatoriamente aparecer nos cenários e nas tarefas seguintes?
 
+Os cenários e as tarefas devem contemplar o objetivo dos professores de realizar avaliações mais justas e que representem adequadamente o conhecimento dos estudantes. Para isso, a ferramenta deve permitir que o professor analise as características do formato de suas provas e identifique possíveis aspectos que possam estar influenciando a avaliação do desempenho dos alunos. A análise das métricas, portanto, deve funcionar como um meio para que o professor reflita sobre a construção de suas avaliações e possa tomar decisões mais conscientes sobre sua elaboração.
+A interface deve ser simples, objetiva e acessível a usuários com diferentes níveis de experiência tecnológica e conhecimento estatístico. As métricas disponibilizadas devem possuir descrições e explicações claras, permitindo que os professores compreendam o que cada medida representa e interpretem os resultados sem a necessidade de conhecimentos técnicos avançados.
+
 ## Checklist
 
-- [ ] Existe pelo menos uma persona por integrante.
+- [x] Existe pelo menos uma persona por integrante.
 - [ ] As personas não são apenas diferenças demográficas superficiais.
-- [ ] Está claro o que é dado real e o que é hipótese/proto-persona.
-- [ ] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
-- [ ] Objetivos e dores têm consequência para o design.
-- [ ] Contexto de uso está coerente com a Entrega 1.
+- [x] Está claro o que é dado real e o que é hipótese/proto-persona.
+- [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
+- [x] Objetivos e dores têm consequência para o design.
+- [x] Contexto de uso está coerente com a Entrega 1.
 - [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
-- [ ] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
+- [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
 - [ ] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
 - [ ] IDs das personas foram adicionados à rastreabilidade.
