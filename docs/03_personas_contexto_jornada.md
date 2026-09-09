@@ -42,7 +42,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P01 — Maria da Costa Silva
 
-**Autor(a):** Luana Bortko Rodrigues -- RA: 24.123.006-9  
+**Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>  
 **Tipo:** primário<br>
 **Base de evidências:** Proto-persona a validar<br>
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br>
@@ -69,7 +69,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P02 — João Paulo de Aquino Gonzaga
 
-**Autor(a):** Beatriz Manaia Lourenço Berto RA:22.125.060-8<br> 
+**Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8<br> 
 **Tipo:** primária <br>
 **Base de evidências:** proto-persona a validar <br> 
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
@@ -99,7 +99,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P03 — Vera Coelho 
 
-**Autor(a):** Nuno Martins Guilhermino da Silva - 22.126.099-5  <br>
+**Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5  <br>
 **Tipo:** Primária <br>
 **Base de evidências:** Observação <br> 
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
@@ -129,8 +129,9 @@ Como ela possui conhecimento limitado sobre métricas de avaliação, as métric
 Explique diferenças entre os perfis e qual persona é prioritária. Evite personas duplicadas que só mudam nome/foto.
 
 ## 2. Mapa de empatia — equipe
-<!-- Mulher branca entre 46/47 anos  de são paulo, casada escola publica --> 
+
 **Persona escolhida:** P01<br>
+
 **Justificativa:** A persona da professora que da aula em uma escola foi escolhida como principal por estar mais alinhada ao público-alvo do TCC. Como o projeto investiga a relação entre o formato das questões do ENEM e o desempenho dos estudantes, esse perfil possui contato mais direto com alunos que se preparam para esse exame e pode utilizar os resultados da ferramenta como apoio em sua prática pedagógica. As demais personas também são relevantes, mas possuem uma relação menos direta com o contexto central do projeto.
 
 ![Mapa de empatia](../assets/03_personas/mapa_empatia.png)

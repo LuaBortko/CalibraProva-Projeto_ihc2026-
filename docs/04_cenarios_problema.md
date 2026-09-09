@@ -24,10 +24,10 @@ Se o integrante escolher um novo problema/situação, explique por que ele passo
 
 ## Cenário C01 — {{título}}
 
-**Autor(a):** Luana Bortko Rodrigues RA: 24.123.006-9
-**Persona(s) relacionada(s):** P01  
-**Necessidade relacionada:** {{R01}}  
-**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>
+**Persona(s) relacionada(s):** P01<br>  
+**Necessidade relacionada:** {{R01}}<br>  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}<br>  
 **Hipóteses ainda presentes:** {{H01, H02 ou —}}
 
 ### 1. Cenário inicial
@@ -66,10 +66,10 @@ Quais tarefas merecem análise? Quais informações precisam ser coletadas? **N�
 
 ## Cenário C02 — {{título}}
 
-**Autor(a):** Beatriz Manaia Lourenço Berto RA: 22.125.060-8
-**Persona(s) relacionada(s):** P02
-**Necessidade relacionada:** {{R01}}  
-**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8<br>
+**Persona(s) relacionada(s):** P02<br>
+**Necessidade relacionada:** {{R01}}<br>  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}<br>  
 **Hipóteses ainda presentes:** {{H01, H02 ou —}}
 
 ### 1. Cenário inicial
@@ -108,10 +108,10 @@ Quais tarefas merecem análise? Quais informações precisam ser coletadas? **N�
 
 ## Cenário C03 — {{título}}
 
-**Autor(a):** Nuno Martins Guilhermino da Silva RA: 22.126.099-5   
-**Persona(s) relacionada(s):** P03  
-**Necessidade relacionada:** {{R01}}  
-**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5<br>   
+**Persona(s) relacionada(s):** P03<br>
+**Necessidade relacionada:** {{R01}}<br>  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}<br>  
 **Hipóteses ainda presentes:** {{H01, H02 ou —}}
 
 ### 1. Cenário inicial
