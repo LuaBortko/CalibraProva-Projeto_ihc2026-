@@ -1,7 +1,7 @@
 # Entrega 4 — Cenários de análise/problema
 
-**Data:** 09/09/2026 
-**Status:** 🟨 Em andamento
+**Data:** 09/09/2026<br> 
+**Status:** 🟨 Em andamento<br>
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
@@ -24,8 +24,8 @@ Se o integrante escolher um novo problema/situação, explique por que ele passo
 
 ## Cenário C01 — {{título}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Persona(s) relacionada(s):** {{P01}}  
+**Autor(a):** Luana Bortko Rodrigues RA: 24.123.006-9
+**Persona(s) relacionada(s):** P01  
 **Necessidade relacionada:** {{R01}}  
 **Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
 **Hipóteses ainda presentes:** {{H01, H02 ou —}}
@@ -64,7 +64,89 @@ Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma
 
 Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
 
-> Repita para C02, C03... com autoria individual.
+## Cenário C02 — {{título}}
+
+**Autor(a):** Beatriz Manaia Lourenço Berto RA: 22.125.060-8
+**Persona(s) relacionada(s):** P02
+**Necessidade relacionada:** {{R01}}  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Hipóteses ainda presentes:** {{H01, H02 ou —}}
+
+### 1. Cenário inicial
+
+{{narrativa}}
+
+### 2. Questões de refinamento
+
+Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revelar informações **ainda ausentes** do cenário, não repetir o que já foi respondido.
+
+| # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
+|---|---|---|---|
+| Q1 | {{...}} | {{...}} | {{...}} |
+
+### 3. Cenário refinado
+
+Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).
+
+{{narrativa refinada}}
+
+### 4. Elementos extraídos
+
+| Elemento | Evidência no cenário |
+|---|---|
+| Ator(es) | {{...}} |
+| Objetivo(s) | {{...}} |
+| Contexto | {{...}} |
+| Recursos/informações | {{...}} |
+| Ações | {{...}} |
+| Problemas/rupturas | {{...}} |
+| Consequências | {{...}} |
+
+### 5. Implicações para as próximas entregas
+
+Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
+
+## Cenário C03 — {{título}}
+
+**Autor(a):** Nuno Martins Guilhermino da Silva RA: 22.126.099-5   
+**Persona(s) relacionada(s):** P03  
+**Necessidade relacionada:** {{R01}}  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Hipóteses ainda presentes:** {{H01, H02 ou —}}
+
+### 1. Cenário inicial
+
+{{narrativa}}
+
+### 2. Questões de refinamento
+
+Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revelar informações **ainda ausentes** do cenário, não repetir o que já foi respondido.
+
+| # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
+|---|---|---|---|
+| Q1 | {{...}} | {{...}} | {{...}} |
+
+### 3. Cenário refinado
+
+Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).
+
+{{narrativa refinada}}
+
+### 4. Elementos extraídos
+
+| Elemento | Evidência no cenário |
+|---|---|
+| Ator(es) | {{...}} |
+| Objetivo(s) | {{...}} |
+| Contexto | {{...}} |
+| Recursos/informações | {{...}} |
+| Ações | {{...}} |
+| Problemas/rupturas | {{...}} |
+| Consequências | {{...}} |
+
+### 5. Implicações para as próximas entregas
+
+Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
 
 ## Checklist
 

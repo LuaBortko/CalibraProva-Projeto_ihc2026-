@@ -1,7 +1,7 @@
 # Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada
 
-**Data:** {{03/09/2026}}<br>  
-**Status:** 🟩 em andamento <br>
+**Data:** 03/09/2026
+**Status:** 🟩 concluída<br>
 **Responsabilidade:** 1 persona por integrante; 1 mapa de empatia, 1 contexto de uso consolidado e 1 jornada por equipe (salvo orientação diferente do docente).
 
 ## Objetivo da atividade
@@ -192,7 +192,7 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 ## Checklist
 
 - [X] Existe pelo menos uma persona por integrante.
-- [ ] As personas não são apenas diferenças demográficas superficiais.
+- [X] As personas não são apenas diferenças demográficas superficiais.
 - [x] Está claro o que é dado real e o que é hipótese/proto-persona.
 - [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
 - [x] Objetivos e dores têm consequência para o design.
@@ -200,4 +200,4 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 - [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
 - [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
 - [x] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
-- [ ] IDs das personas foram adicionados à rastreabilidade.
+- [x] IDs das personas foram adicionados à rastreabilidade.
