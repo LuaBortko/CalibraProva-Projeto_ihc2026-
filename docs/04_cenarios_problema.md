@@ -76,8 +76,6 @@ Quais tarefas merecem análise? Quais informações precisam ser coletadas? **N�
 **Hipóteses ainda presentes:** H01, H02, H03, H04 
 
 ### 1. Cenário inicial
-<!-- RELER!!!!!-->
-
 
 João Paulo é professor universitário do curso de Ciência da Computação e, cerca de duas semanas antes da aplicação das avaliações, começa a elaborar as provas de suas turmas. Para isso, pode utilizar como base os conteúdos trabalhados em aula, questões de provas anteriores, questões do ENADE ou da Pós-Comp, suas próprias anotações, materiais didáticos e as principais dúvidas apresentadas pelos alunos ao longo do semestre. A partir desses materiais, busca construir questões alinhadas aos conteúdos e objetivos de aprendizagem trabalhados em sala.
 
@@ -85,112 +83,71 @@ Em um ambiente tranquilo e com acesso à internet, João prepara uma primeira ve
 
 Depois de realizar algumas alterações, João pede auxílio a outros professores para que revisem a prova e compartilhem suas opiniões sobre as questões. Esse processo permite obter diferentes perspectivas e identificar possíveis problemas que não haviam sido percebidos durante sua própria revisão.
 
-Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada principalmente na experiência e na percepção dos professores. João não possui uma forma objetiva e baseada em dados de verificar se determinadas características estruturais das questões — como extensão do enunciado, quantidade de informações ou nível de interpretação exigido — podem estar associadas ao desempenho dos estudantes. Dessa forma, embora consiga avaliar a qualidade das questões sob diferentes perspectivas, permanece sem evidências que permitam identificar possíveis características da estrutura da prova que possam impactar o desempenho dos alunos.
+Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada principalmente na experiência e na percepção dos professores. João não possui uma forma objetiva e baseada em dados de verificar se determinadas características estruturais das questões, como extensão do enunciado, quantidade de informações ou nível de interpretação exigido, podem estar associadas ao desempenho dos estudantes. Dessa forma, embora consiga avaliar a qualidade das questões sob diferentes perspectivas, permanece sem evidências que permitam identificar possíveis características da estrutura da prova que possam impactar o desempenho dos alunos.
 
-### 2. Questões de refinamento ??????
+### 2. Questões de refinamento 
 
 Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revelar informações **ainda ausentes** do cenário, não repetir o que já foi respondido.
 
-
-<!-- OPINIAO LU E NUNO SOBEE O MEU POR QUE PRECISA SER RESPONDIDO -->
-
 | # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
 |---|---|---|---| 
-| Q1 | condições para realização da atividade | Para ajudar no refinamento do cenário inicial | hipotese | objetivo melhorar aula
-| Q2 | Como? | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q3 | O que é? | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q4 | Objetivo | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q5 | Ambiente | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q6 | Ator(es) | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q7 | Planejamento | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q8 | Ação | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q9 | Evento | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q10 | Avaliação | Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q11 | X pode ser feito da maneira y?| Para ajudar no refinamento do cenário inicial | {{...}} |
-| Q12 | X faz parte de y? | Para ajudar no refinamento do cenário inicial | {{...}} |
-
-PRIORIZAR AS PERGUNTAS DOS ELEMENTOS
-
-PEGAR SO AS QUE FAZEM SENTIDO 
-
---pq:
-**Condições para realização da atividade:** professor precisa ter algum formas para elaborar sua prova, seja fisico (papel, caneta...), digital, e ter alguma fonte para auxiliá-los nas questoes (livros, suas anotacoes, sites...)
-
-**consequência da atividade:** uma boa elaborada da melhor forma possível para medir apenas os conhecimentos teóricos dos alunos
--
-
-**estados e eventos anteriores ou posteriores a atividade**????
--
-
---como:
-**detalhes sobre a sequência de acoes que compoe uma atividade:** para a elaboracao da prova o professor precisa de um ambiente silencioso, com possibilidade de se sentar, ter condicoes fisicas para elaborar a prova seja em papel ou digitalmente, para a elaboracao da prova ele pode utilizar livros teóricos, provas como enade, questoes que ele mesmo desenvolveu para essa prova em semestres anteriores, utilizar seus slides de aulas, pontos de duvidas dos alunos...
-
-**pode revelar tambe objetos que não constam do cenário original:** precisa de folhas e caneta ou um tablet/ noteebook, mesa, cadeira, luz, internet, livros, suas anotacoes
--
-
---o que é:
-
-**-objetivos e seus atributos, organizados em uma hierarquia ou outro modelo de dados** ?????
-
-**-x pode ser frito da maneira y?** so consigo pensar que pra ver se o formato d aprov aimpacta ele analisa ou pede p outros prof (como ja anotei)
-
-**-x faz parte de y** ???
--
-
---objetivo
-
-**porque os atores querem ou precisam alcancar esse objetivo?** ele quer garantir que o desempenho em sua prova seja o menos impactada possivel por fatores estrutriais para ter a melhor percepcao sobre como os alunos realmente estao se saindo em sua disciplina para elaborar conteudos de reforco, aperfeicoar as explicacoes nos proximos semestres e conseguir compensar sobre as duvidas nas aulas seguintes, ou seja, melhorar suas aulas para ensinar cada vez melhor. 
-
--
-
-**quais as pre condicoes para esse objetivo?** Oq seria o objetivo?? seria fazer a prova????
-
-**de que informações ou conhecimentos os atores precisam para realizar esse obejtivo?**
-
-**quais informacoes sao (ou deverias ser) criadas, consumidas, manipuladas ou destruidas pelo alcance do objetivo?**
-
-**que outros objetivos (de quais atores) estao relaiconados a esse**
-
-**que outro objetivo (de quais atores) estão relacionados a esse?**
-
---ambiente
-
-**em que situacoes o cenário ocorre (quando,onde e porque)?** sempre que o professor vai elaborar uma avaliação
-
-
-**que dispositivo e outros recursos (inclusivo tempo) estao disponiveis para o alncace do objetivo?** 
-
-
-**quais presuncoes existem para alcancar 
-
-
---
-
+| Q1 | Quais as condições para realização da atividade? | Para ajudar no refinamento do cenário inicial | hipotese | 
+| Q2 | Quais os detalhes sobre a sequência de ações que compõe uma atividade? | Para ajudar no refinamento do cenário inicial | hipotese |     
+| Q3 | Porque os atores querem ou precisam alcancar esse objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q4 | Quais as precondicoes para esse objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q5 | De que informações ou conhecimentos os atores precisam para realizar esse objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q6 | Em que situações o cenário ocorre (quando,onde e porque)? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q7 | Quais são as técnologias utilizadas no ambiente de trabalho? Como os usuários as utilizam? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q8 | Quais características do(s) ator(es) lhes auxiliam ou atrapalham em alcançar o objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q9 | De que informações ou conhecimento os atores precisam para realizar essa ação? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q10 | [do objetivo]Como os atores conseguem saber se o objetivo foi concluído e alcançado com sucesso? | Para ajudar no refinamento do cenário inicial | hipotese |
 
 ### 3. Cenário refinado
 
-[NOVO]Utilização do sistema de análise para analisar se uma prova antes de ser aplicada tem algumas características estruturais que podem impactar o desempenho dos alunos.<br>
+<!--Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).-->
+### 3. Cenário refinado
 
+João Paulo é professor universitário do curso de Ciência da Computação e, cerca de duas semanas antes da aplicação das avaliações, começa a elaborar as provas de suas turmas. **[Q6] [Esse processo ocorre durante o período destinado pelo professor à preparação das avaliações, podendo ser realizado na instituição de ensino, em seu escritório ou em casa, de acordo com sua disponibilidade e rotina de trabalho.]** Para isso, pode utilizar como base os conteúdos trabalhados em aula, questões de provas anteriores, questões do ENADE ou da Pós-Comp, suas próprias anotações, materiais didáticos e as principais dúvidas apresentadas pelos alunos ao longo do semestre. A partir desses materiais, busca construir questões alinhadas aos conteúdos e objetivos de aprendizagem trabalhados em sala.
 
-Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).
+**[Q1] [Para realizar essa atividade, João precisa dispor de um ambiente adequado, com recursos como computador, notebook ou tablet, mesa, cadeira, iluminação adequada, papel e caneta, quando necessário, além de acesso à internet. Também pode consultar livros, materiais didáticos, provas anteriores e outras fontes de apoio durante a elaboração.]**
 
-{{narrativa refinada}}
+**[Q7] [Entre as tecnologias utilizadas em seu ambiente de trabalho estão ferramentas como o Google Classroom, utilizado para organizar e disponibilizar materiais, atividades e avaliações aos alunos; o Google Forms, utilizado para criar e aplicar questionários e avaliações; e ferramentas de Inteligência Artificial, como o ChatGPT, que podem auxiliar na elaboração, adaptação e revisão de questões. Essas tecnologias apoiam diferentes etapas do processo de ensino e avaliação.]**
+
+É nesse ambiente que João prepara uma primeira versão da avaliação. **[Q2] [Durante esse processo, inicialmente define o modelo da prova, como múltipla escolha ou dissertativa, estabelece a quantidade de questões e seleciona os conteúdos e objetivos que pretende avaliar. Em seguida, consulta materiais de apoio, elabora ou adapta as questões e organiza a avaliação.]**
+
+Após finalizar as questões, inicia um processo de revisão cuidadoso. Relê os enunciados, verifica se estão claros e objetivos, se apresentam ambiguidades, se as alternativas são coerentes e se as questões realmente avaliam os conteúdos que deseja verificar. Também observa características como a extensão dos textos, a quantidade de informações apresentadas e o nível de interpretação exigido, buscando evitar que aspectos relacionados à estrutura das questões interfiram indevidamente no desempenho dos alunos. **[Q9] [Para realizar essa atividade, João precisa ter conhecimento sobre os conteúdos e conceitos fundamentais da disciplina, os objetivos de aprendizagem trabalhados em aula e aspectos relacionados à elaboração de questões, como clareza, correção textual, identificação de ambiguidades e adequação entre a questão e aquilo que se pretende avaliar. Também precisa reconhecer características estruturais das questões que possam influenciar o desempenho dos estudantes.]**
+
+Depois de realizar algumas alterações, ele pede auxílio a outros professores para que revisem a prova e compartilhem suas opiniões sobre as questões. Esse processo permite obter diferentes perspectivas e identificar possíveis problemas que não haviam sido percebidos durante sua própria revisão.
+
+**[Q8] [A experiência do professor na elaboração de avaliações, seu conhecimento sobre os conteúdos da disciplina e sua familiaridade com ferramentas tecnológicas podem facilitar esse processo. Por outro lado, a limitação de tempo e a dificuldade em analisar objetivamente os fatores que podem influenciar o desempenho dos estudantes podem dificultar a identificação precisa de possíveis problemas na avaliação.]**
+
+**[Q3] [João busca elaborar avaliações adequadas porque deseja obter informações confiáveis sobre o nível de conhecimento dos alunos e utilizar essas informações para aprimorar suas aulas. Para isso, precisa que os resultados das avaliações representem adequadamente o conhecimento dos alunos, sem que características estruturais da prova interfiram indevidamente nesse desempenho.]**
+
+**[Q4] [Para alcançar esse objetivo, é necessário que a avaliação contenha questões alinhadas aos conteúdos e objetivos de aprendizagem, apresentadas de maneira clara e coerente, e que suas características estruturais não introduzam dificuldades que não estejam relacionadas ao conhecimento que se pretende avaliar.]**
+
+**[Q5] [Para utilizar os resultados das avaliações na melhoria das aulas, João precisa obter informações que permitam compreender como os alunos estão aprendendo e quais aspectos do ensino podem ser aprimorados. Para isso, precisa conhecer os principais pontos fortes e dificuldades dos alunos, identificar os conteúdos em que apresentam maior dificuldade, compreender suas percepções e feedbacks sobre as aulas e observar quais estratégias e formas de explicação favorecem melhor a compreensão dos conteúdos. Também precisa de resultados de avaliações que representem adequadamente o conhecimento dos estudantes, para identificar quais conteúdos precisam ser retomados ou aprofundados.]**
+
+**[Q10] [João consegue avaliar se está alcançando o objetivo de melhorar suas aulas por meio dos resultados das avaliações, das dúvidas apresentadas pelos alunos, dos feedbacks recebidos e da comparação do desempenho entre diferentes avaliações ou turmas após mudanças em suas estratégias de ensino. Entretanto, essas informações podem ser comprometidas caso o desempenho observado nas avaliações seja influenciado por características estruturais das questões, dificultando a identificação do que representa efetivamente uma dificuldade de aprendizagem.]**
+
+Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada principalmente na experiência e na percepção dos professores. João não possui uma forma objetiva e baseada em dados de verificar se determinadas características estruturais das questões, como a extensão do enunciado, a quantidade de informações apresentadas ou o nível de interpretação exigido, podem estar associadas ao desempenho dos estudantes. Dessa forma, embora consiga avaliar a qualidade das questões sob diferentes perspectivas, permanece sem evidências que permitam identificar se a própria estrutura da avaliação pode constituir um fator capaz de impactar o desempenho dos alunos, mesmo quando o conteúdo e o nível de dificuldade da questão estejam adequados aos objetivos de aprendizagem.
 
 ### 4. Elementos extraídos
 
 | Elemento | Evidência no cenário |
 |---|---|
-| Ator(es) | {{...}} |
-| Objetivo(s) | {{...}} |
-| Contexto | {{...}} |
-| Recursos/informações | {{...}} |
-| Ações | {{...}} |
-| Problemas/rupturas | {{...}} |
-| Consequências | {{...}} |
+| Ator(es) | João Paulo de Aquino Gonzaga. |
+| Objetivo(s) | Elaborar avaliações adequadas aos conteúdos e objetivos de aprendizagem, obtendo resultados que representem de forma confiável o conhecimento dos alunos e permitam aprimorar suas aulas. |
+| Contexto | Cerca de duas semanas antes da aplicação das avaliações, durante o período de preparação das provas, em ambiente adequado de trabalho, como a instituição de ensino, escritório ou casa, com acesso a recursos físicos, digitais e à internet. |
+| Recursos/informações | Conteúdos trabalhados em aula, questões de provas anteriores, questões do ENADE ou da Pós-Comp, anotações do professor, materiais didáticos, dúvidas dos alunos, livros, avaliações e outras fontes de apoio; computador, notebook ou tablet; Google Classroom, Google Forms e ferramentas de Inteligência Artificial. |
+| Ações | Definir o modelo e a quantidade de questões; selecionar conteúdos e objetivos de aprendizagem; consultar materiais de apoio; elaborar ou adaptar questões; organizar e revisar a avaliação; verificar clareza, ambiguidades, coerência e adequação das questões; analisar características estruturais, como extensão, quantidade de informações e nível de interpretação; realizar alterações; solicitar a revisão de outros professores; analisar os resultados e utilizá-los para aprimorar as aulas. |
+| Problemas/rupturas | Mesmo após a revisão individual e por outros professores, João não possui uma forma objetiva e baseada em dados para verificar se características estruturais das questões estão associadas ao desempenho dos estudantes. A análise permanece baseada principalmente na experiência e percepção dos professores. |
+| Consequências | João permanece sem evidências suficientes para identificar se a estrutura da avaliação pode impactar o desempenho dos alunos, mesmo quando o conteúdo e o nível de dificuldade estão adequados aos objetivos de aprendizagem. Como consequência, pode interpretar de forma incorreta as dificuldades apresentadas pelos estudantes, comprometendo a identificação dos conteúdos que precisam ser retomados ou aprofundados e, consequentemente, dificultando o aprimoramento de suas aulas. |
 
 ### 5. Implicações para as próximas entregas
 
-Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
+<!--Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.** -->
+
+A principal informação que precisa ser coletada e analisada é a relação entre as características estruturais das questões de uma prova e o desempenho dos estudantes. O TCC deverá investigar se aspectos como a quantidade de palavras do enunciado, a presença de imagens, o tempo disponível para resolução, o nível de formalismo da linguagem e as características dos distratores podem influenciar o desempenho dos alunos, considerando especificamente questões do ENEM.
 
 ## Cenário C03 — {{título}}
 
