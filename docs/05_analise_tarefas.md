@@ -1,7 +1,7 @@
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** 13/09/2026 
+**Status:** 🟨 Em andamento 
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -29,15 +29,38 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 | ID | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
 |---|---|---|---|---|
-| T01 | {{...}} | {{P01/C01}} | {{...}} | {{...}} |
+| T01 | Upload da prova | {{P01/C01}} | {{...}} | {{...}} |
+| T02 | Inserção de dados da prova de maneira manual | {{P01/C01}} | {{...}} | {{...}} |
+| T03 | Análise do dashboard com métricas da prova | {{P01/C01}} | {{...}} | {{...}} |
+| T04 | Download do dashboard | {{P01/C01}} | {{...}} | {{...}} |
+
+<!-- TAREFAS:
+1-upload de arquivo contendo prova
+  -maneiras de fazer upload?
+  -formatos aceitos?
+  -padrões que prova precisa ter para ser analisada?
+  -...
+
+2-inserção de dados da prova de maneira manual
+  -tem difernetes maneiras de ser inserida?
+  -...
+
+3-análise do dashboard com métricas da prova
+  -maneiras de analisar dashboard?
+
+4-download do dashboard
+  -em que formatos?
+  -quantas maneiras de fazer download?
+-->
 
 > Priorize tarefas necessárias para que o usuário alcance objetivos centrais. Não desperdice a modelagem em ações triviais isoladas, como “clicar em login”, se o objetivo relevante é maior. Da mesma forma, não modele o funcionamento interno do algoritmo como se fosse uma tarefa humana.
 
 ---
 
-## HTA — T01 {{nome da tarefa}}
+## HTA — T01 Upload da prova
 
 **Autor(a):** {{nome — matrícula}}
+
 
 ### Descrição da tarefa
 
@@ -62,7 +85,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 ---
 
-## GOMS — T02 {{nome da tarefa}}
+## GOMS — T02 Upload da prova
 
 **Autor(a):** {{nome — matrícula}}
 
@@ -82,7 +105,214 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 ---
 
-## CTT — T03 {{nome da tarefa}}
+## CTT — T03  Upload da prova
+
+**Autor(a):** {{nome — matrícula}}
+
+### Descrição
+
+{{...}}
+
+### Diagrama
+
+![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+
+### Legenda e relações temporais usadas
+
+| Operador/relação | Significado no diagrama | Exemplo no modelo |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
+
+
+## HTA — T01 Inserção de dados da prova de maneira manual
+
+**Autor(a):** {{nome — matrícula}}
+
+
+### Descrição da tarefa
+
+{{objetivo, ponto de início, conclusão esperada, contexto}}
+
+### Diagrama
+
+![HTA T01](../assets/05_tarefas/hta_t01.svg)
+
+### Decomposição e planos
+
+| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
+|---|---|---|---|
+| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+
+**Verificação do HTA:**
+
+- O objetivo 0 representa uma meta do usuário?
+- As subtarefas são necessárias e suficientes?
+- Os **planos** indicam ordem, alternativa, repetição ou condição?
+- A decomposição parou em nível útil para projeto de interação?
+
+---
+
+## GOMS — T02 Inserção de dados da prova de maneira manual
+
+**Autor(a):** {{nome — matrícula}}
+
+### Goal
+
+`G0: {{meta do usuário}}`
+
+### Métodos, operadores e regras de seleção
+
+- **Method M1:** {{...}}
+  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
+- **Method M2:** {{...}}
+  - Operators: {{...}}
+- **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+
+> Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
+
+---
+
+## CTT — T03 Inserção de dados da prova de maneira manual
+
+**Autor(a):** {{nome — matrícula}}
+
+### Descrição
+
+{{...}}
+
+### Diagrama
+
+![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+
+### Legenda e relações temporais usadas
+
+| Operador/relação | Significado no diagrama | Exemplo no modelo |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
+
+
+## HTA — T01 Análise do dashboard com métricas da prova
+
+**Autor(a):** {{nome — matrícula}}
+
+
+### Descrição da tarefa
+
+{{objetivo, ponto de início, conclusão esperada, contexto}}
+
+### Diagrama
+
+![HTA T01](../assets/05_tarefas/hta_t01.svg)
+
+### Decomposição e planos
+
+| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
+|---|---|---|---|
+| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+
+**Verificação do HTA:**
+
+- O objetivo 0 representa uma meta do usuário?
+- As subtarefas são necessárias e suficientes?
+- Os **planos** indicam ordem, alternativa, repetição ou condição?
+- A decomposição parou em nível útil para projeto de interação?
+
+---
+
+## GOMS — T02 Análise do dashboard com métricas da prova
+
+**Autor(a):** {{nome — matrícula}}
+
+### Goal
+
+`G0: {{meta do usuário}}`
+
+### Métodos, operadores e regras de seleção
+
+- **Method M1:** {{...}}
+  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
+- **Method M2:** {{...}}
+  - Operators: {{...}}
+- **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+
+> Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
+
+---
+
+## CTT — T03 Análise do dashboard com métricas da prova
+
+**Autor(a):** {{nome — matrícula}}
+
+### Descrição
+
+{{...}}
+
+### Diagrama
+
+![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+
+### Legenda e relações temporais usadas
+
+| Operador/relação | Significado no diagrama | Exemplo no modelo |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
+
+
+## HTA — T01 Download do dashboard
+
+**Autor(a):** {{nome — matrícula}}
+
+
+### Descrição da tarefa
+
+{{objetivo, ponto de início, conclusão esperada, contexto}}
+
+### Diagrama
+
+![HTA T01](../assets/05_tarefas/hta_t01.svg)
+
+### Decomposição e planos
+
+| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
+|---|---|---|---|
+| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+
+**Verificação do HTA:**
+
+- O objetivo 0 representa uma meta do usuário?
+- As subtarefas são necessárias e suficientes?
+- Os **planos** indicam ordem, alternativa, repetição ou condição?
+- A decomposição parou em nível útil para projeto de interação?
+
+---
+
+## GOMS — T02 Download do dashboard
+
+**Autor(a):** {{nome — matrícula}}
+
+### Goal
+
+`G0: {{meta do usuário}}`
+
+### Métodos, operadores e regras de seleção
+
+- **Method M1:** {{...}}
+  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
+- **Method M2:** {{...}}
+  - Operators: {{...}}
+- **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+
+> Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
+
+---
+
+## CTT — T03 Download do dashboard
 
 **Autor(a):** {{nome — matrícula}}
 
