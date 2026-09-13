@@ -24,7 +24,7 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 **Instituição:** Centro universitário FEI
 **Semestre:** 8º 
 
-### Equipe
+### Equipe 5
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|

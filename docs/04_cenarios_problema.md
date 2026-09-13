@@ -22,17 +22,21 @@ A interface da disciplina aparecerá somente depois, nos cenários de interaçã
 
 Se o integrante escolher um novo problema/situação, explique por que ele passou a ser relevante e indique a evidência que motivou sua inclusão.
 
-## Cenário C01 — {{título}}
+## Cenário C01 — Professor percebe um desempenho inesperadamente baixo
 
 **Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>
 **Persona(s) relacionada(s):** P01<br>  
-**Necessidade relacionada:** {{R01}}<br>  
-**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}<br>  
-**Hipóteses ainda presentes:** {{H01, H02 ou —}}
+**Necessidade relacionada:** Necessita manter seus conhecimentos atualizados, especialmente em relação a novas tecnologias, e contar com recursos que auxiliem no planejamento de aulas interessantes e relevantes. Também valoriza um bom relacionamento com os alunos e busca formas de contribuir para seu desenvolvimento por meio da educação.<br>  
+**Situação concreta da Entrega 1 relacionada:** 4.1, 4.2 e 4.5<br>  
+**Hipóteses ainda presentes:** H01, H02, H03, H04 
 
 ### 1. Cenário inicial
 
-{{narrativa}}
+Maria da Costa Silva, professora de Literatura do ensino médio de uma escola pública do estado de São Paulo, está corrigindo uma avaliação aplicada recentemente a uma de suas turmas. Durante as aulas e atividades realizadas ao longo do período, Maria percebeu que a maioria dos estudantes demonstrava compreender os conteúdos trabalhados e conseguia participar das discussões e dos exercícios propostos. No entanto, ao corrigir a avaliação, ela percebe que o desempenho da turma foi consideravelmente inferior ao esperado.
+
+O resultado faz com que Maria questione se a dificuldade apresentada pelos estudantes está realmente relacionada à falta de domínio dos conteúdos ou se a forma como a avaliação foi elaborada pode ter influenciado o desempenho. Ao revisar a prova, ela percebe que algumas questões possuem enunciados extensos, diferentes quantidades de texto e elementos visuais, além de estarem distribuídas em posições distintas. Maria considera que essas características podem ter dificultado a interpretação ou a resolução de algumas questões, mas não consegue determinar se elas realmente tiveram relação com o resultado obtido pela turma.
+
+Para tentar compreender melhor a situação, Maria conversa com outros professores da escola e conhecidos da área, buscando saber se já passaram por situações semelhantes e como costumam lidar com resultados inesperados em avaliações. Embora essas conversas possam ajudar a levantar possíveis explicações, Maria percebe que as opiniões são baseadas principalmente em experiências individuais e não permitem verificar de forma objetiva se determinadas características da prova estão relacionadas ao desempenho dos estudantes. Assim, ela busca uma forma de analisar a avaliação aplicada que possa fornecer informações mais concretas e ajudá-la a identificar possíveis melhorias para suas próximas provas.
 
 ### 2. Questões de refinamento
 
@@ -40,29 +44,43 @@ Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revela
 
 | # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
 |---|---|---|---|
-| Q1 | {{...}} | {{...}} | {{...}} |
+| Q1 | por que os atores querem ou precisam alcançar esse objetivo | Para ajudar no refinamento do cenário inicial | hipotese  |
+| Q2 | quais as precondições para esse objetivo | Para ajudar no refinamento do cenário inicial  | hipotese |
+| Q3 | de que informações ou conhecimento os atores precisam para realizar esse objetivo | Para ajudar no refinamento do cenário inicial | hipotese|
+| Q4 | quais informações são (ou deveriam ser) criadas, consumidas, manipuladas ou destruídas pelo alcance do objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q5 | em que situações o cenário ocorre (quando, onde e por quê)? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q6 | que dispositivos e outros recursos (inclusive tempo) estão disponíveis para o alcance do objetivo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q7 | como os atores alcançam o objetivo atualmente? como gostariam de fazê-lo? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q8 | quais problemas ou dificuldades podem surgir ao realizá-la? como podem ser resolvidos ou contornados? | Para ajudar no refinamento do cenário inicial | hipotese |
+| Q9 | [do objetivo] como os atores conseguem saber se o objetivo foi concluído e alcançado com sucesso? | Para ajudar no refinamento do cenário inicial | hipotese |
 
 ### 3. Cenário refinado
 
-Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).
+Maria da Costa Silva, professora de Literatura do ensino médio de uma escola pública do estado de São Paulo, está corrigindo uma avaliação aplicada recentemente a uma de suas turmas. Durante as aulas e atividades realizadas ao longo do período, Maria percebeu que a maioria dos estudantes demonstrava compreender os conteúdos trabalhados e conseguia participar das discussões e dos exercícios propostos. No entanto, ao corrigir a avaliação, ela percebe que o desempenho da turma foi consideravelmente inferior ao esperado.
 
-{{narrativa refinada}}
+O resultado faz com que Maria questione se a dificuldade apresentada pelos estudantes está realmente relacionada à falta de domínio dos conteúdos ou se a forma como a avaliação foi elaborada pode ter influenciado o desempenho. Ao revisar a prova, ela percebe que algumas questões possuem enunciados extensos, diferentes quantidades de texto e elementos visuais, além de estarem distribuídas em posições distintas. Maria considera que essas características podem ter dificultado a interpretação ou a resolução de algumas questões, mas não consegue determinar se elas realmente tiveram relação com o resultado obtido pela turma. [Q1] Ela busca compreender melhor o que pode ter contribuído para o desempenho abaixo do esperado, pois acredita que isso pode ajudá-la a elaborar avaliações que representem de maneira mais adequada o conhecimento de seus estudantes.
+
+Para tentar compreender melhor a situação, Maria conversa com outros professores da escola e conhecidos da área, buscando saber se já passaram por situações semelhantes e como costumam lidar com resultados inesperados em avaliações. Embora essas conversas possam ajudar a levantar possíveis explicações, Maria percebe que as opiniões são baseadas principalmente em experiências individuais e não permitem verificar de forma objetiva se determinadas características da prova estão relacionadas ao desempenho dos estudantes. [Q7] Por isso, ela busca uma forma mais objetiva de realizar essa análise, sem depender exclusivamente da experiência de outros professores.
+
+[Q2] Para investigar a situação, Maria precisa partir da avaliação, considerando o contexto em que a prova foi elaborada e aplicada. [Q3] Ela precisa compreender quais aspectos da maneira como uma avaliação é elaborada podem estar relacionados ao desempenho dos estudantes e como esses aspectos podem afetar a forma como eles interpretam e resolvem as questões. [Q4] Ao realizar essa investigação, Maria considera tanto as características presentes na avaliação, como a extensão dos enunciados, a presença de elementos visuais e a organização das questões, quanto aquilo que observou no desempenho de seus alunos. [Q5] Essa situação ocorre após a correção da avaliação, durante seu período de planejamento na própria escola, quando Maria analisa os resultados da turma e começa a pensar em como pode melhorar suas próximas avaliações. [Q6] Ela dispõe de um computador ou notebook no ambiente escolar, mas possui pouco tempo disponível para realizar atividades adicionais devido à sua rotina de trabalho.
+
+[Q8] Para que essa investigação seja útil, Maria precisa conseguir compreender as informações obtidas e utilizá-las para refletir sobre suas escolhas ao elaborar avaliações, sem precisar dominar métodos complexos ou depender de interpretações que não consiga compreender. [Q9] Ela considera que terá alcançado seu objetivo quando conseguir compreender melhor o que pode estar contribuindo para os resultados de seus alunos e tiver elementos que a ajudem a tomar decisões mais conscientes sobre a forma como avalia seus conhecimentos. 
 
 ### 4. Elementos extraídos
 
 | Elemento | Evidência no cenário |
 |---|---|
-| Ator(es) | {{...}} |
-| Objetivo(s) | {{...}} |
-| Contexto | {{...}} |
-| Recursos/informações | {{...}} |
-| Ações | {{...}} |
-| Problemas/rupturas | {{...}} |
-| Consequências | {{...}} |
+| Ator(es) | Maria da Costa Silva, professora de Literatura do ensino médio de uma escola pública do estado de São Paulo. |
+| Objetivo(s) | Maria busca compreender o que pode estar contribuindo para o desempenho abaixo do esperado dos estudantes, de modo a realizar avaliações que representem melhor seus conhecimentos. A partir dessa compreensão, pretende aperfeiçoar suas próximas avaliações e utilizar seus resultados para orientar melhor suas aulas. |
+| Contexto | Após corrigir uma avaliação, Maria percebe que o desempenho da turma foi inferior ao esperado, apesar de os estudantes demonstrarem compreensão dos conteúdos durante as aulas e atividades. A situação ocorre durante seu período de planejamento na escola, enquanto analisa os resultados e pensa em como melhorar suas próximas avaliações. |
+| Recursos/informações | A avaliação aplicada, os resultados observados nos estudantes, as características presentes nas questões da prova, a experiência e opinião de outros professores, computador ou notebook disponível no ambiente escolar e o tempo limitado de Maria devido à sua rotina de trabalho. |
+| Ações | Corrigir a avaliação; revisar as questões e suas características; questionar possíveis motivos para o baixo desempenho; conversar com outros professores e conhecidos da área; buscar formas de compreender melhor os resultados; refletir sobre a elaboração de próximas avaliações. |
+| Problemas/rupturas | O desempenho dos estudantes foi inferior ao esperado; Maria não consegue determinar se o resultado está relacionado ao domínio dos conteúdos ou à forma como a avaliação foi elaborada |
+| Consequências | Maria permanece com dúvidas sobre o que contribuiu para o desempenho da turma e sobre a adequação da avaliação utilizada. Isso dificulta a identificação de possíveis melhorias nas avaliações e pode limitar sua capacidade de utilizar os resultados das provas para orientar melhor suas próximas aulas. |
 
 ### 5. Implicações para as próximas entregas
 
-Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
+Investigar se características do formato das avaliações apresentam relação com o desempenho dos estudantes, verificando se características como posição das questões, extensão dos enunciados, presença de elementos visuais, disposição dos distratores, formalismo impactam no desempenho do aluno.
 
 ## Cenário C02 — ⁠Professor quer verificar uma prova antes de aplicá-la
 
@@ -105,7 +123,6 @@ Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revela
 ### 3. Cenário refinado
 
 <!--Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).-->
-### 3. Cenário refinado
 
 João Paulo é professor universitário do curso de Ciência da Computação e, cerca de duas semanas antes da aplicação das avaliações, começa a elaborar as provas de suas turmas. **[Q6] [Esse processo ocorre durante o período destinado pelo professor à preparação das avaliações, podendo ser realizado na instituição de ensino, em seu escritório ou em casa, de acordo com sua disponibilidade e rotina de trabalho.]** Para isso, pode utilizar como base os conteúdos trabalhados em aula, questões de provas anteriores, questões do ENADE ou da Pós-Comp, suas próprias anotações, materiais didáticos e as principais dúvidas apresentadas pelos alunos ao longo do semestre. A partir desses materiais, busca construir questões alinhadas aos conteúdos e objetivos de aprendizagem trabalhados em sala.
 
