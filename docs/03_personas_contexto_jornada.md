@@ -101,7 +101,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 **Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5  <br>
 **Tipo:** Primária <br>
-**Base de evidências:** Observação <br> 
+**Base de evidências:** Proto-persona a validar <br> 
 **Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
 
 ![Persona P03](../assets/03_personas/personaP03Foto.jpg)
@@ -110,7 +110,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 |---|---|
 | Faixa etária / contexto relevante | 32 anos. Professora de inglês em uma escola online de línguas|
 | Ocupação/papel | É professora de inglês à distância, trabalhando em uma escolinha de línguas.  |
-| Conhecimento do domínio | Possui conhecimento intermediário/avançado sobre ensino de língua inglesa e experiência prática na elaboração e aplicação de avaliações, mas não necessariamente possui conhecimento especializado em análise estatística de itens. |
+| Conhecimento do domínio | Possui conhecimento avançado sobre ensino de língua inglesa e experiência prática na elaboração e aplicação de avaliações, mas não necessariamente possui conhecimento especializado em análise estatística de itens. |
 | Experiência tecnológica | Utiliza computadores e plataformas digitais regularmente para ministrar aulas, preparar materiais e acompanhar alunos. Possui familiaridade com ferramentas como Microsoft Office e plataformas de ensino a distância, mas pode não estar familiarizada com ferramentas especializadas de análise de avaliações. |
 | Objetivos | Seu maior objetivo como profissional é que seus alunos saiam de suas aulas se sentindo mais confiantes em suas habilidades e preparados para lidarem com usos da língua inglesa em situações reais de forma autônoma.|
 | Necessidades | Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade. |

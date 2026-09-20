@@ -1,7 +1,7 @@
 # Entrega 4 — Cenários de análise/problema
 
 **Data:** 09/09/2026<br> 
-**Status:** 🟨 Em andamento<br>
+**Status:** 🟩 concluída <br>
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
@@ -166,17 +166,21 @@ Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada
 
 A principal informação que precisa ser coletada e analisada é a relação entre as características estruturais das questões de uma prova e o desempenho dos estudantes. O TCC deverá investigar se aspectos como a quantidade de palavras do enunciado, a presença de imagens, o tempo disponível para resolução, o nível de formalismo da linguagem e as características dos distratores podem influenciar o desempenho dos alunos, considerando especificamente questões do ENEM.
 
-## Cenário C03 — {{título}}
+## Cenário C03 — Professor quer comparar duas versões de uma avaliação
 
 **Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5<br>   
 **Persona(s) relacionada(s):** P03<br>
-**Necessidade relacionada:** {{R01}}<br>  
-**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}<br>  
-**Hipóteses ainda presentes:** {{H01, H02 ou —}}
+**Necessidade relacionada:** Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade.<br>  
+**Situação concreta da Entrega 1 relacionada:** Seção 4.4 <br>  
+**Hipóteses ainda presentes:** H01, H02,H03 ou H04 
 
 ### 1. Cenário inicial
+Vera é uma professora de inglês que preparou duas versões de uma avaliação para aplicar em turmas diferentes, buscando evitar o compartilhamento de respostas entre os alunos. Entretanto, ela deseja garantir que as diferenças entre as avaliações não façam com que uma das turmas seja favorecida ou prejudicada.
 
-{{narrativa}}
+Como não possui uma ferramenta específica para comparar a estrutura das duas avaliações, Vera realiza essa análise manualmente. Ela revisa ambas as provas, observando características como o tamanho dos enunciados e das alternativas, a presença de elementos visuais e a organização das questões, buscando identificar diferenças que possam afetar o desempenho dos alunos, além de procurar opiniões externas de outros funcionários e professores da escola onde trabalha quando consegue.
+
+Quando encontra diferenças que considera relevantes, Vera modifica uma das avaliações e realiza novamente a comparação. Esse processo é repetido até que, com base em sua própria análise, considere que as duas versões apresentam estruturas suficientemente semelhantes.
+
 
 ### 2. Questões de refinamento
 
@@ -184,38 +188,58 @@ Use os tipos de questões/taxonomia definidos na aula. As perguntas devem revela
 
 | # | Questão | Por que precisa ser respondida | Fonte/forma de obter resposta |
 |---|---|---|---|
-| Q1 | {{...}} | {{...}} | {{...}} |
+| Q1 | Quais as precondições para esse objetivo? | Para ajudar no refinamento do cenário inicial | Hipótese |
+| Q2 | De que informações ou conhecimento os atores precisam para realizar esse objetivo? | Para ajudar no refinamento do cenário inicial| Hipótese |
+| Q3 | Em que situações o cenário ocorre (quando, onde e por quê)? | Para ajudar no refinamento do cenário inicial| Hipótese |
+| Q4 | Que dispositivos e outros recursos (inclusive tempo) estão disponíveis para o alcance do objetivo? | Para ajudar no refinamento do cenário inicial | Hipótese |
+| Q5 | Quem depende do resultado do objetivo? Quem consome quais informações geradas pelo alcance do objetivo? Quem precisa ser notificado da conclusão (bem-sucedida ou malsucedida) do objetivo? | Para ajudar no refinamento do cenário inicial | Hipótese |
+| Q6 | Quais pressões existem para o alcance do objetivo? | Para ajudar no refinamento do cenário inicial| Hipótese |
+| Q7 | De quem depende o alcance do objetivo? Quem fornece as informações necessárias? | Para ajudar no refinamento do cenário inicial| Hipótese |
+| Q8 | Que decisões os atores precisam tomar? Como o ambiente atual auxilia ou dificulta essas decisões? Quais as consequências de uma decisão errada? |Para ajudar no refinamento do cenário inicial | Hipótese |
+| Q9 | Como os atores alcançam o objetivo atualmente? Como gostariam de fazê-lo? | Para ajudar no refinamento do cenário inicial | Hipótese |
 
 ### 3. Cenário refinado
 
-Reescreva o cenário incorporando as respostas. Marque o conteúdo novo de forma consistente (por exemplo, `**[NOVO: ...]**`).
+Vera é uma professora de inglês que está preparando duas versões de uma avaliação para aplicar em duas de suas turmas, buscando evitar o compartilhamento de respostas entre os alunos. **[Q1] Antes de iniciar a comparação, Vera já elaborou as duas versões da avaliação e definiu os conteúdos e objetivos de aprendizagem que pretende avaliar.** Ela deseja garantir que, apesar de diferentes, as avaliações possuam estruturas semelhantes e que essas diferenças não favoreçam ou prejudiquem nenhuma das turmas.
 
-{{narrativa refinada}}
+**[Q2] Para realizar essa análise, Vera considera seu conhecimento sobre o conteúdo avaliado, o nível esperado de conhecimento de cada turma e sua experiência na elaboração de avaliações, buscando identificar características das questões que possam alterar sua dificuldade ou influenciar o desempenho dos alunos.**
+
+**[Q3] Esse processo ocorre durante a elaboração e revisão das avaliações, antes de sua aplicação. Vera costuma realizar essa atividade em sua casa, seu principal ambiente de preparação das aulas, embora possa realizá-la em outros locais que ofereçam os recursos necessários.** **[Q4] Para elaborar, modificar e comparar as avaliações, ela utiliza um computador com acesso a editores de texto e precisa reservar parte de seu tempo de preparação para revisar as duas versões.**
+
+Como não possui uma ferramenta específica para comparar a estrutura das avaliações, Vera realiza essa análise manualmente. Ela observa características como o tamanho dos enunciados e das alternativas, a presença de elementos visuais e a organização das questões. **[Q7] O processo depende principalmente de sua própria análise e experiência, embora, quando possível, ela também procure outros professores e funcionários da escola para obter opiniões externas sobre as avaliações. A decisão final sobre as alterações, entretanto, permanece com Vera.**
+
+**[Q8] Durante a comparação, Vera precisa decidir quais diferenças entre as avaliações são relevantes, se elas podem influenciar o desempenho dos alunos, quais questões precisam ser modificadas e quando as duas versões estão suficientemente equivalentes. A ausência de uma ferramenta específica dificulta essas decisões, fazendo com que dependam principalmente de sua percepção e experiência. Uma decisão inadequada pode resultar em diferenças que favoreçam ou prejudiquem uma das turmas.**
+
+**[Q6] Além disso, Vera precisa realizar todo esse processo dentro do prazo disponível antes da aplicação das provas e possui a responsabilidade de produzir avaliações adequadas ao conteúdo e ao nível de suas turmas. Quando encontra diferenças que considera relevantes, ela modifica uma das avaliações e realiza novamente a comparação.**
+
+**[Q5]O resultado desse processo afeta tanto Vera quanto seus alunos, pois estes receberão as versões finais das avaliações e seu desempenho poderá ser influenciado por diferenças entre elas. Vera, como responsável pela elaboração e revisão, precisa saber se foram identificadas diferenças relevantes e quando a comparação pode ser considerada concluída.**
+
+**[Q9] Atualmente, Vera repete manualmente esse processo de comparação e alteração até considerar que as duas avaliações possuem estruturas suficientemente semelhantes. Ela gostaria de realizar essa comparação de maneira mais rápida e objetiva, recebendo informações claras sobre as diferenças entre as provas e os aspectos que podem exigir sua atenção, reduzindo o tempo dedicado à revisão e aumentando sua confiança de que diferenças estruturais não afetarão de maneira desigual suas turmas.**
 
 ### 4. Elementos extraídos
 
 | Elemento | Evidência no cenário |
 |---|---|
-| Ator(es) | {{...}} |
-| Objetivo(s) | {{...}} |
-| Contexto | {{...}} |
-| Recursos/informações | {{...}} |
-| Ações | {{...}} |
-| Problemas/rupturas | {{...}} |
-| Consequências | {{...}} |
+| Ator(es) | Vera Coelho |
+| Objetivo(s) | Comparar duas versões de uma avaliação destinadas a turmas diferentes, buscando garantir que diferenças em suas estruturas não favoreçam ou prejudiquem o desempenho de uma das turmas. |
+| Contexto | Antes da aplicação das provas, Vera possui duas versões da avaliação já elaboradas e precisa revisá-las e compará-las antes de aplicá-las em turmas diferentes.|
+| Recursos/informações | Ela tem o seu computador pessoal com acesso a um editor de texto, uma conexão com a internet, conhecimento prévio de suas turmas e o conteúdo sendo ensinado. |
+| Ações | Vera elabora as duas versões da avaliação, compara manualmente suas características estruturais e identifica possíveis diferenças relevantes. Quando possível, consulta outros professores e funcionários para obter opiniões externas. Caso identifique diferenças que considere relevantes, realiza alterações e repete a comparação. |
+| Problemas/rupturas | Vera não possui uma ferramenta específica que forneça evidências concretas sobre as diferenças estruturais entre as avaliações. Dessa forma, a comparação depende principalmente de sua própria percepção e experiência e das opiniões de outros professores, dificultando determinar com segurança quando as duas versões estão suficientemente equivalentes.|
+| Consequências | Diferenças estruturais não identificadas durante a revisão podem influenciar o desempenho dos alunos, fazendo com que os resultados das turmas sejam afetados não apenas pelo conhecimento ou preparação dos estudantes, mas também pelas características das versões das avaliações que receberam.|
 
 ### 5. Implicações para as próximas entregas
 
-Quais tarefas merecem análise? Quais informações precisam ser coletadas? **Não desenhe a solução ainda.**
+A principal tarefa a ser analisada é verificar se as diferenças na estrutura das provas podem afetar o desempenho dos alunos. Para isso, devem ser coletadas informações sobre as características das duas avaliações, como a quantidade de palavras dos enunciados e das alternativas, a presença de imagens, o tempo de resolução da prova, o nível de formalidade da escrita e as características dos distratores.
 
 ## Checklist
 
-- [ ] Há um cenário completo por integrante.
-- [ ] Cada cenário tem título, ator, objetivo, contexto e problema.
-- [ ] O cenário possui origem rastreável na Entrega 1 ou justifica claramente a inclusão de uma nova situação.
-- [ ] O texto descreve a situação atual, sem antecipar a solução.
-- [ ] Para TCC sem interface original, o cenário descreve uma prática humana plausível relacionada à contribuição técnica, e não “a falta de uma tela”.
-- [ ] Questões de refinamento acrescentam informação nova.
-- [ ] O refinamento mostra claramente o que foi adicionado/alterado.
-- [ ] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
-- [ ] Cada cenário está ligado a persona/necessidade na matriz de rastreabilidade.
+- [X] Há um cenário completo por integrante.
+- [X] Cada cenário tem título, ator, objetivo, contexto e problema.
+- [X] O cenário possui origem rastreável na Entrega 1 ou justifica claramente a inclusão de uma nova situação.
+- [X] O texto descreve a situação atual, sem antecipar a solução.
+- [] Para TCC sem interface original, o cenário descreve uma prática humana plausível relacionada à contribuição técnica, e não “a falta de uma tela”.
+- [X] Questões de refinamento acrescentam informação nova.
+- [X] O refinamento mostra claramente o que foi adicionado/alterado.
+- [X] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
+- [X] Cada cenário está ligado a persona/necessidade na matriz de rastreabilidade.
