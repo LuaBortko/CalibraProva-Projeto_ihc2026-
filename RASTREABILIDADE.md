@@ -13,7 +13,7 @@ Para projetos cujo TCC não previa interface, esta matriz é especialmente impor
 | O TCC previa interface? | sim | MVP | definido |
 | Capacidade/contribuição central | analisar se o formato da prova do ENEM impacta no desempenho dos candidatos | TCC | definido |
 | Possíveis beneficiários/stakeholders | docentes e alunos | hipótese | H |
-| Usuário escolhido para IHC | docente | pois ele é o único usuário que utiliza o sistema | F |
+| Usuário escolhido para IHC | docente | pois ele é o único usuário que utiliza o sistema | H |
 | Objetivo principal do usuário | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes. | [H] | [H] |
 | Contexto de uso adotado | Uma docente, ao elaborar uma prova para seus estudantes, deseja garnatir que está os avaliando com base nos conhecimentos obtidos nas aulas, por isso, utiliza nosso sistema para identificar o impacto do formato de sua prova no desempenho de seus alunos. | [H] | H  |
 | Interface/recorte de IHC | Não | Deriva da contribuição central do TCC, do docente como usuário direto e da necessidade de analisar a prova antes de sua aplicação. | revisada |
@@ -33,28 +33,40 @@ Use esta tabela para itens importantes marcados como `[H]` ou `[?]`. Preserve o 
 | H04 | Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | H | É importante para compreender o perfil e o contexto de uso do público-alvo, orientando o desenvolvimento de uma interface compatível com suas necessidades e conhecimentos tecnológicos. | Entrega 3 | Não tem | aberta | alto |
 
 ## 3. Rastreabilidade entre contribuição técnica, necessidades e artefatos
-
+<!-- Usei de "metrica" pra esse a parte final do doc2 (top 5) -->
+<!-- Como tava antes 
+| R01 | Apresentação visual das métricas | O docente precisa consultar e interpretar diferentes métricas relacionadas à prova | P01, P02 e P03 | {{C01}} | {{T01}} | {{links}} | {{...}} | {{M01}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
+-->
 | ID | Capacidade do TCC utilizada | Necessidade/problema | Persona | Cenário problema | Objetivo/tarefa | HTA/GOMS/CTT | Cenário de interação / signos | MoLIC | Tela(s) Figma | Heurística / problema | Tarefa no teste | Decisão/melhoria |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| R01 | {{ex.: recomendação de otimização}} | {{...}} | {{P01}} | {{C01}} | {{T01}} | {{links}} | {{...}} | {{M01}} | {{F01...}} | {{V01 ou —}} | {{UT01}} | {{...}} |
-| R02 |  |  |  |  |  |  |  |  |  |  |  |  |
+| R01 | Apresentação visual das métricas | O docente precisa consultar e interpretar diferentes métricas relacionadas à prova | P01, P02 e P03 | {{C01}} | Consultar os resultados da análise | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente | Utilizar diferentes formas de apresentação para organizar e facilitar a interpretação das métricas. |
+| R02 | Upload e processamento da prova | A entrada pode exigir conhecimento da estrutura dos dados e configurações adicionais | P01, P02 e P03 | {{C01}} | Enviar a prova para análise | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente | Simplificar a etapa de upload e reduzir a quantidade de configurações necessárias. |
+| R03 | Explicabilidade das métricas | Métricas e terminologias técnicas podem exigir conhecimento prévio para serem interpretadas | P01, P02 e P03 | {{C01}} | Compreender o significado das métricas e dos resultados | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente | Apresentar explicações sobre o funcionamento da análise, o significado das métricas e a obtenção dos resultados. |
+| R04 | Organização e hierarquia das informações | A apresentação simultânea de muitas informações pode dificultar a consulta dos resultados | P01, P02 e P03 | {{C01}} | Consultar os resultados da análise | Pendente | Pendente | Pendente | Pendente | Pendente | Pendente | Priorizando a visibilidade das informações relevantes e evitar o excesso de elementos na apresentação dos resultados |
+
 
 ## 4. Rastreabilidade de padrões de interface
 
 Use esta tabela quando o projeto incorporar padrões como dashboard, relatório, histórico, filtros ou administração. O objetivo é **justificar o padrão**, não apenas listar telas.
-
+<!-- Como tava antes
+| F01 | dashboard | {{T01}} | {{...}} | {{H01/evidência...}} | {{C01/M01}} |
+DEPOIS VOLTAR AKI PARA ARRUMAR A PARTE DAS HIPOTESES, colocar a hipotese na parte da evidencia, e perguntar oq e onde coloca os t0x, que são os objetivos aparentemente
+-->
 | ID da tela/fluxo | Padrão de interface | Objetivo/tarefa que justifica | Informação/ação principal | Evidência de necessidade | Artefatos relacionados |
 |---|---|---|---|---|---|
-| F01 | dashboard | {{T01}} | {{...}} | {{H01/evidência...}} | {{C01/M01}} |
-| F02 | histórico com filtros | {{T02}} | {{...}} | {{...}} | {{...}} |
-| F03 | administração/CRUD | {{T03}} | {{...}} | {{...}} | {{...}} |
+| F01 | dashboard | Apresentar uma visão geral dos principais resultados da análise | Métricas e indicadores gerais da prova | Dashboard identificado em C01/C02 e também em interfaces utilizadas pelo público; permite reunir informações de resultados em uma visão inicial. | C01,C02,R01 e R04 |
+| F02 | upload | Enviar a prova para processamento e análise | Seleção e envio da prova | C01, C02 e C03 apresentam etapas de entrada de dados. A análise do Xcalibre evidencia que estruturas e parâmetros adicionais podem aumentar a complexidade dessa etapa. | C01, C02, C03 e R02 |
+| F03 | detalhamento pós-processamento | Aprofundar a análise após a visualização inicial dos resultados | Detalhes das métricas e explicações sobre os resultados | O padrão foi identificado nas ferramentas analisadas e foi considerado aplicável ao escopo. Também está relacionado à necessidade de explicar métricas e resultados técnicos. | C02, C03, R03 e R04 |
+| F04 | exportação/download | Armazenar e consultar os resultados posteriormente | Exportação das métricas e resultados | Identificado em uma das ferramentas analisadas, permitindo o usuário armazenar os resultados obtidos | C03 |
 
 ## 5. Registro de mudanças de escopo
 
 | Data | O que mudou | Evidência/feedback que motivou | Artefatos afetados | Responsável |
 |---|---|---|---|---|
 | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-
+<!-- 
+| 27/09 | Adição das contribuições da entrega 2 | feedback da entrega 2 | R01, R02, R03, R04, F01, F02, F03 e F04 | - |
+ -->
 ## Como usar
 
 - Use identificadores estáveis (`H01`, `P01`, `C01`, `T01`, `M01`, `F01`, `UT01`).
