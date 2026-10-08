@@ -5,6 +5,14 @@
 
 ## Objetivo da atividade
 
+
+<!--dica do feedback3
+
+
+- **Entrega 07 - Coleta de dados:** validar H04 e as características hoje atribuídas às proto-personas, especialmente familiaridade tecnológica, conhecimento de métricas, frequência de elaboração de avaliações, ambiente de uso e necessidade de explicações.
+- **Avaliação futura:** verificar se diferentes níveis de experiência tecnológica realmente exigem comportamentos de interface distintos.
+
+ -->
 Planejar dados necessários para compreender usuários e requisitos de IHC, escolher técnicas adequadas e documentar instrumentos de modo que a aplicação possa ser reproduzida por pessoas diferentes.
 
 ## Para escopos de IHC derivados de TCC técnico

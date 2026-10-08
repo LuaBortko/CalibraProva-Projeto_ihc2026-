@@ -448,6 +448,7 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 
 # 10. Hipóteses e dúvidas prioritárias
 
+<!-- adicionar mais hipoteses acho q era p qiebra a h4 em h4 e h5, coloca mais hipoteses de persona... atualizar nas personas da entrega3 as hipoteses relacionadas-->
 | ID | Hipótese/dúvida | Por que importa | Como poderá ser investigada |
 |---|---|---|---|
 | H01 | O formato da prova impacta do desempenho do aluno | Fundamenta a proposta do TCC, pois é necessário verificar se características estruturais da prova apresentam relação com o desempenho dos candidatos. | TCC |

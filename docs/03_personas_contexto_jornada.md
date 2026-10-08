@@ -45,21 +45,21 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>  
 **Tipo:** primário<br>
 **Base de evidências:** Proto-persona a validar<br>
-**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br>
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04<br> <!-- VALIDAR COM AJSUTES DO NUNO EX H4 DIVIDIDA EM H4 E H5, MAIS HIPOTESES DE PERSONA -->
 
 ![Persona P01](../assets/03_personas/persona_p01.jpg)
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | 46 anos, professora da educação básica, atuando no ensino médio de uma escola pública do estado de São Paulo. |
+| Faixa etária / contexto relevante | 64 anos, professora da educação básica, atuando no ensino médio de uma escola pública do estado de São Paulo. |
 | Ocupação/papel | Professora de Literatura do ensino médio |
-| Conhecimento do domínio | Possui conhecimento sobre práticas pedagógicas, avaliação e preparação de estudantes do ensino médio. Tem familiaridade com o contexto do ENEM e com as dificuldades apresentadas pelos alunos na interpretação e resolução de questões. |
-| Experiência tecnológica | Possui experiência básica a intermediária com ferramentas digitais utilizadas no ambiente escolar, como computadores, plataformas educacionais e editores de documentos. Também tem experiência no uso de ferramentas de IA, para auxilio na correção de textos |
-| Objetivos | Conseguir impactar a vida de seus estudantes, com aulas engajantes; Ter estabilidade financeira e profissional; Conseguir mais tempo com a família; Queria ter um maior impacto social por meio do conhecimento e ações sociais |
+| Conhecimento do domínio | Possui conhecimento sobre práticas pedagógicas, avaliação e preparação de estudantes do ensino médio para vestibulares. Tem familiaridade com o contexto do ENEM e com as dificuldades apresentadas pelos alunos na interpretação e resolução de questões. |
+| Experiência tecnológica | Possui experiência básica com ferramentas digitais utilizadas no ambiente escolar, como computadores, plataformas educacionais e editores de documentos. Também tem experiência no uso de ferramentas de IA, para auxilio na correção de textos |
+| Objetivos | Seu objetivo principal é prepar os estudantes para os vestibulares para que eles ingressem na universidade por meio do ensinamento claro dos conteúdos, tornando as aulas sempre muito didáticas, claras e engajantes para que eles aprendam e não decorem. Além disso quer ter um maior impacto social por meio do conhecimento e ações sociais. ||||||||
 | Necessidades | Necessita manter seus conhecimentos atualizados, especialmente em relação a novas tecnologias, e contar com recursos que auxiliem no planejamento de aulas interessantes e relevantes. Também valoriza um bom relacionamento com os alunos e busca formas de contribuir para seu desenvolvimento por meio da educação. |
-| Dores/frustrações | Sente dificuldade em criar aulas capazes de manter a atenção dos estudantes e em elaborar avaliações que representem adequadamente seus conhecimentos, tendo medo que seus alunos não consigam absorver corretamente o conteúdo dado em suas aulas. Também enfrenta desafios para tornar suas aulas mais inclusivas, além da pressão para cumprir suas obrigações dentro dos prazos. A rotina de trabalho pode dificultar a conciliação entre vida profissional e familiar. |
-| Motivadores | Busca melhorar continuamente sua prática como professora e oferecer aulas mais interessantes e engajantes para seus alunos. Sente-se motivada por soluções que facilitem seu trabalho e permitam realizar suas atividades de forma mais eficiente, além de valorizar a inclusão social e a redução das desigualdades enfrentadas por grupos marginalizados. |
-| Restrições/acessibilidade | Possui tempo limitado para análises devido à rotina de trabalho. Tem um conhecimento básico/intermediário de técnologia e pouco conhecimento de métricas de estátistica |
+| Dores/frustrações | Sente dificuldade em: utilizar softwares mais técnicos, com configurações avançadas; criar aulas capazes de manter a atenção dos estudantes e em elaborar avaliações que representem adequadamente seus conhecimentos, tendo medo que seus alunos não consigam absorver corretamente o conteúdo dado em suas aulas. Também enfrenta desafios para tornar suas aulas mais inclusivas, além da pressão para cumprir suas obrigações dentro dos prazos. A rotina de trabalho pode dificultar a conciliação entre vida profissional e familiar. |
+| Motivadores | Busca melhorar continuamente sua prática como professora e oferecer aulas mais interessantes e engajantes para seus alunos. Sente-se motivada por soluções que facilitem seu trabalho e permitam realizar suas atividades de forma mais eficiente, além de valorizar a inclusão social e a redução das desigualdades enfrentadas por grupos marginalizados no processo de educação. |
+| Restrições/acessibilidade | Possui tempo limitado para análises devido à rotina de trabalho. Tem um conhecimento básico de técnologia e pouco conhecimento de métricas de estátistica |
 | Ambiente típico de uso | Escola pública, sala dos professores ou sala de aula, utilizando computador ou notebook. |
 | Comportamentos relevantes | Costuma buscar informações que possam auxiliar no planejamento das aulas e na preparação dos alunos para avaliações. Prefere resultados objetivos e visualizações que permitam identificar rapidamente padrões e possíveis relações entre as características das questões e o desempenho. |
 
@@ -70,25 +70,27 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 ### Persona P02 — João Paulo de Aquino Gonzaga
 
 **Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8<br> 
-**Tipo:** primária <br>
+**Tipo:** Secundária <br>
 **Base de evidências:** proto-persona a validar <br> 
-**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br><!-- VALIDAR COM AJSUTES DO NUNO EX H4 DIVIDIDA EM H4 E H5, MAIS HIPOTESES DE PERSONA -->
 
 ![Persona P02](../assets/03_personas/persona_p02.webp)
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante |João é um homem de 35 anos que teve amplo acesso a oportunidades educacionais ao longo de sua formação, incluindo ensino em escolas particulares e participação em diversos cursos de capacitação. Esse contexto contribuiu para sua formação acadêmica e para o desenvolvimento de uma relação próxima com os estudos e a tecnologia. |
-| Ocupação/papel | Atua como professor de Ciência da Computação, lecionando para turmas do 5º, 6º e 7º semestres, nos períodos vespertino e noturno, em uma faculdade privada de São Paulo |
-| Conhecimento do domínio | Possui alto conhecimento sobre educação e elaboração de avaliações, com experiência na criação, aplicação e acompanhamento do desempenho dos alunos em provas. Tem familiaridade com a análise de resultados e busca compreender as dificuldades apresentadas pelos estudantes, mas não necessariamente possui conhecimento aprofundado sobre métricas psicométricas específicas utilizadas na análise de avaliações. |
-| Experiência tecnológica | **Alta.** Possui contato com tecnologia desde a adolescência, quando explorava computadores e equipamentos como rádios, televisõs e dispositivos de acesso à internet, buscando compreender seu funcionamento e solucionar problemas em casa. Atualmente, mantém-se atualizado em relação às novas tecnologias e demonstra grande facilidade para aprender e se adaptar a novas ferramentas e recursos tecnológicos.|
-| Objetivos | Deseja transformar conteúdos complexos em aulas de fácil compreensão, atendendo tanto alunos com maior dificuldade quanto aqueles que apresentam maior facilidade de aprendizado. Busca ajudá-los a desenvolver confiança em seus conhecimentos e prepará-los para ingressar no mercado de trabalho. Valoriza a combinação entre conteúdos teóricos e atividades práticas em suas aulas. |
-| Necessidades | Necessita manter-se constantemente atualizado sobre os avanços tecnológicos, tanto para acompanhar novas áreas quanto para aprimorar conhecimentos já adquiridos. Também busca receber feedbacks frequentes de alunos e outros docentes, utilizando essas percepções para aperfeiçoar continuamente suas aulas e práticas de ensino. Além disso, busca formas mais eficientes e precisas de avaliar e mensurar o nível de conhecimento e o desenvolvimento dos alunos, identificando suas dificuldades e oportunidades de melhoria. |
-| Dores/frustrações | Possui uma forte cobrança em relação ao próprio trabalho e enfrenta dificuldades para conciliar as demandas profissionais com momentos de descanso e lazer. Também se preocupa com a possibilidade de os alunos perderem o interesse pelo aprendizado e se tornarem excessivamente dependentes do uso de IA. Além disso, sente dificuldade em avaliar de maneira precisa e confiável o nível de conhecimento dos alunos, especialmente diante dessas mudanças na forma de aprendizagem. |
-| Motivadores | Sua principal motivação é contribuir para a democratização do acesso à educação e utilizar a tecnologia como uma aliada do desenvolvimento humano e da construção de uma sociedade mais justa. Além de lecionar em uma faculdade privada, produz conteúdos didáticos gratuitos em suas redes sociais, buscando compartilhar conhecimento para além da sala de aula. Também se envolve com pesquisas relacionadas a cidades inteligentes, movido pelo interesse em explorar como a tecnologia pode ser aplicada para solucionar problemas da sociedade e melhorar a qualidade de vida das pessoas. |
-| Restrições/acessibilidade | Não apresenta limitações, dificuldades ou condições que possam afetar sua utilização do sistema. Possui acesso a uma boa conexão de internet, alta familiaridade com tecnologias e facilidade para aprender e se adaptar a novas ferramentas e recursos digitais. |
-| Ambiente típico de uso | Utiliza o sistema principalmente em casa, durante a preparação de atividades e avaliações, e na faculdade, especialmente em horários vagos. Acessa a plataforma principalmente por meio de seu notebook pessoal, sobretudo nas semanas que antecedem a aplicação das avaliações, para planejar e analisar as atividades. |
-| Comportamentos relevantes | Costuma preparar suas avaliações com antecedência e revisar os conteúdos antes de aplicá-las. Após as avaliações, demonstra interesse em analisar o desempenho dos alunos e identificar suas principais dificuldades. Busca utilizar ferramentas tecnológicas que facilitem seu trabalho e explora novas soluções digitais para aprimorar suas práticas de ensino. Além disso, procura constantemente estratégias para tornar suas aulas mais dinâmicas e engajantes, buscando manter a atenção dos alunos e estimular seu interesse e disposição para aprender. |
+| Faixa etária / contexto relevante | João é um adolescente de 18 anos, é estudante de ensino médio integrado ao técnico, estuda em escola particular, é muito focado nos estudos para ingressar em uma universidade pública de São Paulo. |
+| Ocupação/papel | É um aluno do secundo ano do ensino médio integrado ao técnico de informática.|
+| Conhecimento do domínio |  Desde a infância, demonstra forte interesse por 
+computadores e tecnologia. No ensino técnico, vem aprofundando esse conhecimento de 
+forma integrada com disciplinas escolares e idiomas, ao passo que cursa ensino técnico em informática. |
+| Experiência tecnológica | **Média.** Possui contato com tecnologia desde a infância por meio de jogos digitais, construção de PC e estudos a parte devido a curiosidade, tem facilidade com as tecnologias por crescer no mundo digital e utilizar frequentemente dispositivos tecnologicos no seu dia a dia.|
+| Objetivos | Deseja ingressar em uma universidade pública, seja por meio de vestibular próprio ou pela nota do ENEM (sisu) e cursar Engenharia da computação. |
+| Necessidades | Necessita preparar-se muito bem para os vestibulares como ENEM e FUVEST, para conseguir ingressar na universidade, precisa de fácil acesso a cursos preparatórios para reforçar ainda mais os aprendizados e treinamentos de sua escola. |
+| Dores/frustrações | Possui uma forte cobrança em relação aos estudos e o que esperar do futuro, tem receio de que saber apenas os conteudos teóricos das disciplinas não seja suficiente para ingressar na universidade pois enfrenta problemas ao realizar provas como ansiedade, estresse, difucldade de interpretação de textos muito longos e falta de atenção. |
+| Motivadores | Sua principal motivação é conseguir um diploma universitário e seguir carreira na área de tecnologia que o interessa desde jovem. |
+| Restrições/acessibilidade | Tem transtornos de saúde mental como ansiedade e TDA, oque afeta sua capacidade de realizar plenamente a prova.|
+| Ambiente típico de uso | Utiliza o resultado da interação do sistema quando realiza as provas em sala de aula MELHORAR !!!!!!!! |
+| Comportamentos relevantes | ATUALIZAR PRA PERSONA SECUNDARIA.   Costuma preparar suas avaliações com antecedência e revisar os conteúdos antes de aplicá-las. Após as avaliações, demonstra interesse em analisar o desempenho dos alunos e identificar suas principais dificuldades. Busca utilizar ferramentas tecnológicas que facilitem seu trabalho e explora novas soluções digitais para aprimorar suas práticas de ensino. Além disso, procura constantemente estratégias para tornar suas aulas mais dinâmicas e engajantes, buscando manter a atenção dos alunos e estimular seu interesse e disposição para aprender. |
 
 **Decisões de design influenciadas por P02:**
 
@@ -102,13 +104,13 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5  <br>
 **Tipo:** Primária <br>
 **Base de evidências:** Proto-persona a validar <br> 
-**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br>
+**Hipóteses da Entrega 1 relacionadas:** H02, H03 e H04 <br><!-- VALIDAR COM AJSUTES DO NUNO EX H4 DIVIDIDA EM H4 E H5, MAIS HIPOTESES DE PERSONA -->
 
 ![Persona P03](../assets/03_personas/personaP03Foto.jpg)
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | 32 anos. Professora de inglês em uma escola online de línguas|
+| Faixa etária / contexto relevante | 32  anos. Professora de inglês em uma escola online de línguas|
 | Ocupação/papel | É professora de inglês à distância, trabalhando em uma escolinha de línguas.  |
 | Conhecimento do domínio | Possui conhecimento avançado sobre ensino de língua inglesa e experiência prática na elaboração e aplicação de avaliações, mas não necessariamente possui conhecimento especializado em análise estatística de itens. |
 | Experiência tecnológica | Utiliza computadores e plataformas digitais regularmente para ministrar aulas, preparar materiais e acompanhar alunos. Possui familiaridade com ferramentas como Microsoft Office e plataformas de ensino a distância, mas pode não estar familiarizada com ferramentas especializadas de análise de avaliações. |
@@ -182,6 +184,11 @@ Documente também em texto: o que vê; ouve; diz/faz; pensa/sente; dores; ganhos
 | 3 o que acontece depois que ele sai da interface | Maria utiliza os resultados da análise para revisar e, se necessário, ajustar a prova antes de aplicá-la. Após a aplicação, utiliza o desempenho dos alunos para identificar quais conteúdos foram compreendidos ou precisam ser mais trabalhados em suas aulas. | Elaborar avaliações que meçam de forma mais adequada o conhecimento dos alunos, permitindo identificar suas dificuldades e compreender quais conteúdos precisam ser reforçados em aula. | “Quero ter certeza de que o resultado da prova representa o que meus alunos realmente aprenderam, para saber como ajudá-los a avançar.” | Uma avaliação influenciada por características estruturais pode dificultar a interpretação do desempenho dos alunos e fazer com que Maria tenha uma percepção equivocada sobre o que eles realmente aprenderam. | Apresentar as métricas de forma clara e interpretável, permitindo que Maria compreenda os possíveis fatores estruturais da prova que podem interferir em sua avaliação e utilize essas informações como apoio à sua decisão pedagógica. | Persona e hipótese da jornada: a professora utiliza avaliações para acompanhar a aprendizagem dos alunos e orientar o planejamento das aulas. |
 <br>
 > A jornada pode incluir etapas **antes, durante e depois** do uso do produto. Não transforme a jornada em lista de telas.
+
+
+*Justificativa de 2 personas primária e uma secundária:*  Temos 2 personas primárias pois mesmo o perfil sendo professores de São paulo, as idades dos docentes, sua experiencia com tecnologia e as disciplinas que eles ensinam variam são distintos, ou seja, as personas representam públicos diferentes dentro do perfil de professor.
+A escolha da persona secundária se da pelo motivo de que os alunos podem ser muito influenciados pela utilização do sistema por parte dos professores ao passo que impacta como seus conhecimentos serão medidos.
+
 
 ## Síntese
 
