@@ -1,7 +1,7 @@
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
-**Data:** 13/09/2026 
-**Status:** 🟨 Em andamento 
+**Data:** 13/09/2026<br> 
+**Status:** 🟨 Em andamento<br> 
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -127,7 +127,6 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 ## HTA — T01 Analisar a prova
 
 **Autor(a):** Beatriz Manaia Lourenço Berto — 22.125.060-8
-contexto mais comum eh o da bia no passado la 
 
 ### Descrição da tarefa
 
@@ -292,16 +291,28 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ## HTA — T02 Analisar histórico de provas
 
-**Autor(a):** {{nome — matrícula}}
-
+**Autor(a):** Luana Bortko Rodrigues -- 24.123.006-9
+<!--
+2-obj analsia historico de provas (ja analisadas, dashboard de td prova ja analisda, tem comeco meio e fim, é objetivo cenario problema lu
+-->
 
 ### Descrição da tarefa
+<!-- {{objetivo, ponto de início, conclusão esperada, contexto}} -->
 
-{{objetivo, ponto de início, conclusão esperada, contexto}}
+- Objetivo: Permitir que o docente consulte provas analisadas anteriormente e seus respectivos resultados, podendo visualizar as métricas de uma prova específica ou comparar os resultados de diferentes provas para identificar padrões e acompanhar características recorrentes nas avaliações elaboradas ao longo do tempo.
+
+- Ponto de início: O docente possui pelo menos uma prova previamente enviada e analisada pelo sistema e deseja consultar seus resultados novamente ou analisar os resultados de várias provas.
+
+- Conclusão esperada: O docente consegue localizar e acessar os resultados de uma ou mais provas analisadas anteriormente, consultar suas métricas e, quando necessário, comparar os resultados disponíveis para identificar semelhanças, diferenças ou padrões entre as avaliações.
+
+- Contexto: Durante o planejamento de um novo semestre letivo ou após a aplicação das avaliações, quando o docente deseja revisar provas anteriores, recuperar resultados ou analisar características recorrentes em suas avaliações. A tarefa é realizada em um ambiente de trabalho, como a instituição de ensino ou a própria residência, com acesso a um computador e à internet.
+
 
 ### Diagrama
 
 ![HTA T01](../assets/05_tarefas/hta_t01.svg)
+objetivos/subobjetivos/operações o objetivo sendo analisar historico de provas
+
 
 ### Decomposição e planos
 
@@ -314,7 +325,7 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 - O objetivo 0 representa uma meta do usuário?
 - As subtarefas são necessárias e suficientes?
 - Os **planos** indicam ordem, alternativa, repetição ou condição?
-- A decomposição parou em nível útil para projeto de interação?
+- A decomposição parou em nível útil para projeto de interação?**
 
 ---
 

@@ -64,9 +64,7 @@ DEPOIS VOLTAR AKI PARA ARRUMAR A PARTE DAS HIPOTESES, colocar a hipotese na part
 | Data | O que mudou | Evidência/feedback que motivou | Artefatos afetados | Responsável |
 |---|---|---|---|---|
 | {{...}} | {{...}} | {{...}} | {{...}} | {{...}} |
-<!-- 
-| 27/09 | Adição das contribuições da entrega 2 | feedback da entrega 2 | R01, R02, R03, R04, F01, F02, F03 e F04 | - |
- -->
+
 ## Como usar
 
 - Use identificadores estáveis (`H01`, `P01`, `C01`, `T01`, `M01`, `F01`, `UT01`).
