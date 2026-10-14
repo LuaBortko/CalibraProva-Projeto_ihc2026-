@@ -94,7 +94,10 @@ forma integrada com disciplinas escolares e idiomas, ao passo que cursa ensino t
 
 **Decisões de design influenciadas por P02:**
 
--<!-- ver com plinio!!!!!-->
+o usuário é quem realiza a prova, prova essa que o sistema recebe e analisa então na teoria daria para ter alguma análise relacionada a faixa etária dos alunos p anakisar linguagem q o prof colocou na prova e tal mas o nossosistema eh baseado no ENEM ent ja eh enviesado, nao sei se faz sentido faze risso q tipo o sistema consdiera caracteristica dos alunosp2 p analisa pq n eh isso q ele faz pq analisa com. base no enem sb?
+
+<!-- e>x not fiscal eh pro fisco (primaria), e secundaria eh qqr um q consome nota q tbm tem q entender p fiscaliza se entendeu correta ent o i pacto da secundaria (q eh qqr pessoa) eh tornar a nota mais amigavel e entendivel p todo mundo, pq se fosse so p primario podia ser mais tecnica por ex -->
+-
 
 ### Persona P03 — Vera Coelho 
 
