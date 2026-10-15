@@ -175,12 +175,81 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 **Autor(a):** Beatriz Manaia Lourenço Berto — 22.125.060-8
 
+<<<<<<< Updated upstream
 <!-- corrigir goms sobrepondo hta-->
+=======
+`G0: analisar prova `
+>>>>>>> Stashed changes
 
 ### Goal
 
-`G0: analisar prova `
+`G1: Fazer upload de prova`
 
+### Métodos, operadores e regras de seleção
+
+- **Method 1.A(M1):** Arrastar arquivo para o respectivo campo do sistema(**SEL. RULE:** O docente prefere agilidade e o arquivo já está visível na tela ou em uma pasta aberta ao lado do navegador.) 
+  - Op. 1.A.1: Deslocar o cursor mouse para o botão de upload (se necessário).
+  - Op. 1.A.2: Selecionar o arquivo na área de trabalho/explorador
+  - Op. 1.A.3: Arrastar o arquivo para o expaço destinado em tela do sistema.
+  - Op. 1.A.4: Soltar o arquivo na área de upload(drop). 
+  - Op. 1.A.5: Clicar no botão "enviar".
+- **Method 1.B(M2):** Selecionar arquivo no explorador de arquivos computador (**SEL. RULE:** O docente prefere navegar pelas pastas para localizar o arquivo com precisão, ou o arquivo não está visível na tela.)
+  - Op. 1.B.1: Deslocar o cursor do mouse para o botão de upload.
+  - Op. 1.B.2: Clicar no botão de upload (abre a janela do explorador de arquivos).
+  - Op. 1.B.3: Clicar nas respectivas pastas até encontrar o arquivo específico.
+  - Op. 1.B.4: Clicar sobre o arquivo para selecioná-lo.
+  - Op. 1.B.5: Clicar no botão "enviar"
+
+### Goal
+
+`G2: Inserir dados da prova`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 2.A(M1):** Informar tempo de prova em minutos. (**SEL. RULE:** O docente tem a informação do tempo em minutos pois a prova não tem duração tão grande.) 
+  - Op. 2.A.1: Selecionar a opção de "minutos" no dropdown ou toggle switch.
+  - Op. 2.A.2: Clicar no campo de input "Tempo de prova". 
+  - Op. 2.A.3: Digitar o valor numérico em minutos.
+  - Op. 2.A.4: Clicar no botão "analisar prova". 
+- **Method 2.B(M2):** Informar tempo de prova em horas. (**SEL. RULE:** O docente tem a informação do tempo em horas pois a prova tem longa duração.) 
+  - Op. 2.B.1: Selecionar a opção de "horas" no dropdown ou toggle switch.
+  - Op. 2.B.2: Clicar no campo de input "Tempo de prova". 
+  - Op. 2.B.3: Digitar o valor numérico em horas.
+  - Op. 2.B.4: Clicar no botão "analisar prova".
+
+### Goal
+
+`G3: Analisar dados do dashboard`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 3.A(M1):** Leitura visual dos dashboard.
+  - Op. 3.A.1: Deslocar o cursor do mouse pelos gráficos e tabelas. 
+  - Op. 3.A.2: Analisar as informações dos gráficos.   
+- **Method 3.B(M2):** Leitura de detalhamento das métricas dos dashboards.
+  - Op. 3.B.1: Deslocar o cursor do mouse para os ícones de informação nos cantos dos gráficos e tabelas.
+  - Op. 3.B.2: Analisar as informações dos textos de detalhamento dos gráficos e tabelas.
+
+### Goal
+
+`G4: Exportar dahsboard (opcional)`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 4.A(M1):** Exportar em PDF. (**SEL. RULE:** O docente precisa imprimir ou compartilhar o relatorio de forma estática.) 
+  - Op. 4.A.1: Clicar no botão "exportar".
+  - Op. 4.A.2: Selecionar a opção "PDF".  
+  - Op. 4.A.3: Verificar a formatação do arquivo gerado. 
+- **Method 4.B(M2):** Exportar em Excel. (**SEL. RULE:** O docente precisa manipular os dados ou cruzar notas em planilhas.) 
+  - Op. 4.B.1: Clicar no botão "exportar".
+  - Op. 4.B.2: Selecionar a opção "EXCEL". 
+  - Op. 4.B.3: Verificar a formatação do arquivo gerado.
+- **Method 4.C(M3):** Exportar em CSV. (**SEL. RULE:** O docente precisa integrar os dados com outros sistemas ou scripts personalizados.) 
+  - Op. 4.C.1: Clicar no botão "exportar".
+  - Op. 4.C.2: Selecionar a opção "CSV". 
+  - Op. 4.C.3: Verificar a formatação do arquivo gerado.
+
+<!--
 GOAL 0: Analisar prova.
   GOAL 1: Fazer upload de prova.
     METHOD 1.A: Arrastar arquivo para o respectivo campo do sistema
@@ -241,7 +310,7 @@ GOAL 0: Analisar prova.
 - **Method M2:** {{...}}
   - Operators: {{...}}
 - **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
-
+-->
 > Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
 
 ---
@@ -344,17 +413,64 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 **Autor(a):** Luana Bortko Rodrigues -- 24.123.006-9
 
+`G0: Analisar histórico de provas`
+<!-- Quando / ou + tem metodo -->
 ### Goal
 
-`G0: {{meta do usuário}}`
+`G1: Localizar prova no histórico`
 
 ### Métodos, operadores e regras de seleção
 
-- **Method M1:** {{...}}
-  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
-- **Method M2:** {{...}}
-  - Operators: {{...}}
-- **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+- **Method 1.A(M1):** Vizualizar listagem geral das provas
+  - Op. 1.A.1: Deslocar o cursor do mouse paraa a área da lista de provas
+  - Op. 1.A.2: Rolar a página para percorrer os registros visíveis
+  - Op. 1.A.3: Examinar títulos e datas das provas lsitadas
+  - Op. 1.A.4: Localizar visualmente a prova desejada
+- **Method 1.B(M2):** Filtrar histórico por características da prova
+  - Op. 1.B.1: Deslocar o cursor do mouse para o campo de busca/filtro
+  - Op. 1.B.2: Clicar no campo de texto ou menu de filtros
+  - Op. 1.B.3: Digitar os critérios de busca (ex: ano, disciplina ou nome do arquivo)
+  - Op. 1.B.4: Pressionar a tecla Enter ou clicar no botão "Filtrar"
+  - Op. 1.B.5: Examinar os resultados filtrados retornados na lista
+- **Selection Rule SR1:** Usar **M1** quando a quantidade de provas cadastradas for pequena ou a prova procurada estiver entre as mais recentes (já visíveis no topo da tela); Usar **M2** quando houver um grande volume de provas no histórico ou quando o professor já souber exatamente qual exame deseja encontrar (ex.: ano específico ou nome do arquivo)
+
+### Goal
+
+`G2: Olhar resultados e métricas das provas selecionadas`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 2.A(M1):** Abrir os resultados em visualização detalhada completa
+  - Op. 2.A.1: Deslocar o cursor até a linha da prova desejada
+  - Op. 2.A.2: Clicar com o botão esquerdo para abrir os detalhes
+  - Op. 2.A.3: Examinar o painel consolidado de métricas(número de questões, distribuição de alternativas, áreas de texto)
+  - Op. 2.A.4: Verificar a correspondência estrutural no visualizador de PDF
+- **Method 2.B(M2):** Consultar resumo rápido de métricas na própria listagem
+  - Op. 2.B.1: Deslocar o cursor sobre o ícone de preview da prova
+  - Op. 2.B.2: Clicar no ícone de expansão/detalhes rápidos
+  - Op. 2.B.3: Examinar os indicadores(resumidos) exibidos no painel flutuante
+  - Op.2.B.4: Decidir se as métricas resumidas são suficientes, ou se será necessário abrir o relatório completo 
+- **Selection Rule SR2:** Usar **M1** quando o professor precisar auditar minuciosamente a extração da prova, confrontando os dados com as páginas do PDF original; Usar **M2** quando o professor desejar apenas uma conferência rápida de indicadores gerais (ex.: checar apenas a contagem total de itens) sem sair do fluxo da listagem.
+
+### Goal
+
+`G3: Comparar históricos entre provas`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 3.A(M1):** Comparar por seleção múltipla na listagem geral
+  - Op. 3.A.1: Deslocar o cursor para as caixas de seleção (checkboxes) das provas desejadas
+  - Op. 3.A.2: Clicar para marcar as provas a serem comparadas
+  - Op. 3.A.3: Deslocar o cursor até o botão "Comparar"
+  - Op. 3.A.4: Clicar no botão "Comparar"
+  - Op. 3.A.5: Examinar os gráficos e matrizes comparativas de métricas
+- **Method 3.B(M2):** Comparar a partir da tela de detalhes de uma prova já aberta
+  - Op. 3.B.1: Deslocar o cursor até o botão "Comparar com outra prova"
+  - Op. 3.B.2: Clicar no botão para abrir o menu deletor de provas
+  - Op. 3.B.3: Selecionar a prova com a qual se deseja contrastar os dados
+  - Op. 3.B.4: Clicar em "Gerar Comparação"
+  - Op. 3.B.5: Examinar as variações e discrepâncias estruturais entre as duas provas
+- **Selection Rule SR3:** Usar **M1** quando o professor estiver na tela de histórico e planejar, desde o início, comparar um lote de exames (ex.: avaliar todas as edições dos últimos 3 anos de uma vez); Usar **M2** quando o professor já estiver analisando uma prova específica, perceber uma anomalia estrutural e decidir compará-la imediatamente com um outro exame.
 
 > Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
 

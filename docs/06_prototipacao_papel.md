@@ -10,7 +10,7 @@ Externalizar rapidamente ideias de interação em baixa fidelidade para explorar
 
 ## 1. Escopo do protótipo
 
-**Personas:** P01, P02, P03 APOS MUDAR PERSONA TROCAR !!!!!!
+**Personas:** P01 e P03 
 **Cenários/tarefas cobertos:** C02/T01  
 **Objetivos principais:** Analisar a prova antes de aplicá-la <!-- ?????? -->
 
