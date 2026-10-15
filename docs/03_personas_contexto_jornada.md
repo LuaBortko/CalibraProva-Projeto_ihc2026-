@@ -94,6 +94,7 @@ forma integrada com disciplinas escolares e idiomas, ao passo que cursa ensino t
 
 **Decisões de design influenciadas por P02:**
 
+No contexto da disciplina IHC faz sentido a persona 02 impactar as decisões de design do sistema,c afinal o usuário p
 o usuário é quem realiza a prova, prova essa que o sistema recebe e analisa então na teoria daria para ter alguma análise relacionada a faixa etária dos alunos p anakisar linguagem q o prof colocou na prova e tal mas o nossosistema eh baseado no ENEM ent ja eh enviesado, nao sei se faz sentido faze risso q tipo o sistema consdiera caracteristica dos alunosp2 p analisa pq n eh isso q ele faz pq analisa com. base no enem sb?
 
 <!-- e>x not fiscal eh pro fisco (primaria), e secundaria eh qqr um q consome nota q tbm tem q entender p fiscaliza se entendeu correta ent o i pacto da secundaria (q eh qqr pessoa) eh tornar a nota mais amigavel e entendivel p todo mundo, pq se fosse so p primario podia ser mais tecnica por ex -->
@@ -208,19 +209,19 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 
 ## Histórico de revisões
 
-- 1. Personas: Aprimorei as diferenças entre as personas 1 e 3 (primárias) além de alterar a persona 2 para "aluno", como persona secundária, também adicionei [H] para simbolizar as hipóteses.
+- 1. Personas: Aprimorei as diferenças entre as personas 1 e 3 (primárias) além de alterar a persona 2 para "aluno", como persona secundária, também adicionei [H] para simbolizar as hipóteses e melhorei suas respectvas descrições.
 
-- 2. Mapa da empatia: Removi os elementos biográficos periféricos e elaborei mais a escrita de alguns elementos existentes.
+- 2. Mapa da empatia: Removi os elementos biográficos periféricos e elaborei mais a escrita de alguns elementos existentes e atualizei o texto.
 
 - 3. Contexto de uso: Tornei mais específico as descrições de "ambiente físico"e "ambiente social/organizacional.
 
 - 4. Jornada do usuário: Expandi o "durante" em etapas mais detalhadas.
 
-- Síntese das personas: trouxe a explicação e diferença entre os perfies.
+- 5. Síntese das personas: trouxe a explicação e diferença entre os perfies.
 
-- 
+- 6. Revisei checklist COMPLETAR !!!!!
 
--  Na rastreabilidade.... COMPLETAR APOS NUNO ARRUMAR 
+-  Na rastreabilidade.... COMPLETAR APOS NUNO ARRUMAR E VER SE ADD HIPOTESE SDAQUI NA RASTREABILIDADE !!!!
 
 ## Checklist
 
@@ -228,9 +229,9 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 - [X] As personas não são apenas diferenças demográficas superficiais.
 - [x] Está claro o que é dado real e o que é hipótese/proto-persona.
 - [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
-- [x] Objetivos e dores têm consequência para o design.
+- [ ] Objetivos e dores têm consequência para o design.
 - [x] Contexto de uso está coerente com a Entrega 1.
 - [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
 - [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
 - [x] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
-- [x] IDs das personas foram adicionados à rastreabilidade.
+- [ ] IDs das personas foram adicionados à rastreabilidade.

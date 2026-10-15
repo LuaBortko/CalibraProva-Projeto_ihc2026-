@@ -175,6 +175,8 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 **Autor(a):** Beatriz Manaia Lourenço Berto — 22.125.060-8
 
+<!-- corrigir goms sobrepondo hta-->
+
 ### Goal
 
 `G0: analisar prova `

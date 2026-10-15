@@ -20,9 +20,9 @@ Escolha apenas o que for coerente com tarefas e cenários. Para TCCs técnicos, 
 
 - **dashboard** para monitoramento e tomada de decisão; ✅
 - **configuração/parametrização** para preparar algoritmo/modelo/processo;❌
-- **entrada/seleção de dados** com validação; ✅ ?????
+- **entrada/seleção de dados** com validação; ✅ 
 - **acompanhamento de execução** com progresso, fila, cancelamento e recuperação;❌
-- **relatório/resultados** com explicação, gráficos e exportação; ✅ ?????
+- **relatório/resultados** com explicação, gráficos e exportação; ✅ 
 - **histórico** com busca, filtros, ordenação e detalhes; ❌
 - **comparação** entre execuções, versões, algoritmos ou períodos;❌
 - **administração** de usuários, papéis, permissões ou entidades do domínio;❌
@@ -48,13 +48,13 @@ Escolha apenas o que for coerente com tarefas e cenários. Para TCCs técnicos, 
 - Indique controles que mudam o estado: 
     P01 Upload: Área de drag-and-drop/ botão "Anexar arquivo" ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_01.jpeg)<br>
     P02 Remover upload: Botão remover arquivo ![Protótipo tela com arquivo anexado](../assets/06_prototipos/prototipo_fluxo_02.jpeg)<br>
-    P03 Dados da prova informados pelo docente: dropdown de hora/minuto [Protótipo tela com dropdown aberto](../assets/06_prototipos/prototipo_fluxo_02.jpeg)<br>
-    P04 Duração: Input de duração em minutos [Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg)<br>
-    P04 Warning: Warning ao digitar tempo superior a 6h (serve tanto para minutos quanto para horas) [Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg)<br>
-    P05 Botão analisar habilitado: Ao preencher duração e anexar prova, botão de analisar é habilitado [Protótipo botão Analisar habilitado](../assets/06_prototipos/prototipo_fluxo_05.jpeg)<br>
-    P06 Métricas: tela com métricas da prova extraídas [Protótipo métricas da prova](../assets/06_prototipos/prototipo_fluxo_06.jpeg)<br>
+    P03 Dados da prova informados pelo docente: dropdown de hora/minuto ![Protótipo tela com dropdown aberto](../assets/06_prototipos/prototipo_fluxo_02.jpeg)<br>
+    P04 Duração: Input de duração em minutos ![Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg)<br>
+    P04 Warning: Warning ao digitar tempo superior a 6h (serve tanto para minutos quanto para horas) ![Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg)<br>
+    P05 Botão analisar habilitado: Ao preencher duração e anexar prova, botão de analisar é habilitado ![Protótipo botão Analisar habilitado](../assets/06_prototipos/prototipo_fluxo_05.jpeg)<br>
+    P06 Métricas: tela com métricas da prova extraídas ![Protótipo métricas da prova](../assets/06_prototipos/prototipo_fluxo_06.jpeg)<br>
     P07 tooltip informações: ao lado de cada tabela tem um icone de (i) com informações sobre as respectivas tabelas [Protótipo tooltip informações](../assets/06_prototipos/prototipo_fluxo_07.jpeg)<br>
-    P08 Exportação: Ao clicar no botão Exportar, mostra as opções de exportação [Protótipo tipos exportação](../assets/06_prototipos/prototipo_fluxo_08.jpeg)<br>
+    P08 Exportação: Ao clicar no botão Exportar, mostra as opções de exportação ![Protótipo tipos exportação](../assets/06_prototipos/prototipo_fluxo_08.jpeg)<br>
 
 <!--- Mostre pelo menos caminhos principais e estados de erro/retorno relevantes.-->
 ## 4. Simulação / walkthrough
@@ -63,24 +63,24 @@ Realize uma simulação com uma pessoa que não participou da elaboração dessa
 
 | Observação | Tela/ação | Evidência | Consequência para o design |
 |---|---|---|---|
-| Nenhuma | Tela inicial (ações possíveis: anexar arquivo(arrastando ou pelo "selecione um arquivo"), digitar tempo em horas, expandir dropdown), ação realizada: anexar arquivo(arrastando ou pelo "selecione um arquivo")| ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_01.jpeg) | Nenhuma |
-| Nenhuma | Tela com upload feito (ações possíveis: remover arquivo, digitar tempo em horas, trocar dropdown de horas para "minutos"), ação realizada: trocar dropdown de horas para "minutos"| ![Protótipo tela com dropdown aberto/arquivo anexado](../assets/06_prototipos/prototipo_fluxo_02.jpeg) | Nenhuma |
-| Nenhuma | Tela digitar duração em minutoa (ações possíveis: remover arquivo, digitar tempo em minutos, expandir dropdown), ação realizada: digitar tempo em minutos | ![Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg) | Nenhuma |
-| Nenhuma | Tela de warning (serve tanto para minutos quanto para horas) (ações possíveis: remover arquivo, alterar tempo em minutos, trocar dropdown de horas para "horas"), ação realizada: alterar tempo em minutos| ![Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg) | Nenhuma |
-| Nenhuma | Habilitaão do botão de análise (ações possíveis: remover arquivo, alterar tempo em minutos, trocar dropdown de horas para "horas", clicar no botão "Analisar"), ação realizada: clicar no botão "Analisar"| ![Protótipo botão Analisar habilitado](../assets/06_prototipos/prototipo_fluxo_05.jpeg) | Nenhuma |
-| Nenhuma | Visualização das métricas extraídas da prova (ações possíveis: clicar em algum icone de informação (i), clicar no botão de "Exportar"), ação realizada: clicar em algum icone de informação (i) | ![Protótipo métricas da prova](../assets/06_prototipos/prototipo_fluxo_06.jpeg) | Nenhuma |
-| Nenhuma | Visualização do detalhamento de uma métrica (ações possíveis: voltar ao estado de visualização das métricas, clicar no botão de "Exportar"), ação realizada: clicar no botão de "Exportar" | ![Protótipo tooltip informações](../assets/06_prototipos/prototipo_fluxo_07.jpeg) | Nenhuma |
-| Nenhuma | Opção de exportação das métricas (ações possíveis: exportar como PDF, exportar como Excel, exportar como CSV | ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_08.jpeg) | Nenhuma |
+| Nenhuma | Tela inicial (ações possíveis: anexar arquivo(arrastando ou pelo "selecione um arquivo"), digitar tempo em horas, expandir dropdown), ação realizada: anexar arquivo(arrastando ou pelo "selecione um arquivo")| ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_01.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Nenhuma | Tela com upload feito (ações possíveis: remover arquivo, digitar tempo em horas, trocar dropdown de horas para "minutos"), ação realizada: trocar dropdown de horas para "minutos"| ![Protótipo tela com dropdown aberto/arquivo anexado](../assets/06_prototipos/prototipo_fluxo_02.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Alterar o tipo de input de tempo | Tela digitar duração em minutoa (ações possíveis: remover arquivo, digitar tempo em minutos, expandir dropdown), ação realizada: digitar tempo em minutos | ![Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg) | facilita o design e tira a necessidade de ter um dropdown, porem faz com que o usuário tenha que converter duração em minutos em horas e minutos para fazer o input |
+| Nenhuma | Tela de warning (serve tanto para minutos quanto para horas) (ações possíveis: remover arquivo, alterar tempo em minutos, trocar dropdown de horas para "horas"), ação realizada: alterar tempo em minutos| ![Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Nenhuma | Habilitaão do botão de análise (ações possíveis: remover arquivo, alterar tempo em minutos, trocar dropdown de horas para "horas", clicar no botão "Analisar"), ação realizada: clicar no botão "Analisar"| ![Protótipo botão Analisar habilitado](../assets/06_prototipos/prototipo_fluxo_05.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Nenhuma | Visualização das métricas extraídas da prova (ações possíveis: clicar em algum icone de informação (i), clicar no botão de "Exportar"), ação realizada: clicar em algum icone de informação (i) | ![Protótipo métricas da prova](../assets/06_prototipos/prototipo_fluxo_06.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Nenhuma | Visualização do detalhamento de uma métrica (ações possíveis: voltar ao estado de visualização das métricas, clicar no botão de "Exportar"), ação realizada: clicar no botão de "Exportar" | ![Protótipo tooltip informações](../assets/06_prototipos/prototipo_fluxo_07.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
+| Nenhuma | Opção de exportação das métricas (ações possíveis: exportar como PDF, exportar como Excel, exportar como CSV | ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_08.jpeg) | alterar input baseado no feedback da tela do fluxo3 |
 
 ## 5. Alterações após a simulação
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
-| ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_01.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
-| ![Protótipo tela com dropdown aberto/arquivo anexado](../assets/06_prototipos/prototipo_fluxo_02.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
-| ![Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
-| ![Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
-| ![Protótipo botão Analisar habilitado](../assets/06_prototipos/prototipo_fluxo_05.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
+| ![Protótipo tela inicial](../assets/06_prototipos/prototipo_fluxo_01.jpeg) | Nenhuma | ![Protótipo tela inicial ajustada](../assets/06_prototipos/prototipo_fluxo_1_ajuste.jpeg) | alterou apenas o campo de input que não era a ção feita no momento  |
+| ![Protótipo tela com dropdown aberto/arquivo anexado](../assets/06_prototipos/prototipo_fluxo_02jpeg) | dropdown desnecessario pois o feedback foi que o input de tempo está ruim  | ![Protótipo tela de input ajustada](../assets/06_prototipos/prototipo_fluxo2_ajuste.jpeg)  | melhoria é alterar o input de texto e consequentemente retirar o dropdown |
+| ![Protótipo tela com dropdown minutos selecionado](../assets/06_prototipos/prototipo_fluxo_03.jpeg) | dropdown desnecessario pois o feedback foi que o input de tempo está ruim logo dropdown e caixa de texto diferentes para horas e minutos tornam-se desnecessários | ![Protótipo tela de input (reduziu uma tela)](../assets/06_prototipos/prototipo_fluxo2_ajuste.jpeg) | melhoria é alterar o input de texto e consequentemente retirar o dropdown e os diferentes campos de input |
+| ![Protótipo tela warning de tempo](../assets/06_prototipos/prototipo_fluxo_04.jpeg) | alteramos apenas o campo de input do tempo | ![Protótipo tela warning de tempo ajustado](../assets/06_prototipos/prototipo_fluxo3_ajuste.jpeg) | alteração não foi na mensagem de erro mas sim no ajuste do input de tempo |
+| ![Protótipo tela tempo certo](../assets/06_prototipos/prototipo_fluxo_05.jpeg) | Ajuste em apenas do input de tempo | ![Protótipo tela tempo certo ajustado](../assets/06_prototipos/prototipo_fluxo4_ajuste.jpeg)  | Nenhuma observação de melhoria |
 | ![Protótipo métricas da prova](../assets/06_prototipos/prototipo_fluxo_06.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
 | ![Protótipo tooltip informações](../assets/06_prototipos/prototipo_fluxo_07.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
 | ![Protótipo tipos exportação](../assets/06_prototipos/prototipo_fluxo_08.jpeg) | Nenhuma | Manteve como antes | Nenhuma observação de melhoria |
