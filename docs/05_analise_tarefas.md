@@ -29,9 +29,9 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 
 | ID | Tarefa | Persona/cenário de origem | Frequência/criticidade | Autor responsável |
 |---|---|---|---|---|
-| T01 | Analisar a prova | P1/P2/P3 e C02 | Alta - várias vezes por semestre, sempre que tiver alguma prova a ser aplicada | Beatriz |
-| T02 | Analisar histórico de provas | P1/P2/P3 e C01 | Média - No começo ou finais de semestre | Luana |
-| T03 | Gerar novas questões baseadas em provas já elaboradas | P1/P2/P3 e C03 | Média - XXXXX | Nuno |
+| T01 | Analisar a prova | P1/P3 e C02 | Alta - várias vezes por semestre, sempre que tiver alguma prova a ser aplicada | Beatriz |
+| T02 | Analisar histórico de provas | P1/P3 e C01 | Média - No começo ou finais de semestre | Luana |
+| T03 | Gerar novas questões baseadas em provas já elaboradas | P1/P3 e C03 | Média - XXXXX | Nuno |
 
 <!--TAREFAS COMPLEXAS A PONTO DE SEREM MODELADAS
 
@@ -150,8 +150,8 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 |---|---|---|---|
 | 0 | (objetivo) Analisar prova | 1 > 2 > 3(+4) | A análise é realizada por meio do dashboard. Como nem todos os docentes podem estar familiarizados com as métricas apresentadas, cada tabela e indicador possui um ícone de informação que exibe uma descrição explicando o que está sendo analisado naquele campo, auxiliando na interpretação dos resultados. |
 | 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2 | o sistema precisa garantir que o arquivo seja válido antes de processá-lo. |
-| 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 pode ser feita antes ou depois da 1.2 | O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |
-| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 pode ser feita antes ou depois da 1.1 | O envio pode ser feito por arrastar e soltar ou seleção manual no computador e envio pelo botão. |
+| 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 tem que ser feita antes da 1.2 | O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |
+| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 tem que ser feita depois da 1.1 | O envio pode ser feito por arrastar e soltar ou seleção manual no computador e envio pelo botão. |
 | 2 | (sub objetivo) Inserir de dados da prova | 2.1 / 2.2  | Fazer que os respectivos campos de input contenham placeholder descritivos da informação necessária. |
 | 2.1 | (operação) Informar tempo de prova (em minutos) | (decisão) Docente deve escolher entre 2.1 e 2.2 | O campo de entrada deve ter um dropdown com minutos e horas e o placeholder deve deixar claro que a unidade é "minutos". O sistema deve converter automaticamente o valor para o formato que o código usa, tornando a inserção mais fácil para o docente. |
 | 2.2 | (operação)  Informar tempo de prova (em horas)| (decisão) Docente deve escolher entre 2.1 e 2.2  | A interface deve permitir facilmente alterar entre as unidades (minutos/horas) para a inserção manual por meio de um dropdown ou toggle switch, garantindo que o dado inserido não se perca na troca. |
@@ -267,7 +267,7 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Diagrama
 
-![CTT T01](../assets/05_tarefas/ctt_t01.svg)
+![CTT T01](../assets/05_tarefas/ctt_t01.jpeg)
 
 ### Legenda e relações temporais usadas
 
@@ -293,7 +293,7 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 **Autor(a):** Luana Bortko Rodrigues -- 24.123.006-9
 <!--
-2-obj analsia historico de provas (ja analisadas, dashboard de td prova ja analisda, tem comeco meio e fim, é objetivo cenario problema lu
+2-obj analisa historico de provas (ja analisadas, dashboard de td prova ja analisda, tem comeco meio e fim, é objetivo cenario problema lu
 -->
 
 ### Descrição da tarefa
@@ -307,31 +307,40 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 - Contexto: Durante o planejamento de um novo semestre letivo ou após a aplicação das avaliações, quando o docente deseja revisar provas anteriores, recuperar resultados ou analisar características recorrentes em suas avaliações. A tarefa é realizada em um ambiente de trabalho, como a instituição de ensino ou a própria residência, com acesso a um computador e à internet.
 
-
+<!-- Operação precisa de duas pelo menos no objetivo senão vira fluxograma -->
 ### Diagrama
 
-![HTA T01](../assets/05_tarefas/hta_t01.svg)
-objetivos/subobjetivos/operações o objetivo sendo analisar historico de provas
-
+![HTA T02](../assets/05_tarefas/hta_t02.png)
 
 ### Decomposição e planos
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+| 0 | (objetivo) Analisar histórico de prova | 1>2(/3) | Plano: localizar uma prova, consultar seus resultados e métricas e, opcionalmente, comparar diferentes provas. Recomendação: organizar o histórico de modo a facilitar tanto a consulta individual quanto a análise comparativa, deixando clara a distinção entre essas atividades. |
+| 1 | (sub objetivo) Localizar prova no histórico | 1.1/1.2 | Decisão de design: oferecer duas alternativas para localizar uma prova: percorrer a listagem geral ou aplicar filtros. Recomendação: manter as alternativas visíveis e permitir que o usuário compreenda quais critérios podem ser usados para encontrar uma prova. |
+| 1.1 | (operação) Visualizar listagem geral de provas | Ou é feito o 1.1, ou é feito 1.2 | Recomendação: apresentar uma listagem organizada, com informações que permitam distinguir as provas, como ano, área e identificação da prova, conforme os dados disponíveis. |
+| 1.2 | (operação) Filtrar histórico por critérios da prova | Ou é feito o 1.1, ou é feito 1.2 | Input: seleção dos critérios de filtragem. Recomendação: disponibilizar filtros pertinentes às características das provas e indicar claramente quais filtros estão ativos. Feedback: atualizar a listagem conforme os critérios selecionados e informar quando nenhum registro corresponder à busca. |
+| 2 | (sub objetivo) Olhar resultados e métricas da prova selecionada | 2.1>2.2 | Plano: abrir o registro da prova e, em seguida, consultar suas informações. Recomendação: apresentar as informações em uma estrutura organizada, facilitando a identificação das métricas e a navegação até o documento original. |
+| 2.1 | (operação) Abrir registro da prova desejada | O 2.1 tem que ocorrer antes da 2.2 | Input: seleção de uma prova na listagem. Feedback: apresentar o registro correspondente à prova selecionada. Recomendação: destacar a identificação da prova aberta para evitar confusão entre registros semelhantes. |
+| 2.2 | (sub objetivo) Consultar informações da prova | 2.2.1+2.2.2 | Decisão de design: disponibilizar tanto as métricas estruturais extraídas quanto o PDF original. Recomendação: manter uma associação visual clara entre as métricas e o documento ao qual pertencem, facilitando a conferência das informações. |
+| 2.2.1 | (operação) Examinar as métricas estruturais da prova | A 2.2.1 e 2.2.2 ocorrem em paralelo | Recomendação: agrupar as métricas por categoria. Feedback: deixar claro a qual prova e a quais características cada métrica se refere.  |
+| 2.2.2 | (operação) Consultar o PDF original | A 2.2.1 e 2.2.2 ocorrem em paralelo | Input: solicitação de visualização do documento original. Recomendação: disponibilizar controles de navegação entre páginas e recursos de zoom, além de facilitar a conferência visual do documento em relação às métricas extraídas. Feedback: indicar qual documento está aberto e, quando pertinente, a página visualizada. |
+| 3 | (sub objetivo) Comparar histórico entre provas | 3.1>3.2 | Plano: selecionar as provas que serão comparadas e, depois, analisar suas semelhanças e diferenças. Recomendação: oferecer uma visualização comparativa que facilite a identificação de padrões e discrepâncias entre os registros selecionados. |
+| 3.1 | (operação) Selecionar as provas que serão comparadas | O 3.1 tem que ocorrer antes da 3.2 | Input: seleção de duas ou mais provas do histórico. Recomendação: permitir a seleção de múltiplos registros e indicar de forma explícita quais provas foram selecionadas antes de iniciar a comparação. |
+| 3.2 | (operação) Analisar semelhanças e diferenças entre os resultados | O 3.1 tem que ocorrer antes da 3.2 | Feedback: apresentar os resultados das provas selecionadas de forma comparável. Recomendação: utilizar métricas equivalentes, destacar diferenças relevantes e permitir identificar padrões recorrentes. |
 
 **Verificação do HTA:**
 
-- O objetivo 0 representa uma meta do usuário?
-- As subtarefas são necessárias e suficientes?
-- Os **planos** indicam ordem, alternativa, repetição ou condição?
-- A decomposição parou em nível útil para projeto de interação?**
+- O objetivo 0 representa uma meta do usuário? Sim
+- As subtarefas são necessárias e suficientes? Sim
+- Os **planos** indicam ordem, alternativa, repetição ou condição? Sim
+- A decomposição parou em nível útil para projeto de interação?** Sim
 
 ---
 
 ## GOMS — T02 Analisar histórico de provas
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** Luana Bortko Rodrigues -- 24.123.006-9
 
 ### Goal
 
@@ -351,7 +360,7 @@ objetivos/subobjetivos/operações o objetivo sendo analisar historico de provas
 
 ## CTT — T02 Analisar histórico de provas
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** Luana Bortko Rodrigues -- 24.123.006-9
 
 ### Descrição
 
@@ -359,7 +368,7 @@ objetivos/subobjetivos/operações o objetivo sendo analisar historico de provas
 
 ### Diagrama
 
-![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+![CTT T02](../assets/05_tarefas/ctt_t02.svg)
 
 ### Legenda e relações temporais usadas
 
