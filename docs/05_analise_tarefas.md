@@ -175,11 +175,7 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 **Autor(a):** Beatriz Manaia Lourenço Berto — 22.125.060-8
 
-<<<<<<< Updated upstream
-<!-- corrigir goms sobrepondo hta-->
-=======
 `G0: analisar prova `
->>>>>>> Stashed changes
 
 ### Goal
 
@@ -482,17 +478,40 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Descrição
 
-{{...}}
+O modelo de Árvore de Tarefas Concorrentes (CTT) para a tarefa **"Consultar e analisar histórico de provas" (T0)** foi decomposto em etapas hierárquicas, estruturando o fluxo de trabalho do docente na recuperação, inspeção e comparação de avaliações anteriores. A estrutura é iniciada pela tarefa abstrata **T0**, que engloba todo o processo.
+
+O fluxo começa com a tarefa abstrata **T1 (Localizar prova no histórico)**. Para cumpri-la, o docente depara-se com uma relação de **Escolha (** **[]** **)** entre duas abordagens: a tarefa interativa **T1.1 (Navegar na listagem geral de provas)** ou a tarefa abstrata **T1.2 (Localizar prova por filtros)**. Caso opte pela busca por filtros (T1.2), as tarefas interativas **T1.2.1 (Definir filtro de ano)** e **T1.2.2 (Definir filtro de área)** possuem uma relação de **Independência de ordem (** **|=|** **)**, permitindo que sejam preenchidas em qualquer sequência, mas uma de cada vez. Após a definição, a tarefa T1.2.2 ativa com transmissão de dados (**Ativação com passagem de informação** **[]&gt;&gt;**) a tarefa de sistema **TS1.2.3 (Aplicar filtros e exibir resultados)**, que processa os parâmetros informados e atualiza a listagem na interface.
+
+Após a localização do registro desejado, ocorre uma **Ativação com passagem de informação (** **[]&gt;&gt;** **)** de T1 para a etapa seguinte, enviando a seleção do docente. Nesse ponto, o docente toma uma decisão de caminho modelada por uma relação de **Escolha (** **[]** **)**: ele pode optar por realizar a tarefa abstrata **T2 (Inspecionar resultados e métricas da prova)** para analisar um exame individual **OU** a tarefa abstrata **T3 (Comparar provas)** para confrontar um conjunto de exames simultaneamente, desabilitando a outra opção naquele momento de uso.
+
+Ao escolher **T2 (Inspecionar resultados e métricas da prova)**, o processo inicia com a tarefa interativa **T2.1 (Abrir registro da prova selecionada)**, que possui uma relação de **Ativação simples (** **\&gt;&gt;** **)** com a tarefa abstrata **T2.2 (Consultar informações da prova)**, garantindo que o painel de detalhes seja carregado antes do início da consulta.
+
+Dentro de T2.2, desenvolve-se a dinâmica de inspeção: as tarefas interativas **T2.2.1 (Navegar pelas páginas do PDF)** e **T2.2.2 (Inspecionar a lista de questões)** relacionam-se por **Concorrência com comunicação (** **|[]|** **)**, pois ocorrem simultaneamente e sincronizam-se em tempo real (ao clicar em uma questão na lista, o leitor de PDF rola até a página correspondente). Em paralelo, a tarefa T2.2.2 mantém uma relação de **Concorrência independente (** **|||** **)** com a tarefa de usuário **TU2.2.3 (Interpretar métricas estruturais)**, permitindo que o docente reflita sobre os dados cognitivamente enquanto percorre a lista de itens.
+
+Se durante a interpretação surgirem dúvidas conceituais, a tarefa TU2.2.3 possui uma relação de **Suspensão e retomada (** **|&gt;** **)** com a tarefa interativa **T2.2.4 (Consultar glossário de métricas)**. O acionamento do glossário pausa temporariamente a análise cognitiva, sendo esta retomada exatamente do ponto em que parou assim que a ajuda é fechada. Por fim, a qualquer momento da consulta, o docente pode acionar a tarefa interativa **T2.3 (Fechar visualização e retornar ao histórico)**, que possui uma relação de **Desativação (** **[&gt;** **)** com T2.2, interrompendo e encerrando imediatamente a atividade de consulta para retornar ao nível principal.
+
+Por outro lado, caso a escolha inicial do docente no nível principal seja **T3 (Comparar provas)**, o fluxo inicia com a tarefa interativa **T3.1 (Selecionar provas para comparação)**. A conclusão dessa seleção transmite os exames escolhidos via **Ativação com passagem de informação (** **[]&gt;&gt;** **)** para a tarefa de sistema **TS3.2 (Gerar comparação das métricas)**, que processa e monta a matriz comparativa. Uma vez gerados os gráficos e tabelas, há uma **Ativação simples (** **\&gt;&gt;** **)** para a tarefa de usuário **TU3.3 (Interpretar diferenças e padrões)**, na qual o docente realiza a análise cognitiva final das variações entre os exames para apoiar o planejamento de avaliações futuras.
 
 ### Diagrama
 
-![CTT T02](../assets/05_tarefas/ctt_t02.svg)
+![CTT T02](../assets/05_tarefas/ctt_t02.png)
 
 ### Legenda e relações temporais usadas
 
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Nuvem — Tarefa abstrata | Representa um objetivo decomposto em subtarefas. | 0. Consultar e analisar histórico de provas |
+| Pessoa e computador — Tarefa de interação | Representa uma ação realizada pelo usuário por meio da interface. | 1.1. Navegar na listagem geral de provas |
+| Computador — Tarefa do sistema | Representa uma atividade executada automaticamente pelo sistema, sem exigir uma ação direta do usuário durante seu processamento. | 1.2.3. Aplicar filtros e exibir resultados |
+| Pessoa — Tarefa do usuário | Representa uma atividade cognitiva ou interpretativa realizada pelo usuário. | 2.2.3. Interpretar métricas estruturais |
+| `[]` — Escolha | Permite selecionar uma entre duas ou mais alternativas de execução. | 1.1 `[]` 1.2: navegar na listagem ou localizar uma prova por filtros. |
+| `>>` — Ativação sequencial | A tarefa seguinte só pode começar após a conclusão da tarefa anterior, sem representar necessariamente uma passagem explícita de dados. | 2.1 `>>` 2.2: abrir o registro antes de consultar suas informações. |
+| `[]>>` — Ativação com passagem de informação | A conclusão de uma tarefa ativa outra e transmite informações produzidas durante a primeira. | 1.2.2 `[]>>` 1.2.3: os critérios definidos são transmitidos ao sistema para a aplicação dos filtros. |
+| `|=|` — Independência de ordem | Permite executar tarefas em qualquer ordem, sem exigir uma sequência fixa entre elas. | 1.2.1 `|=|` 1.2.2: definir os filtros de ano e de área em qualquer ordem. |
+| `|||` — Concorrência independente | Permite que duas tarefas ocorram concorrentemente, sem uma relação de sincronização ou comunicação explícita entre elas. | 2.2.2 `|||` 2.2.3: inspecionar a lista de questões e interpretar as métricas, desde que essas atividades possam ocorrer independentemente. |
+| `|[]|` — Concorrência com comunicação | Permite a execução concorrente de tarefas que trocam informações ou se sincronizam durante a interação. | 2.2.1 `|[]|` 2.2.2: navegar no PDF e inspecionar a lista de questões, com sincronização entre a questão selecionada e a página correspondente. |
+| `|>` — Suspensão e retomada | Uma tarefa pode ser suspensa pela ocorrência de outra e retomada posteriormente. | 2.2.3 `|>` 2.2.4: consultar o glossário suspende temporariamente a interpretação das métricas, que é retomada depois. |
+| `[>` — Desativação | A execução de uma tarefa desativa ou interrompe outra tarefa que esteja em andamento. | 2.2 `[>` 2.3: fechar a visualização encerra a atividade de consulta às informações da prova, se esse for o comportamento representado. |
 
 Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
 
