@@ -47,7 +47,7 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 | H06 | O detalhamento de como cada métrica foi calculada pode auxiliar os docentes na interpretação dos resultados. | Entrega 2 e [link repositório tcc](https://github.com/beatrizmanaia26/TCC-DesempenhoEnem) | A decisão de ajustar a prova com base na análise das métricas oferecidas pelo sistema depende da resposta da hipótese H06 | Alta |
 | H07 | Os docentes possuem conhecimento prévio de ferramentas voltadas à criação, gerenciamento ou análise de avaliações. | Entrega2 | Decisão de padrões de interface  depende da resposta da hipótese H07 pois, caso seja afirmativo, é bom reutilizar os padrões para manter os sistemas similares. | Alta |
 | H08 | A apresentação das métricas pode auxiliar os docentes a decidir quais características estruturais da avaliação devem ser mantidas ou ajustadas. | Não tem | A decisão de ajustar a prova com base na análise das métricas oferecidas pelo sistema depende da resposta da hipótese H08 | Alta |
-| H09 | Aluno poderia ser afetafo pelo sistema indiiretamente | Não consideramos que o aluno tem impacto no sistema de avaliação com base no ENEM pois o seu desenvolvimento é pautado apenas nas análises das provas do ENEM, sem sofrer influências de caraterísticas específicas dos alunos. | Nenhuma | Baixo |
+| H09 | Aluno poderia ser afetado pelo sistema indiretamente | Não consideramos que o aluno tem impacto no sistema de avaliação com base no ENEM pois o seu desenvolvimento é pautado apenas nas análises das provas do ENEM, sem sofrer influências de caraterísticas específicas dos alunos. | Nenhuma | Baixo |
 
 ## Parte A — necessidades e requisitos de IHC
 
@@ -61,33 +61,42 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 | Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
 |---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+| Dados demográficos (status,sexo, status socioeconômico) | H04 | Situa o contexto socioeconômico e geográfico do usuário, permitindo agrupar padrões de comportamento e validar hipóteses por perfis de personas semelhantes. | Nenhuma. |
+| Idiomas e jargões | Lacuna de idioma | Identifica o vocabulário, termos e jargões próprios da prática docente para garantir tanto que a linguagem do sistema seja natural e alinhada ao contexto do usuário, quanto perceber possíveis padrões em suas avaliações.| Design do sistema: Permitir que os docentes enviem termos e jargões utilizados em sua prática profissional para análise da prova e possível adaptacao da linguagem do sistema, buscando utilizar um vocabulário mais familiar, natural e acessível aos usuários, de acordo com seu contexto de atuação. |
+| Experiência com computadores | H04 | Identifica o grau de proficiência tecnológica dos usuários e auxilia na verificação da correlação entre o conhecimento prévio dos participantes e a percepção de usabilidade. | Define a complexidade da interface, estabelecendo se o sistema exigirá guias assistidos, tutoriais contextuais ou uma navegação mais direta e minimalista. |
+| Tecnologia disponível| Lacuna de informaçÕes específicas de recursos computacionais | Mapeia os recursos computacionais aos quais o usuário tem acesso, como hardware (tamanho e resolução do monitor, velocidade de processamento), softwares e ferramentas do cotidiano, identificando limitações do ambiente físico de trabalho | Pode afetar a responsabilidade do sistema e a usabilidade da ferramenta principal (análise da prova) |
+| Conhecimentos das tarefas que deverá realizar no cargo| H05,H07 | Identifica quais tarefas o usuário precisa realizar no cotidiano, se são primárias ou secundárias, frequentes ou infrequentes, e qual a sua experiência prévia em tarefas semelhantes | O design pode ser ajustado para fornecer subsídios para facilitar ainda mais a execução das atividades |
+| Experiência no cargo que ocupa | Lacuna referente a experiência em hipóteses | Informa o cargo atual do usuário, tempo de experiência na função, responsabilidades e trabalhos anteriores para entender sua maturidade profissional no planejamento de avaliações. | Define o grau de explicabilidade e a profundidade dos diagnósticos pedagógicos |
+| Motivação para realização do trabalho | H02, H03 | Avalia se o usuário busca aperfeiçoamento por prazer/propósito ou se apenas cumpre obrigações da carga horária sob pressão de tempo | Define a hierarquia visual do dashboard inicial e o tom das notificações: se o professor busca propósito/aperfeiçoamento (H03), o design deve destacar relatórios de ganho pedagógico e métricas sobre a evolução das provas; se o foco for produtividade/pressão de tempo (H02), a interface deve priorizar a velocidade do fluxo, com relatórios sintéticos em 1 clique e resumos exportáveis para a coordenação. |
+| Tarefas que precisa de suporte/auxilio (melhorar texto) | H01,H07 | Mapeia as principais dificuldades enfrentadas no cotidiano, identificando quais etapas exigem suporte (por exemplo:computacional) para alcançar seus objetivos | Determina a hierarquia das ferramentas de apoio e alertas do sistema: define quais automações e relatórios de correção de ruído estrutural devem receber destaque prioritário na navegação. |
+| Ferramentas mais utilizadas no cotidiano | H07 | Mapeia os hábitos de uso, preferências, aversões e experiências prévias com softwares do domínio ou concorrentes (ex: Word, Google Docs, ChatGPT) | Deve tentar seguir os padrões de design dos sistemas cnhecidos e utilizados. |
+| Quais suas atitudes em relação a um novo produto | H04, H07 | Identifica se o usuário costuma assumir riscos e explorar novas formas de trabalho ou se evita novas tecnologias, preferindo rotinas conhecidas ou guias passo a passo. | Direciona a didática da interface e o nível de orientação ao usuário: define se a aplicação necessitará de tutoriais guiados, linguagem consultiva e elementos gráficos didáticos que facilitem o aprendizado e incentivem o uso por pessoas menos inclinadas a testar novos softwares.|
+| Gravidade dos erros de uma avaliação | H01, H08, H09 | Avalia as possíveis consequências dos erros cometidos pelo usuário ao elaborar uma prova. | Pode trazer uma hierarquia visual das métricas em decorrência das características qe mais afetam o desempenho em cada prova |
+| Estilo de aprendizado e preferência por treinamento | Lacuna sobre treinamento | Identifica o quanto o usuário valoriza treinamentos, quanto tempo pode dedicar para aprender o produto e se prefere um estilo de aprendizado visual, prático ou guiado. | Determina o nível de suporte e a curva de aprendizado da aplicação: orienta o desenvolvimento de ajudas visuais na própria tela (como pequenos guias explicativos ao lado de gráficos complexos) para permitir que o usuário aprenda a usar a ferramenta enquanto executa suas tarefas. |
+| Conhecimento do domínio do produto | H02, H06, H08 | Informa o quanto o usuário domina as características estruturais de exames organizados e a análise estatística de itens. | Define o nível de complexidade das visualizações de dados e a necessidade de tradução estatística: determina a escolha de gráficos simplificados (ex: barras e marcadores diretos) em detrimento de gráficos de dispersão complexos, além de direcionar o uso de tooltips explicativos e diagnósticos em linguagem natural que traduzam termos como "p-valor" ou "distratores". |
 
 #### De quem coletar?
 
 | Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Docentes | Atuar na elaboração, revisão ou aplicação de avaliações de múltipla escolha (especialmente no Ensino Médio ou cursos preparatórios para vestibulares/ENEM). Representam os usuários primários da aplicação, diretamente responsáveis por interagir com a interface, subir arquivos e interpretar os diagnósticos. | P1,P3 |
+| Alunos | Estudantes do Ensino Médio ou pré-vestibular que fazem provas de múltipla escolha com frequência. Eles são os afetados indiretamente pelo sistema (persona secundária) e não usam a interface, mas suas percepções sobre cansaço, ansiedade e tamanho dos enunciados ajudam a definir requisitos indiretos e a validar o impacto real do projeto. | P2 |
 
 #### Aspectos éticos
 
 Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
 
-#### Que dados coletar?
+A coleta de dados respeitará os princípios de não maleficência, justiça, autonomia e beneficência, avaliando os riscos e benefícios para docentes e alunos:
 
-| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
-|---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+1- **Voluntariedade e consentimento:** antes da aplicação serão informados sobre os objetivos da pesquisa, as informações que serão coletadas, a finalidade de seu uso e o tempo estimado de participação, a participação será voluntária, mediante consentimento livre e esclarecido (TCLE) e com liberdade de desistência a qualquer momento sem prejuízos. Participações de menores seguirão as exigências éticas específicas.
 
-#### De quem coletar?
+2-**Minimização e privacidade dos dados:** serão coletadas apenas as informações necessárias para compreender o perfil, a fluência digital e as necessidades dos usuários, sem solicitar provas com identificação nominal de estudantes.
 
-| Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
+3-**Confidencialidade, anonimização e armazenamento:** as informações serão utilizadas exclusivamente para as finalidades informadas aos participantes. Os resultados serão apresentados de forma anonimizada, sem identificação dos indivíduos ou das instituições envolvidas. Os dados brutos serão armazenados em local seguro, com acesso restrito à equipe responsável, e mantidos apenas pelo período necessário, sendo posteriormente descartados de maneira adequada.
 
-#### Aspectos éticos
+4-**Prevenção de riscos e beneficência:** a pesquisa deverá evitar constrangimentos, exposição de informações profissionais e situações que possam ser interpretadas como avaliação do desempenho dos docentes. As perguntas serão direcionadas às experiências, dificuldades e necessidades relacionadas às tarefas, sem julgamentos sobre a competência dos participantes. O tempo dedicado à pesquisa será limitado ao necessário.
 
-Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
+5-**Justiça e equidade:** a seleção dos participantes buscará contemplar diferentes níveis de experiência profissional e familiaridade tecnológica, evitando que a pesquisa considere apenas docentes com maior domínio de ferramentas digitais. A participação de alunos, quando pertinente, deverá ocorrer de forma voluntária e sem prejuízos acadêmicos.
 
 
 > **Responsabilidade:** solução individual por integrante.
@@ -173,17 +182,17 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 <!--ex investigacsao contextual, entrevista, questionario...simular(quesrtionario), fazer o correto pq plinio vai avaliar --> 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
-### Instrumento I01 — {{nome da técnica}}
+### Instrumento I01 — Questionário 
 
 **Autor(a):** Beatriz Manaia Lourenço Berto
-**Técnica:** questionário / entrevista semiestruturada / observação / grupo focal / outra autorizada  
-**Objetivo:** {{...}}  
-**Público:** {{...}}
+**Técnica:** questionário 
+**Objetivo:** Obter, de maneira rápida e estruturada, um conjunto de informações de diversos representantes do público-alvo, permitindo caracterizar o perfil dos docentes, sua familiaridade com tecnologias, seu conhecimento sobre avaliação da aprendizagem e suas necessidades no contexto de atuação profissional, a fim de identificar características do público e subsidiar a definição de requisitos de interação e interface do sistema.
+**Público:** Docentes (com diferentes níveis de experiência profissional e familiaridade tecnológica) 
 
 #### Procedimento padronizado de aplicação
 
-1. {{preparação}}
-2. {{apresentação/consentimento}}
+1. {{preparação}} --> elaborar perguntas??
+2. {{apresentação/consentimento}} 
 3. {{aplicação}}
 4. {{encerramento}}
 5. {{armazenamento/anonimização}}
@@ -226,7 +235,7 @@ Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia te
 <!--ex investigacsao contextual, entrevista, questionario...simular(quesrtionario), fazer o correto pq plinio vai avaliar --> 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
-### Instrumento I03 — {{nome da técnica}}
+### Instrumento I03 — INVESTIGACAO CONTEXTUAL??????
 
 **Autor(a):** Nuno Martins Guilhermino da Silva
 **Técnica:** questionário / entrevista semiestruturada / observação / grupo focal / outra autorizada  
