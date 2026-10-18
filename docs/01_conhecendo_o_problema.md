@@ -2,7 +2,7 @@
 
 **Data:** 19/08/2026
 
-**Status:** 🟩 Concluida
+**Status:** 🟦 revisada após feedback <br>
 
 **Responsabilidade:** 1 solução consolidada por equipe
 
@@ -163,24 +163,24 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 ## 3.1 O que o usuário está tentando conseguir no mundo real?
 
 <!-- Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”. -->
-[H] Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes.
+[H] Elaborar avaliações que mensurem adequadamente o conhecimento dos estudantes, evitando que características estruturais da prova influenciem indevidamente seu desempenho, para poder ter feedback concreto para aprimorar suas aulas futuramente.
 
 ## 3.2 Quais são as atividades mais importantes?
 
 | ID | Atividade/objetivo | Quem realiza | Frequência/criticidade inicial | Status/evidência |
 |---|---|---|---|---|
-| A01 | Upload de prova estilo ENEM em pdf | Usuário final | De acordo com a aplicação de alguma avaliação | F |
-| A02 | Inserção de dados da prova para análise | Usuário final | De acordo com a aplicação de alguma avaliação | F |
-| A03 | Exibição das métricas da prova em um dashboard | Sistema | De acordo com o upload de uma prova | F |
-| A04 | Análise das métricas extraídas a partir da prova | Usuário final | De acordo com a aplicação de alguma avaliação | F |
+| A01 | Elaboração de avaliações | Usuário final | De acordo com a aplicação de alguma avaliação | F |
+| A02 | Revisão da prova produzida | Usuário final | De acordo com a aplicação de alguma avaliação | F |
+| A03 |  Verificar banco de questões para aplicar em prova| Usuário Final | De acordo com a aplicação de alguma avaliação | F |
+| A04 | Analisar o desempenho dos alunos em avaliações anteriores | Usuário final | De acordo com a aplicação de alguma avaliação | F |
 
 ## 3.3 Qual atividade parece mais frequente? Por quê?
 
-[F] Upload da prova 
+[H] Revisão da avaliação produzida, pois cada avaliação pode passar por múltiplas revisões antes de sua aplicação. Após elaborar uma prova, o professor realiza releituras para verificar se ela está adequada ao conteúdo e ao nível dos estudantes, realizando alterações e novas revisões quando identifica algum problema.
 
 ## 3.4 Qual parece mais crítica? Que consequência existe se for mal executada?
 
-[F] A A04 é a mais crítica, pois, caso as métricas apresentadas sejam imprecisas podem levar o docente a uma análise incorreta e, consequentemente, à elaboração de uma avaliação que não mensure adequadamente o conhecimento dos estudantes.
+[F] A A02 é a mais crítica, pois uma revisão inadequada pode fazer com que problemas na estrutura da avaliação não sejam identificados antes de sua aplicação. Como consequência, características da prova podem influenciar o desempenho dos estudantes e fazer com que os resultados não representem adequadamente seu conhecimento.
 
 ---
 
@@ -196,7 +196,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
-[F] O docente precisa interpretar as métricas e características estruturais identificadas na prova, como tempo médio, quantidade de palavras, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, além da relação dessas características com o desempenho observado no ENEM. A partir dessas informações, poderá identificar quais características apresentam maior influência sobre o desempenho e decidir quais aspectos da avaliação devem ser ajustados, buscando reduzir a interferência do formato da prova para que o resultado reflita principalmente os conhecimentos e competências avaliados.
+[H] O docente precisa interpretar as métricas e características estruturais identificadas na prova, como tempo médio, quantidade de palavras, presença de imagens, nível de formalidade, características dos distratores e ordem das questões, além da relação dessas características com o desempenho observado no ENEM. A partir dessas informações, poderá identificar quais características apresentam maior influência sobre o desempenho e decidir quais aspectos da avaliação devem ser ajustados, buscando reduzir a interferência do formato da prova para que o resultado reflita principalmente os conhecimentos e competências avaliados.
 
 Para auxiliar nessa interpretação, o docente poderá utilizar a ferramenta de detalhamento, que permite compreender como cada métrica foi calculada e quais elementos da prova contribuíram para o resultado apresentado. Dessa forma, poderá analisar os dados de maneira mais precisa, identificar possíveis fatores que estejam influenciando o desempenho dos estudantes e tomar decisões mais fundamentadas sobre quais aspectos da avaliação devem ser mantidos ou ajustados.
 
@@ -224,32 +224,31 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 
 ## 5.1 Onde e em quais situações a interação poderia ocorrer?
 
-[F] De acordo com a aplicação de alguma avaliação.
-
+[H] A interação pode ocorrer durante o período de elaboração e revisão de uma avaliação, antes de sua aplicação. O docente pode realizar essa atividade em casa, durante a preparação das avaliações, ou na própria instituição de ensino, em horários disponíveis entre suas demais atividades profissionais.
 ## 5.2 Em quais dispositivos/equipamentos?
 
 [F] Computadores.
 
-## 5.3 Existem condições físas relevantes?
+## 5.3 Existem condições físicas relevantes?
 
 <!-- Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
 -->
-[F] Será necessário um computador e conexão com a internet e o docente ser do Estado de São Paulo, pois os dados do ENEM que utilizaremos como base para analisar as provas por meio do sistema consideram o recorte geográfico desse Estado.
+[F] Será necessário um computador e conexão com a internet, pois os dados do ENEM que utilizaremos como base para analisar as provas por meio do sistema consideram o recorte geográfico desse Estado.
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 <!--
 Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade profissional, auditoria, turnos e colaboração.
 -->
 
-[F] Não.
+[H] Pode possivelmente ter o envolvimento de outras figuras como coordenadores pedagógicos, outros docentes, além de envolver obrigações organizacionais como prazos de entrega de provas para avaliação por coordenadores e entrega de notas finais.
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
-[F] Não.
+[H] Não.
 
 ## 5.6 Um erro pode produzir consequência relevante? Qual?
 
-[F] Sim, pois caso as métricas apresentadas pelo nosso sistema sejam imprecisas, podem levar o docente a uma análise incorreta e, consequentemente, à elaboração de uma avaliação que não mensure adequadamente o conhecimento dos estudantes.
+[H] Sim, pois caso as métricas apresentadas pelo nosso sistema sejam imprecisas, podem levar o docente a uma análise incorreta e, consequentemente, à elaboração de uma avaliação que não mensure adequadamente o conhecimento dos estudantes.
 
 ---
 
@@ -263,7 +262,6 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 |---|---|---|---|
 | Da experiência e do repertório do próprio docente | docente | identificar, antes da aplicação da avaliação, características relacionadas à estrutura e à elaboração das questões que podem influenciar o desempenho dos alunos | [F] |
 | Utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos para melhorar nas próximas avaliações | [F] |
-| Utilizar ferramentas após a aplicação da prova que avaliem o desempenho dos alunos | docentes | identificar características relacionadas à estrutura e à elaboração das questões que podem influenciam o desempenho dos alunos para melhorar nas próximas avaliações | [F] |
 | Solicitam feedback dos alunos após a prova | docentes | identificar características relacionadas à estrutura e à elaboração das questões que  alunos acreditam podem ter influenciado o seu desempenho | [F] |
 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
@@ -274,7 +272,7 @@ A principal diferença em relação ao nosso MVP está no momento e objetivo da 
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
-[F] O público já pode estar familiarizado com:
+[?] O público já pode estar familiarizado com:
 
 - Lucida → plataforma educacional / dashboard de avaliação e desempenho
   
@@ -364,7 +362,7 @@ Seria o perfil do nosso usuário final.
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes.
+Elaborar e revisar avaliações que meçam adequadamente os conhecimentos dos estudantes, buscando reduzir a influência das características estruturais da prova sobre seu desempenho e utilizando destes dados como métrica para aprimorar aulas.
 
 ## 7.4 Que interface será explorada na disciplina?
 <!--
@@ -393,21 +391,21 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim | Apresentar uma visão geral das métricas extraídas da prova e de suas possíveis relações com o desempenho dos estudantes, utilizando diferentes formatos de apresentação de dados, tanto quantitativos quanto visuais, incluindo diversos tipos de gráficos.  | Tem evidência. |
+| Dashboard/visão geral | sim | Apresentar uma visão geral das métricas extraídas da prova e de suas possíveis relações com o desempenho dos estudantes, utilizando diferentes formatos de apresentação de dados, tanto quantitativos quanto visuais, incluindo diversos tipos de gráficos.  | Requisito previsto no TCC|
 | Configuração/parametrização | não | | Tem evidência.  |
-| Entrada/upload/seleção de dados | sim |Permitir ao docente inserir uma prova para que suas características estruturais sejam automaticamente extraídas e analisadas pelo sistema, além de possibilitar a inserção manual de dados específicos como parâmetros para análise. | Tem evidência.  |
-| Acompanhamento de processamento | não |  | Tem evidência.  |
-| Relatório/resultados | não |  | Tem evidência.  |
-| Histórico com busca/filtros | não |  | Tem evidência.  |
-| Comparação de resultados | não |  | Tem evidência.  |
-| Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | Não tem evidência no momento.  |
-| Exportar análise | sim | Permite ao docente salvar em seu dispositivo as análises das métricas extraídas pelo sistema | Tem evidência.  |
-| Administração/configurações globais | não |  | Tem evidência.  |
-| Usuários/perfis/permissões | não |  | Tem evidência.  |
-| CRUD de entidade do domínio | não |  | Tem evidência.  |
-| Auditoria/logs | não |  | Tem evidência.  |
-| Alertas/ocorrências | não |  | Tem evidência.  |
-| Ajuda/documentação | não |  | Tem evidência.  |
+| Entrada/upload/seleção de dados | sim |Permitir ao docente inserir uma prova para que suas características estruturais sejam automaticamente extraídas e analisadas pelo sistema, além de possibilitar a inserção manual de dados específicos como parâmetros para análise. | Funcionalidade prevista no TCC  |
+| Acompanhamento de processamento | não |  | Fora do escopo atual |
+| Relatório/resultados | sim |  | Funcionalidade prevista no TCC  |
+| Histórico com busca/filtros | não |  | Fora do escopo atual  |
+| Comparação de resultados | não |  | Fora do escopo atual   |
+| Explicabilidade/detalhamento | sim | Permitir ao docente compreender cada métrica apresentada, sua interpretação e sua possível relação com o desempenho dos estudantes por meio de um dashboard organizado e didático. | Funcionalidade proposta nas seções 4.3  |
+| Exportar análise | sim | Permite ao docente salvar em seu dispositivo as análises das métricas extraídas pelo sistema | Padrão identificado na pesquisa de alternativas(seção 6.6). |
+| Administração/configurações globais | não |  | Fora do escopo atual  |
+| Usuários/perfis/permissões | não |  | Fora do escopo atual   |
+| CRUD de entidade do domínio | não |  | Fora do escopo atual  |
+| Auditoria/logs | não |  | Fora do escopo atual   |
+| Alertas/ocorrências | não |  | Fora do escopo atual  |
+| Ajuda/documentação | não |  | Fora do escopo atual  |
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
@@ -454,8 +452,12 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 | H01 | O formato da prova impacta do desempenho do aluno | Fundamenta a proposta do TCC, pois é necessário verificar se características estruturais da prova apresentam relação com o desempenho dos candidatos. | TCC |
 | H02 | Poderá fornecer subsídios para que professores e elaboradores de provas avaliem características estruturais de suas avaliações, contribuindo para ajustes que tornem o nível de dificuldade mais adequado aos objetivos propostos | Permite verificar se os resultados obtidos pelo TCC possuem aplicabilidade prática e podem efetivamente apoiar a elaboração e revisão de avaliações. | TCC |
 | H03 | Aprimorar as aulas a partir de avaliações que representem de forma mais adequada o desempenho dos estudantes | Permite avaliar se a utilização dos resultados pode contribuir para o processo de ensino, indo além da análise das avaliações em si. | Entrega 7 |
-| H04 | Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico, utilizaria de acordo com a aplicação de alguma avaliação | É importante para compreender o perfil e o contexto de uso do público-alvo, orientando o desenvolvimento de uma interface compatível com suas necessidades e conhecimentos tecnológicos. | Entrega 3 |
-
+| H04 | Um docente do Estado de São Paulo precisa ter um mínimo de conhecimento tecnológico| É importante para compreender o perfil e o contexto de uso do público-alvo, orientando o desenvolvimento de uma interface compatível com suas necessidades e conhecimentos tecnológicos. | Entrega 3 |
+| H05 | Os docentes utilizariam a interface durante a elaboração ou revisão das avaliações, antes de sua aplicação.| Permite investigar em qual momento do processo de elaboração de avaliações a ferramenta seria utilizada.| Entrega 3 e 7|
+| H06 | Os docentes precisam compreender o significado das métricas apresentadas para identificar características estruturais da prova que podem influenciar o desempenho dos estudantes.| Permite investigar quais informações são necessárias para que os docentes interpretem os resultados apresentados. | Entrega 7|
+| H07 | O detalhamento de como cada métrica foi calculada pode auxiliar os docentes na interpretação dos resultados.| Permite investigar a necessidade de explicações adicionais sobre os resultados apresentados pela interface. | Entrega 7|
+| H08 | Os docentes possuem conhecimento prévio de ferramentas voltadas à criação, gerenciamento ou análise de avaliações.| Permite identificar a familiaridade dos docentes com ferramentas semelhantes e compreender como essa experiência pode influenciar suas expectativas e sua interação com a interface proposta. | Entregas 2,3 e 7|
+| H09 | A apresentação das métricas pode auxiliar os docentes a decidir quais características estruturais da avaliação devem ser mantidas ou ajustadas.| Permite investigar se os resultados apresentados são suficientes para apoiar decisões durante a revisão da prova. | Entrega 7|
 
 Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
@@ -468,13 +470,13 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 | Qual é a contribuição central do TCC? | Analisar se o formato da prova do ENEM impacta no desempenho dos candidatos |
 | O TCC já previa interface? | Sim |
 | Quem é o usuário prioritário de IHC? | Docentes |
-| O que ele precisa alcançar? | Melhor as aulas |
+| O que ele precisa alcançar? | Obter dados concretos para melhorar suas aulas|
 | Qual problema/atividade será estudado? | Melhoria da elaboração de provas |
 | Como isso acontece hoje? | não achamos ferramentas que identifiquem previamente características da prova que podem influenciar o desempenho dos alunos, dependendo principalmente do conhecimento e experiência de cada docente | 
 | Qual é o contexto de uso? | De acordo com a elaboração das avaliações |
-| Que interface/recorte será explorado? | Não terá recorte |
+| Que interface/recorte será explorado? | O recorte explorará todos os elementos previamente escolhidos para o MVP do TCC |
 | Como a interface se relaciona ao TCC? | Representa o MVP do TCC |
-| Quais pontos ainda são hipóteses? | H01, H02, H03, H04 |
+| Quais pontos ainda são hipóteses? | H01, H02, H03, H04, H05, H06, H07, H08, H09 |
 
 ### Delimitação
 
@@ -512,6 +514,25 @@ Prepare uma explicação de até três frases:
 Essa síntese ajuda a apresentar o projeto para público não especializado sem reduzir seu mérito técnico.
 
 ---
+
+## 14. Histórico de revisões
+
+- Seções 3.1 e 3.2 foram alteradas para retirar menções da solução sendo desenvolvida.
+
+- Na seção 7.3, o objetivo prioritário foi descrevido de outra forma, mostrando o aprimoramento de aulas como consequência da revisão de provas ao invés de ser o principal por ser muito abrangente.
+
+- Na seção 10, foram adicionadas 5 novas hipóteses: H05, H06, H07, H08 e H09, sendo H05 uma separação do que anteriormente era a H04 em duas hipóteses diferentes
+
+- Em rastreabilidade.md foram adicionadas as novas hipóteses
+
+- As seções 3.3, 4.3, 5.1 e 5.6 foram alteradas de [F] para [H], por conta de falta de evidência das afirmações, além da 6.3 ser alterada de [F] para [?]
+
+- As seções 5.1, 5.4 e 5.6 foram alteradas para ter mais detalhes
+
+- Foi alterada a síntese para representar corretamente o recorte do TCC que será utilizado. 
+
+- A seção 8 foi alterada para especificar a evidência de cada resposta da tabela
+
 
 # Checklist de qualidade 
 <!-- REVISAR DPS -->

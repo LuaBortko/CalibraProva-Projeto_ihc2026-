@@ -31,7 +31,7 @@ Um CRUD pode gerar tarefas relevantes, mas “cadastrar usuário” só merece m
 |---|---|---|---|---|
 | T01 | Analisar a prova | P1/P3 e C02 | Alta - várias vezes por semestre, sempre que tiver alguma prova a ser aplicada | Beatriz |
 | T02 | Analisar histórico de provas | P1/P3 e C01 | Média - No começo ou finais de semestre | Luana |
-| T03 | Gerar novas questões baseadas em provas já elaboradas | P1/P3 e C03 | Média - XXXXX | Nuno |
+| T03 | Gerar novas questões baseadas em provas já elaboradas | P1/P3 e C03 | Média - Múltiplas vezes por semestre, quando tiver interesse em gerar novas avaliações | Nuno |
 
 <!--TAREFAS COMPLEXAS A PONTO DE SEREM MODELADAS
 
@@ -148,6 +148,23 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
+| 0 | (objetivo) Analisar prova | 1 > 2 > 3 > 4  | {{...}} |
+| 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2  | {{...}} |
+| 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 pode ser feita antes ou depois da 1.2 | {{...}} |
+| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 pode ser feita antes ou depois da 1.1 | {{...}} |
+| 2 | (sub objetivo) Inserir de dados da prova | 2.1 / 2.2  | {{...}} |
+| 2.1 | (operação) | (decisão) Docente deve escolher entre 2.1 e 2.2 | {{...}} |
+| 2.2 | (operação) | (decisão) Docente deve escolher entre 2.1 e 2.2  | {{...}} |
+| 3 | (sub objetivo) Analisar dados do Dashboard | 3.1 + 3.2 | {{...}} |
+| 3.1 | (operação) Visualizar  Tabelas e gráficos das métricas  |  | {{...}} |
+| 3.2 | (operação) Ler  detalhamento das métrica |  | {{...}} |
+| 4 | (sub objetivo) Exportar Dashboard | 4.1 + 4.2 + 4.3  | {{...}} |
+| 4.1 | (operação) Exportar em PDF| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
+| 4.2 | (operação) Exportar em Excel | Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
+| 4.3 | (operação) Exportar em CSV| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
+
+<!--ACHAM Q COLOCA 2.1 TB? ELE FLO P COLOCA OPERACAO MAS AI N SEI OQ COLOCA EM ORDEM 
+!-->
 | 0 | (objetivo) Analisar prova | 1 > 2 > 3(+4) | A análise é realizada por meio do dashboard. Como nem todos os docentes podem estar familiarizados com as métricas apresentadas, cada tabela e indicador possui um ícone de informação que exibe uma descrição explicando o que está sendo analisado naquele campo, auxiliando na interpretação dos resultados. |
 | 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2 | o sistema precisa garantir que o arquivo seja válido antes de processá-lo. |
 | 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 tem que ser feita antes da 1.2 | O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |
@@ -518,47 +535,174 @@ Identifique, quando aplicável, tarefas de usuário, sistema, interação e tare
 
 ## HTA — T03 Gerar novas questões baseadas em provas já elaboradas
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** Nuno Martins Guilhermino da Silva - RA: 22.126.099-5
 
 
 ### Descrição da tarefa
 
 {{objetivo, ponto de início, conclusão esperada, contexto}}
 
+- Objetivo: Permitir o docente fazer o upload de uma prova e a partir dela gerar novas questões para uma segunda leva de questões parecidas com a prova de modelo.
+
+- Ponto de início: O docente possui uma prova anterior legível e em formato compatível já salva em seu dispositivo para fazer o upload..
+
+- Conclusão esperada: A prova foi carregada com sucesso no sistema e são feitas novas questões baseadas na prova usada de base.
+
+- Contexto: Durante o período de formulação de provas, cerca de um mês a duas semanas anteriores à aplicação da prova, um docente deseja fazer duas provas diferentes para suas duas turmas, em um ambiente com acesso a internet e com um computador funcional. 
+
 ### Diagrama
 
-![HTA T01](../assets/05_tarefas/hta_t01.svg)
+![HTA T01](../assets/05_tarefas/hta_t03.png)
 
 ### Decomposição e planos
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | {{objetivo principal}} | {{1 }} 2 > 3 / 1 ou 2 etc.> | {{...}} |
+| 0 | (Objetivo) Gerar novas questões |  1 > 2 > 3 > 4 |Input: prova original fornecida pelo docente. Feedback: novas questões geradas, revisadas e disponíveis para exportação. Plano: realizar o upload da prova, gerar novas questões, revisá-las e exportá-las. |
+| 1 | (Sub objetivo) Fazer upload da prova | 1.1 > 1.2 | Problema: o docente pode selecionar um arquivo incompatível com o sistema. Recomendação: informar os formatos aceitos e apresentar mensagens de erro para arquivos inválidos.|
+| 1.1 | (Operação) Selecionar arquivo | | Ação: selecionar o arquivo da prova armazenado no computador. Feedback: exibir o nome do arquivo selecionado. |
+| 1.2 | (Operação) Enviar arquivo | | Ação: enviar o arquivo selecionado ao sistema. Feedback: informar se o envio foi concluído ou se ocorreu algum erro. | 
+| 2 | (Sub objetivo) Gerar novas questões | 2.1 + 2.2| Ação: solicitar a geração de novas questões a partir da prova enviada. Feedback: informar o andamento da geração e apresentar as questões produzidas. |
+| 2.1 | (Operação) Selecionar quantidade de questões | | **Ação:** escolher o número de questões a serem geradas. |
+| 2.2 | (Sub objetivo) Gerar novas questões | 2.1 + 2.2| Ação: solicitar a geração de novas questões a partir da prova enviada. Feedback: informar o andamento da geração e apresentar as questões produzidas. |
+| 3 | (Sub objetivo) Revisar novas questões | 3.1 + 3.2 (executar 3.2 caso sejam necessários ajustes) | Problema: as questões geradas automaticamente podem apresentar erros ou inadequações pedagógicas. Recomendação: permitir que o docente revise e edite as questões antes da exportação, caso deseje. |
+| 3.1 | (Operação) Ler novas questões | | Ação: ler as questões geradas para avaliar sua adequação. Problema: o docente pode ter dificuldade para identificar quais questões precisam de alterações. | 
+| 3.2 | (Operação) Editar novas questões | | Ação: modificar as questões que necessitam de ajustes. Feedback: apresentar as alterações realizadas. Recomendação: permitir que o docente visualize as questões atualizadas antes de exportá-las.|
+| 4 | (Sub Objetivo) Exportar novas questões | 4.1/4.2 | Plano: selecionar um dos formatos disponíveis para exportação. Recomendação: oferecer formatos que atendam às diferentes necessidades de utilização e edição das questões. |
+| 4.1 | (Operação) Exportar em PDF | | Ação: exportar as questões revisadas em PDF. Feedback: informar a conclusão da exportação. |
+| 4.2 | (Operação) Exportar em docx | | Ação: exportar as questões revisadas em DOCX. Feedback: informar a conclusão da exportação |
+
 
 **Verificação do HTA:**
 
-- O objetivo 0 representa uma meta do usuário?
-- As subtarefas são necessárias e suficientes?
-- Os **planos** indicam ordem, alternativa, repetição ou condição?
-- A decomposição parou em nível útil para projeto de interação?
+- O objetivo 0 representa uma meta do usuário? Sim, representa a meta de um usuário que queira fazer duas provas similares sobre o mesmo tópico, assim usando o sistema para criar uma nova bateria de questões similares as que já foram produzidas pelo docente.
+- As subtarefas são necessárias e suficientes? Sim. As subtarefas contemplam as etapas necessárias para atingir o objetivo principal, desde o envio da prova até a exportação das questões geradas. Algumas operações são condicionais ou alternativas, como a edição das questões, quando necessária, e a escolha do formato de exportação.
+- Os **planos** indicam ordem, alternativa, repetição ou condição? Sim. Os planos representam a execução sequencial das etapas de envio, geração, revisão e exportação das questões, a possibilidade de leitura e edição durante a revisão e a seleção entre os formatos PDF e DOCX na exportação.
+- A decomposição parou em nível útil para projeto de interação? Sim. A decomposição foi realizada até alcançar operações diretamente relacionadas à interação do docente com o sistema, permitindo identificar funcionalidades, necessidades de feedback e decisões de design sem detalhar excessivamente as ações.
 
 ---
 
 ## GOMS — T03 Gerar novas questões baseadas em provas já elaboradas
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** Nuno Martins Guilhermino da Silva - RA: 22.126.099-5
 
 ### Goal
 
-`G0: {{meta do usuário}}`
-
+`G0: Gerar novas questões baseadas em provas já elaboradas`
+Goal 0: Gerar novas questões baseadas em provas já elaboradas.
+  Goal 1: Fazer upload de prova.
+    METHOD 1.A: Arrastar arquivo para o respectivo campo do sistema
+    (SEL. RULE: O docente prefere agilidade e o arquivo já está visível na tela ou em uma pasta aberta ao lado do navegador.)
+      OP. 1.A.1: Deslocar o cursor  mouse para o botão de upload (se necessário).
+      OP. 1.A.2: Selecionar o arquivo na área de trabalho/explorador
+      OP. 1.A.3: Arrastar o arquivo para o expaço destinado em tela do sistema.
+      OP. 1.A.4: Soltar o arquivo na área de upload(drop).
+      OP. 1.A.5: Clicar no botão "enviar".
+    METHOD 1.B: Selecionar arquivo via explorador do sistema  
+    (SEL. RULE: A pasta do arquivo não está aberta ou visível na tela) 
+      OP. 1.B.1: Clicar no botão "Selecionar Arquivo" 
+      OP. 1.B.2: Navegar até a pasta do arquivo 
+      OP. 1.B.3: Selecionar o arquivo e clicar em "Abrir" 
+      OP. 1.B.4: Clicar no botão "Enviar"
+  Goal 2: Gerar novas questões
+      OP. 2.A.1: Selecionar quantidade de questões que quer gerar.
+      OP. 2.A.1: Clicar no botão "Gerar novas questões".
+  Goal 3: Editar novas questões 
+    METHOD 3.A: Editar diretamente na lista 
+    (SEL. RULE: O usuário quer fazer apenas um pequeno ajuste rápido de texto) 
+      OP. 3.A.1: Clicar sobre o campo e alterar o texto 
+    METHOD 3.B: Abrir formulário/modal de edição avançada 
+    (SEL. RULE: O usuário quer alterar parâmetros complexos como peso, categoria ou alternativa correta) 
+      OP. 3.B.1: Clicar no botão "Editar Detalhes" 
+      OP. 3.B.2: Alterar os campos no modal 
+      OP. 3.B.3: Clicar em "Salvar"
+  Goal 4: Exportar novas questões
+    METHOD 4.A: Exportar em PDF 
+    (SEL. RULE: O docente precisa imprimir ou compartilhar o relatório de forma estática) 
+      OP. 4.A.1: Clicar no botão "Exportar" 
+      OP. 4.A.2: Selecionar a opção "PDF" 
+      OP. 4.A.3: Verificar a formatação do arquivo gerado 
+    METHOD 4.B: Exportar em Word 
+    (SEL. RULE: O docente precisa manipular os dados ou reutilizar as questões) 
+      OP. 4.B.1: Clicar no botão "Exportar" 
+      OP. 4.B.2: Selecionar a opção "Word" 
+      OP. 4.B.3: Verificar a formatação do arquivo gerado
 ### Métodos, operadores e regras de seleção
-
-- **Method M1:** {{...}}
-  - Operators: {{perceber, apontar, clicar, digitar, decidir... conforme o nível adotado}}
+- **Method M1:** Fazer upload de prova.
+  - O
 - **Method M2:** {{...}}
   - Operators: {{...}}
 - **Selection Rule SR1:** usar M1 quando {{condição}}; usar M2 quando {{condição}}.
+
+### Goal
+
+`G0: Gerar novas questões baseadas em provas já elaboradas`
+
+
+### Goal 1
+
+`G1: Fazer upload de prova.`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 1.A (M1):** Arrastar arquivo para o respectivo campo do sistema
+  - Op. 1.A.1: Deslocar o cursor mouse para o botão de upload (se necessário).
+  - Op. 1.A.2: Selecionar o arquivo na área de trabalho/explorador
+  - Op. 1.A.3: Arrastar o arquivo para o espaço destinado em tela do sistema.
+  - Op. 1.A.4: Soltar o arquivo na área de upload(drop).
+  - Op. 1.A.5: Clicar no botão "enviar".
+
+- **Method 1.B (M2):** Selecionar arquivo via explorador do sistema
+  - Op. 1.B.1: Clicar no botão "Selecionar Arquivo"
+  - Op. 1.B.2: Navegar até a pasta do arquivo
+  - Op. 1.B.3: Selecionar o arquivo e clicar em "Abrir"
+  - Op. 1.B.4: Clicar no botão "Enviar"
+
+- **Selection Rule SR1:** Usar **M1** quando o docente prefere agilidade e o arquivo já está visível na tela ou em uma pasta aberta ao lado do navegador; usar **M2** quando a pasta do arquivo não está aberta ou visível na tela.
+
+### Goal 2
+
+`G2: Gerar novas questões`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 2.A (M1):** Gerar novas questões
+  - Op. 2.A.1: Selecionar quantidade de questões que quer gerar.
+  - Op. 2.A.2: Clicar no botão "Gerar novas questões".
+
+### Goal 3
+
+`G3: Editar novas questões`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 3.A (M1):** Editar diretamente na lista
+  - Op. 3.A.1: Clicar sobre o campo e alterar o texto
+
+- **Method 3.B (M2):** Abrir formulário/modal de edição avançada
+  - Op. 3.B.1: Clicar no botão "Editar Detalhes"
+  - Op. 3.B.2: Alterar os campos no modal
+  - Op. 3.B.3: Clicar em "Salvar"
+
+- **Selection Rule SR3:** Usar **M1** quando o usuário quer fazer apenas um pequeno ajuste rápido de texto; usar **M2** quando o usuário quer alterar parâmetros complexos como peso, categoria ou alternativa correta.
+
+### Goal 4
+
+`G4: Exportar novas questões`
+
+### Métodos, operadores e regras de seleção
+
+- **Method 4.A (M1):** Exportar em PDF
+  - Op. 4.A.1: Clicar no botão "Exportar"
+  - Op. 4.A.2: Selecionar a opção "PDF"
+  - Op. 4.A.3: Verificar a formatação do arquivo gerado
+
+- **Method 4.B (M2):** Exportar em Word
+  - Op. 4.B.1: Clicar no botão "Exportar"
+  - Op. 4.B.2: Selecionar a opção "Word"
+  - Op. 4.B.3: Verificar a formatação do arquivo gerado
+
+- **Selection Rule SR4:** Usar **M1** quando o docente precisa imprimir ou compartilhar o relatório de forma estática; usar **M2** quando o docente precisa manipular os dados ou reutilizar as questões.
 
 > Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
 
@@ -566,44 +710,43 @@ Identifique, quando aplicável, tarefas de usuário, sistema, interação e tare
 
 ## CTT — T03 Gerar novas questões baseadas em provas já elaboradas
 
-**Autor(a):** {{nome — matrícula}}
+**Autor(a):** Nuno Martins Guilhermino da Silva - 22.126.099-5
 
 ### Descrição
 
-{{...}}
+O modelo de Árvore de Tarefas Concorrentes (*ConcurTaskTrees* – CTT) para a tarefa **"Gerar novas questões baseadas em provas já elaboradas" (T0)** foi decomposto hierarquicamente, representando o fluxo de interação do docente com o sistema, desde o envio de uma avaliação existente até a exportação das novas questões produzidas. A estrutura tem início na tarefa abstrata **T0**, que engloba quatro etapas principais: **T1 (Fazer upload da prova)**, **T2 (Gerar novas questões)**, **T3 (Revisar novas questões)** e **T4 (Exportar novas questões)**.
+
+O processo começa com a tarefa abstrata **T1 (Fazer upload da prova)**, responsável por disponibilizar ao sistema o arquivo de uma avaliação previamente elaborada pelo docente. Essa tarefa é decomposta nas tarefas interativas **T1.1 (Selecionar arquivo)** e **T1.2 (Enviar arquivo)**, relacionadas por um operador de **Ativação (>>)**. Dessa forma, o docente deve selecionar o arquivo desejado antes de realizar seu envio. Durante essa etapa, existe também a possibilidade de ocorrência de um erro, representada pela tarefa de sistema **TS_Erro (Exibir erro)**. A relação de **Desativação ([>)** entre T1.2 e TS_Erro indica que, caso seja identificado um problema durante o envio, a operação é interrompida e o sistema apresenta uma mensagem de erro ao docente.
+
+Após a conclusão do upload, ocorre uma **Ativação com passagem de informação ([]>>)** para a tarefa abstrata **T2 (Gerar novas questões)**. Essa relação representa a transferência da prova enviada para a etapa de geração, permitindo que seu conteúdo seja utilizado como referência na produção das novas questões. A tarefa T2 é decomposta em **T2.1 (Selecionar quantidade de questões)**, classificada como interativa, e **T2.2 (Processar geração das questões)**, classificada como tarefa do sistema. Ambas são relacionadas por uma **Ativação (>>)**, indicando que o processamento automático ocorre após a definição da quantidade de questões e a solicitação de geração pelo docente.
+
+Concluído o processamento, as questões produzidas são disponibilizadas para a tarefa abstrata **T3 (Revisar novas questões)**, por meio de uma relação de **Ativação com passagem de informação ([]>>)**. Essa etapa contempla as tarefas interativas **T3.1 (Ler e avaliar novas questões)** e **T3.2 (Editar novas questões)**, relacionadas por **Concorrência (|||)**. Essa relação permite que o docente alterne entre a leitura e a edição das questões, sem precisar concluir a avaliação de todas elas antes de realizar modificações. Assim, o docente pode identificar possíveis inadequações no conteúdo e realizar ajustes quando considerar necessário, mantendo as questões que já estejam adequadas.
+
+Após a revisão, o fluxo prossegue para a tarefa abstrata **T4 (Exportar novas questões)**, na qual o docente seleciona o formato desejado para o arquivo final. Essa etapa apresenta uma relação de **Escolha ([])** entre as tarefas interativas **T4.1 (Exportar em PDF)** e **T4.2 (Exportar em Word)**. A escolha do formato PDF permite obter um documento com apresentação fixa, adequado para impressão ou compartilhamento, enquanto a opção Word possibilita a edição posterior das questões em um editor de texto. A seleção de uma dessas alternativas desabilita a outra durante aquela execução da tarefa de exportação.
+
+Por fim, a opção selecionada é encaminhada à tarefa de sistema **TS1 (Gerar arquivo)**, responsável por produzir o documento no formato escolhido pelo docente. Essa etapa conclui o processo de geração de novas questões, disponibilizando o arquivo resultante para utilização posterior.
+
+Dessa forma, o modelo CTT representa não apenas a sequência de atividades necessárias para atingir o objetivo principal, mas também as dependências entre as tarefas, a transferência de informações, as possibilidades de escolha, a concorrência entre atividades de revisão e o tratamento de erros. Além disso, a distinção entre tarefas abstratas, interativas e de sistema permite identificar as responsabilidades do docente e os processamentos realizados automaticamente pela aplicação.
 
 ### Diagrama
 
-![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+![CTT T03](../assets/05_tarefas/ctt_t03.png)
 
 ### Legenda e relações temporais usadas
 
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| >> | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | T1.1 >> T1.2: o docente seleciona o arquivo da prova antes de enviá-lo ao sistema. T2.1 >> T2.2 O sistema utiliza os inputs do usuário para processar a geração. |
+| []>> | Ativação com passagem de informação: A segunda tarefa só pode iniciar após a primeira terminar, e a informação produzida é repassada para a seguinte | T1 []>> T2: o arquivo enviado é utilizado como entrada para a geração de novas questões. T2 []>> T3: As novas questões geradas são mostradas e é disponibilizada sua edição. T3 []>> T4: As novas questões são usadas para serem exportadas em um arquivo. T4 []>> TS1: O sistema utiliza deste arquivo de exportação para gerar o arquivo na máquina do usuário. |
+| ||| | Concorrentes: especifica que as tarefas podem ser
+realizadas em qualquer ordem ou ao mesmo tempo.
+|  TU1 ||| T3.1: O usuário pode escolher a ordem na qual ele analisa as questões geradas e as edita caso veja necessidade. |
+| [> | Desativação: A segunda tarefa interrompe a primeira | T1.2 [> TS_Erro: O sistema interrompe o envio da prova caso ele esteja em um formato inválido.|
+| [] | Escolha: Duas tarefas que no momento que uma é escolhida, a outra é desabilitada. | T4.1 [] T4.2: O usuário escolhe qual o formato que ele quer exportar as novas questões geradas.|
+
 
 Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
 
-
-
-
-**Autor(a):** {{nome — matrícula}}
-
-### Descrição
-
-{{...}}
-
-### Diagrama
-
-![CTT T03](../assets/05_tarefas/ctt_t03.svg)
-
-### Legenda e relações temporais usadas
-
-| Operador/relação | Significado no diagrama | Exemplo no modelo |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
-Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
 
 ---
 
