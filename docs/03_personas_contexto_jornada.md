@@ -94,10 +94,10 @@ forma integrada com disciplinas escolares e idiomas, ao passo que cursa ensino t
 
 **Decisões de design influenciadas por P02:**
 
-No contexto da disciplina IHC faz sentido a persona 02 impactar as decisões de design do sistema,c afinal o usuário p
-o usuário é quem realiza a prova, prova essa que o sistema recebe e analisa então na teoria daria para ter alguma análise relacionada a faixa etária dos alunos p anakisar linguagem q o prof colocou na prova e tal mas o nossosistema eh baseado no ENEM ent ja eh enviesado, nao sei se faz sentido faze risso q tipo o sistema consdiera caracteristica dos alunosp2 p analisa pq n eh isso q ele faz pq analisa com. base no enem sb?
+No contexto da disciplina IHC faz sentido a persona 02 impactar as decisões de design do sistema de análise da prova,Nesse sentido, o impacto de design seria refletido por meio de o sistema fornecer perguntas específicas sobre idade/série escolar/ grau de ensino para ajudar nas análises do impacto estrutural da prova no desempenho dos alunos. afinal o aluno pode ter diferentes faixas etárias, níveis de escolaridade, familiaridade com algumas características estruturais. 
+Porém, no contexto do nosso TCC o aluno não impacta em nada o design do sistema ao passo que a aplicação analisa apenas como as características estruturais que já analisamos do ENEM impactam em outras provas, não considerando para essas análises fatores como idade dos alunos.
 
-<!-- e>x not fiscal eh pro fisco (primaria), e secundaria eh qqr um q consome nota q tbm tem q entender p fiscaliza se entendeu correta ent o i pacto da secundaria (q eh qqr pessoa) eh tornar a nota mais amigavel e entendivel p todo mundo, pq se fosse so p primario podia ser mais tecnica por ex -->
+<!-- ex not fiscal eh pro fisco (primaria), e secundaria eh qqr um q consome nota q tbm tem q entender p fiscaliza se entendeu correta ent o i pacto da secundaria (q eh qqr pessoa) eh tornar a nota mais amigavel e entendivel p todo mundo, pq se fosse so p primario podia ser mais tecnica por ex -->
 -
 
 ### Persona P03 — Vera Coelho 
@@ -219,9 +219,9 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 
 - 5. Síntese das personas: trouxe a explicação e diferença entre os perfies.
 
-- 6. Revisei checklist COMPLETAR !!!!!
+- 6. Revisei checklist.
 
--  Na rastreabilidade.... COMPLETAR APOS NUNO ARRUMAR E VER SE ADD HIPOTESE SDAQUI NA RASTREABILIDADE !!!!
+-  Na rastreabilidade atualizei as personas na tabela 3, na tabela 2 atualizei as evidências e como/onde investigar, na tabela 1 atualizei o recorte de IHC e na tabela 4, adicionei as personas em artefatos relacionados. 
 
 ## Checklist
 
@@ -234,4 +234,4 @@ A interface deve ser simples, objetiva e acessível a usuários com diferentes n
 - [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
 - [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
 - [x] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
-- [ ] IDs das personas foram adicionados à rastreabilidade.
+- [x] IDs das personas foram adicionados à rastreabilidade.

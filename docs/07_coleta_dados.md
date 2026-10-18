@@ -1,13 +1,11 @@
 # Entrega 7 — Coleta de dados, necessidades e aspectos éticos
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada
+**Data:** 15/10/2026
+**Status:**  🟨 
 
 ## Objetivo da atividade
 
-
 <!--dica do feedback3
-
 
 - **Entrega 07 - Coleta de dados:** validar H04 e as características hoje atribuídas às proto-personas, especialmente familiaridade tecnológica, conhecimento de métricas, frequência de elaboração de avaliações, ambiente de uso e necessidade de explicações.
 - **Avaliação futura:** verificar se diferentes níveis de experiência tecnológica realmente exigem comportamentos de interface distintos.
@@ -22,9 +20,9 @@ Quando o usuário e a interface foram propostos pela disciplina, uma prioridade 
 Perguntas úteis incluem:
 
 - esse perfil realmente realiza a atividade imaginada?
-- quais ferramentas usa hoje?
-- quais informações consulta?
-- quais decisões toma?
+- quais ferramentas usa hoje? <!-- pesquisar dados reias, ate agr fizemos hipoteses -->
+- quais informações consulta?<!-- pesquisar dados reias, ate agr fizemos hipoteses ex usa enem, enade, anotacoes de aula e provas anteriores p faze prova mas n comprovamos isso com nada -->
+- quais decisões toma? 
 - que vocabulário utiliza?
 - quais parâmetros compreende e quais deveriam ser abstraídos?
 - precisa de dashboard, histórico, filtros, relatórios ou comparação? Por quê?
@@ -37,7 +35,7 @@ Quando o acesso ao perfil profissional for difícil, discuta com o docente alter
 ## Hipóteses e lacunas prioritárias herdadas da Entrega 1
 
 Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entrega 1 e o registro de hipóteses em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md). A coleta deve responder perguntas reais do projeto, e não apenas produzir um formulário porque a técnica foi solicitada.
-
+<!-- NAO COLOCA HIPOTESES DA PERSOA EM RASTREABILIDADE -->
 | ID | Hipótese/lacuna | Evidência atual | Decisão que depende da resposta | Prioridade |
 |---|---|---|---|---|
 | H01 | {{...}} | {{...}} | {{...}} | alta / média / baixa |
@@ -66,10 +64,27 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
 
-> Repita A02, A03...
+#### Que dados coletar?
+
+| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
+|---|---|---|---|
+| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+
+#### De quem coletar?
+
+| Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+#### Aspectos éticos
+
+Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
+
+
+> Repita A02, A03... <!-- SE A VISAO FOR A MESMA TDBM, cada um faz cm-->
 
 ## Parte B — ferramentas de coleta
-
+<!--ex investigacsao contextual, entrevista, questionario...simular(quesrtionario), fazer o correto pq plinio vai avaliar --> 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
 ### Instrumento I01 — {{nome da técnica}}
