@@ -205,7 +205,8 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 
 <!--Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**.-->
 
-- ![Link do questionário](https://forms.gle/iWctSMaRJMGyN9K36 ) 
+- [Link do questionário](https://forms.gle/iWctSMaRJMGyN9K36 ) 
+
 
 
 #### Como os dados serão analisados
