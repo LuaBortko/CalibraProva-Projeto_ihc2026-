@@ -61,17 +61,16 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 
 | Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
 |---|---|---|---|
-| Dados demográficos (status,sexo, status socioeconômico) | H04 | Situa o contexto socioeconômico e geográfico do usuário, permitindo agrupar padrões de comportamento e validar hipóteses por perfis de personas semelhantes. | Nenhuma. |
 | Idiomas e jargões | Lacuna de idioma | Identifica o vocabulário, termos e jargões próprios da prática docente para garantir tanto que a linguagem do sistema seja natural e alinhada ao contexto do usuário, quanto perceber possíveis padrões em suas avaliações.| Design do sistema: Permitir que os docentes enviem termos e jargões utilizados em sua prática profissional para análise da prova e possível adaptacao da linguagem do sistema, buscando utilizar um vocabulário mais familiar, natural e acessível aos usuários, de acordo com seu contexto de atuação. |
 | Experiência com computadores | H04 | Identifica o grau de proficiência tecnológica dos usuários e auxilia na verificação da correlação entre o conhecimento prévio dos participantes e a percepção de usabilidade. | Define a complexidade da interface, estabelecendo se o sistema exigirá guias assistidos, tutoriais contextuais ou uma navegação mais direta e minimalista. |
 | Tecnologia disponível| Lacuna de informaçÕes específicas de recursos computacionais | Mapeia os recursos computacionais aos quais o usuário tem acesso, como hardware (tamanho e resolução do monitor, velocidade de processamento), softwares e ferramentas do cotidiano, identificando limitações do ambiente físico de trabalho | Pode afetar a responsabilidade do sistema e a usabilidade da ferramenta principal (análise da prova) |
 | Conhecimentos das tarefas que deverá realizar no cargo| H05,H07 | Identifica quais tarefas o usuário precisa realizar no cotidiano, se são primárias ou secundárias, frequentes ou infrequentes, e qual a sua experiência prévia em tarefas semelhantes | O design pode ser ajustado para fornecer subsídios para facilitar ainda mais a execução das atividades |
 | Experiência no cargo que ocupa | Lacuna referente a experiência em hipóteses | Informa o cargo atual do usuário, tempo de experiência na função, responsabilidades e trabalhos anteriores para entender sua maturidade profissional no planejamento de avaliações. | Define o grau de explicabilidade e a profundidade dos diagnósticos pedagógicos |
-| Motivação para realização do trabalho | H02, H03 | Avalia se o usuário busca aperfeiçoamento por prazer/propósito ou se apenas cumpre obrigações da carga horária sob pressão de tempo | Define a hierarquia visual do dashboard inicial e o tom das notificações: se o professor busca propósito/aperfeiçoamento (H03), o design deve destacar relatórios de ganho pedagógico e métricas sobre a evolução das provas; se o foco for produtividade/pressão de tempo (H02), a interface deve priorizar a velocidade do fluxo, com relatórios sintéticos em 1 clique e resumos exportáveis para a coordenação. |
+| Motivação para realização do trabalho | H02, H03 | Avalia qual o principal resultado esperado, se o usuário busca aperfeiçoamento por prazer/propósito ou se apenas cumpre obrigações da carga horária sob pressão de tempo | Define a hierarquia visual do dashboard inicial e o tom das notificações: se o professor busca propósito/aperfeiçoamento (H03), o design deve destacar relatórios de ganho pedagógico e métricas sobre a evolução das provas; se o foco for produtividade/pressão de tempo (H02), a interface deve priorizar a velocidade do fluxo, com relatórios sintéticos em 1 clique e resumos exportáveis para a coordenação. |
 | Tarefas que precisa de suporte/auxilio (melhorar texto) | H01,H07 | Mapeia as principais dificuldades enfrentadas no cotidiano, identificando quais etapas exigem suporte (por exemplo:computacional) para alcançar seus objetivos | Determina a hierarquia das ferramentas de apoio e alertas do sistema: define quais automações e relatórios de correção de ruído estrutural devem receber destaque prioritário na navegação. |
-| Ferramentas mais utilizadas no cotidiano | H07 | Mapeia os hábitos de uso, preferências, aversões e experiências prévias com softwares do domínio ou concorrentes (ex: Word, Google Docs, ChatGPT) | Deve tentar seguir os padrões de design dos sistemas cnhecidos e utilizados. |
-| Quais suas atitudes em relação a um novo produto | H04, H07 | Identifica se o usuário costuma assumir riscos e explorar novas formas de trabalho ou se evita novas tecnologias, preferindo rotinas conhecidas ou guias passo a passo. | Direciona a didática da interface e o nível de orientação ao usuário: define se a aplicação necessitará de tutoriais guiados, linguagem consultiva e elementos gráficos didáticos que facilitem o aprendizado e incentivem o uso por pessoas menos inclinadas a testar novos softwares.|
-| Gravidade dos erros de uma avaliação | H01, H08, H09 | Avalia as possíveis consequências dos erros cometidos pelo usuário ao elaborar uma prova. | Pode trazer uma hierarquia visual das métricas em decorrência das características qe mais afetam o desempenho em cada prova |
+| Ferramentas mais utilizadas no cotidiano | H07 | Mapeia os hábitos de uso, preferências, aversões e experiências prévias com softwares do domínio ou concorrentes (ex: Word, Google Docs, ChatGPT)| Deve tentar seguir os padrões de design dos sistemas cnhecidos e utilizados. |
+| Quais suas atitudes em relação a um novo produto | H04, H07 | Identifica se o usuário costuma assumir riscos e explorar novas formas de trabalho ou se evita novas tecnologias, preferindo rotinas conhecidas ou guias passo a passo, considera também maneiras como o docente realiza suas avaliacoes  | Direciona a didática da interface e o nível de orientação ao usuário: define se a aplicação necessitará de tutoriais guiados, linguagem consultiva e elementos gráficos didáticos que facilitem o aprendizado e incentivem o uso por pessoas menos inclinadas a testar novos softwares.|
+| Gravidade dos erros de uma avaliação | H01, H08, H09 | Avalia a frequência em que identifica problemas, as possíveis consequências dos erros cometidos pelo usuário ao elaborar uma prova. | Pode trazer uma hierarquia visual das métricas em decorrência das características qe mais afetam o desempenho em cada prova |
 | Estilo de aprendizado e preferência por treinamento | Lacuna sobre treinamento | Identifica o quanto o usuário valoriza treinamentos, quanto tempo pode dedicar para aprender o produto e se prefere um estilo de aprendizado visual, prático ou guiado. | Determina o nível de suporte e a curva de aprendizado da aplicação: orienta o desenvolvimento de ajudas visuais na própria tela (como pequenos guias explicativos ao lado de gráficos complexos) para permitir que o usuário aprenda a usar a ferramenta enquanto executa suas tarefas. |
 | Conhecimento do domínio do produto | H02, H06, H08 | Informa o quanto o usuário domina as características estruturais de exames organizados e a análise estatística de itens. | Define o nível de complexidade das visualizações de dados e a necessidade de tradução estatística: determina a escolha de gráficos simplificados (ex: barras e marcadores diretos) em detrimento de gráficos de dispersão complexos, além de direcionar o uso de tooltips explicativos e diagnósticos em linguagem natural que traduzam termos como "p-valor" ou "distratores". |
 
@@ -190,22 +189,37 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 **Público:** Docentes (com diferentes níveis de experiência profissional e familiaridade tecnológica) 
 
 #### Procedimento padronizado de aplicação
-
-1. {{preparação}} --> elaborar perguntas??
-2. {{apresentação/consentimento}} 
-3. {{aplicação}}
-4. {{encerramento}}
-5. {{armazenamento/anonimização}}
+<!--descrever passo a passo como questionário será aplicado de forma que outra pessoa consiga aplica-lo seguindo essas orientações-->
+1. preparação:  <br>
+- Elaborar o questionário com perguntas objetivas e, quando necessário, abertas, organizadas por temas relacionados ao perfil profissional dos docentes, à experiência com tecnologias, à elaboração de avaliações, ao conhecimento de métricas e às necessidades de apoio na interpretação dos resultados. Revisar as perguntas para evitar ambiguidades, indução de respostas e coleta de informações desnecessárias. Disponibilizar o instrumento em um formulário digital e definir os critérios de participação.<br>
+2. apresentação/consentimento:<br>
+- Apresentar aos participantes os objetivos da pesquisa, a finalidade da coleta, o tempo estimado de preenchimento, os dados solicitados e como as respostas serão utilizadas e protegidas. Informar que a participação é voluntária e que o participante pode desistir, conforme as condições apresentadas no consentimento, sem prejuízos. Solicitar o consentimento antes de iniciar o questionário.<br>
+3. aplicação: <br>
+- Disponibilizar o link do formulário aos docentes que atendam aos critérios de participação. Permitir que respondam individualmente, no momento e local de sua preferência, sem interferência nas respostas. Manter as mesmas perguntas e opções de resposta para todos os participantes, garantindo a padronização da coleta.<br>
+4. encerramento: <br>
+- Ao final do formulário, agradecer a participação e, se pertinente, disponibilizar um canal de contato para dúvidas sobre a pesquisa. Verificar se as respostas foram registradas corretamente, sem solicitar informações adicionais que permitam identificar os participantes desnecessariamente.<br>
+5. armazenamento/anonimização <br>
+-  Armazenar as respostas em ambiente digital protegido, com acesso restrito à equipe responsável pela pesquisa. Evitar a coleta de nomes, e-mails ou outros identificadores quando não forem necessários. Antes da análise e divulgação, remover ou generalizar eventuais informações identificáveis e apresentar os resultados de forma agrupada, mantendo os dados apenas pelo período necessário e realizando seu descarte adequado.
 
 #### Instrumento
 
-Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**.
+<!--Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**.-->
+
+- ![Link do questionário](https://forms.gle/iWctSMaRJMGyN9K36 ) 
+
 
 #### Como os dados serão analisados
 
-{{ex.: distribuição de respostas, codificação temática, agrupamento de problemas}}
+<!--{{ex.: distribuição de respostas, codificação temática, agrupamento de problemas}} -->
 
 <!--ex investigacsao contextual, entrevista, questionario...simular(quesrtionario), fazer o correto pq plinio vai avaliar --> 
+
+As respostas fechadas serão analisadas por meio da distribuição de frequências e proporções, identificando características dos participantes, como familiaridade tecnológica, frequência de elaboração de avaliações, ferramentas utilizadas e conhecimento sobre métricas. Também serão comparadas respostas de docentes com diferentes níveis de experiência, buscando identificar possíveis diferenças nas dificuldades e necessidades de suporte.
+
+As respostas relacionadas às tarefas profissionais e ao uso de ferramentas contribuirão para investigar H05 e H07. Já as respostas sobre conhecimento e interpretação de métricas ajudarão a avaliar H06 e H08, enquanto a relação entre experiência tecnológica e necessidade de orientação contribuirá para investigar H04.
+
+As respostas abertas serão analisadas por codificação temática, agrupando relatos semelhantes. Por fim, os resultados orientarão decisões de design e permitirão sustentar, refutar ou reformular as hipóteses, considerando que as respostas declaradas, isoladamente, não comprovam o comportamento real dos usuários nem a usabilidade do sistema.
+
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
 ### Instrumento I02 — {{nome da técnica}}
