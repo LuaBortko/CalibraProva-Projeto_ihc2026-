@@ -108,33 +108,58 @@ A coleta de dados respeitará os princípios de não maleficência, justiça, au
 
 | Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
 |---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+| Faixa etária dos professores | H04 | Caracterizar o público participante e verificar possíveis diferenças de experiência e familiaridade com tecnologias. | Linguagem, legibilidade e necessidade de orientações, caso os dados indiquem diferenças relevantes. |
+| Região de residência e município de atuação profissional | H04 | Compreender a distribuição geográfica dos participantes, considerando o foco do projeto no contexto do ENEM em São Paulo. | Contextualização dos exemplos e adequação do sistema ao público estudado. |
+| Área de atuação e disciplinas lecionadas | H03 | Identificar diferenças nas necessidades de professores de diferentes áreas. | Organização das informações e exemplos apresentados pelo sistema. |
+| Experiência como professor e frequência com que elabora ou revisa provas | H02, H03 e H05 | Entender a experiência docente e a frequência de contato com a tarefa. | Nível de detalhamento das informações e necessidade de orientações. |
+| Ferramentas utilizadas para elaborar, revisar e analisar provas | H06 e H07 | Identificar ferramentas já utilizadas e como elas participam do processo de trabalho. | Compatibilidade com o fluxo atual e formatos de entrada das provas. |
+| Etapas realizadas atualmente para revisar uma prova | H05 e H08 | Compreender como o professor realiza a tarefa e quais dificuldades enfrenta. | Organização das etapas e priorização de funcionalidades. |
+| Ferramentas digitais utilizadas no cotidiano profissional | H04, H05 e H07 | Identificar a familiaridade com ferramentas digitais e interfaces comuns. | Navegação, organização dos controles e necessidade de instruções. |
+| Experiência com sistemas de análise de provas ou desempenho | H02, H03, H07 e H08 | Verificar se o professor já utilizou ferramentas semelhantes e quais recursos conhece. | Necessidade de apresentar conceitos e orientar o uso. |
+| Conhecimento sobre métricas e características estruturais de provas | H06 e H08 | Identificar quais conceitos o professor já compreende e quais podem exigir explicação. | Terminologia, explicações das métricas e detalhamento dos resultados. |
+| Familiaridade com as tarefas que o sistema pretende apoiar | H04, H05 e H07 | Entender se o professor já analisa características como posição das questões, presença de imagens e distribuição dos itens. | Apresentação das métricas e informações complementares. |
+| Dificuldades e necessidades ao interpretar resultados de provas | H02, H03 e H08 | Identificar obstáculos e informações que auxiliariam na análise e na tomada de decisões. | Priorização das métricas, explicações e recursos de consulta. |
+| Expectativas em relação ao sistema e benefícios esperados | H02, H03 e H08 | Entender quais problemas os professores esperam resolver com a ferramenta. | Priorização das funcionalidades e informações exibidas. |
+| Preferências quanto à apresentação das informações e orientações de uso | H04, H06 e H07 | Investigar quais formatos de explicação e consulta são considerados mais úteis. | Formas de visualização, ajuda contextual e apresentação dos resultados. |
+| Disponibilidade e disposição para aprender a utilizar uma nova ferramenta | H04 | Compreender quanto esforço de aprendizagem é aceitável no contexto de trabalho. | Complexidade inicial, necessidade de tutorial e quantidade de orientações. |
+| Equipamentos e condições de acesso disponíveis | H04 | Verificar limitações de dispositivo, conexão e ambiente de utilização. | Compatibilidade, legibilidade e comportamento da interface. |
+
+<!-- Coletar dados sobre usuario, dados sobre sua relacao com tecnologi, seu conehcimento do produto, seu conhecimento das tarefas q vai realiza e suas motivacao e valores
+proprio usuario(dados demograficos, educação, idiomas fluentes); relação tecnologia(experiencia com computadores, experiencia com ferramentas semelhantes, tecnologia disponivel); conhecimento do dominio do produto(oque e quanto o usuario conhece sobre o assunto em questão); seu conhecimento das tarefas que deverá realizar do cargo; suas motivações e valores(preferencias de produto, usuario assume riscos e explora novas formas de fazer o mesmo trabalho ou evita novas experiencias, preferindo caminhos ja percorridos e testados, usuario prefere um estilo de aprendizado visual, auditivo ou outro, quanto tempo investiria para aprender a utilizar o produto em questão); o usuario utiliza algum tipo de ferramenta para elaborar/revisar suas avaliações?; Ferramentas que o usuario utiliza no dia a dia para auxiliar no trabalho; Conhece algum sistema com função parecida com a do nosso; 
+-->
 
 #### De quem coletar?
 
 | Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Professores | Docente que elabora/revisa provas | Representa as personas primárias P01 e P03 |
+| Aluno | Estudante que realiza avaliações escolares ou simulados no formato ENEM. | Representa a persona secundária P02, que é afetada indiretamente pelo sistema |
 
+<!-- quem utilizara o sistema, quem é afetado
+Docente que elabora ou revisa provas e participa da definição de suas características estruturais.
+Docente que aplica avaliações e utiliza seus resultados para acompanhar a aprendizagem e orientar o planejamento das aulas.
+-->
 #### Aspectos éticos
 
 Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
 
-#### Que dados coletar?
+- **Voluntariedade e Autonomia:** A participação de todos os professores é estritamente voluntária. Os participantes têm total liberdade para recusar ou interromper a participação a qualquer momento do estudo, sem necessidade de justificativa e sem qualquer penalidade acadêmica ou profissional.
 
-| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
-|---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+- **Consentimento:** Antes do início da coleta, os professores recebem informações claras sobre os objetivos do projeto, o caráter acadêmico da pesquisa e como suas respostas serão utilizadas. A concordância é formalizada via aceite do Termo de Consentimento Livre e Esclarecido (TCLE)
 
-#### De quem coletar?
+- **Minimização:** O sistema extrai apenas os parâmetros métricos necessários para os gráficos da interface, sem armazenar dados além do escopo técnico da pesquisa
 
-| Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
+- **Privacidade:** O ambiente de aplicação do teste e as respostas fornecidas ficam restritos exclusivamente à equipe, garantindo que o estilo de elaboração do docente ou possíveis dificuldades de uso não sejam expostos a terceiros ou a colegas de trabalho.
 
-#### Aspectos éticos
+- **Riscos:** O risco direto ao participante é baixo. Os riscos potenciais estão relacionados a eventual constrangimento em relação ao seu nível de letramento digital ou à avaliação do estilo de elaboração de suas provas. Para mitigar esses riscos, garante-se um ambiente neutro, ressaltando que o foco da investigação é o aprimoramento da interface do sistema e não a avaliação do desempenho pedagógico do professor.
 
-Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
+- **Gravação:** Em entrevistas ou testes de usabilidade presenciais/remotos, o registro em áudio ou tela só é realizado mediante autorização prévia e explícita no TCLE. Caso o participante não autorize a gravação, a atividade é conduzida apenas com anotações manuais
+
+- **Anonimização:** Substituição do nome real do docente e da escola por códigos genéricos e pseudônimos nos documentos públicos e acadêmicos. Trechos de depoimentos que mencionem locais específicos ou nomes de colegas são modificados para manter o sentido sem expor os envolvidos
+
+- **Armazenamento:** Os arquivos e respostas coletadas ficam armazenados em repositório em nuvem de acesso restrito exclusivamente aos integrantes da equipe de pesquisa.
+
+- **Descarte:** Todos os dados brutos identificáveis serão descartados com segurança após o encerramento do semestre letivo e avaliação da disciplina.
 
 
 > **Responsabilidade:** solução individual por integrante.
@@ -223,10 +248,10 @@ As respostas abertas serão analisadas por codificação temática, agrupando re
 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
-### Instrumento I02 — {{nome da técnica}}
+### Instrumento I02 — Entrevista
 
 **Autor(a):** Luana Bortko Rodrigues
-**Técnica:** questionário / entrevista semiestruturada / observação / grupo focal / outra autorizada  
+**Técnica:** entrevista semiestruturada
 **Objetivo:** {{...}}  
 **Público:** {{...}}
 
