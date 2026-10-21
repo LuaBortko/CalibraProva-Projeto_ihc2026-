@@ -248,32 +248,87 @@ As respostas abertas serão analisadas por codificação temática, agrupando re
 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
-### Instrumento I02 — Entrevista
+### Instrumento I02 — Entrevista Semiestruturada
 
 **Autor(a):** Luana Bortko Rodrigues
 **Técnica:** entrevista semiestruturada
-**Objetivo:** {{...}}  
-**Público:** {{...}}
+**Objetivo:** Investigar o processo de trabalho de docentes na elaboração e revisão de avaliações por meio de perguntas fechadas (estruturadas) para caracterizar de forma objetiva o perfil do professor, seu tempo de carreira, nível de ensino e grau de familiaridade com tecnologias; e perguntas abertas (não estruturadas) de caráter exploratório para investigar profundamente suas dores, hábitos reais, estratégias de revisão e modelos mentais ao interpretar métricas estruturais de exames (como contagem de palavras e presença de imagens). O intuito é reunir dados de perfil e insights qualitativos detalhados para fundamentar as decisões de design da interface.
+**Público:** Docentes que elaboram ou revisam avaliações e simulados.
+
+<!-- etica: pq ela foi selecionada, motivo da entrevista, oq eu to desenvolvendo, oque ela ajuda ao participar dessa entrevista 
+Roteiro da entrevista: conjunto de perguntas
+estruturadas(perguntas fechadas): perguntas que não tem pra onde escapar
+não estruturada(perguntas abertas): A gente não tem controle da resposta
+Totalmente estruturada se torna um questionario falado
+-->
 
 #### Procedimento padronizado de aplicação
 
-1. {{preparação}}
-2. {{apresentação/consentimento}}
-3. {{aplicação}}
-4. {{encerramento}}
-5. {{armazenamento/anonimização}}
+1. **Preparação:** Elaboração, estruturação e alinhamento prévio do roteiro de perguntas (balanceando os blocos de perguntas fechadas e abertas), agendamento prévio da sessão (presencial ou remota), teste funcional dos equipamentos de captação de áudio/gravação de tela e revisão do material de apoio.
 
-#### Instrumento
+2. **Apresentação/Consentimento:** Introdução do participante ao estudo, apresentando o que está sendo desenvolvido e o motivo da entrevista. Explica-se por que o docente foi selecionado (por sua experiência prática na elaboração e revisão de avaliações) e como sua participação contribui para o projeto (ajudando a alinhar a interface do sistema às necessidades reais dos professores). Em seguida, realiza-se a leitura e aceite do Termo de Consentimento Livre e Esclarecido (TCLE), reforçando o caráter voluntário, a garantia de anonimato, a autorização prévia para gravação de áudio e assegurando que o objeto sob avaliação é a interface do software.
 
-Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**.
+3. **Aplicação:** Condução da entrevista alternando os blocos estruturados e não estruturados conforme o roteiro elaborado, mantendo uma postura neutra, sem induzir respostas e permitindo que o participante discorra livremente sobre suas experiências.
+
+4. **Encerramento:** Agradecimento pela colaboração, abertura do espaço para considerações finais e encerramento da gravação.
+
+5. **Armazenamento/Anonimização:** As gravações de áudio e as respectivas transcrições são salvas em um repositório em nuvem com controle de acesso restrito exclusivamente à equipe de pesquisa. Todos os identificadores diretos e indiretos (como nomes de participantes, instituições de ensino, turmas e terceiros) são removidos ou substituídos por códigos genéricos nas transcrições e relatórios, garantindo a sigilosidade e o anonimato de todas as informações coletadas.
+
+#### Instrumento (Roteiro)
+
+<!-- Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**. -->
+##### Bloco 1: Perfil e Contexto (perguntas fechadas e abertas)
+
+1. Há quanto tempo você atua na docência?
+
+2. Em qual(is) nível(is) de ensino você leciona atualmente? (Ensino Fundamental/Ensino Médio /Ensino Superior/Pós-graduação)
+
+3. Com qual frequência você elabora ou revisa provas formais? (Semanalmente/Mensalmente/Bimestralmente/Semestralmente/Raramente)
+
+4. Você utiliza algum software no computador para criar ou formatar suas avaliações? (Sim (Quais? Ex.: Word, Google Docs, Canva, geradores de questões)/Não (Elaboro de outra forma / manuscrito))
+
+5. Já utilizou alguma ferramenta que mostre métricas ou estatísticas automáticas sobre o conteúdo das suas provas?(Sim/Não)
+
+6. Quais equipamentos você costuma utilizar para elaborar e revisar suas avaliações? (ex.: computador pessoal/notebook, computador da escola, tablet) E qual é o tipo de tela e ambiente em que você costuma trabalhar?
+
+7. Você encontra limitações de conexão ou de equipamentos na sua rotina de trabalho?"
+
+##### Bloco 2: Processo de Trabalho e Dificuldades (perguntas abertas)
+
+1. Pode me descrever, passo a passo, como você costuma elaborar ou revisar uma prova, desde o momento em que decide criar as questões até ela estar pronta para aplicação?
+
+2. Quais são os maiores desafios ou a parte mais trabalhosa durante esse processo de elaboração/revisão?
+
+3. Ao elaborar uma avaliação, você costuma atentar para características como o tamanho do texto de apoio, quantidade de imagens ou distribuição das alternativas? Como você avalia esses elementos hoje?
+
+##### Bloco 3: Interpretação de Métricas e Relevância do Sistema (perguntas abertas)
+
+1. Ao colocar uma prova no sistema e receber um diagnóstico indicando o número total de palavras, a quantidade de imagens e o tamanho médio do texto por questão, de que forma essas informações ajudariam você na revisão da prova?
+
+2. Se o sistema destacar que uma questão específica possui um texto muito mais longo do que as demais ou que a prova tem poucas imagens de apoio, isso levaria você a alterar a questão ou o formato da prova? Por quê?
+
+3. Ao visualizar essas estatísticas na tela, você prefere ver apenas os números brutos (ex.: '1.200 palavras') ou gostaria de explicações visuais e dicas contextuais mostrando como a extensão do texto pode impactar o tempo de resolução dos alunos?
+
+4. Em qual momento da sua rotina faria mais sentido acessar um painel como esse: enquanto está digitando as questões, logo após finalizar a prova ou após ver os resultados dos alunos?
+
+##### Bloco 4: Usabilidade e Fechamento (perguntas fechadas e abertas)
+
+1. Em uma escala de 1 a 5, quão confortável você se sente ao aprender a utilizar novos softwares ou ferramentas digitais no seu trabalho? (1 = Muito desconfortável; 5 = Muito confortável)
+
+2. Quando precisa analisar informações sobre o seu trabalho, você prefere visualizar dados na forma de gráficos, relatórios em texto descritivo ou alertas visuais simples?
+
+3. Há algum recurso ou informação que você considera fundamental para decidir usar um sistema de análise de provas na sua rotina?
 
 #### Como os dados serão analisados
+<!--{{ex.: distribuição de respostas, codificação temática, agrupamento de problemas}}-->
 
-{{ex.: distribuição de respostas, codificação temática, agrupamento de problemas}}
+Os dados brutos coletados nas sessões de entrevista semiestruturada serão transcritos e analisados por meio de uma abordagem integrada em três etapas complementares:
 
+- **Distribuição de respostas (Análise Descritiva dos Dados Estruturados):** As respostas do Bloco 1 (perfil) e do Bloco 4 (usabilidade/preferencias) serão tabuladas para mapear a distribuição percentual e o perfil dos participantes. Essa distribuição servirá para caracterizar quantitativamente a amostra e identificar se diferentes faixas de experiência docente ou familiaridade tecnológica exigem padrões distintos de interface.
 
-<!--ex investigacsao contextual, entrevista, questionario...simular(quesrtionario), fazer o correto pq plinio vai avaliar --> 
-> Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
+- **Codificação Temática (Análise Qualitativa de Conteúdo):** As transcrições das respostas abertas dos Blocos 2 e 3 serão submetidas à análise de conteúdo e agrupadas em códigos e categorias temáticas recorrentes, tais como: Fluxo e Gargalos de Elaboração(como o professor constrói a prova e onde gasta mais tempo); Modelo Mental de Métricas(como o docente interpreta dados como contagem de palavras, quantidade de imagens e extensão por questão); Demanda por Explicações (preferência por valores numéricos diretos versus orientações contextuais e dicas pedagógicas); Momento do Uso(em qual etapa do trabalho o professor prefere acionar a ferramenta).
+
+- **Agrupamento de Problemas:** As dificuldades, receios e necessidades relatados pelos professores serão organizados e sintetizados em um quadro de problemas de usabilidade e oportunidades de melhoria. Esses achados qualitativos serão convertidos diretamente em requisitos de interface, servindo para definir as prioridades de layout, a organização da navegação e o nível de ajuda contextual do sistema.
 
 ### Instrumento I03 — INVESTIGACAO CONTEXTUAL??????
 
