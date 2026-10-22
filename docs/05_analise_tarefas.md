@@ -148,6 +148,8 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 <!--ACHAM Q COLOCA 2.1 TB? ELE FLO P COLOCA OPERACAO MAS AI N SEI OQ COLOCA EM ORDEM 
 !-->
+| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
+|---|---|---|---|
 | 0 | (objetivo) Analisar prova | 1 > 2 > 3(+4) | A análise é realizada por meio do dashboard. Como nem todos os docentes podem estar familiarizados com as métricas apresentadas, cada tabela e indicador possui um ícone de informação que exibe uma descrição explicando o que está sendo analisado naquele campo, auxiliando na interpretação dos resultados. |
 | 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2 | o sistema precisa garantir que o arquivo seja válido antes de processá-lo. |
 | 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 tem que ser feita antes da 1.2 | O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |

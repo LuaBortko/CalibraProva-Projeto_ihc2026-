@@ -1,7 +1,7 @@
 # Entrega 8 — Ciclo de vida e engenharia de usabilidade
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** 22/10/2026 
+**Status:** 🟨 em andamento
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
@@ -14,9 +14,9 @@ Antes das características da plataforma, separe:
 
 | Camada | O que pertence ao projeto | O que será avaliado em IHC |
 |---|---|---|
-| contribuição técnica do TCC | {{algoritmo/modelo/API/análise...}} | desempenho técnico não é substituído pelo teste de IHC |
-| camada de interação da disciplina | {{interface/fluxos}} | compreensão, eficácia, eficiência, satisfação, erros, acessibilidade etc. |
-| integrações/dados simulados | {{...}} | {{limites do protótipo}} |
+| contribuição técnica do TCC | algorítmo de análise | desempenho técnico não é substituído pelo teste de IHC ????-----resultado da análise  aplicada para outras provas, visível por meio de gráficos|
+| camada de interação da disciplina | interface | análise da compreensão e clareza das métricas, bem como o impacto potencial da estrutura das questões no desempenho da prova. |
+| integrações/dados simulados | {{...}} -----?????? | {{limites do protótipo}} ???????|
 
 Em um protótipo de disciplina, é aceitável simular processamento ou resultados quando a implementação técnica não estiver integrada, desde que isso seja declarado e a simulação seja suficiente para avaliar a interação.
 
@@ -32,7 +32,7 @@ Em um protótipo de disciplina, é aceitável simular processamento ou resultado
 | Segurança/privacidade | {{...}} | {{...}} |
 | Volume de dados/histórico | {{...}} | {{impacto em busca, filtros, paginação...}} |
 | Tempo de processamento | {{...}} | {{feedback, progresso, cancelamento...}} |
-| Papéis/permissões | {{...}} | {{administração, prevenção de erros...}} |
+| Papéis/permissões | Acesso irrestrito e sem necessidade de login. Funcionalidades homogêneas para todos os usuários, dependendo apenas do upload de um PDF válido. | Simplifica o fluxo de navegação por não exigir cadastro/login, mas demanda foco na prevenção de erros: torna necessário o uso de orientações claras sobre o formato do PDF, validação prévia no envio e feedback explicativo de falhas. |
 
 ## 2. Princípios gerais do projeto
 
