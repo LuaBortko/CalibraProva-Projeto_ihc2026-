@@ -1,7 +1,7 @@
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
 **Data:** 13/09/2026<br> 
-**Status:** 🟩 concluída <br> 
+**Status:**  🟨 Em andamento <br> 
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -145,23 +145,6 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 ![HTA T01](../assets/05_tarefas/hta_t01.jpeg)
 
 ### Decomposição e planos
-
-| ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
-|---|---|---|---|
-| 0 | (objetivo) Analisar prova | 1 > 2 > 3 > 4  | {{...}} |
-| 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2  | {{...}} |
-| 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 pode ser feita antes ou depois da 1.2 | {{...}} |
-| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 pode ser feita antes ou depois da 1.1 | {{...}} |
-| 2 | (sub objetivo) Inserir de dados da prova | 2.1 / 2.2  | {{...}} |
-| 2.1 | (operação) | (decisão) Docente deve escolher entre 2.1 e 2.2 | {{...}} |
-| 2.2 | (operação) | (decisão) Docente deve escolher entre 2.1 e 2.2  | {{...}} |
-| 3 | (sub objetivo) Analisar dados do Dashboard | 3.1 + 3.2 | {{...}} |
-| 3.1 | (operação) Visualizar  Tabelas e gráficos das métricas  |  | {{...}} |
-| 3.2 | (operação) Ler  detalhamento das métrica |  | {{...}} |
-| 4 | (sub objetivo) Exportar Dashboard | 4.1 + 4.2 + 4.3  | {{...}} |
-| 4.1 | (operação) Exportar em PDF| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
-| 4.2 | (operação) Exportar em Excel | Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
-| 4.3 | (operação) Exportar em CSV| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | {{...}} |
 
 <!--ACHAM Q COLOCA 2.1 TB? ELE FLO P COLOCA OPERACAO MAS AI N SEI OQ COLOCA EM ORDEM 
 !-->
@@ -716,11 +699,12 @@ Goal 0: Gerar novas questões baseadas em provas já elaboradas.
 
 O modelo de Árvore de Tarefas Concorrentes (*ConcurTaskTrees* – CTT) para a tarefa **"Gerar novas questões baseadas em provas já elaboradas" (T0)** foi decomposto hierarquicamente, representando o fluxo de interação do docente com o sistema, desde o envio de uma avaliação existente até a exportação das novas questões produzidas. A estrutura tem início na tarefa abstrata **T0**, que engloba quatro etapas principais: **T1 (Fazer upload da prova)**, **T2 (Gerar novas questões)**, **T3 (Revisar novas questões)** e **T4 (Exportar novas questões)**.
 
-O processo começa com a tarefa abstrata **T1 (Fazer upload da prova)**, responsável por disponibilizar ao sistema o arquivo de uma avaliação previamente elaborada pelo docente. Essa tarefa é decomposta nas tarefas interativas **T1.1 (Selecionar arquivo)** e **T1.2 (Enviar arquivo)**, relacionadas por um operador de **Ativação (>>)**. Dessa forma, o docente deve selecionar o arquivo desejado antes de realizar seu envio. Durante essa etapa, existe também a possibilidade de ocorrência de um erro, representada pela tarefa de sistema **TS_Erro (Exibir erro)**. A relação de **Desativação ([>)** entre T1.2 e TS_Erro indica que, caso seja identificado um problema durante o envio, a operação é interrompida e o sistema apresenta uma mensagem de erro ao docente.
+O processo começa com a tarefa abstrata **T1 (Fazer upload da prova)**, responsável por disponibilizar ao sistema o arquivo de uma avaliação previamente elaborada pelo docente. Essa tarefa é decomposta nas tarefas interativas **T1.1 (Selecionar arquivo)** e **T1.2 (Enviar arquivo)**, relacionadas por um operador de **Ativação (>>)**. Dessa forma, o docente deve selecionar o arquivo desejado antes de realizar seu envio. Durante essa etapa, existe também a possibilidade de ocorrência de um erro, representada pela tarefa de sistema **TS_Erro (Exibir erro)**. A relação de **Desativação (`[>`)** entre T1.2 e TS_Erro indica que, caso seja identificado um problema durante o envio, a operação é interrompida e o sistema apresenta uma mensagem de erro ao docente.
 
-Após a conclusão do upload, ocorre uma **Ativação com passagem de informação ([]>>)** para a tarefa abstrata **T2 (Gerar novas questões)**. Essa relação representa a transferência da prova enviada para a etapa de geração, permitindo que seu conteúdo seja utilizado como referência na produção das novas questões. A tarefa T2 é decomposta em **T2.1 (Selecionar quantidade de questões)**, classificada como interativa, e **T2.2 (Processar geração das questões)**, classificada como tarefa do sistema. Ambas são relacionadas por uma **Ativação (>>)**, indicando que o processamento automático ocorre após a definição da quantidade de questões e a solicitação de geração pelo docente.
+Após a conclusão do upload, ocorre uma **Ativação com passagem de informação ([]>>)** para a tarefa abstrata **T2 (Gerar novas questões)**. Essa relação representa a transferência da prova enviada para a etapa de geração, permitindo que seu conteúdo seja utilizado como referência na produção das novas questões. A tarefa T2 é decomposta em **T2.1 (Selecionar quantidade de questões)** e
+**T2.2 (Selecionar dificuldade das questões)**,classificadas como interativa, **T2.3 (Processar geração das questões)**, classificada como tarefa do sistema e **TU1(Revisar a prova original)**, classificada como tarefa de usuário. T2.1 e T.2.2 possuem uma relação de **Independência(`\|=\|`)**. Ademais, T2.2 e T2.3 possuem uma relação de ativaçao com passagem de informação, com a dificuldade e quantidade de questões escolhidas pelo usuário passadas para o sistema fazer o processamento e gerar as questõe. Além dessa, é feita uma relação de ativação com passagem de informação para T2.3, onde o sistema processa as informações dadas pelo usuário para gerar as novas questões. Por fim, em uma relação de **Concorrência(`\|\|\|`)**, o usuário pode também revisar a prova na qual fez upload no sistema através da TU1. 
 
-Concluído o processamento, as questões produzidas são disponibilizadas para a tarefa abstrata **T3 (Revisar novas questões)**, por meio de uma relação de **Ativação com passagem de informação ([]>>)**. Essa etapa contempla as tarefas interativas **T3.1 (Ler e avaliar novas questões)** e **T3.2 (Editar novas questões)**, relacionadas por **Concorrência (|||)**. Essa relação permite que o docente alterne entre a leitura e a edição das questões, sem precisar concluir a avaliação de todas elas antes de realizar modificações. Assim, o docente pode identificar possíveis inadequações no conteúdo e realizar ajustes quando considerar necessário, mantendo as questões que já estejam adequadas.
+Concluído o processamento, as questões produzidas são disponibilizadas para a tarefa abstrata **T3 (Revisar novas questões)**, por meio de uma relação de **Ativação com passagem de informação ([]>>)**. Essa etapa contempla as tarefas interativas **TU2 (Ler e avaliar novas questões)** e **T3.1 (Editar novas questões)**, relacionadas por **Concorrência e comunicante (`\|[]\|`)**. e **T3.2(Visualizar prévia do documento final)**, relacionado por **Suspensão/Retomada(`\|>`)**,  Essa relação permite que o docente alterne entre a leitura e a edição das questões, sem precisar concluir a avaliação de todas elas antes de realizar modificações. Assim, o docente pode identificar possíveis inadequações no conteúdo e realizar ajustes quando considerar necessário, mantendo as questões que já estejam adequadas.
 
 Após a revisão, o fluxo prossegue para a tarefa abstrata **T4 (Exportar novas questões)**, na qual o docente seleciona o formato desejado para o arquivo final. Essa etapa apresenta uma relação de **Escolha ([])** entre as tarefas interativas **T4.1 (Exportar em PDF)** e **T4.2 (Exportar em Word)**. A escolha do formato PDF permite obter um documento com apresentação fixa, adequado para impressão ou compartilhamento, enquanto a opção Word possibilita a edição posterior das questões em um editor de texto. A seleção de uma dessas alternativas desabilita a outra durante aquela execução da tarefa de exportação.
 
@@ -736,13 +720,20 @@ Dessa forma, o modelo CTT representa não apenas a sequência de atividades nece
 
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
-| >> | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | T1.1 >> T1.2: o docente seleciona o arquivo da prova antes de enviá-lo ao sistema. T2.1 >> T2.2 O sistema utiliza os inputs do usuário para processar a geração. |
-| []>> | Ativação com passagem de informação: A segunda tarefa só pode iniciar após a primeira terminar, e a informação produzida é repassada para a seguinte | T1 []>> T2: o arquivo enviado é utilizado como entrada para a geração de novas questões. T2 []>> T3: As novas questões geradas são mostradas e é disponibilizada sua edição. T3 []>> T4: As novas questões são usadas para serem exportadas em um arquivo. T4 []>> TS1: O sistema utiliza deste arquivo de exportação para gerar o arquivo na máquina do usuário. |
-| ||| | Concorrentes: especifica que as tarefas podem ser
-realizadas em qualquer ordem ou ao mesmo tempo.
-|  TU1 ||| T3.1: O usuário pode escolher a ordem na qual ele analisa as questões geradas e as edita caso veja necessidade. |
-| [> | Desativação: A segunda tarefa interrompe a primeira | T1.2 [> TS_Erro: O sistema interrompe o envio da prova caso ele esteja em um formato inválido.|
-| [] | Escolha: Duas tarefas que no momento que uma é escolhida, a outra é desabilitada. | T4.1 [] T4.2: O usuário escolhe qual o formato que ele quer exportar as novas questões geradas.|
+| `>>` | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | T1.1 >> T1.2: o docente seleciona o arquivo da prova antes de enviá-lo ao sistema.|
+| `[]>>` | Ativação com passagem de informação: A segunda tarefa só pode iniciar após a primeira terminar, e a informação produzida é repassada para a seguinte | T1 []>> T2: o arquivo enviado é utilizado como entrada para a geração de novas questões. |
+| `\|\|\|` | Concorrentes: especifica que as tarefas podem ser realizadas em qualquer ordem ou ao mesmo tempo. |  TU1 `\|\|\|` T3.1: O usuário pode escolher a ordem na qual ele analisa as questões geradas e as edita caso veja necessidade. |
+| `[>` | Desativação: A segunda tarefa interrompe a primeira | T1.2 `[>` TS_Erro: O sistema interrompe o envio da prova caso ele esteja em um formato inválido.|
+| `[]` | Escolha: Duas tarefas que no momento que uma é escolhida, a outra é desabilitada. | T4.1 [] T4.2: O usuário escolhe qual o formato que ele quer exportar as novas questões geradas.|
+| `\| [] \|` |  Tarefas concorrentes e comunicantes: Podem ser realizadas em qualquer ordem ou ao mesmo tempo e podem trocar informações entre si. | TU2 `\|[]\|` T3.1: O usuário pode ler e avaliar as questões geradas e edita-las, caso ache necessário.|
+| `\|=\|` |  Tarefas independentes: podem ser realizadas em qualquer ordem, porém uma precisa terminar para outra começar. | T2.1 `\|=\|` T2.2: O usuário pode selecionar a quantidade e a dificuldade das questões em qualquer ordem.|
+| `\|>` |  Suspensão e retomada: Uma tarefa pode interromper a outra, com T1 podendo ser retomada assim que T2 finalizar. | T3.1 `\|>` T3.2: O usuário pode editar as questões geradas pelo sistema e visualizar uma prévia da documento final.|
+| Nuvem | Tarefa abstrata: a representação de uma composição de tarefas| T5: O usuário exporta as questões geradas e editadas.|
+| Pessoa | Tarefa do usuário: tarefas realizadas fora do sistema pelo usuário| TU1: O usuário lê o arquivo da prova que ele preparou para o upload.|
+| Computador | Tarefa do sistema: processamento pelo sistema sem qualquer interação com o usuário| TS1: O sistema gera o arquivo exportado pelo usuário no formato solicitado. |
+| Pessoa e computador| Tarefa interativa: Tarefa realizada pelo usuário em que ocorre um diálogo com o sistema| T1.2: O usuário faz o upload da prova no sistema. |
+
+
 
 
 Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
@@ -754,6 +745,8 @@ Identifique, quando aplicável, tarefas de usuário, sistema, interação e tare
 
 Quais problemas de interação, oportunidades e requisitos apareceram a partir das modelagens? Quais tarefas irão para o protótipo e para o teste de usabilidade?
 
+Na tarefa de análise de provas (T01), foram identificadas necessidades relacionadas à validação dos arquivos enviados, à clareza na inserção dos dados e à apresentação das métricas no dashboard. Dessa forma, o sistema deve informar os formatos de arquivo aceitos, apresentar mensagens de erro quando necessário e disponibilizar explicações das métricas para auxiliar os docentes na interpretação dos resultados. Além disso, deve permitir a exportação dos dados em diferentes formatos, conforme a necessidade do usuário.
+Para o desenvolvimento do protótipo e teste de usabilidade, a equipe priorizou a tarefa T01 — Analisar a prova, contemplando o envio do arquivo, a inserção dos dados da avaliação, a visualização das métricas e a exportação dos resultados. Essa escolha permitiu concentrar a prototipagem em um dos principais objetivos do sistema, abordando diferentes necessidades de interação identificadas nas modelagens. 
 ## Checklist
 
 - [X] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
