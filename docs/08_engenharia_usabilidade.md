@@ -16,7 +16,7 @@ Antes das características da plataforma, separe:
 |---|---|---|
 | contribuição técnica do TCC | algorítmo de análise | desempenho técnico não é substituído pelo teste de IHC ????-----resultado da análise  aplicada para outras provas, visível por meio de gráficos|
 | camada de interação da disciplina | interface | análise da compreensão e clareza das métricas, bem como o impacto potencial da estrutura das questões no desempenho da prova. |
-| integrações/dados simulados | {{...}} -----?????? | {{limites do protótipo}} ???????|
+| integrações/dados simulados | Integração/dados não tem a ter integração mas busca info no site do mec, de onde contribuímos, usamos bert e roberta. AJUSTE| {{limites do protótipo}} ???????|
 
 Em um protótipo de disciplina, é aceitável simular processamento ou resultados quando a implementação técnica não estiver integrada, desde que isso seja declarado e a simulação seja suficiente para avaliar a interação.
 

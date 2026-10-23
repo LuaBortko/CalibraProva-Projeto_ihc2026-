@@ -142,34 +142,39 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 ### Diagrama
 
-![HTA T01](../assets/05_tarefas/hta_t01.jpeg)
-
+![HTA T01](../assets/05_tarefas/hta_t01_correcao.jpeg)
+<!-- exportar é ou pq mesmp podendo ser e, tem mais probabilidade de ser ou-->
 ### Decomposição e planos
 
-<!--ACHAM Q COLOCA 2.1 TB? ELE FLO P COLOCA OPERACAO MAS AI N SEI OQ COLOCA EM ORDEM 
-!-->
+<!--0 tem q ter input e feedback da tela --->
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | (objetivo) Analisar prova | 1 > 2 > 3(+4) | A análise é realizada por meio do dashboard. Como nem todos os docentes podem estar familiarizados com as métricas apresentadas, cada tabela e indicador possui um ícone de informação que exibe uma descrição explicando o que está sendo analisado naquele campo, auxiliando na interpretação dos resultados. |
-| 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2 | o sistema precisa garantir que o arquivo seja válido antes de processá-lo. |
-| 1.1 | (operação) Selecionar arquivo em formato válido (PDF) | 1.1 tem que ser feita antes da 1.2 | O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |
-| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 tem que ser feita depois da 1.1 | O envio pode ser feito por arrastar e soltar ou seleção manual no computador e envio pelo botão. |
-| 2 | (sub objetivo) Inserir de dados da prova | 2.1 / 2.2  | Fazer que os respectivos campos de input contenham placeholder descritivos da informação necessária. |
-| 2.1 | (operação) Informar tempo de prova (em minutos) | (decisão) Docente deve escolher entre 2.1 e 2.2 | O campo de entrada deve ter um dropdown com minutos e horas e o placeholder deve deixar claro que a unidade é "minutos". O sistema deve converter automaticamente o valor para o formato que o código usa, tornando a inserção mais fácil para o docente. |
-| 2.2 | (operação)  Informar tempo de prova (em horas)| (decisão) Docente deve escolher entre 2.1 e 2.2  | A interface deve permitir facilmente alterar entre as unidades (minutos/horas) para a inserção manual por meio de um dropdown ou toggle switch, garantindo que o dado inserido não se perca na troca. |
-| 3 | (sub objetivo) Analisar dados do Dashboard | 3.1 + 3.2 | O dashboard deve apresentar as informações de forma clara e intuitiva, utilizando cores adequadas, diferentes tipos de gráficos, tabelas e indicadores para facilitar a compreensão dos resultados. O layout deve priorizar apenas os dados relevantes, evitando poluição visual e auxiliando os docentes na interpretação das métricas apresentadas. 
-| 3.1 | (operação) Visualizar  Tabelas e gráficos das métricas  | O 3.1 deve ser feito em paralelo ao 3.2, ambos precisam ser atingidos ao mesmo tempo | Utilizar tipos de gráficos adequados para cada métrica(gráficos de piza, colunas, barras), garantir constraste de cores acessível (WCAG) para que todos os docentes consigam visualizar os dados. |
-| 3.2 | (operação) Ler  detalhamento das métrica | O 3.1 deve ser feito em paralelo ao 3.2, ambos precisam ser atingidos ao mesmo tempo | Os textos de detalhamento podem conter fórmulas usadas pelo código para facilitar a compreensão, bem como utilizar linguagem do domínio do professor. Ele deve complementar a informação visual do gráfico, não ser redundante. |
-| 4 | (sub objetivo) Exportar Dashboard | 4.1 + 4.2 + 4.3  | a exportação é uma ação secundária. O sistema deve oferecer as opções de forma clara, por mei ode um menu suspenso, por exemplo, sem poluir a tela principal de análise. O arquivo exportado deve manter a consistência visual do dashboard. |
-| 4.1 | (operação) Exportar em PDF| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | O PDF gerado deve ter formatação para impressão, garantindo que tabelas e gráfico não sejam cortados ou fiquem distorcidos. |
-| 4.2 | (operação) Exportar em Excel | Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | A exportação para Excel deve preservar os dados brutos em formato de planilha estruturada, permitindo que o docente faça suas próprias análises ou cruze com outras notas. |
-| 4.3 | (operação) Exportar em CSV| Pode fazer 4.1 ou 4.2 ou 4.3 em paralelo | O CSV deve utilizar um delimitador padrão e incluir cabeçalhos claros, como os do sistema, facilitando a exportação dos dados em outros sistemas ou scripts personalizados pelo docente. |
+| 0 | (objetivo) Analisar prova | 1 > 2 > 3(+4) |Input: Arquivo da prova (upload) e parâmetros com as informações da prova.
+Plano: Fazer upload e preencher dados (1), enviar para análise do sistema (2), verificar os resultados no dashboard (3) e, se necessário, exportar os dados (4). 
+Feedback: O sistema exibe no dashboard a análise detalhada da prova por meio de gráficos e indicadores baseados nas métricas do TCC. Como nem todos os docentes podem estar familiarizados com as métricas apresentadas, cada tabela e indicador possui um ícone de informação que exibe uma descrição explicando o que está sendo analisado naquele campo, auxiliando na interpretação dos resultados.
+Recomendação: Incluir ícones de informação em cada indicador/tabela com descrições explicativas para auxiliar docentes não familiarizados com as métricas. |
+| 1 | (sub objetivo) Fazer upload de prova | 1.1 > 1.2 | Recomendação: o sistema precisa garantir que o arquivo seja válido antes de processá-lo. |
+| 1.1 | (subsub objetivo) Selecionar arquivo em formato válido (PDF) | 1.1.1/1.1.2 (1.1 tem que ser feita antes da 1.2) | Recomendação: O sistema deve apresentar os formatos de arquivo válidos e notificar o usuário sempre que o arquivo selecionado não puder ser analisado, informando a causa do problema e os formatos aceitos pela plataforma. |
+| 1.1.1 | (operação) Arrastar arquivo em formato válido (PDF) | pode ser feito o 1.1.1 ou o 1.1.2, usuário escolhe qual deseja fazer | Recomendaçao: Aplicação precisa deixar claro que o campo de input pode ser preenchido tanto ao selecionar um arquivo dor explodador de arquivo quanto ao arrastar um arquivo para o campo evidenciado |
+| 1.1.2 | (operação) Selecionar do explorador de arquivos um arquivo em formato válido (PDF) | pode ser feito o 1.1.1 ou o 1.1.2, usuário escolhe qual deseja fazer | Recomendação: Aplicação precisa deixar claro que o campo de input pode ser preenchido tanto ao selecionar um arquivo dor explodador de arquivo quanto ao arrastar um arquivo para o campo evidenciado |
+| 1.2 | (operação) Enviar arquivo em formato válido(PDF) | 1.2 tem que ser feita depois da 1.1 | Recomendação: O envio pode ser feito por arrastar e soltar ou seleção manual no computador e envio pelo botão. |
+| 2 | (sub objetivo) Inserir de dados da prova | 2.1 / 2.2  | Recomendação: Fazer que os respectivos campos de input contenham placeholder descritivos da informação necessária. |
+| 2.1 | (operação) Informar tempo de prova (em minutos) | (decisão) Docente deve escolher entre 2.1 e 2.2 | Recomendação: O campo de entrada deve ter um dropdown com minutos e horas e o placeholder deve deixar claro que a unidade é "minutos". O sistema deve converter automaticamente o valor para o formato que o código usa, tornando a inserção mais fácil para o docente. |
+| 2.2 | (operação)  Informar tempo de prova (em horas)| (decisão) Docente deve escolher entre 2.1 e 2.2  | Recomendação: A interface deve permitir facilmente alterar entre as unidades (minutos/horas) para a inserção manual por meio de um dropdown ou toggle switch, garantindo que o dado inserido não se perca na troca. |
+| 3 | (sub objetivo) Analisar dados do Dashboard | 3.1 + 3.2 | Recomendação: O dashboard deve apresentar as informações de forma clara e intuitiva, utilizando cores adequadas, diferentes tipos de gráficos, tabelas e indicadores para facilitar a compreensão dos resultados. O layout deve priorizar apenas os dados relevantes, evitando poluição visual e auxiliando os docentes na interpretação das métricas apresentadas. |
+| 3.1 | (operação) Visualizar  Tabelas e gráficos das métricas  | O 3.1 deve ser feito em paralelo ao 3.2, ambos precisam ser atingidos ao mesmo tempo | Recomendação: Utilizar tipos de gráficos adequados para cada métrica(gráficos de piza, colunas, barras), garantir constraste de cores acessível (WCAG) para que todos os docentes consigam visualizar os dados. |
+| 3.2 | (operação) Ler  detalhamento das métrica | O 3.1 deve ser feito em paralelo ao 3.2, ambos precisam ser atingidos ao mesmo tempo | Recomendação: Os textos de detalhamento podem conter fórmulas usadas pelo código para facilitar a compreensão, bem como utilizar linguagem do domínio do professor. Ele deve complementar a informação visual do gráfico, não ser redundante. |
+| 4 | (sub objetivo) Exportar Dashboard | 4.1 / 4.2 / 4.3  | Recomendação: A exportação é uma ação secundária. O sistema deve oferecer as opções de forma clara, por meio de um menu suspenso, por exemplo, sem poluir a tela principal de análise. O arquivo exportado deve manter a consistência visual do dashboard. |
+| 4.1 | (operação) Exportar em PDF| Pode fazer 4.1 ou 4.2 ou 4.3, precisa escolher qual exportação deseja realizar| Recomendação: O PDF gerado deve ter formatação para impressão, garantindo que tabelas e gráfico não sejam cortados ou fiquem distorcidos. |
+| 4.2 | (operação) Exportar em Excel | Pode fazer 4.1 ou 4.2 ou 4.3, precisa escolher qual exportação deseja realizar | Recomendação: A exportação para Excel deve preservar os dados brutos em formato de planilha estruturada, permitindo que o docente faça suas próprias análises ou cruze com outras notas. |
+| 4.3 | (operação) Exportar em CSV| Pode fazer 4.1 ou 4.2 ou 4.3, precisa escolher qual exportação deseja realizar | Recomendação: O CSV deve utilizar um delimitador padrão e incluir cabeçalhos claros, como os do sistema, facilitando a exportação dos dados em outros sistemas ou scripts personalizados pelo docente. |
 
+<!-- pelo fato de estarmos fazendo o projeto de IHC após a termos determinado tud odo tcc tem um nível de detalhe muito alto que não acontecerá ao realizarmos projetos no mercado-->
 **Verificação do HTA:**
 
 - O objetivo 0 representa uma meta do usuário? Sim, a meta é "Analisar prova". Todo o fluxo foi desenhado para que o docente consiga extrair insights da avaliação. As etapas seguintes são meios para alcançar esse fim.
 - As subtarefas são necessárias e suficientes?  Sim. As subtarefas 1, 2 e 3 são necessárias para a análise da prova, enquanto a subtarefa 4 é opcional e serve para exportar os resultados. Dessa forma, as subtarefas são suficientes para atingir a meta estabelecida.
-- Os **planos** indicam ordem, alternativa, repetição ou condição? Sim. Indicam ordem (sequência) no fluxo principal 1 > 2 > 3, onde o upload deve preceder a inserção de dados, que deve preceder a análise. Indicam alternativa (decisão) em 2.1 / 2.2 (escolha da unidade de tempo) e em 4.1 / 4.2 / 4.3 (escolha do formato de exportação). Indicam concorrência (paralelismo) em 3.1 + 3.2 (o usuário precisa visualizar os gráficos e ler os detalhes de forma integrada para compreender o todo) e em 4.1 + 4.2 + 4.3 (o docente pode exportar em mais de um formato simultaneamente). Por fim, indicam condição (opcionalidade), pois a etapa 4 só ocorre se o docente desejar salvar ou compartilhar o resultado, sendo representada corretamente pelo plano 1 > 2 > 3 (+4). As operações 1.1 e 1.2 possuem ordem flexível, podendo ser feitas em qualquer sequência.
+- Os **planos** indicam ordem, alternativa, repetição ou condição? Sim. Indicam ordem (sequência) no fluxo principal 1 > 2 > 3, onde o upload deve preceder a inserção de dados, que deve preceder a análise. Indicam alternativa (decisão) em 2.1 / 2.2 (escolha da unidade de tempo) e em 4.1 / 4.2 / 4.3 (escolha do formato de exportação). Indicam concorrência (paralelismo) em 3.1 + 3.2 (o usuário precisa visualizar os gráficos e ler os detalhes de forma integrada para compreender o todo) e em 4.1 / 4.2 / 4.3 (o docente pode exportar em mais de um formato e precisa escolher em qual deles deseja obter o arquivo). Por fim, indicam condição (opcionalidade), pois a etapa 4 só ocorre se o docente desejar salvar ou compartilhar o resultado, sendo representada corretamente pelo plano 1 > 2 > 3 (+4). As operações 1.1 e 1.2 possuem ordem flexível, podendo ser feitas em qualquer sequência.
 - A decomposição parou em nível útil para projeto de interação? Sim. A decomposição para no nível das operações folha (1.1, 1.2, 2.1...), que mapeiam diretamente para componentes específicos da interface, como botão de upload, campos de input, ícones de informação e menus de exportação, por exemplo. Sabendo que 0 é a tarefa de analisar, 1 é o upload, 2 é a inserção de dados, 3 é a análise do Dashboard e 4 é a exportação (não obrigatória), está correta a representação 1 > 2 > 3 (+4).
 
 
@@ -185,18 +190,26 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 
 ### Métodos, operadores e regras de seleção
 
-- **Method 1.A(M1):** Arrastar arquivo para o respectivo campo do sistema(**SEL. RULE:** O docente prefere agilidade e o arquivo já está visível na tela ou em uma pasta aberta ao lado do navegador.) 
+- **GOAL 1.A(SUBGOAL1):** Arrastar arquivo para o respectivo campo do sistema(**SEL. RULE:** O docente prefere agilidade e o arquivo já está visível na tela ou em uma pasta aberta ao lado do navegador.) 
   - Op. 1.A.1: Deslocar o cursor mouse para o botão de upload (se necessário).
   - Op. 1.A.2: Selecionar o arquivo na área de trabalho/explorador
   - Op. 1.A.3: Arrastar o arquivo para o expaço destinado em tela do sistema.
   - Op. 1.A.4: Soltar o arquivo na área de upload(drop). 
-  - Op. 1.A.5: Clicar no botão "enviar".
-- **Method 1.B(M2):** Selecionar arquivo no explorador de arquivos computador (**SEL. RULE:** O docente prefere navegar pelas pastas para localizar o arquivo com precisão, ou o arquivo não está visível na tela.)
+  - Op. 1.A.5: Verificar se arquivo foi anexado com sucesso.
+- **GOAL 1.B(SUBGOAL2):** Selecionar arquivo no explorador de arquivos computador (**SEL. RULE:** O docente prefere navegar pelas pastas para localizar o arquivo com precisão, ou o arquivo não está visível na tela.)
   - Op. 1.B.1: Deslocar o cursor do mouse para o botão de upload.
   - Op. 1.B.2: Clicar no botão de upload (abre a janela do explorador de arquivos).
   - Op. 1.B.3: Clicar nas respectivas pastas até encontrar o arquivo específico.
   - Op. 1.B.4: Clicar sobre o arquivo para selecioná-lo.
-  - Op. 1.B.5: Clicar no botão "enviar"
+  - Op. 1.B.5: Verificar se arquivo foi anexado com sucesso.
+- **GOAL 1.C(SUBGOAL3):** Enviar arquivo em formato válido. 
+  - Op. 1.C.1: Clicar no botão de enviar.
+  - Op. 1.C.2: Verificar se foi enviado com sucesso, não resultou em erro.
+<!-- enviar poderia ser um subgoal e dentro o operador enviar ou apenas um operador enviar, se coloco subgoal eu entendo, como designer e dps para provar, faco que user consegue sleeciona/arrastar, vejo que esta tudo carregado e posso enviar, usuario avalia antes de enviar.
+
+só com operador: quando arrasto/seleciono não tenho preocupação em revisar os dados, simplesmente quero enviar
+
+tendo subgoal ou operador, ambos são corretos-->
 
 ### Goal
 
@@ -209,19 +222,22 @@ metodo de selecao sao 2 maneiras de faze msm coisa
   - Op. 2.A.2: Clicar no campo de input "Tempo de prova". 
   - Op. 2.A.3: Digitar o valor numérico em minutos.
   - Op. 2.A.4: Clicar no botão "analisar prova". 
+  - Op. 2.A.5: Verificar se a analise foi realizada e gerou as métricas.
 - **Method 2.B(M2):** Informar tempo de prova em horas. (**SEL. RULE:** O docente tem a informação do tempo em horas pois a prova tem longa duração.) 
   - Op. 2.B.1: Selecionar a opção de "horas" no dropdown ou toggle switch.
   - Op. 2.B.2: Clicar no campo de input "Tempo de prova". 
   - Op. 2.B.3: Digitar o valor numérico em horas.
   - Op. 2.B.4: Clicar no botão "analisar prova".
+  - Op. 2.B.5: Verificar se a analise foi realizada e gerou as métricas.
+  OPERODOR PRIMITIVO INTERNO
 
 ### Goal
 
 `G3: Analisar dados do dashboard`
 
 ### Métodos, operadores e regras de seleção
-
-- **Method 3.A(M1):** Leitura visual dos dashboard.
+<!-- faltava regra de selecao, que é quando esoclho fazer cada um-->
+- **Method 3.A(M1):** Leitura visual dos dashboard.(**SEL. RULE:** O deseja ter uma orientação sobre como direcionar a interpretação dos resultados e compreender melhor como eles foram calculados.) 
   - Op. 3.A.1: Deslocar o cursor do mouse pelos gráficos e tabelas. 
   - Op. 3.A.2: Analisar as informações dos gráficos.   
 - **Method 3.B(M2):** Leitura de detalhamento das métricas dos dashboards.
@@ -233,7 +249,7 @@ metodo de selecao sao 2 maneiras de faze msm coisa
 `G4: Exportar dahsboard (opcional)`
 
 ### Métodos, operadores e regras de seleção
-
+<!-- se só tivesse 1 jeito de exportar nao teria metodo e sim seria goal com operador, tem metodo quando tem goal e pacote de operador p fazer de cada jeito.-->
 - **Method 4.A(M1):** Exportar em PDF. (**SEL. RULE:** O docente precisa imprimir ou compartilhar o relatorio de forma estática.) 
   - Op. 4.A.1: Clicar no botão "exportar".
   - Op. 4.A.2: Selecionar a opção "PDF".  
@@ -318,14 +334,16 @@ GOAL 0: Analisar prova.
 **Autor(a):** Beatriz Manaia Lourenço Berto
 
 ### Descrição
+<!-- ctt representa a jornada do usuário, é bom começar com pessoa e terminar com sistema (pq user inicia e alimenta sistema no final)
 
+PROVA: qual caracteristixa diferencia diagramas?: ctt da concorrencia e representa jornada do user pq falo o que user faz dentro e fora do sistema é oq o sistema faz fora-->
 O modelo de Árvore de Tarefas Concorrentes (CTT) para a tarefa "Analisar prova" (T0) foi decomposto em etapas sequenciais e paralelas, refletindo o fluxo real de trabalho do docente. A estrutura inicia com a tarefa abstrata T0, que engloba todo o processo.
 
-O fluxo começa com a tarefa de usuário TU1 (Preparar a prova), que se relaciona por Ativação (>>) com a tarefa interativa T1 (Fazer upload da prova em formato válido), onde o docente interage com a interface para enviar o arquivo. Em um cenário de erro crítico (como queda de conexão), a tarefa de sistema TS_Erro (Emitir alerta) interrompe completamente o T1, caracterizando uma Desativação ([>).
+O fluxo começa com a tarefa de usuário TU1 (Preparar a prova), que se relaciona por Ativação (>>) com a tarefa abstrata T1 (Fazer upload da prova em formato válido), onde o docente interage com a interface para enviar o arquivo, podendo fazê-lo de 2 formas: arrastando arquivo para campo informado ou selecionando arquivo no explorador de arquivos, após isso vem uma tarefa abstrata de processamento que evidencia o sucesso ou erro. Em um cenário de erro crítico (como queda de conexão), a tarefa de sistema TS_Erro (Emitir alerta) interrompe completamente o T1, caracterizando uma Desativação ([>).
 
 Há uma relação de Concorrência (|||) entre T1 e T2, pois se o sistema permitir upload assíncrono, o docente pode iniciar a inserção de dados enquanto o upload ainda está em processamento, podendo realizá-las em qualquer ordem ou ao mesmo tempo. Em seguida, ocorre a tarefa interativa T2 (Inserir dados da prova manualmente), onde o docente preenche as informações da prova de forma manual, sem que o sistema pré-preencha os campos automaticamente.
 
-A tarefa T2 tem relação de Suspensão/Retomada (|>) com a tarefa de usuário TU2 (Consultar a prova física/digital). Isso ocorre quando o docente pausa a inserção para buscar uma informação necessária, e depois retoma a tarefa do ponto exato em que parou. Além disso, T2 possui uma relação de Concorrência e Comunicação (|[]|) com a tarefa de sistema TS_Feedback (Validar dados e exibir feedback). Enquanto o docente digita (por exemplo, ao inserir um tempo de prova de 10 horas), o sistema valida em tempo real e devolve um alerta visual imediatamente, caracterizando essa troca de informações simultânea.
+A tarefa T2 é abstrata, tendo como filhos a tarefa de usuário TU2 (Consultar a prova física/digital) e TS_Feedback. T2 possui uma relação de Concorrência e Comunicação (|[]|) com a tarefa de sistema TS_Feedback (Validar dados e exibir feedback). Enquanto o docente digita (por exemplo, ao inserir um tempo de prova de 10 horas), o sistema valida em tempo real e devolve um alerta visual imediatamente, caracterizando essa troca de informações simultânea.
 
 Após a inserção dos dados, há uma relação de Ativação com Passagem de Informação ([] >>) entre T2 e TS1, pois as informações digitadas pelo docente são enviadas para o sistema. O sistema assume o controle com a tarefa de sistema TS1 (Gerar dashboard), que processa as informações internamente. Uma vez gerado o dashboard, há uma Ativação com passagem de informação ([]>>) para a tarefa abstrata T3 (Analisar dados do dashboard).
 
@@ -336,22 +354,23 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Diagrama
 
-![CTT T01](../assets/05_tarefas/ctt_t01.jpeg)
+![CTT T01](../assets/05_tarefas/ctt_t01_correcao.jpeg)
 
+<!--sempre que tem filho o pai tem q ser nuvem e é impossível ter só 1 filho -->
 ### Legenda e relações temporais usadas
 
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
-| >> | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | TU1 >> T1 (preparar prova antes do upload). |
+| >> | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | TU1 >> T1 (preparar prova antes do upload) e T1.1 >> T1.3 (fazer upload da prova antes de seu processamento) |
 | []>> | Ativação com passagem de informação: a segunda tarefa só pode iniciar após a primeira terminar, e a informação produzida pela primeira é passada para a segunda. | T2 []>> TS1 (dados inseridos vão para o sistema gerar o dashboard), TS1 []>> T3 (dashboard prnto antes de analisar), T3 []>> T4(dados do dashboard vão para a exportação) e T4 []>> TS2 (formato esclhido vai para o sistema gerar o arquivo). |
 | [] | Escolha(tarefas alternativas): As tarefas estão habilitadas simultaneamente, mas uma vez que uma delas é iniciada, as outras são desabilitadas. | T4.1 [] T4.2 [] T4.3 (o docente escolhe exportar em PDF, Excel ou CSV, não sendo possível exportar os 3 literalmente ao mesmo tempo). |
-| \|\|\| | Concorrência: as tarefas podem ser realizadas em qualquer ordem ou ao mesmo tempo. | T1 \|\|\| T2 (upload assíncrono enquanto o docente insere os dados). |
-| \|[]\| | Concorrência e comunicação: Além de poderem ser realizadas ao mesmo tempo ou em qualquer rodem, as tarefas trocam informações entre si. | T2 \|[]\| TS_Feedback (o docente digita e o sistema valida e exibe feedback em tempo real). |
+| \|\|\| | Concorrência: as tarefas podem ser realizadas em qualquer ordem ou ao mesmo tempo. | T1 \|\|\| T2 (upload assíncrono enquanto o docente insere os dados) e T1.1 \|\|\| T1.2 |
+| \|[]\| | Concorrência e comunicação: Além de poderem ser realizadas ao mesmo tempo ou em qualquer rodem, as tarefas trocam informações entre si. | TU2 \|[]\| TS_Feedback (o docente consulta a prova para completar o campo de input e o sistema valida e exibe feedback em tempo real). |
 | \|=\| | Tarefas independentes: As tarefas podem ser realizadas em qualquer ordem, mas quando uma delas é iniciada, precisa terminar para que a outra possa ser iniciada. | T3.1 \|=\| T3.2 (o docente visualiza as métricas (gráficos/tabelas) e depois lê os detalhes, ou vice-versa, sem que um bloqueie a outra.) e T4.1 \|=\| T4.2 \|=\| T4.3 (o docente exporta em um formato, depois em outro,sem simultaneidade. |
-| [> | Desativação: a peimeira tarefa é completamente interrompida pela segunda. | T1 [> TS_Erro (o erro crítico cancela completamente o upload) |
+| [> | Desativação: a primeira tarefa é completamente interrompida pela segunda. | TS_Sucesso [> TS_Erro (o erro crítico cancela completamente o upload) |
 | \|> | Suspensão/Retomada: A primeira tarefa pode ser interrompida pela segunda e é retomada do ponto em que parou assim que a segunda terminar. | T2 \|> TU2 e TU2 \|> T2 (pausa a inserção para consultar a prova e retoma exatamente de onde parou). |
-| Abstrata (núvem) | Representação de uma composição de tarefas que auxlia a decomposição. Não é uma tarefa executada diretamente | T0(Analisar prova), T3(Analisar dados do dashboard), T4 (Exportar dashboard) |
-| Iterativa (pessoa+computador) | Ocorre o diálogo usuário-sistema (cliques, digitação, leitura de telas) | T1, T2, T3.1, T3.2, T4.1, T4.2, T4.3 |
+| Abstrata (núvem) | Representação de uma composição de tarefas que auxlia a decomposição. Não é uma tarefa executada diretamente | T0(Analisar prova), T1(fazer upload da prova em formato válido), T1.3(processamento), T2(inserir daados da prova manualmente), T3(Analisar dados do dashboard), T4 (Exportar dashboard) |
+| Iterativa (pessoa+computador) | Ocorre o diálogo usuário-sistema (cliques, digitação, leitura de telas) | T1.1, T1.2, T3.1, T3.2, T4.1, T4.2, T4.3 |
 | Tarefa do usuário (pessoa)| Tarefas realizadas (fora do sistema) de cunho físico ou cognitivo | TU1 (preparar prova) e TU2 (consultar a prova física/digital) |
 | Tarefa do sistema (computador) | O sistema realiza um processamento sem ineragir com o usuário. | TS1 (gerar dashboard) e TS2 (Gerar arquivo), TS_Erro (emitir alerta), TS_Feedback (validar dados). |
 
@@ -749,6 +768,17 @@ Quais problemas de interação, oportunidades e requisitos apareceram a partir d
 
 Na tarefa de análise de provas (T01), foram identificadas necessidades relacionadas à validação dos arquivos enviados, à clareza na inserção dos dados e à apresentação das métricas no dashboard. Dessa forma, o sistema deve informar os formatos de arquivo aceitos, apresentar mensagens de erro quando necessário e disponibilizar explicações das métricas para auxiliar os docentes na interpretação dos resultados. Além disso, deve permitir a exportação dos dados em diferentes formatos, conforme a necessidade do usuário.
 Para o desenvolvimento do protótipo e teste de usabilidade, a equipe priorizou a tarefa T01 — Analisar a prova, contemplando o envio do arquivo, a inserção dos dados da avaliação, a visualização das métricas e a exportação dos resultados. Essa escolha permitiu concentrar a prototipagem em um dos principais objetivos do sistema, abordando diferentes necessidades de interação identificadas nas modelagens. 
+
+## Histórico de revisões
+- entrega t01: <br>
+  - Atualizei o HTA adicionando os operadores 1.1.1 e 1.1.2 referentes as maneiras de fazer upload de arquivo <br>
+  - Arrumei a tabela do HTA seguindo os padrões da teoria (input, plano, recomendação...) <br>
+  - Corrigi o GOMS, adicionando regra de seleção e subgoal, no goal1 troquei de "metodo"para "subgoal"as 2 maneiras de enviar arquivo e adicionei subgoal para enviar  <br>
+  - Alterei o diagrama de ctt com para não ter operador horizontalmente, se tiver filho ser abstração e abstração ter pelo menos 2 filhos <br>
+  - Ajustei a descrição e tabela do ctt com base nos ajustes do diagrama <br>
+- entrega t02: LU<br>
+- entrega t03: NUNO<br>
+
 ## Checklist
 
 - [X] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
