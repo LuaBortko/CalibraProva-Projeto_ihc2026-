@@ -561,7 +561,9 @@ Identifique, quando aplicável, tarefas de usuário, sistema, interação e tare
 |---|---|---|---|
 | 0 | (Objetivo) Gerar novas questões |  1 > 2 > 3 > 4 |Input: prova original fornecida pelo docente. Feedback: novas questões geradas, revisadas e disponíveis para exportação. Plano: realizar o upload da prova, gerar novas questões, revisá-las e exportá-las. |
 | 1 | (Sub objetivo) Fazer upload da prova | 1.1 > 1.2 | Problema: o docente pode selecionar um arquivo incompatível com o sistema. Recomendação: informar os formatos aceitos e apresentar mensagens de erro para arquivos inválidos.|
-| 1.1 | (Operação) Selecionar arquivo | | Ação: selecionar o arquivo da prova armazenado no computador. Feedback: exibir o nome do arquivo selecionado. |
+| 1.1 | (Operação) Selecionar arquivo | 1.1.1/1.1.2 | Ação: selecionar o arquivo da prova armazenado no computador. Feedback: exibir o nome do arquivo selecionado. |
+| 1.1.1 | (operação) Arrastar arquivo em formato válido (PDF) | pode ser feito o 1.1.1 ou o 1.1.2, usuário escolhe qual deseja fazer | Recomendação: A aplicação deve indicar claramente que o usuário pode adicionar um arquivo PDF arrastando-o para o campo destacado ou selecionando-o pelo explorador de arquivos. |
+| 1.1.2 | (operação) Selecionar do explorador de arquivos um arquivo em formato válido (PDF) | pode ser feito o 1.1.1 ou o 1.1.2, usuário escolhe qual deseja fazer | Recomendação: A aplicação deve indicar claramente que o usuário pode adicionar um arquivo PDF arrastando-o para o campo destacado ou selecionando-o pelo explorador de arquivos. |
 | 1.2 | (Operação) Enviar arquivo | | Ação: enviar o arquivo selecionado ao sistema. Feedback: informar se o envio foi concluído ou se ocorreu algum erro. | 
 | 2 | (Sub objetivo) Gerar novas questões | 2.1 + 2.2| Ação: solicitar a geração de novas questões a partir da prova enviada. Feedback: informar o andamento da geração e apresentar as questões produzidas. |
 | 2.1 | (Operação) Selecionar quantidade de questões | | **Ação:** escolher o número de questões a serem geradas. |
@@ -773,7 +775,10 @@ Para o desenvolvimento do protótipo e teste de usabilidade, a equipe priorizou 
   - Alterei o diagrama de ctt com para não ter operador horizontalmente, se tiver filho ser abstração e abstração ter pelo menos 2 filhos <br>
   - Ajustei a descrição e tabela do ctt com base nos ajustes do diagrama <br>
 - entrega t02: LU<br>
-- entrega t03: NUNO<br>
+- entrega t03: Atualizei o HTA para ter operadores 1.1.1 e 1.1.2 para ter maneiras de fazer upload da prova e o novo operador
+  - Corrigi o GOMS para terminar a Goal 3 corretamente com algo que o usuário certifica
+  - Corrigi o CTT para ter a T2 como tarefa abstrata(nuvem)
+  - Alterei descrição e tabela do CTT para adaptar para novos códigos das tarefas<br>
 
 ## Checklist
 

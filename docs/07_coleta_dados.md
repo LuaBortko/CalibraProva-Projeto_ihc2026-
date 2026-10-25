@@ -172,7 +172,14 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 
 | Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
 |---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+|  Alfabetismo computacional | H04 | É necessário para verificar quanta facilidade o usuário teria em utilizar a aplicação | A simplificação de elementos visuais da aplicação e como poder acolher corretamente o nível de alfabetização digital dos usuários|
+|  Tecnologia disponível | H04 | É necessário para verificar o que seria utilizado pelos usuários | A adaptação da solução para poder se conformar com os programas e hardware utilizados pelos usuários, assim ajudando os usuários a se adaptarem melhor e poderem utilizar a solução com maior facilidade.|
+|  Experiência com um produto ou ferramentas semelhantes | H07 | Verificar a experiência dos usuários e encontrar pontos populares e impopulares de UX | A adaptação da solução para algo que agrade o docente a partir de sua experiência, assim deixando a plataforma mais fácil dele compreender as informações retornadas e manusear a solução com mais facilidade.|
+|  Educação | H08 | Verificar a alfabetização dos usuários e a facilidade dele com informações como gráficos, tabelas, etc.| Esta informação ajuda a encontrar o melhor meio de mostrar as informações da análise da prova para o usuário, assim facilitando a sua interpretação dos resultados e utiliza-los de uma maneira otimizada.|
+|  Idiomas e jargões | H06 | Verificar as capacidades linguísticas dos usuários | A adaptação da explicação das métricas que forem apresentadas aos usuários para que facilite a sua compreensão do que foi feito durante a análise da prova.|
+| Conhecimento do domínio | H03 | Permite que o usuário possa usar os dados e métricas que forem mostrados para usar na formulação de provas futuras | Não sei |
+| Tarefas | H03 | Verificar usuário que o levaria a utilizar a solução | Definir o que será mostrado ao usuário para que a solução resolva todas as metas que ele teria utilizando a solução. |
+
 
 #### De quem coletar?
 
