@@ -404,18 +404,18 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | (objetivo) Analisar histórico de prova | 1>2(/3) | Plano: localizar uma prova, consultar seus resultados e métricas e, opcionalmente, comparar diferentes provas. Recomendação: organizar o histórico de modo a facilitar tanto a consulta individual quanto a análise comparativa, deixando clara a distinção entre essas atividades. |
+| 0 | (objetivo) Analisar histórico de prova | 1>2(/3) | Input: necessidade do professor de localizar uma prova já analisada, consultar seus resultados e métricas e, opcionalmente, comparar diferentes provas. Feedback: disponibilização do histórico, acesso aos resultados e métricas das provas e possibilidade de realizar análises comparativas. Recomendação: organizar o histórico de modo a facilitar tanto a consulta individual quanto a análise comparativa, deixando clara a distinção entre essas atividades. |
 | 1 | (sub objetivo) Localizar prova no histórico | 1.1/1.2 | Decisão de design: oferecer duas alternativas para localizar uma prova: percorrer a listagem geral ou aplicar filtros. Recomendação: manter as alternativas visíveis e permitir que o usuário compreenda quais critérios podem ser usados para encontrar uma prova. |
 | 1.1 | (operação) Visualizar listagem geral de provas | Ou é feito o 1.1, ou é feito 1.2 | Recomendação: apresentar uma listagem organizada, com informações que permitam distinguir as provas, como ano, área e identificação da prova, conforme os dados disponíveis. |
-| 1.2 | (operação) Filtrar histórico por critérios da prova | Ou é feito o 1.1, ou é feito 1.2 | Input: seleção dos critérios de filtragem. Recomendação: disponibilizar filtros pertinentes às características das provas e indicar claramente quais filtros estão ativos. Feedback: atualizar a listagem conforme os critérios selecionados e informar quando nenhum registro corresponder à busca. |
+| 1.2 | (operação) Filtrar histórico por critérios da prova | Ou é feito o 1.1, ou é feito 1.2 | Ação: selecionar os critérios de filtragem desejados. Recomendação: disponibilizar filtros pertinentes às características das provas e indicar claramente quais filtros estão ativos. |
 | 2 | (sub objetivo) Olhar resultados e métricas da prova selecionada | 2.1>2.2 | Plano: abrir o registro da prova e, em seguida, consultar suas informações. Recomendação: apresentar as informações em uma estrutura organizada, facilitando a identificação das métricas e a navegação até o documento original. |
-| 2.1 | (operação) Abrir registro da prova desejada | O 2.1 tem que ocorrer antes da 2.2 | Input: seleção de uma prova na listagem. Feedback: apresentar o registro correspondente à prova selecionada. Recomendação: destacar a identificação da prova aberta para evitar confusão entre registros semelhantes. |
+| 2.1 | (operação) Abrir registro da prova desejada | O 2.1 tem que ocorrer antes da 2.2 | Ação: selecionar uma prova na listagem para abrir seu registro. Recomendação: destacar a identificação da prova aberta para evitar confusão entre registros semelhantes. |
 | 2.2 | (sub objetivo) Consultar informações da prova | 2.2.1+2.2.2 | Decisão de design: disponibilizar tanto as métricas estruturais extraídas quanto o PDF original. Recomendação: manter uma associação visual clara entre as métricas e o documento ao qual pertencem, facilitando a conferência das informações. |
 | 2.2.1 | (operação) Examinar as métricas estruturais da prova | A 2.2.1 e 2.2.2 ocorrem em paralelo | Recomendação: agrupar as métricas por categoria. Feedback: deixar claro a qual prova e a quais características cada métrica se refere.  |
-| 2.2.2 | (operação) Consultar o PDF original | A 2.2.1 e 2.2.2 ocorrem em paralelo | Input: solicitação de visualização do documento original. Recomendação: disponibilizar controles de navegação entre páginas e recursos de zoom, além de facilitar a conferência visual do documento em relação às métricas extraídas. Feedback: indicar qual documento está aberto e, quando pertinente, a página visualizada. |
+| 2.2.2 | (operação) Consultar o PDF original | A 2.2.1 e 2.2.2 ocorrem em paralelo | Ação: solicitar a visualização do documento original. Recomendação: disponibilizar controles de navegação entre páginas e recursos de zoom, além de facilitar a conferência visual do documento em relação às métricas extraídas.|
 | 3 | (sub objetivo) Comparar histórico entre provas | 3.1>3.2 | Plano: selecionar as provas que serão comparadas e, depois, analisar suas semelhanças e diferenças. Recomendação: oferecer uma visualização comparativa que facilite a identificação de padrões e discrepâncias entre os registros selecionados. |
-| 3.1 | (operação) Selecionar as provas que serão comparadas | O 3.1 tem que ocorrer antes da 3.2 | Input: seleção de duas ou mais provas do histórico. Recomendação: permitir a seleção de múltiplos registros e indicar de forma explícita quais provas foram selecionadas antes de iniciar a comparação. |
-| 3.2 | (operação) Analisar semelhanças e diferenças entre os resultados | O 3.1 tem que ocorrer antes da 3.2 | Feedback: apresentar os resultados das provas selecionadas de forma comparável. Recomendação: utilizar métricas equivalentes, destacar diferenças relevantes e permitir identificar padrões recorrentes. |
+| 3.1 | (operação) Selecionar as provas que serão comparadas | O 3.1 tem que ocorrer antes da 3.2 | Ação: selecionar duas ou mais provas do histórico. Recomendação: permitir a seleção de múltiplos registros e indicar de forma explícita quais provas foram selecionadas antes de iniciar a comparação. |
+| 3.2 | (operação) Analisar semelhanças e diferenças entre os resultados | O 3.1 tem que ocorrer antes da 3.2 | Recomendação: apresentar os resultados das provas selecionadas de forma comparável, utilizar métricas equivalentes, destacar diferenças relevantes e permitir identificar padrões recorrentes.|
 
 **Verificação do HTA:**
 
@@ -438,18 +438,17 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Métodos, operadores e regras de seleção
 
-- **Method 1.A(M1):** Vizualizar listagem geral das provas
+- **Method 1.A(M1):** Vizualizar listagem geral das provas(**Selection Rule:** Usar **M1** quando a quantidade de provas cadastradas for pequena ou a prova procurada estiver entre as mais recentes (já visíveis no topo da tela))
   - Op. 1.A.1: Deslocar o cursor do mouse paraa a área da lista de provas
   - Op. 1.A.2: Rolar a página para percorrer os registros visíveis
   - Op. 1.A.3: Examinar títulos e datas das provas lsitadas
   - Op. 1.A.4: Localizar visualmente a prova desejada
-- **Method 1.B(M2):** Filtrar histórico por características da prova
+- **Method 1.B(M2):** Filtrar histórico por características da prova(**Selection Rule:** Usar **M2** quando houver um grande volume de provas no histórico ou quando o professor já souber exatamente qual exame deseja encontrar (ex.: ano específico ou nome do arquivo))
   - Op. 1.B.1: Deslocar o cursor do mouse para o campo de busca/filtro
   - Op. 1.B.2: Clicar no campo de texto ou menu de filtros
   - Op. 1.B.3: Digitar os critérios de busca (ex: ano, disciplina ou nome do arquivo)
   - Op. 1.B.4: Pressionar a tecla Enter ou clicar no botão "Filtrar"
   - Op. 1.B.5: Examinar os resultados filtrados retornados na lista
-- **Selection Rule SR1:** Usar **M1** quando a quantidade de provas cadastradas for pequena ou a prova procurada estiver entre as mais recentes (já visíveis no topo da tela); Usar **M2** quando houver um grande volume de provas no histórico ou quando o professor já souber exatamente qual exame deseja encontrar (ex.: ano específico ou nome do arquivo)
 
 ### Goal
 
@@ -457,17 +456,16 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Métodos, operadores e regras de seleção
 
-- **Method 2.A(M1):** Abrir os resultados em visualização detalhada completa
+- **Method 2.A(M1):** Abrir os resultados em visualização detalhada completa(**Selection Rule:** Usar **M1** quando o professor precisar auditar minuciosamente a extração da prova, confrontando os dados com as páginas do PDF original)
   - Op. 2.A.1: Deslocar o cursor até a linha da prova desejada
   - Op. 2.A.2: Clicar com o botão esquerdo para abrir os detalhes
   - Op. 2.A.3: Examinar o painel consolidado de métricas(número de questões, distribuição de alternativas, áreas de texto)
   - Op. 2.A.4: Verificar a correspondência estrutural no visualizador de PDF
-- **Method 2.B(M2):** Consultar resumo rápido de métricas na própria listagem
+- **Method 2.B(M2):** Consultar resumo rápido de métricas na própria listagem(**Selection Rule:** Usar **M2** quando o professor desejar apenas uma conferência rápida de indicadores gerais (ex.: checar apenas a contagem total de itens) sem sair do fluxo da listagem.)
   - Op. 2.B.1: Deslocar o cursor sobre o ícone de preview da prova
   - Op. 2.B.2: Clicar no ícone de expansão/detalhes rápidos
   - Op. 2.B.3: Examinar os indicadores(resumidos) exibidos no painel flutuante
   - Op.2.B.4: Decidir se as métricas resumidas são suficientes, ou se será necessário abrir o relatório completo 
-- **Selection Rule SR2:** Usar **M1** quando o professor precisar auditar minuciosamente a extração da prova, confrontando os dados com as páginas do PDF original; Usar **M2** quando o professor desejar apenas uma conferência rápida de indicadores gerais (ex.: checar apenas a contagem total de itens) sem sair do fluxo da listagem.
 
 ### Goal
 
@@ -475,19 +473,18 @@ Por fim, de forma Opcional, o docente pode realizar a tarefa abstrata T4 (Export
 
 ### Métodos, operadores e regras de seleção
 
-- **Method 3.A(M1):** Comparar por seleção múltipla na listagem geral
+- **Method 3.A(M1):** Comparar por seleção múltipla na listagem geral(**Selection Rule:** Usar **M1** quando o professor estiver na tela de histórico e planejar, desde o início, comparar um lote de exames (ex.: avaliar todas as edições dos últimos 3 anos de uma vez))
   - Op. 3.A.1: Deslocar o cursor para as caixas de seleção (checkboxes) das provas desejadas
   - Op. 3.A.2: Clicar para marcar as provas a serem comparadas
   - Op. 3.A.3: Deslocar o cursor até o botão "Comparar"
   - Op. 3.A.4: Clicar no botão "Comparar"
   - Op. 3.A.5: Examinar os gráficos e matrizes comparativas de métricas
-- **Method 3.B(M2):** Comparar a partir da tela de detalhes de uma prova já aberta
+- **Method 3.B(M2):** Comparar a partir da tela de detalhes de uma prova já aberta(**Selection Rule:** Usar **M2** quando o professor já estiver analisando uma prova específica, perceber uma anomalia estrutural e decidir compará-la imediatamente com um outro exame.)
   - Op. 3.B.1: Deslocar o cursor até o botão "Comparar com outra prova"
   - Op. 3.B.2: Clicar no botão para abrir o menu deletor de provas
   - Op. 3.B.3: Selecionar a prova com a qual se deseja contrastar os dados
   - Op. 3.B.4: Clicar em "Gerar Comparação"
   - Op. 3.B.5: Examinar as variações e discrepâncias estruturais entre as duas provas
-- **Selection Rule SR3:** Usar **M1** quando o professor estiver na tela de histórico e planejar, desde o início, comparar um lote de exames (ex.: avaliar todas as edições dos últimos 3 anos de uma vez); Usar **M2** quando o professor já estiver analisando uma prova específica, perceber uma anomalia estrutural e decidir compará-la imediatamente com um outro exame.
 
 > Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
 
