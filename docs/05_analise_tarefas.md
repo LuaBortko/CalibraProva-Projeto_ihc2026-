@@ -666,8 +666,6 @@ Goal 0: Gerar novas questões baseadas em provas já elaboradas.
 `G2: Gerar novas questões`
 
 ### Métodos, operadores e regras de seleção
-
-- **Method 2.A (M1):** Gerar novas questões
   - Op. 2.A.1: Selecionar quantidade de questões que quer gerar.
   - Op. 2.A.2: Clicar no botão "Gerar novas questões".
 
@@ -679,6 +677,7 @@ Goal 0: Gerar novas questões baseadas em provas já elaboradas.
 
 - **Method 3.A (M1):** Editar diretamente na lista
   - Op. 3.A.1: Clicar sobre o campo e alterar o texto
+  - Op. 3.A.2: Verificar a mudança feita
 
 - **Method 3.B (M2):** Abrir formulário/modal de edição avançada
   - Op. 3.B.1: Clicar no botão "Editar Detalhes"
@@ -720,7 +719,7 @@ O modelo de Árvore de Tarefas Concorrentes (*ConcurTaskTrees* – CTT) para a t
 O processo começa com a tarefa abstrata **T1 (Fazer upload da prova)**, responsável por disponibilizar ao sistema o arquivo de uma avaliação previamente elaborada pelo docente. Essa tarefa é decomposta nas tarefas interativas **T1.1 (Selecionar arquivo)** e **T1.2 (Enviar arquivo)**, relacionadas por um operador de **Ativação (>>)**. Dessa forma, o docente deve selecionar o arquivo desejado antes de realizar seu envio. Durante essa etapa, existe também a possibilidade de ocorrência de um erro, representada pela tarefa de sistema **TS_Erro (Exibir erro)**. A relação de **Desativação (`[>`)** entre T1.2 e TS_Erro indica que, caso seja identificado um problema durante o envio, a operação é interrompida e o sistema apresenta uma mensagem de erro ao docente.
 
 Após a conclusão do upload, ocorre uma **Ativação com passagem de informação ([]>>)** para a tarefa abstrata **T2 (Gerar novas questões)**. Essa relação representa a transferência da prova enviada para a etapa de geração, permitindo que seu conteúdo seja utilizado como referência na produção das novas questões. A tarefa T2 é decomposta em **T2.1 (Selecionar quantidade de questões)** e
-**T2.2 (Selecionar dificuldade das questões)**,classificadas como interativa, **T2.3 (Processar geração das questões)**, classificada como tarefa do sistema e **TU1(Revisar a prova original)**, classificada como tarefa de usuário. T2.1 e T.2.2 possuem uma relação de **Independência(`\|=\|`)**. Ademais, T2.2 e T2.3 possuem uma relação de ativaçao com passagem de informação, com a dificuldade e quantidade de questões escolhidas pelo usuário passadas para o sistema fazer o processamento e gerar as questõe. Além dessa, é feita uma relação de ativação com passagem de informação para T2.3, onde o sistema processa as informações dadas pelo usuário para gerar as novas questões. Por fim, em uma relação de **Concorrência(`\|\|\|`)**, o usuário pode também revisar a prova na qual fez upload no sistema através da TU1. 
+**T2.2 (Selecionar dificuldade das questões)**,classificadas como interativa, **T2.3 (Processar geração das questões)**, classificada como tarefa do sistema e **TU2(Revisar a prova original)**, classificada como tarefa de usuário. T2.1 e T.2.2 possuem uma relação de **Independência(`\|=\|`)**. Ademais, T2.2 e T2.3 possuem uma relação de ativaçao com passagem de informação, com a dificuldade e quantidade de questões escolhidas pelo usuário passadas para o sistema fazer o processamento e gerar as questõe. Além dessa, é feita uma relação de ativação com passagem de informação para T2.3, onde o sistema processa as informações dadas pelo usuário para gerar as novas questões. Por fim, em uma relação de **Concorrência(`\|\|\|`)**, o usuário pode também revisar a prova na qual fez upload no sistema através da TU1. 
 
 Concluído o processamento, as questões produzidas são disponibilizadas para a tarefa abstrata **T3 (Revisar novas questões)**, por meio de uma relação de **Ativação com passagem de informação ([]>>)**. Essa etapa contempla as tarefas interativas **TU2 (Ler e avaliar novas questões)** e **T3.1 (Editar novas questões)**, relacionadas por **Concorrência e comunicante (`\|[]\|`)**. e **T3.2(Visualizar prévia do documento final)**, relacionado por **Suspensão/Retomada(`\|>`)**,  Essa relação permite que o docente alterne entre a leitura e a edição das questões, sem precisar concluir a avaliação de todas elas antes de realizar modificações. Assim, o docente pode identificar possíveis inadequações no conteúdo e realizar ajustes quando considerar necessário, mantendo as questões que já estejam adequadas.
 
@@ -740,14 +739,14 @@ Dessa forma, o modelo CTT representa não apenas a sequência de atividades nece
 |---|---|---|
 | `>>` | Ativação(sequência): A segunda tarefa só pode iniciar após a primeira terminar, sem passagem automática de informação. | T1.1 >> T1.2: o docente seleciona o arquivo da prova antes de enviá-lo ao sistema.|
 | `[]>>` | Ativação com passagem de informação: A segunda tarefa só pode iniciar após a primeira terminar, e a informação produzida é repassada para a seguinte | T1 []>> T2: o arquivo enviado é utilizado como entrada para a geração de novas questões. |
-| `\|\|\|` | Concorrentes: especifica que as tarefas podem ser realizadas em qualquer ordem ou ao mesmo tempo. |  TU1 `\|\|\|` T3.1: O usuário pode escolher a ordem na qual ele analisa as questões geradas e as edita caso veja necessidade. |
+| `\|\|\|` | Concorrentes: especifica que as tarefas podem ser realizadas em qualquer ordem ou ao mesmo tempo. |  TU2 `\|\|\|` T3.1: O usuário pode escolher a ordem na qual ele analisa as questões geradas e as edita caso veja necessidade. |
 | `[>` | Desativação: A segunda tarefa interrompe a primeira | T1.2 `[>` TS_Erro: O sistema interrompe o envio da prova caso ele esteja em um formato inválido.|
 | `[]` | Escolha: Duas tarefas que no momento que uma é escolhida, a outra é desabilitada. | T4.1 [] T4.2: O usuário escolhe qual o formato que ele quer exportar as novas questões geradas.|
-| `\| [] \|` |  Tarefas concorrentes e comunicantes: Podem ser realizadas em qualquer ordem ou ao mesmo tempo e podem trocar informações entre si. | TU2 `\|[]\|` T3.1: O usuário pode ler e avaliar as questões geradas e edita-las, caso ache necessário.|
+| `\| [] \|` |  Tarefas concorrentes e comunicantes: Podem ser realizadas em qualquer ordem ou ao mesmo tempo e podem trocar informações entre si. | TU3 `\|[]\|` T3.1: O usuário pode ler e avaliar as questões geradas e edita-las, caso ache necessário.|
 | `\|=\|` |  Tarefas independentes: podem ser realizadas em qualquer ordem, porém uma precisa terminar para outra começar. | T2.1 `\|=\|` T2.2: O usuário pode selecionar a quantidade e a dificuldade das questões em qualquer ordem.|
 | `\|>` |  Suspensão e retomada: Uma tarefa pode interromper a outra, com T1 podendo ser retomada assim que T2 finalizar. | T3.1 `\|>` T3.2: O usuário pode editar as questões geradas pelo sistema e visualizar uma prévia da documento final.|
 | Nuvem | Tarefa abstrata: a representação de uma composição de tarefas| T5: O usuário exporta as questões geradas e editadas.|
-| Pessoa | Tarefa do usuário: tarefas realizadas fora do sistema pelo usuário| TU1: O usuário lê o arquivo da prova que ele preparou para o upload.|
+| Pessoa | Tarefa do usuário: tarefas realizadas fora do sistema pelo usuário| TU2: O usuário lê o arquivo da prova que ele preparou para o upload.|
 | Computador | Tarefa do sistema: processamento pelo sistema sem qualquer interação com o usuário| TS1: O sistema gera o arquivo exportado pelo usuário no formato solicitado. |
 | Pessoa e computador| Tarefa interativa: Tarefa realizada pelo usuário em que ocorre um diálogo com o sistema| T1.2: O usuário faz o upload da prova no sistema. |
 
