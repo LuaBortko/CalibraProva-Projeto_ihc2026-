@@ -1,8 +1,8 @@
 # Entrega 10 — MoLIC
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
-**Responsabilidade:** 1 solução completa por integrante
+**Data:** {{dd/mm/aaaa}} <br>  
+**Status:** ⬜ não iniciada  <br> 
+**Responsabilidade:** 1 solução completa por integrante<br> 
 
 ## Objetivo da atividade
 

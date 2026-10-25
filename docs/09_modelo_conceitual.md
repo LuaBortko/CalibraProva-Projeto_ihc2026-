@@ -1,8 +1,8 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
-**Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.
+**Data:** 25/10/2026  <br> 
+**Status:** ⬜ não iniciada  <br> 
+**Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.<br> 
 
 ## Objetivo da atividade
 

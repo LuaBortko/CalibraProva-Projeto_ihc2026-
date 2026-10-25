@@ -1,7 +1,7 @@
-# Entrega 6 — Prototipação em papel
-
-**Data:** 21/09/2026
-**Status:** 🟩 Concluída 
+# Entrega 6 — Prototipação em papel <!-- designcocneitual-->
+<!--pego a parte mais importante do projeto pra exercita padroes-->
+**Data:** 21/09/2026<br> 
+**Status:** 🟩 Concluída <br> 
 **Responsabilidade:** 1 solução integrada por equipe
 
 ## Objetivo da atividade
