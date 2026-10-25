@@ -18,7 +18,7 @@ Antes das características da plataforma, separe:
 | camada de interação da disciplina | interface | análise da compreensão e clareza das métricas, bem como o impacto potencial da estrutura das questões no desempenho da prova. |
 | integrações/dados simulados | as integração usadas para a realização das análises são: Bert para analise dos distraotres e XLM-RoBERTa para análise do formalismo | {{limites do protótipo}} ???????|
 
-Em um protótipo de disciplina, é aceitável simular processamento ou resultados quando a implementação técnica não estiver integrada, desde que isso seja declarado e a simulação seja suficiente para avaliar a interação.
+<!-- Em um protótipo de disciplina, é aceitável simular processamento ou resultados quando a implementação técnica não estiver integrada, desde que isso seja declarado e a simulação seja suficiente para avaliar a interação. -->
 
 ## 1. Características da plataforma
 <!-- olhar anotacao aula topico 8-->
@@ -40,10 +40,10 @@ Inclua apenas normas, leis, padrões e princípios realmente relevantes, explica
 
 | Princípio/norma | Aplicabilidade ao contexto | Decisão/requisito decorrente | Fonte |
 |---|---|---|---|
-| Contexto de uso | {{...}} | {{...}} | Entregas 1/3 |
-| LGPD, se aplicável | {{...}} | {{...}} | {{fonte oficial}} |
-| Acessibilidade | {{...}} | {{...}} | {{WCAG/norma aplicável}} |
-| {{outro}} | {{...}} | {{...}} | {{...}} |
+| Contexto de uso | O sistema é destinado a professores que precisam enviar PDFs de provas existentes, consultar métricas estruturais e interpretar os resultados para apoiar a revisão das provas. É necessário considerar suas tarefas, conhecimentos prévios, familiaridade com ferramentas digitais e condições de uso. | Organizar o fluxo de envio e consulta de provas de maneira clara; utilizar termos compreensíveis para o público-alvo; apresentar métricas com explicações suficientes para apoiar sua interpretação. | Entregas 1/3 |
+| LGPD | O sistema recebe arquivos PDF e parâmetros necessários para analisar provas. O tratamento dessas informações deve se limitar à finalidade da análise, evitando a coleta e o armazenamento de dados pessoais desnecessários. | Processar somente as informações necessárias para gerar as métricas; não solicitar dados de identificação do professor sem necessidade; informar claramente como os arquivos enviados são utilizados e se são armazenados ou excluídos após o processamento. Adotar medidas de segurança para proteger eventuais dados pessoais presentes nos documentos. | LGPD — Lei nº 13.709/2018: princípios da necessidade, finalidade e transparência: [Lei Geral de Proteção de Dados Pessoais — Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) |
+| Acessibilidade | O envio de arquivos, o preenchimento de parâmetros e a visualização das métricas precisam ser acessíveis a usuários com diferentes capacidades. Isso é relevante para os campos de entrada, mensagens de erro, tabelas, gráficos e resultados textuais. | Permitir navegação por teclado; manter contraste adequado; identificar campos e erros com clareza; não depender exclusivamente de cores para comunicar resultados; apresentar as métricas em formatos legíveis e compreensíveis. | WCAG 2.2: [Web Content Accessibility Guidelines (WCAG) 2.2 — W3C](https://www.w3.org/TR/WCAG22/) |
+| Projeto centrado no usuário | A interface deve atender às tarefas e necessidades reais dos professores: enviar uma prova, fornecer os parâmetros necessários e interpretar as métricas retornadas pelo sistema. | Avaliar se os professores conseguem concluir o envio e compreender os resultados; testar a clareza dos campos e das explicações das métricas; revisar a interface com base nos problemas identificados durante avaliações de usabilidade. | ISO 9241-210: [ISO 9241-210:2019 — Ergonomics of human-system interaction](https://www.iso.org/standard/77520.html) |
 
 ## 3. Metas de usabilidade
 
@@ -53,7 +53,12 @@ Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem
 
 | Meta | Para quem/tarefa | Evidência desejada | Justificativa |
 |---|---|---|---|
-| {{ex.: compreensão clara da diferença entre X e Y}} | {{...}} | {{fala/observação}} | {{...}} |
+| Facilitar a identificação dos arquivos aceitos e o envio da prova em PDF. | Docentes | O usuário identifica como enviar o arquivo e consegue realizar o envio sem precisar de orientação externa. | O envio do documento é a primeira etapa de interação com o sistema e precisa ser compreensível. |
+| Tornar claros os campos e parâmetros necessários para a análise. | Docentes | O usuário compreende o que cada campo solicita e consegue preencher os parâmetros adequadamente. | Instruções claras ajudam a evitar preenchimentos incorretos e dúvidas durante a configuração da análise. |
+| Facilitar a compreensão das métricas apresentadas. | Docentes | O usuário consegue explicar, com suas próprias palavras, o significado das métricas apresentadas, como quantidade de caracteres, grau de formalismo, quantidade de imagens e análise de distratores. | A apresentação dos resultados precisa apoiar a interpretação das informações, mesmo para usuários que não conheçam os detalhes técnicos dos cálculos. |
+| Tornar compreensíveis as limitações dos resultados apresentados. | Docentes | O usuário reconhece o que os resultados permitem observar e não interpreta automaticamente uma métrica isolada como uma avaliação definitiva da qualidade da prova. | As métricas oferecem informações para apoiar a análise do professor, mas precisam ser interpretadas considerando seu significado e suas limitações. |
+| Facilitar a identificação e a correção de problemas durante o envio ou preenchimento. | Docentes | Quando ocorre um erro, o usuário identifica o problema e compreende como tentar resolvê-lo. | Mensagens de erro claras ajudam o usuário a continuar a tarefa sem depender de suporte externo. |
+| Manter a interface compreensível durante todo o fluxo de análise. | Docentes | O usuário consegue identificar em que etapa está e qual ação pode realizar em seguida. | Uma sequência de interação clara reduz a incerteza durante o uso do sistema. |
 
 ### 3.2 Metas quantitativas
 
@@ -73,7 +78,7 @@ Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem
 
 ### 3.3 Priorização das metas (se exigida na disciplina)
 
-Se o professor solicitar porcentagens que somem 100%, trate-as como **peso de prioridade**, não como métrica de usabilidade.
+Se o professor solicitar porcentagens que somem 100%, trate-as como **peso de prioridade**,não como métrica de usabilidade.
 
 | Meta | Peso de prioridade | Justificativa |
 |---|---:|---|
@@ -88,13 +93,18 @@ Se o professor solicitar porcentagens que somem 100%, trate-as como **peso de pr
 
 Explique que artefatos serão revisitados após protótipos e avaliações.
 
+O ciclo de usabilidade seguirá a Engenharia de Usabilidade de Mayhew, com avaliações dos protótipos para verificar o atendimento às metas qualitativas e quantitativas definidas no projeto. Os resultados permitirão identificar problemas de interação e revisar os artefatos afetados, como requisitos, análise de tarefas e protótipos.
+
+No sistema proposto, serão avaliadas tarefas como o envio de PDFs, o preenchimento de parâmetros e a interpretação das métricas. As avaliações poderão considerar a compreensão dos resultados, a ocorrência de erros e o tempo de execução das tarefas. Após os ajustes, novas avaliações verificarão se os problemas foram resolvidos e se as metas de usabilidade estão sendo atendidas.
+
 ## Checklist
 
-- [ ] Capacidades e restrições têm impacto de IHC explicitado.
-- [ ] Está claro o limite entre contribuição técnica do TCC e camada interativa da disciplina.
+- [x] Capacidades e restrições têm impacto de IHC explicitado.
+- [x] Está claro o limite entre contribuição técnica do TCC e camada interativa da disciplina.
 - [ ] Resultados/processamento simulados no protótipo foram explicitados.
-- [ ] Metas de usabilidade avaliam a interação, não substituem métricas técnicas do TCC.
-- [ ] Normas/princípios estão contextualizados, não apenas copiados.
-- [ ] Metas quantitativas são mensuráveis e associadas a tarefas/público.
-- [ ] Eficácia, eficiência e satisfação são consideradas quando pertinentes.
+- [x] Metas de usabilidade avaliam a interação, não substituem métricas técnicas do TCC.
+- [x] Normas/princípios estão contextualizados, não apenas copiados.
+- [x] Metas quantitativas são mensuráveis e associadas a tarefas/público.
+- [x] Eficácia, eficiência e satisfação são consideradas quando pertinentes.
 - [ ] Metas poderão ser verificadas nas Entregas 12–14.
+

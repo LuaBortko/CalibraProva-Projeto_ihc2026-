@@ -774,7 +774,9 @@ Para o desenvolvimento do protótipo e teste de usabilidade, a equipe priorizou 
   - Corrigi o GOMS, adicionando regra de seleção e subgoal, no goal1 troquei de "metodo"para "subgoal"as 2 maneiras de enviar arquivo e adicionei subgoal para enviar  <br>
   - Alterei o diagrama de ctt com para não ter operador horizontalmente, se tiver filho ser abstração e abstração ter pelo menos 2 filhos <br>
   - Ajustei a descrição e tabela do ctt com base nos ajustes do diagrama <br>
-- entrega t02: LU<br>
+- entrega t02: <br>
+  - Correção da tabela do HTA com os padrões da teoria (input e feedback apenas no objetivo 0 e a adição de ação como substituição dos inputs anteriores)
+  - Melhoria de design no GOMS, agora a seleção aparece do lado do metodo e não mais na parte de baixo.
 - entrega t03: Atualizei o HTA para ter operadores 1.1.1 e 1.1.2 para ter maneiras de fazer upload da prova e o novo operador
   - Corrigi o GOMS para terminar a Goal 3 corretamente com algo que o usuário certifica
   - Corrigi o CTT para ter a T2 como tarefa abstrata(nuvem)
