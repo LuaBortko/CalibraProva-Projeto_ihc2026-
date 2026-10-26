@@ -1,7 +1,7 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
 **Data:** 25/10/2026  <br> 
-**Status:** ⬜ não iniciada  <br> 
+**Status:** 🟨 em andamento <br> 
 **Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.<br> 
 
 ## Objetivo da atividade
@@ -62,6 +62,84 @@ Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, elim
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
 | O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
+
+--------
+
+### CI01 — {{título}}
+
+**Autor(a):** {{nome — matrícula}}  
+**Origem:** cenário problema {{C01}}
+
+{{cenário de interação com alterações marcadas}}
+
+### Diferenças relevantes
+
+| Alteração | Por que foi necessária | Evidência/artefato que justifica |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+## 2. Design centrado na comunicação
+
+**Nome do cenário:** {{CI01}}
+
+| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
+|---|---|---|
+| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
+| > {{subtópico}} | {{...}} | {{...}} |
+
+**Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
+
+## 3. Mapa de objetivos
+
+Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
+
+![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+
+### Dicionário de objetivos
+
+| ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
+|---|---|---|---|---|
+| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
+
+
+-----------
+
+### CI01 — {{título}}
+
+**Autor(a):** {{nome — matrícula}}  
+**Origem:** cenário problema {{C01}}
+
+{{cenário de interação com alterações marcadas}}
+
+### Diferenças relevantes
+
+| Alteração | Por que foi necessária | Evidência/artefato que justifica |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+## 2. Design centrado na comunicação
+
+**Nome do cenário:** {{CI01}}
+
+| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
+|---|---|---|
+| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
+| > {{subtópico}} | {{...}} | {{...}} |
+
+**Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
+
+## 3. Mapa de objetivos
+
+Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
+
+![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+
+### Dicionário de objetivos
+
+| ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
+|---|---|---|---|---|
+| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
+
 
 ## 4. Esquema conceitual de signos
 
