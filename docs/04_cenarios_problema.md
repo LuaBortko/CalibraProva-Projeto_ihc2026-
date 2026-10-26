@@ -28,7 +28,7 @@ Se o integrante escolher um novo problema/situação, explique por que ele passo
 **Persona(s) relacionada(s):** P01<br>  
 **Necessidade relacionada:** Necessita manter seus conhecimentos atualizados, especialmente em relação a novas tecnologias, e contar com recursos que auxiliem no planejamento de aulas interessantes e relevantes. Também valoriza um bom relacionamento com os alunos e busca formas de contribuir para seu desenvolvimento por meio da educação.<br>  
 **Situação concreta da Entrega 1 relacionada:** Não contemplada diretamente a entrega 1. O cenário foi acrescentado nesta etapa para ampliar as situações analisadas, considerando a hipótese de que, após observar um desempenho abaixo do esperado, a docente busque analisar características da prova para orientar melhorias em avaliações futuras.<br>  
-**Hipóteses ainda presentes:** H01, H02, H03, H04 
+**Hipóteses ainda presentes:** H01, H02, H03, H04, H10
 
 ### 1. Cenário inicial
 
@@ -182,7 +182,7 @@ A principal informação que precisa ser coletada e analisada é a relação ent
 **Persona(s) relacionada(s):** P03<br>
 **Necessidade relacionada:** Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade.<br>  
 **Situação concreta da Entrega 1 relacionada:** Não contemplada diretamente na Entrega 1. O cenário foi acrescentado nesta etapa para ampliar as situações analisadas pelo projeto, considerando a hipótese de que um professor precise comparar duas versões de uma mesma avaliação para identificar diferenças estruturais que possam favorecer ou prejudicar uma das turmas.<br>
-**Hipóteses ainda presentes:** H01, H02,H03 ou H04 
+**Hipóteses ainda presentes:** H01, H02,H03, H04 e H11 
 
 ### 1. Cenário inicial
 
