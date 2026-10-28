@@ -1,27 +1,12 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
-**Data:** 25/10/2026  <br> 
-**Status:** 🟨 em andamento <br> 
-**Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.<br> 
+**Data:** 25/10/2026 <br>
+**Status:** 🟨 em andamento <br>
+**Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.
 
 ## Objetivo da atividade
 
 Passar do cenário de problema para uma concepção da interação, explicitando objetivos, tópicos de conversa, falas e signos que a interface deverá comunicar/manipular.
-
-## Transformando resultados técnicos em conceitos compreensíveis
-
-Em TCCs algorítmicos ou orientados a dados, esta entrega deve evitar que a interface exponha apenas estruturas internas do código. Identifique os **conceitos e signos que fazem sentido para o usuário**.
-
-Exemplos:
-
-- `query plan`, custo estimado, recomendação e impacto para um DBA;
-- modelo, dataset, versão, execução e métrica para engenheiro de IA;
-- período, indicador, grupo, tendência e filtro para gestor/analista;
-- alerta, severidade, evidência, responsável e status para analista de segurança.
-
-Se um termo técnico for necessário, modele como será comunicado, explicado e relacionado à tarefa.
-
-Dashboards, relatórios, filtros e CRUDs devem aparecer no modelo conceitual por meio dos **objetivos, signos e conversas** que justificam sua existência.
 
 ## 1. Cenários de interação
 
@@ -29,8 +14,34 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 ### CI01 — {{título}}
 
-**Autor(a):** {{nome — matrícula}}  
-**Origem:** cenário problema {{C01}}
+**Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9
+**Origem:** cenário problema C01 - Professor percebe um desempenho inesperadamente baixo
+
+{{cenário de interação com alterações marcadas}}
+
+### Diferenças relevantes
+
+| Alteração | Por que foi necessária | Evidência/artefato que justifica |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+### CI02 — {{título}}
+
+**Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8 
+**Origem:** cenário problema C02 - Professor quer verificar uma prova antes de aplicá-la
+
+{{cenário de interação com alterações marcadas}}
+
+### Diferenças relevantes
+
+| Alteração | Por que foi necessária | Evidência/artefato que justifica |
+|---|---|---|
+| {{...}} | {{...}} | {{...}} |
+
+### CI03 — {{título}}
+
+**Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5
+**Origem:** cenário problema C03 - Professor quer comparar duas versões de uma avaliação
 
 {{cenário de interação com alterações marcadas}}
 
@@ -42,7 +53,21 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 ## 2. Design centrado na comunicação
 
-**Nome do cenário:** {{CI01}}
+**Nome do cenário:** CI01
+
+| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
+|---|---|---|
+| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
+| > {{subtópico}} | {{...}} | {{...}} |
+
+**Nome do cenário:** CI02
+
+| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
+|---|---|---|
+| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
+| > {{subtópico}} | {{...}} | {{...}} |
+
+**Nome do cenário:** CI03
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
@@ -55,91 +80,27 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
 
+### Mapa de CI01
+
+![Mapa ci01](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+
+### Mapa de CI02
+
+![Mapa ci02](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+
+### Mapa de CI03
+
+![Mapa ci03](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+
+### Mapa Consolidado
+
 ![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
 
-### Dicionário de objetivos
+#### Dicionário de objetivos
 
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
 | O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
-
---------
-
-### CI01 — {{título}}
-
-**Autor(a):** {{nome — matrícula}}  
-**Origem:** cenário problema {{C01}}
-
-{{cenário de interação com alterações marcadas}}
-
-### Diferenças relevantes
-
-| Alteração | Por que foi necessária | Evidência/artefato que justifica |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
-## 2. Design centrado na comunicação
-
-**Nome do cenário:** {{CI01}}
-
-| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
-|---|---|---|
-| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
-| > {{subtópico}} | {{...}} | {{...}} |
-
-**Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
-
-## 3. Mapa de objetivos
-
-Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
-
-![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
-
-### Dicionário de objetivos
-
-| ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
-|---|---|---|---|---|
-| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
-
-
------------
-
-### CI01 — {{título}}
-
-**Autor(a):** {{nome — matrícula}}  
-**Origem:** cenário problema {{C01}}
-
-{{cenário de interação com alterações marcadas}}
-
-### Diferenças relevantes
-
-| Alteração | Por que foi necessária | Evidência/artefato que justifica |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
-
-## 2. Design centrado na comunicação
-
-**Nome do cenário:** {{CI01}}
-
-| Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
-|---|---|---|
-| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
-| > {{subtópico}} | {{...}} | {{...}} |
-
-**Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
-
-## 3. Mapa de objetivos
-
-Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
-
-![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
-
-### Dicionário de objetivos
-
-| ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
-|---|---|---|---|---|
-| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
-
 
 ## 4. Esquema conceitual de signos
 
@@ -168,6 +129,3 @@ Quais objetivos/tópicos/signos deverão necessariamente aparecer nos diagramas 
 - [ ] Mapas individuais foram consolidados.
 - [ ] O esquema de signos está em uma tabela única e sem duplicações conceituais.
 - [ ] Nomes de objetivos/signos serão reutilizados na Entrega 10.
-- [ ] Em TCC técnico, signos representam conceitos do domínio compreensíveis ao usuário, não apenas variáveis/estruturas internas.
-- [ ] Padrões como dashboard, relatório, filtros, administração e CRUD possuem objetivos e signos correspondentes.
-- [ ] A interface comunica não só o resultado técnico, mas também seu significado para a tarefa.

@@ -98,11 +98,8 @@ Investigar se características do formato das avaliações apresentam relação 
 ## Cenário C02 — Professor quer verificar uma prova antes de aplicá-la
 
 **Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8<br>
-**Persona(s) relacionada(s):** P02<br>
-**Necessidade relacionada:** Necessita manter-se constantemente atualizado sobre os avanços tecnológicos, tanto para acompanhar novas áreas quanto para aprimorar conhecimentos já adquiridos. Também busca receber feedbacks frequentes de alunos e outros docentes, utilizando essas percepções para aperfeiçoar continuamente suas aulas e práticas de ensino. Além disso, busca formas mais eficientes e precisas de avaliar e mensurar o nível de conhecimento e o desenvolvimento dos alunos, identificando suas dificuldades e oportunidades de melhoria. 
-
-<br> <!--persona e qqr necessidade q user orecisa em r outra entrega tb-->
-
+**Persona(s) relacionada(s):** P01<br>
+**Necessidade relacionada:** Necessita manter-se constantemente atualizado sobre os avanços tecnológicos, tanto para acompanhar novas áreas quanto para aprimorar conhecimentos já adquiridos. Também busca receber feedbacks frequentes de alunos e outros docentes, utilizando essas percepções para aperfeiçoar continuamente suas aulas e práticas de ensino. Além disso, busca formas mais eficientes e precisas de avaliar e mensurar o nível de conhecimento e o desenvolvimento dos alunos, identificando suas dificuldades e oportunidades de melhoria.<br> <!--persona e qqr necessidade q user orecisa em r outra entrega tb-->
 **Situação concreta da Entrega 1 relacionada:** 4.1 e 4.5 <br> 
 **Hipóteses ainda presentes:** H01, H02, H03, H04 
 
@@ -180,7 +177,7 @@ A principal informação que precisa ser coletada e analisada é a relação ent
 
 **Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5<br>   
 **Persona(s) relacionada(s):** P03<br>
-**Necessidade relacionada:** Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade.<br>  
+**Necessidade relacionada:** Com o seu trabalho, ela precisa acompanhar o progresso de seus alunos ao longo do andamento de sua tutela, e para isso ela precisa ter certeza que suas provas são apropriadas para o nível de cada turma/pessoa, e com sua rotina corrida, precisa de rápida certificação de que suas avaliações são formuladas com qualidade.<br>
 **Situação concreta da Entrega 1 relacionada:** Não contemplada diretamente na Entrega 1. O cenário foi acrescentado nesta etapa para ampliar as situações analisadas pelo projeto, considerando a hipótese de que um professor precise comparar duas versões de uma mesma avaliação para identificar diferenças estruturais que possam favorecer ou prejudicar uma das turmas.<br>
 **Hipóteses ainda presentes:** H01, H02,H03, H04 e H11 
 
