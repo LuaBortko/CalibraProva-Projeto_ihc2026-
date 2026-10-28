@@ -1,7 +1,7 @@
 # Entrega 8 — Ciclo de vida e engenharia de usabilidade
 
 **Data:** 22/10/2026 <br> 
-**Status:** 🟨 em andamento<br> 
+**Status:** concluída 🟩 <br> 
 **Responsabilidade:** 1 solução por equipe<br> 
 
 ## Objetivo da atividade
@@ -16,7 +16,7 @@ Antes das características da plataforma, separe:
 |---|---|---|
 | contribuição técnica do TCC | algorítmo de análise do impacto do formato das avaliações no desempenho dos candidatos | a aplicação que permite os docentes submeterem uma avaliação e obter métricas sobre ela.|
 | camada de interação da disciplina | interface | análise da compreensão e clareza das métricas, bem como o impacto potencial da estrutura das questões no desempenho da prova. |
-| integrações/dados simulados | as integração usadas para a realização das análises são: Bert para analise dos distraotres e XLM-RoBERTa para análise do formalismo | {{limites do protótipo}} ???????|
+| integrações/dados simulados | as integração usadas para a realização das análises são: Bert para analise dos distraotres e XLM-RoBERTa para análise do formalismo | Tudo |
 
 <!-- Em um protótipo de disciplina, é aceitável simular processamento ou resultados quando a implementação técnica não estiver integrada, desde que isso seja declarado e a simulação seja suficiente para avaliar a interação. -->
 
@@ -101,7 +101,7 @@ No sistema proposto, serão avaliadas tarefas como o envio de PDFs, o preenchime
 
 - [x] Capacidades e restrições têm impacto de IHC explicitado.
 - [x] Está claro o limite entre contribuição técnica do TCC e camada interativa da disciplina.
-- [ ] Resultados/processamento simulados no protótipo foram explicitados.
+- [x] Resultados/processamento simulados no protótipo foram explicitados.
 - [x] Metas de usabilidade avaliam a interação, não substituem métricas técnicas do TCC.
 - [x] Normas/princípios estão contextualizados, não apenas copiados.
 - [x] Metas quantitativas são mensuráveis e associadas a tarefas/público.
