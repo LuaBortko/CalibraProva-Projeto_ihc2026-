@@ -14,7 +14,7 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 ### CI01 — {{título}}
 
-**Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9
+**Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>
 **Origem:** cenário problema C01 - Professor percebe um desempenho inesperadamente baixo
 
 {{cenário de interação com alterações marcadas}}
@@ -27,7 +27,7 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 ### CI02 — {{título}}
 
-**Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8 
+**Autor(a):** Beatriz Manaia Lourenço Berto **RA:** 22.125.060-8 <br>
 **Origem:** cenário problema C02 - Professor quer verificar uma prova antes de aplicá-la
 
 {{cenário de interação com alterações marcadas}}
@@ -40,7 +40,7 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 ### CI03 — {{título}}
 
-**Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5
+**Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5<br>
 **Origem:** cenário problema C03 - Professor quer comparar duas versões de uma avaliação
 
 {{cenário de interação com alterações marcadas}}
@@ -96,7 +96,7 @@ Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, elim
 
 ![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
 
-#### Dicionário de objetivos
+### Dicionário de objetivos do mapa consolidado <!-- Perguntar pra ele se precisa desse dicionario para todos -->
 
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
