@@ -1,7 +1,7 @@
 # Entrega 7 — Coleta de dados, necessidades e aspectos éticos
 
-**Data:** 15/10/2026<br> 
-**Status:**  🟨 Em andamento  <br>
+**Data:** 15/10/2026
+**Status:**  🟩 Concluída  <br>
 
 ## Objetivo da atividade
 
@@ -48,8 +48,8 @@ Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entre
 | H07 | Os docentes possuem conhecimento prévio de ferramentas voltadas à criação, gerenciamento ou análise de avaliações. | Entrega2 | Decisão de padrões de interface  depende da resposta da hipótese H07 pois, caso seja afirmativo, é bom reutilizar os padrões para manter os sistemas similares. | Alta |
 | H08 | A apresentação das métricas pode auxiliar os docentes a decidir quais características estruturais da avaliação devem ser mantidas ou ajustadas. | Não tem | A decisão de ajustar a prova com base na análise das métricas oferecidas pelo sistema depende da resposta da hipótese H08 | Alta |
 | H09 | Aluno poderia ser afetado pelo sistema indiretamente | Não consideramos que o aluno tem impacto no sistema de avaliação com base no ENEM pois o seu desenvolvimento é pautado apenas nas análises das provas do ENEM, sem sofrer influências de caraterísticas específicas dos alunos. | Nenhuma | Baixo |
-| H10 | Após identificar resultados abaixo do esperado em uma avaliação, o docente pode querer analisar suas características estruturais para investigar possíveis fatores associados ao desempenho dos alunos. | Nenhuma | A decisão de contemplar o uso do sistema após a aplicação de uma avaliação, para apoiar a análise de seus resultados e a revisão de avaliações futuras, depende da resposta da hipótese H10. | baixa |
-| H11 | Ao preparar avaliações diferentes para turmas distintas, o docente pode querer comparar suas características estruturais para identificar diferenças que mereçam revisão antes da aplicação. | Nenhuma | A decisão de contemplar a comparação entre versões de uma avaliação como situação de uso do sistema depende da resposta da hipótese H11. | baixa |
+| H10 | Após identificar resultados abaixo do esperado em uma avaliação, o docente pode querer analisar suas características estruturais para investigar possíveis fatores associados ao desempenho dos alunos. | Nenhuma | A decisão de contemplar o uso do sistema após a aplicação de uma avaliação, para apoiar a análise de seus resultados e a revisão de avaliações futuras, depende da resposta da hipótese H10. | Média |
+| H11 | Ao preparar avaliações diferentes para turmas distintas, o docente pode querer comparar suas características estruturais para identificar diferenças que mereçam revisão antes da aplicação. | Nenhuma | A decisão de contemplar a comparação entre versões de uma avaliação como situação de uso do sistema depende da resposta da hipótese H11. | Média |
 
 ## Parte A — necessidades e requisitos de IHC
 
@@ -177,37 +177,39 @@ Analise voluntariedade, consentimento, minimização de dados, privacidade, risc
 |  Alfabetismo computacional | H04 | É necessário para verificar quanta facilidade o usuário teria em utilizar a aplicação | A simplificação de elementos visuais da aplicação e como poder acolher corretamente o nível de alfabetização digital dos usuários|
 |  Tecnologia disponível | H04 | É necessário para verificar o que seria utilizado pelos usuários | A adaptação da solução para poder se conformar com os programas e hardware utilizados pelos usuários, assim ajudando os usuários a se adaptarem melhor e poderem utilizar a solução com maior facilidade.|
 |  Experiência com um produto ou ferramentas semelhantes | H07 | Verificar a experiência dos usuários e encontrar pontos populares e impopulares de UX | A adaptação da solução para algo que agrade o docente a partir de sua experiência, assim deixando a plataforma mais fácil dele compreender as informações retornadas e manusear a solução com mais facilidade.|
-| Educação | H08 | Verificar a alfabetização dos usuários e a facilidade dele com informações como gráficos, tabelas, etc.| Esta informação ajuda a encontrar o melhor meio de mostrar as informações da análise da prova para o usuário, assim facilitando a sua interpretação dos resultados e utiliza-los de uma maneira otimizada.|
+|  Educação | H06,H08 | Verificar a alfabetização dos usuários e a facilidade dele com informações como gráficos, tabelas, etc.| Esta informação ajuda a encontrar o melhor meio de mostrar as informações da análise da prova para o usuário, assim facilitando a sua interpretação dos resultados e utiliza-los de uma maneira otimizada.|
 |  Idiomas e jargões | H06 | Verificar as capacidades linguísticas dos usuários | A adaptação da explicação das métricas que forem apresentadas aos usuários para que facilite a sua compreensão do que foi feito durante a análise da prova.|
-| Conhecimento do domínio | H03 | Permite que o usuário possa usar os dados e métricas que forem mostrados para usar na formulação de provas futuras | Não sei |
-| Tarefas | H03, H10 e H11 | Verificar usuário que o levaria a utilizar a solução | Definir o que será mostrado ao usuário para que a solução resolva todas as metas que ele teria utilizando a solução. |
+| Conhecimento do domínio | H03,H02,H06,H08 | Verificar a familiaridade dos docentes com conceitos relacionados à elaboração e análise de avaliações, identificando possíveis dificuldades na interpretação das métricas apresentadas. | Definir o nível de detalhamento das métricas e a necessidade de explicações adicionais para que os docentes consigam interpretar os resultados e utilizá-los na revisão de suas avaliações.|
+| Tarefas | H02,H03 e H05 | Identificar as atividades realizadas pelos docentes durante a elaboração e revisão de avaliações, verificando em quais momentos e com quais objetivos utilizariam a solução.| Definir quais funcionalidades devem ser priorizadas e como organizar o fluxo de interação para apoiar as tarefas realizadas pelos docentes. |
+| Objetivo do usuário | H03 | Identificar o que o docente pretende alcançar ao analisar suas provas e como realiza essa análise atualmente. | Priorizar as informações e funcionalidades que mais contribuem para os objetivos dos docentes. |
+| Está disposto a ler texto ao utilizar produtos como o que está sendo projetado?  | H06 | Identificar as preferências dos docentes durante a elaboração e revisão de avaliações, além das dificuldades encontradas com as ferramentas utilizadas e com a organização dessas atividades.| Adaptar o fluxo de interação e a organização das funcionalidades para atender às necessidades identificadas, considerando os métodos de trabalho e as dificuldades relatadas pelos docentes.|
+| Preferências e descontentamentos  | H05,H07  | Analisar o raciocínio do docente, quais aspectos ele prioriza quando ele formula as provas, como ferramentas e prazos, além de problemas que ele encontrou ao longo de sua experiência. | Adaptar a aplicação para apresentar informações e processos de uma maneira que se alinhe com as preferências e objetivos dos usuários. |
+| Idade | H04 | Verificar experiências com tecnologia a partir de suas vivências | Adaptar ou simplificar a aplicação para poder acolher docentes que tenham menor experiência tecnológica |
 
 
 #### De quem coletar?
 
 | Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Docente | Principal público-alvo | É o principal tipo de pessoa escolhida para o uso da solução, sendo elaborado através de P01 e P03. |
+| Alunos | Usuário secundário | É um grupo que seria afetado pelo uso da plataforma, exemplificado por P02.
 
 #### Aspectos éticos
 
 Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
+### Aspectos éticos
 
-#### Que dados coletar?
+A participação dos docentes e alunos na pesquisa será voluntária, sendo necessário informar previamente os objetivos do estudo e como as informações coletadas serão utilizadas. Os participantes poderão recusar ou interromper sua participação sem sofrer qualquer penalidade.
 
-| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
-|---|---|---|---|
-| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
+O consentimento deverá ser obtido antes da realização das entrevistas e testes de usabilidade, incluindo uma autorização específica caso seja necessário realizar gravações de imagem, voz ou tela. Caso o participante não autorize a gravação, suas respostas poderão ser registradas por meio de anotações, mediante seu consentimento.
 
-#### De quem coletar?
+Serão coletadas apenas as informações necessárias para compreender as características, necessidades e dificuldades dos usuários, como sua experiência com tecnologias, conhecimento sobre elaboração de avaliações e interação com a plataforma. Não será necessário coletar dados pessoais que não contribuam para os objetivos da pesquisa.
 
-| Perfil/stakeholder | Critério de inclusão | Relação com persona/público |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
+Entre os riscos envolvidos estão o possível constrangimento dos docentes ao demonstrarem dificuldades na utilização da plataforma ou na interpretação das métricas apresentadas, além da exposição indevida de informações pessoais ou de avaliações enviadas ao sistema. Para reduzir esses riscos, será esclarecido que o objetivo dos testes é avaliar a interface e não o conhecimento ou desempenho profissional dos participantes.
 
-#### Aspectos éticos
+As informações coletadas serão utilizadas exclusivamente para fins acadêmicos, com acesso restrito aos integrantes da equipe. Na apresentação dos resultados, os participantes serão identificados por códigos, removendo informações que permitam sua identificação direta, como nomes e instituições de ensino.
 
-Analise voluntariedade, consentimento, minimização de dados, privacidade, riscos, gravação, anonimização, armazenamento e descarte. Não responda apenas “sim, por causa da LGPD”: explique **quais dados e riscos existem neste projeto**.
+Os registros e arquivos coletados serão armazenados em ambiente digital com acesso restrito, sendo mantidos apenas pelo período necessário para a realização e documentação da pesquisa. Após esse período, os dados identificáveis que não precisarem ser preservados serão descartados de maneira segura.+
 
 > Repita A02, A03... <!-- SE A VISAO FOR A MESMA TDBM, cada um faz cm-->
 
@@ -339,45 +341,90 @@ Os dados brutos coletados nas sessões de entrevista semiestruturada serão tran
 
 - **Agrupamento de Problemas:** As dificuldades, receios e necessidades relatados pelos professores serão organizados e sintetizados em um quadro de problemas de usabilidade e oportunidades de melhoria. Esses achados qualitativos serão convertidos diretamente em requisitos de interface, servindo para definir as prioridades de layout, a organização da navegação e o nível de ajuda contextual do sistema.
 
-### Instrumento I03 — INVESTIGACAO CONTEXTUAL??????
+### Instrumento I03 — Investigação Contextual
 
 **Autor(a):** Nuno Martins Guilhermino da Silva
-**Técnica:** questionário / entrevista semiestruturada / observação / grupo focal / outra autorizada  
-**Objetivo:** {{...}}  
-**Público:** {{...}}
+**Técnica:** Investigação Contextual 
+**Objetivo:** Compreender como os docentes realizam, na prática, o processo de elaboração e revisão de avaliações, identificando as etapas realizadas, ferramentas utilizadas e dificuldades encontradas, para orientar o desenvolvimento da solução. 
+**Público:** Docentes que elaboram ou revisam avaliações escolares.
 
 #### Procedimento padronizado de aplicação
 
-1. {{preparação}}
-2. {{apresentação/consentimento}}
-3. {{aplicação}}
-4. {{encerramento}}
-5. {{armazenamento/anonimização}}
-
+1. **preparação**
+Elaboração do roteiro de observação e das perguntas que serão realizadas aos docentes, definição das atividades que serão acompanhadas, preparação do ambiente para a demonstração do processo e confirmação da participação dos docentes.
+2. **apresentação/consentimento**
+Apresentação dos objetivos da investigação e explicação de como será realizada cada etapa do processo. Será solicitado o consentimento dos participantes para a realização da investigação e utilização das informações coletadas, explicando como os dados serão registrados, utilizados e armazenados. Também será informado que a participação é voluntária e que o docente poderá interrompê-la a qualquer momento, além de ser solicitada uma autorização específica caso sejam necessárias gravações de áudio, imagem ou tela.
+3. **aplicação**
+Para a aplicação, será utilizado o modelo mestre-aprendiz, no qual o docente demonstrará como realiza o processo de elaboração e revisão de suas avaliações, enquanto o pesquisador observa e faz perguntas sobre as atividades realizadas, as ferramentas utilizadas e os critérios considerados durante o processo.
+4. **encerramento**
+Após a demonstração, serão realizadas perguntas complementares para esclarecer possíveis dúvidas e confirmar com o docente se as interpretações feitas pelo pesquisador representam corretamente o processo observado. Em seguida, o participante terá a oportunidade de acrescentar informações que considere relevantes. Por fim, será agradecida sua participação e a investigação será encerrada.
+5. **armazenamento/anonimização**
+As respostas, anotações e eventuais gravações realizadas durante a investigação serão armazenadas em ambiente digital com acesso restrito aos integrantes da equipe. Informações que permitam identificar os participantes, como nomes e instituições de ensino, serão substituídas por códigos ou removidas dos registros utilizados na análise. Também serão verificadas possíveis informações pessoais presentes nas avaliações demonstradas pelos docentes, evitando sua exposição. Os dados identificáveis serão mantidos apenas pelo período necessário para a realização e documentação da pesquisa, sendo posteriormente descartados de maneira segura.
 #### Instrumento
 
 Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia textual no repositório**.
+Bloco 1 — Contextualização do docente
 
+Objetivo: compreender a experiência e o contexto de trabalho do participante.
+
+Perguntas possíveis:
+- Há quanto tempo atua como docente?
+- Quais disciplinas leciona?
+- Com que frequência elabora ou revisa avaliações?
+
+Bloco 2 — Demonstração do processo
+
+Objetivo: observar como o docente elabora ou revisa uma avaliação e compreender suas decisões.
+
+Solicitação inicial:
+Poderia demonstrar como você normalmente realiza a elaboração ou revisão de uma avaliação, utilizando as ferramentas que costuma empregar?
+
+Aspectos a observar:
+- Sequência das atividades realizadas.
+- Ferramentas e materiais consultados.
+- Critérios utilizados para revisar questões.
+- Dificuldades, interrupções e retrabalho.
+
+Perguntas possíveis:
+- Por que você escolheu realizar essa etapa dessa maneira?
+- Como identifica se uma questão precisa ser modificada?
+- Quais características considera importantes ao revisar uma questão?
+- Existe alguma etapa que considera particularmente trabalhosa?
+
+Bloco 4 — Encerramento e validação
+
+Objetivo: esclarecer dúvidas e confirmar as observações.
+
+Perguntas possíveis:
+- Existe alguma parte do processo que não conseguimos acompanhar?
+- Entendemos corretamente que você utiliza determinada ferramenta para determinada finalidade?
+- Há alguma dificuldade importante que não apareceu durante a demonstração?
 #### Como os dados serão analisados
 
 {{ex.: distribuição de respostas, codificação temática, agrupamento de problemas}}
-
-
+Os dados serão analisados através do agrupamento de problemas e métodos identificados durante a investigação, verificando semelhanças e diferenças nos processos utilizados pelos docentes para elaborar e revisar suas avaliações. Também serão identificadas as ferramentas mais utilizadas, as dificuldades recorrentes e os critérios mais frequentemente considerados durante a realização das atividades, buscando encontrar necessidades em comum que possam orientar o desenvolvimento da solução.
 ## Síntese
 
 Explique quais lacunas de conhecimento sobre usuários o conjunto de técnicas pretende reduzir. Indique explicitamente quais hipóteses da Entrega 1 deverão ficar **sustentadas, refutadas ou refinadas** após a análise dos dados. Quando os dados forem coletados/analisados, atualize o histórico em `RASTREABILIDADE.md`.
 
+O conjunto de técnicas de coleta de dados pretende reduzir as lacunas de conhecimento sobre o perfil dos docentes, sua familiaridade com tecnologias, a linguagem utilizada, conhecimento do domínio e os métodos utilizados na elaboração e revisão de avaliações e suas necessidades em relação à interpretação das métricas apresentadas pela solução.
+
+As hipóteses H02, H05, H06, H07 e H08 poderão ser sustentadas, refutadas ou refinadas a partir dos dados coletados pelos instrumentos, permitindo verificar as necessidades dos docentes, suas experiências com ferramentas semelhantes e a utilidade das informações apresentadas pela solução.
+
+A hipótese H03 poderá ser refinada através das respostas dos docentes, permitindo observar como as avaliações e seus resultados influenciam o planejamento e a elaboração das aulas. A hipótese H04 também poderá ser refinada através da identificação dos conhecimentos tecnológicos dos docentes e das dificuldades encontradas na utilização de ferramentas digitais, permitindo compreender melhor o nível de familiaridade tecnológica necessário para utilizar a solução.
+
+A hipótese H09 poderá ser refinada a partir da identificação dos possíveis impactos indiretos da utilização da solução sobre os alunos. Já a H01 depende principalmente das análises realizadas no TCC, não podendo ser diretamente sustentada ou refutada pelos instrumentos de coleta de dados desta entrega.
 <!-- CORRIGIR EVIDENCIA DA RASTREABILIDADE DE HIPOTESES, AS Q TEM ESTAO ERRADAS -->
 ## Checklist
 
-- [ ] Hipóteses/lacunas prioritárias da Entrega 1 foram revisitadas.
+- [X] Hipóteses/lacunas prioritárias da Entrega 1 foram revisitadas.
 - [ ] Se o escopo de IHC foi derivado de TCC técnico, a coleta investiga a plausibilidade do usuário, tarefa e contexto adotados.
-- [ ] Perguntas não pressupõem que dashboard, CRUD, filtros ou relatórios sejam necessários; investigam a necessidade.
-- [ ] Cada dado a coletar responde uma dúvida concreta do projeto ou justifica outra necessidade de informação.
-- [ ] Parte A identifica dados e perfis de coleta de forma específica.
-- [ ] Aspectos éticos são contextualizados para o projeto.
-- [ ] Há uma técnica completa por integrante e técnicas distintas.
-- [ ] Questionário está incluído entre as técnicas.
-- [ ] Cada instrumento possui objetivo, público, procedimento e conteúdo integral.
-- [ ] Perguntas evitam indução e coletam apenas dados necessários.
-- [ ] Está claro como os dados serão analisados e usados no design.
+- [X] Perguntas não pressupõem que dashboard, CRUD, filtros ou relatórios sejam necessários; investigam a necessidade.
+- [X] Cada dado a coletar responde uma dúvida concreta do projeto ou justifica outra necessidade de informação.
+- [X] Parte A identifica dados e perfis de coleta de forma específica.
+- [X] Aspectos éticos são contextualizados para o projeto.
+- [X] Há uma técnica completa por integrante e técnicas distintas.
+- [X] Questionário está incluído entre as técnicas.
+- [X] Cada instrumento possui objetivo, público, procedimento e conteúdo integral.
+- [X] Perguntas evitam indução e coletam apenas dados necessários.
+- [X] Está claro como os dados serão analisados e usados no design.
