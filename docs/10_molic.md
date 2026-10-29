@@ -5,7 +5,15 @@
 **Responsabilidade:** 1 solução completa por integrante<br> 
 
 ## Objetivo da atividade
+<!-- Gco: obj quand oentra eh ver a lsita de documentos MTO IMPROTANTE TER GCO, pde taem hta, goms...
 
+
+ACABO MODELAGEM OLHAS E TD SETA TEM FALA DE TREANSICAO (u: ou d:? Toda seta tem q ter, a uncia q n tem u: ou d: é a q sai p difurcaao (-----_ pq tem depois , pode n usa --- e puxa as 2 setas da caixa  
+
+Se sai da cena 90% das vezes eh u: 
+Se entra no processamento (entra na caixa preta é u:, ta saind oda caixa preta é d:) 
+
+ -->
 Modelar a interação como uma **conversa entre usuário e preposto do designer**, oferecendo visão global dos caminhos que permitem ao usuário atingir seus objetivos — incluindo alternativas e rupturas relevantes. MoLIC não deve ser reduzida a um fluxograma de telas.
 
 > Use a **notação MoLIC ensinada na disciplina**. Este template foca critérios de qualidade e não substitui a legenda/notação apresentada em aula.
