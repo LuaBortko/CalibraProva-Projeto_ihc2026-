@@ -4,6 +4,8 @@
 **Status:** 🟨 em andamento <br>
 **Responsabilidade:** soluções individuais, com consolidação da equipe para mapa de objetivos e esquema de signos.
 
+
+<!-- é sobre obj ex analise de prova vai ter mtoo signos, dado exibidos e tem grupos de signos (grupo da prova, da área... cada umgera uma tabela de esquema conceitual de signos -->
 ## Objetivo da atividade
 
 Passar do cenário de problema para uma concepção da interação, explicitando objetivos, tópicos de conversa, falas e signos que a interface deverá comunicar/manipular.
@@ -76,6 +78,8 @@ Para cada cenário de problema, produza uma versão em que a solução já pode 
 
 **Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
 
+
+<!-- mapa eh 1 p equipe toda-->
 ## 3. Mapa de objetivos
 
 Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
@@ -103,7 +107,9 @@ Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, elim
 | O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
 
 ## 4. Esquema conceitual de signos
+<!--unico e alinhamento ebatido entre todos escolher , ipload,td input e output sao signos, se tem sinalizacao do sistem a eh sigo baseado so na parte de analise da tela -->
 
+Conforme alinhado em sala existem duas telas enem e sobre que nao fazem parte da analise cocneitual por xxxxx motivo (agrega mais valor ao proj faze o da analise)
 Consolide as informações em **uma tabela única**.
 
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |

@@ -1,3 +1,4 @@
+
 # Entrega 10 — MoLIC
 
 **Data:** {{dd/mm/aaaa}} <br>  
@@ -5,8 +6,32 @@
 **Responsabilidade:** 1 solução completa por integrante<br> 
 
 ## Objetivo da atividade
-<!-- Gco: obj quand oentra eh ver a lsita de documentos MTO IMPROTANTE TER GCO, pde taem hta, goms...
+<!-- 
+Conversas alternativas em direcao ao mesmo objetivo 
+Ex: goms, de acordo com regra de selecao tem maneiras diferencas, conv alternativas em direcao a um obj 
 
+Nos signos definimos recuperacao de rupturas, dado essa modelagem do esquema conceitual de signos planejamos mecanismos p user se recuepra de problemas 
+
+
+pre cond: xxx acima do u:, condicao necessaria pra fala de transicao ocorrer, ex analisar  so é possivel se preencher campo de input obrigatorio
+
+ 
+
+NA MODELAGEM FAZEMOS CENA DETALHADA: cena composta pelo nome do topico e dialogos q ocorrem (dialog obaseado na lista de signo q compoe o dialog
+
+PROCESSO APOS CLICAR E MANALISAR 
+
+TRACEJADO para upload invalodo de pdf, tempo maior q o amx inserido…(acho)
+
+cena comecando, carregei diretro a cena inicial 
+
+MAPEAR INICIO E FIM DA META
+,saida de caixa preta eh sempre d e oq sai da cena eh usuario 
+
+
+
+
+Gco: obj quand oentra eh ver a lsita de documentos MTO IMPROTANTE TER GCO, pde taem hta, goms...
 
 ACABO MODELAGEM OLHAS E TD SETA TEM FALA DE TREANSICAO (u: ou d:? Toda seta tem q ter, a uncia q n tem u: ou d: é a q sai p difurcaao (-----_ pq tem depois , pode n usa --- e puxa as 2 setas da caixa  
 
