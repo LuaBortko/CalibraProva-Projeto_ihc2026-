@@ -132,11 +132,11 @@ Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada
 |---|---|---|
 | Analisar prova com desempenho abaixo do esperado | `U: Quero analisar minha avaliação recente para identificar características da prova que possam ter dificultado a resolução das questões pelos alunos.` | Estabelecer o objetivo da interação e apresentar ao usuário as possibilidades de análise oferecidas pelo sistema. |
 | > Enviar e validar avaliação |`U: Vou enviar o arquivo PDF da avaliação.` / `D: Arquivo recebido. O documento foi validado e está pronto para análise.` | Permitir que Maria forneça o documento necessário e informar o resultado da validação, dando visibilidade ao estado do sistema. |
+| > Tratar problemas no upload | `U: Tento enviar um arquivo PDF, mas o sistema não consegue identificar seu conteúdo.` / `D: Não foi possível extrair o texto do documento. Verifique se o arquivo está em um formato compatível e tente enviá-lo novamente.` | Comunicar a ocorrência de um problema, explicar sua possível causa e orientar Maria sobre como prosseguir. |
 | > Compreender as métricas | `U: O que significam as métricas apresentadas na análise?` / `D: As métricas apresentam características da avaliação, como extensão dos textos, quantidade de caracteres e presença de elementos visuais. Os resultados ajudam a identificar aspectos que podem merecer atenção, mas não comprovam, isoladamente, que essas características causaram o desempenho observado.` | Explicar os conceitos utilizados pelo sistema e auxiliar Maria na interpretação dos resultados, sem exigir conhecimento técnico avançado. |
-| Explorar os resultados da avaliação | `U: Quero verificar quais questões possuem enunciados mais extensos. D: A análise apresenta as questões identificadas com textos mais extensos e suas respectivas medidas.` / `U: Também quero observar as questões que possuem imagens. D: A análise apresenta as questões em que foram identificados elementos visuais.` | Permitir que Maria explore diferentes características estruturais da prova e identifique questões que possam merecer uma revisão mais cuidadosa. |
+| Explorar os resultados da avaliação | `U: Quero ver os resultados da minha analise` / `D: Ok, a analise foi concluida, voce ja pode acessar os resultados como preferir` | Permitir que Maria explore diferentes características estruturais da prova |
+| > Filtrar análises por característica | `U: Quero filtrar a visualização para exibir apenas os indicadores de [característica da prova] (ex: formalismo, extensão de texto, elementos visuais).` / `D: Filtro de [característica da prova] aplicado. Exibindo o recorte das questões correspondentes e suas taxas de desempenho.` | Permitir que Maria selecione e alterne entre as diferentes características estruturais e pedagógicas da avaliação, isolando variáveis para investigar suas hipóteses. |
 | > Interpretar diferenças e pontos de atenção | `U: Como posso interpretar essas informações?` / `D: As características apresentadas permitem observar diferenças entre as questões. Elas devem ser consideradas em conjunto com o conteúdo avaliado e os objetivos de aprendizagem, pois uma característica estrutural, isoladamente, não determina a dificuldade de uma questão.` | Apoiar a interpretação dos resultados e evitar conclusões precipitadas sobre a relação entre estrutura da prova e desempenho dos alunos. |
-| Lidar com problemas durante a análise | `U: Tento enviar um arquivo PDF, mas o sistema não consegue identificar seu conteúdo.` / `D: Não foi possível extrair o texto do documento. Verifique se o arquivo está em um formato compatível e tente enviá-lo novamente.` | Comunicar a ocorrência de um problema, explicar sua possível causa e orientar Maria sobre como prosseguir. |
-| Concluir a análise | `U: Quero consultar uma síntese dos resultados para orientar a revisão das minhas próximas avaliações.` / `D: A análise foi concluída. Consulte as características identificadas e os pontos que podem merecer atenção durante a revisão da avaliação.` | Finalizar a interação, apresentar os resultados obtidos e apoiar Maria na tomada de decisões sobre avaliações futuras. |
 
 **Nome do cenário:** CI02
 
@@ -161,20 +161,6 @@ Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada
 ## 3. Mapa de objetivos
 
 Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
-
-### Mapa de CI01
-
-![Mapa ci01](../assets/09_modelo_conceitual/mapa_objetivos.svg)
-
-### Mapa de CI02
-
-![Mapa ci02](../assets/09_modelo_conceitual/mapa_objetivos.svg)
-
-### Mapa de CI03
-
-![Mapa ci03](../assets/09_modelo_conceitual/mapa_objetivos.svg)
-
-### Mapa Consolidado
 
 ![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
 
