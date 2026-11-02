@@ -12,18 +12,47 @@ Passar do cenário de problema para uma concepção da interação, explicitando
 
 Para cada cenário de problema, produza uma versão em que a solução já pode ser descrita. **Destaque claramente o texto alterado** em relação ao cenário original.
 
-### CI01 — {{título}}
+### CI01 — Professor percebe um desempenho inesperadamente baixo
 
 **Autor(a):** Luana Bortko Rodrigues **RA:** 24.123.006-9<br>
 **Origem:** cenário problema C01 - Professor percebe um desempenho inesperadamente baixo
 
-{{cenário de interação com alterações marcadas}}
+Maria da Costa Silva é professora de Literatura do ensino médio em uma escola pública do estado de São Paulo. Após corrigir uma avaliação aplicada recentemente a uma de suas turmas, percebe que o desempenho dos estudantes foi consideravelmente inferior ao esperado. Durante as aulas e atividades realizadas ao longo do período, a maioria dos alunos demonstrava compreender os conteúdos trabalhados e conseguia participar das discussões e dos exercícios propostos.
+
+Diante desse resultado, Maria começa a questionar se a dificuldade apresentada pelos estudantes está relacionada à falta de domínio dos conteúdos ou se características da própria avaliação podem ter influenciado a resolução das questões. Ao revisar a prova, observa que algumas questões possuem enunciados extensos, diferentes quantidades de texto, elementos visuais e posições distintas. Ela considera que esses aspectos podem ter dificultado a interpretação ou a resolução de determinadas questões, mas não dispõe de informações suficientes para determinar se existe alguma relação entre essas características e o desempenho da turma.
+
+Para compreender melhor a situação, Maria **decide utilizar um sistema de análise de avaliações para examinar a prova de forma objetiva e obter informações que orientem a revisão de suas próximas avaliações, em vez de depender apenas de impressões e conversas informais com colegas.**
+
+[Q1] Para iniciar essa investigação, Maria, com acesso à versão digital **em pdf de sua avaliação conecta na ferramenta de análise e realiza o envio do arquivo PDF de sua avaliação. O sistema valida as precondições do documento e fornece o feedback de que o arquivo está pronto para o processamento.**
+
+[Q2] Maria precisa compreender quais conhecimentos e informações são necessários para utilizar a ferramenta e interpretar os resultados apresentados. **O sistema exibe orientações contextuais e explicações acessíveis sobre o significado das métricas estruturais e estatísticas, auxiliando Maria a interpretar as informações sem exigir conhecimentos avançados de análise de dados.**
+
+[Q3] Para investigar a situação, Maria **seleciona na interface a análise das características estruturais da prova, como extensão dos enunciados e presença de imagens. O sistema processa esses dados e apresenta visões organizadas que relacionam essas características com o desempenho observado na turma.**
+
+[Q4] Essa investigação ocorre após a correção da avaliação, durante o período em que Maria planeja as próximas atividades e avaliações. Ela **realiza essa interação diretamente no ambiente do sistema durante seu horário de planejamento na escola.**
+
+[Q5] Maria dispõe de um computador ou notebook na escola e de uma cópia digital da avaliação em PDF. **Para acomodar sua rotina atarefada, o sistema oferece uma interação ágil e direta, permitindo que ela conclua a consulta e a interpretação dos dados em pouco tempo.**
+
+[Q6] Para avaliar se a análise foi útil, Maria **examina as analises geradas pelo sistema e julga se os dados oferecem insights relevantes. O sistema comunica o significado dos indicadores de forma clara, destacando pontos de atenção na prova sem sugerir relações precipitadas de causalidade.**
+
+[Q7] Durante a análise, **se o arquivo enviado contiver inconsistências ou formatação incompatível, o sistema interrompe o processamento, exibe uma mensagem de erro explicativa.** Além disso, a proximidade do planejamento das próximas avaliações pode tornar necessário reorganizar suas prioridades e o tempo dedicado à investigação.
+
+[Q8] Ao realizar a análise, Maria **utiliza as opções de navegação oferecidas pela interface para definir seu percurso de investigação.** Ela pretende direcionar seus esforços aos aspectos que considera mais relevantes para compreender as dificuldades observadas durante a correção e, a partir das informações obtidas, decidir quais pontos da avaliação merecem ser revistos.
+
+Maria considera que terá alcançado seu objetivo **quando o sistema lhe fornecer uma interpretação clara das características da prova, permitindo identificar pontos que mereçam uma revisão mais cuidadosa e tomar decisões fundamentadas na elaboração de suas futuras avaliações.**
 
 ### Diferenças relevantes
 
 | Alteração | Por que foi necessária | Evidência/artefato que justifica |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Substituição de buscas informais pelo uso do sistema | Introduzir a solução de software como meio sistemático para investigar as características da avaliação. | H02, H03, H08 |
+| Upload do PDF e validação inicial pelo sistema | Permitir a entrada de dados e fornecer feedback imediato de visibilidade do estado do sistema. | R02, F02, protótipo |
+| Apresentação de guias de interpretação pelo sistema | Ajudar a usuária na compreensão das métricas sem exigir conhecimento prévio avançado em estatística. | F03, R03, H06, protótipo |
+| Seleção interativa das características estruturais, como extensão de enunciados e imagens| Substituir a observação manual da prova por um fluxo interativo, em que a usuária aciona o recorte desejado (estímulo) e o sistema responde exibindo visualizações organizadas de desempenho (feedback/mudança de estado). | R04, R01, protótipo |
+| Execução da análise via sistema no horário de planejamento e ambiente escolar | Adequar o uso da interface ao contexto real de trabalho e à rotina atarefada da professora, oferecendo um fluxo rápido de envio e consulta que respeite sua limitação de tempo. | H05 |
+| Exibição das analises | Apoiar a tomada de decisão da usuária fornecendo indicadores claros para avaliar a utilidade da análise, ressaltando que métricas são pontos de reflexão e não prova de causa. | H08, R01, R04, F01, protótipo |
+| Emissão de mensagens de erro explicativas | Avisar de forma clara erros que acontecem no input (ex: formato da prova incompativel, tempo de prova ultrapassou o limite)| protótipo |
+| Obtenção de diagnósticos claros do sistema para orientar revisões de provas futuras | Conectar o feedback final do sistema ao alcance do objetivo principal da persona | H02, H03, H08, F01, R01, R04, protótipo |
 
 ### CI02 — Professor quer verificar uma prova antes de aplicá-la
 
