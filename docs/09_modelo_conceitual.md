@@ -184,7 +184,7 @@ Vera é professora de inglês e preparou duas versões de uma avaliação para a
 |---|---|---|
 | Comparar duas versões de uma avaliação | `U: Quero comparar duas versões da minha avaliação para verificar se o nível de exigência está equivalente entre as turmas. `  | Estabelecer o objetivo da interação. |
 | > Enviar e validar primeira avaliação (Versão A)| `U: Vou enviar o arquivo PDF da Versão A da avaliação.` \ `D: Arquivo recebido. O documento foi validado e as métricas estruturais da Versão A foram geradas.` | Permitir o envio da primeira prova, confirmando a validação do documento e exibindo seus resultados estruturais. |
-| > Enviar e validar primeira avaliação (Versão B)| `U: Agora quero enviar o PDF da Versão B.` \ `D: Arquivo recebido. O documento foi validado e as métricas estruturais da Versão A foram geradas.` | Permitir o envio da segunda prova, confirmando a validação do documento e exibindo seus resultados estruturais. |
+| > Enviar e validar primeira avaliação (Versão B)| `U: Agora quero enviar o PDF da Versão B.` \ `D: Arquivo recebido. O documento foi validado e as métricas estruturais da Versão B foram geradas.` | Permitir o envio da segunda prova, confirmando a validação do documento e exibindo seus resultados estruturais. |
 | Explorar e comparar os relatórios de métricas | `U: Quero consultar os resultados das duas avaliações.` `D: Os relatórios apresentam as métricas estruturais de cada avaliação, acompanhadas de descrições que auxiliam sua interpretação..` | Permitir que Vera consulte os relatórios de cada prova e compare suas características estruturais para identificar possíveis desequilíbrios. | 
 | > Interpretar pontos de atenção e decidir ajustes | `U: Vou verificar e comparar as métricas das duas avaliações para ver se farei edições.`  | Apoiar Vera na interpretação pedagógica dos dados para que ela decida, com autonomia, qual versão necessita de alterações. | 
 | Reanalisar a avaliação ajustada| `U: Fiz alterações na Versão A e quero analisá-la novamente para verificar suas características estruturais` `D: A avaliação foi processada novamente. O relatório atualizado está disponível para consulta.` | Permitir que Vera obtenha novas métricas após realizar alterações na avaliação. | 
@@ -205,7 +205,7 @@ organizar os objetivos dos usuários identificados na análise
 oq user deseja realizar, nao considero COMO realiza
 
 -->
-![Mapa de objetivos ](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+![Mapa de objetivos ](../assets/09_modelo_conceitual/MapaObjetivos.png)
 
 ### Dicionário de objetivos do mapa consolidado <!-- mapa eh 1 p equipe toda-->
 
