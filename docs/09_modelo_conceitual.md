@@ -170,8 +170,13 @@ Vera é professora de inglês e preparou duas versões de uma avaliação para a
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
-| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
-| > {{subtópico}} | {{...}} | {{...}} |
+| Analisar a estrutura de uma prova antes de aplicá-la | `U: Quero analisar a avaliação que acabei de elaborar para identificar características estruturais que possam impactar o desempenho dos meus alunos`| Estabelecer o objetivo da interação e apresentar a finalidade da ferramenta permitindo que o docente compreenda como a análise pode apoiar a revisão da avalia˜so antes de sua aplicação. |
+| > Enviar a avaliação |  `D: Envie um arquivo contendo sua prova de múltiplaescolha em formato PDF ` / `U: Vou enviar o arquivo da nessas especificações` / `D: Arquivo recebido e dentro dos conformes. Informe os dados necessários para realizar a análise` | Permite que o docente forneça o documento que será analisado e informar o resultado da validação inicial, dando visibilidade ao estado do sistema. |
+| > Informar dados da avaliação para iniciar a análise | `D: Qual a duração da avaliação? Qual a dificuldade das questões? Que tipo de anaálise deseja?`/ `U: 2h, as primeiras 5 questões são fáceis e as demais médias. Desejo realizar todas as análises disponíveis.` / `D: Informações obrigatórias preenchidas, documento enviado para a análise, aguarde um momento.` | Solicita as informações complementares necessárias para configurar a análise e garantir que o sistema disponha dos dados exigidos para o processamento. |
+| > Consultar as métricas/análise da prova | `U: Quero visualizar as métricas e características estruturais da minha avaliação `/ `D: A análise apresenta gráficos com métricas como extensão dos enunciados, tempo gasto para leitura da avaliação, formalismo das questÕes, além de trazer uma análise da correlação entre as características como distrator e caracter e o desempenho dos candidatos.` | Apresenta as características identificadas na prova, permitindo que o docente compreenda sua composição estrutural e identifique possíveis pontos de atenção. |
+| > Compreender e interpretar os resultados | `U: Como posso interpetar melhor essas métricas e gráficos para entender sua relação com o desempemho?`/ `D:Pode ler os detalhamentos de cada gráfico bem como suas descricÕes para entender de uma maneira mais clara como eles funcionam` / `U: Cosnegui compreender melhor agora`| Oferece informações de apoio para facilitar a interpretação dos resultados, permitindo que o docente compreenda os indicadores e utilize-os como subsíidio para revisar sua avaliação. |
+| Exportar resultados da análises | `U: Quero exportar os resultados para consultá-los posteriormente`/ `D: Você pode escolher o formto de exportação disponível para salvar sua análise` | Permitir que o docente obtenha os resultados da análise em um arquivo, facilitando sua consulta e utilização posterior. |
+| > Escolher o melhor formato para exportação | `D: Em qual formato deseja exportar os resultados?` / `U: Quero exportar a análise em PDF`/ `D: Arquivo gerado, a análise está disponível para consulta.` / | Permite que o docente escolha o formato de saída e informe a conclusão da exportação |
 
 **Nome do cenário:** CI03
 
@@ -187,33 +192,53 @@ Vera é professora de inglês e preparou duas versões de uma avaliação para a
 
 **Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
 
-
 <!-- mapa eh 1 p equipe toda-->
-
 
 ## 3. Mapa de objetivos
 
 Cada integrante apresenta seu mapa e a equipe cria um **mapa consolidado**, eliminando duplicidades e resolvendo conflitos de nomenclatura.
 
-![Mapa consolidado](../assets/09_modelo_conceitual/mapa_objetivos.svg)
+<!--
+
+organizar os objetivos dos usuários identificados na análise
+
+oq user deseja realizar, nao considero COMO realiza
+
+-->
+![Mapa de objetivos ](../assets/09_modelo_conceitual/mapa_objetivos.svg)
 
 ### Dicionário de objetivos do mapa consolidado <!-- mapa eh 1 p equipe toda-->
 
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
-| O01 | {{...}} | {{P01}} | {{CI01}} | {{...}} |
+| O01 | Analisar a estrutrua de uma prova antes de aplicá-la  | P01 - professor | CI02 | Alta |
+| O02 | Analisar auma avaliação após identificar um desempenho abaixo do esperado  | P01 - professor | CI01 | Alta |
+| O03 | CCCCCCCCC | P01 - professor | CI03 | Alta |
+| O04 | Enviar a avaliação em PDF | P01 - professor | CI01, CI02 XXXXX | Alta |
+| O05 | Explorar os resultados por característica estrutural | P01 - professor | CI01, CI02 XXXXX | Alta |
+| O06 | Informar os dados necessários para a análise | P01 - professor | CI01, CI02 XXXXX | Alta |
+| O07 | Consultar as métricas e a análise da prova | P01 - professor | CI01, CI02 XXXXX | Alta |
+| O08 | Compreender e interpretar os resultados | P01 - professor | CI01, CI02 XXXXX | Alta |
+| O09 | Exportar os resultados | P01 - professor | CI01, CI02 XXXXX | Baixa |
+| O010 | Escolher o formato de exportação | P01 - professor | CI01, CI02 XXXXX | Baixa |
 
 ## 4. Esquema conceitual de signos
 <!--unico e alinhamento ebatido entre todos escolher , ipload,td input e output sao signos, se tem sinalizacao do sistem a eh sigo baseado so na parte de analise da tela é sobre obj ex analise de prova vai ter mtoo signos, dado exibidos e tem grupos de signos (grupo da prova, da área...  -->
 
 
-Conforme alinhado em sala existem duas telas enem e sobre que nao fazem parte da analise cocneitual por xxxxx motivo (agrega mais valor ao proj faze o da analise)
+Conforme alinhado em sala, na nossa aplicação de alto nível existem 3 telas no total (análise, ENEM, e sobre) porém as telas ENEM e sobre não fazem parte da analise conceitual pois não entram no escopo principal estudado na matéria de ihc, que é analisar a prova em diferentes cenários, objetivo esse relacionado a tela "análise", ou seja, agrega mais valor ao proj faze o da analise)
+
 Consolide as informações em **uma tabela única**.
 
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |
 |---|---|---|---|---|---|---|---|---|
-| Credenciais | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
+| Análise | prova | domínio | Avaliação elaborada pelo professor, composta por questões de múltipla escolha, enunciados e alternativas. é o documento fornecido pelo usuário que será processado pelo Desemprov para extração de características estruturais e análises comparativas com o ENEM | Documento digital(PDF), contendo textos e, eventualmente imagens. | Arquivo obrigatório, formato PDF e tamanho máximo de 10 MB. Deve atender aos requisitos da ferramenta | nenhum | Informar os formatos aceitos e o limite de tamanho antes do envio, validar o arquivo selecionado antes de iniciar o processamento | Exibir esagem explicativa caso o arquivo seja inválido ou não possa ser processado, permitindo que o professor envie outro documento. |
 
+
+
+| Análise | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
+
+| Análise | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
 ### Regras para os signos
 
 - Use o vocabulário do domínio do usuário.
