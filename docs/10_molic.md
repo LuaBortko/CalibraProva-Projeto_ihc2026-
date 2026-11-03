@@ -1,8 +1,8 @@
 
 # Entrega 10 — MoLIC
 
-**Data:** {{dd/mm/aaaa}} <br>  
-**Status:** ⬜ não iniciada  <br> 
+**Data:** 02/11 <br>  
+**Status:**  🟨 Em andamento <br> 
 **Responsabilidade:** 1 solução completa por integrante<br> 
 
 ## Objetivo da atividade
@@ -56,13 +56,103 @@ Exemplos de conversas:
 
 Modele também rupturas plausíveis: entrada inválida, falha de processamento, ausência de resultado, permissão insuficiente, filtro sem resultados, conflito de alteração, cancelamento ou necessidade de recuperação.
 
-## M01 — {{nome do cenário/objetivo}}
+## M01 — Professor percebe um desempenho inesperadamente baixo
 
-**Autor(a):** {{nome — matrícula}}  
-**Cenário de interação de origem:** {{CI01}}  
-**Objetivo(s):** {{O01}}  
-**Tarefa(s) relacionada(s):** {{T01}}  
-**Signos relevantes:** {{...}}
+**Autor(a):** Luana Bortko Rodrigues RA:24.123.006-9 <br>
+**Cenário de interação de origem:** CI01 <br>
+**Objetivo(s):** O02  <br>
+**Tarefa(s) relacionada(s):** {{T01}}  <!-- complete--><br>
+**Signos relevantes:** {{...}} <!-- complete--><br>
+
+### Diagrama
+
+![MoLIC M01](../assets/10_molic/molic_m01.svg)
+
+**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+
+### Leitura do diagrama
+
+Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupturas mais importantes.
+
+#### Caminho principal
+
+1. {{ponto de abertura → cena...}}
+2. {{...}}
+
+#### Alternativas e rupturas
+
+| Situação | Onde ocorre | Como o usuário percebe | Caminho de recuperação/saída |
+|---|---|---|---|
+| {{dado inválido}} | {{...}} | {{fala/feedback}} | {{...}} |
+
+### Checklist específico de modelagem
+
+- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
+- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
+- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [ ] O diagrama é legível em tamanho normal no GitHub.
+- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
+
+
+## M02 — Professor quer verificar uma prova antes de aplicá-la
+
+**Autor(a):** Beatriz Manaia Lourenço Berto <br>
+**Cenário de interação de origem:** CI02  <br>
+**Objetivo(s):** O01  <br>
+**Tarefa(s) relacionada(s):** {{T01}}  <!--complete--> <br>
+**Signos relevantes:** {{...}}<!-- complete--><br>
+
+### Diagrama
+
+![MoLIC M01](../assets/10_molic/molic_m01.svg)
+
+**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+
+### Leitura do diagrama
+
+Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupturas mais importantes.
+
+#### Caminho principal
+
+1. {{ponto de abertura → cena...}}
+2. {{...}}
+
+#### Alternativas e rupturas
+
+| Situação | Onde ocorre | Como o usuário percebe | Caminho de recuperação/saída |
+|---|---|---|---|
+| {{dado inválido}} | {{...}} | {{fala/feedback}} | {{...}} |
+
+### Checklist específico de modelagem
+
+- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
+- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
+- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [ ] O diagrama é legível em tamanho normal no GitHub.
+- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
+
+
+## M03 — Professor quer comparar duas versões de uma avaliação
+
+**Autor(a):** Nuno Martins Guilhermino da Silva RA: 22.126.099-5 <br>
+**Cenário de interação de origem:** CI03 <br>
+**Objetivo(s):** O03  <br>
+**Tarefa(s) relacionada(s):** {{T01}}  <!-- complete --><br>
+**Signos relevantes:** {{...}}<!-- complete--><br>
 
 ### Diagrama
 
