@@ -233,12 +233,12 @@ Consolide as informações em **uma tabela única**.
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |
 |---|---|---|---|---|---|---|---|---|
 | Análise | Prova | Domínio | Avaliação elaborada pelo professor, composta por questões de múltipla escolha, enunciados e alternativas. é o documento fornecido pelo usuário que será processado pelo Desemprov para extração de características estruturais e análises comparativas com o ENEM | Documento digital(PDF), contendo textos e, eventualmente imagens. | Arquivo obrigatório, formato PDF e tamanho máximo de 10 MB. Deve atender aos requisitos da ferramenta | nenhum | Informar os formatos aceitos e o limite de tamanho antes do envio, validar o arquivo selecionado antes de iniciar o processamento | Exibir esagem explicativa caso o arquivo seja inválido ou não possa ser processado, permitindo que o professor envie outro documento. |
-| Análise | Duração da prova | Domínio | Tempo total disponibilizado para a realização da avaliação. | Numérico (horas e minutos). | Obrigatório; valores válidos de duração. | Nenhum. | Indicar os campos de horas e minutos e validar os valores. | Solicitar correção caso os valores sejam inválidos. |
+| Análise | Tipo de análise | Aplicação | Define qual análise estrutural o professor deseja realizar. | Seleção (lista de opções). | Deve selecionar uma opção disponível. | Análise Completa. | Apresentar as análises disponíveis. | Permitir selecionar outra(s) análise(s). |
+| Análise | Duração da prova | Domínio | Tempo total disponibilizado para a realização da avaliação. | Numérico (horas e minutos). | Obrigatório; valores válidos de duração. | Nenhum. | Indicar os campos de horas e minutos e validar os valores. | Dar um aviso caso supere o tempo máximo de uma avaliação (6h) informando a necessidade de correção. |
+| Análise | Tempo de leitura | Domínio | Velocidade de leitura utilizada como referência para estimar o tempo necessário para ler os enunciados. | Numérico (caracteres por minuto). | Valor positivo. | 1100 caracteres/minuto. | Explicar a diferença entre velocidade padrão e personalizada e da onde veio o valor 1100 | Permitir retornar ao padrão ou informar outro valor. |
 | Análise | Quantidade de questões | Domínio | Número total de questões que compõem a avaliação. | Numérico inteiro. | Deve corresponder à quantidade de questões da prova. | Nenhum. | Informar o número esperado de questões. | Permitir corrigir a quantidade informada. |
-| Análise | Tipo de análise | Aplicação | Define qual análise estrutural o professor deseja realizar. | Seleção (lista de opções). | Deve selecionar uma opção disponível. | Conforme configuração da interface. | Apresentar as análises disponíveis e suas descrições. | Permitir selecionar outra análise. |
-| Análise | Tempo de leitura | Domínio | Velocidade de leitura utilizada como referência para estimar o tempo necessário para ler os enunciados. | Numérico (caracteres por minuto). | Valor positivo. | 1100 caracteres/minuto. | Explicar a diferença entre velocidade padrão e personalizada. | Permitir retornar ao padrão ou informar outro valor. |
 | Análise | Dificuldade das questões | Domínio | Classificação da dificuldade atribuída pelo professor a cada questão. | Seleção (fácil, média ou difícil). | Uma classificação por questão, quando habilitada. | Nenhum. | Apresentar as opções de dificuldade para cada questão. | Permitir alterar a classificação. |
-| Análise | Incluir métricas reais dos estudantes | Aplicação | Define se o professor deseja complementar a análise com informações reais de desempenho dos estudantes. | Seleção (sim/não). | Resposta obrigatória caso a funcionalidade seja utilizada. | Conforme configuração da interface. | Explicar quais informações serão solicitadas ao selecionar a opção. | Permitir alterar a seleção. |
+| Análise | Incluir métricas reais dos estudantes | Aplicação | Define se o professor deseja complementar a análise com informações reais de desempenho dos estudantes. | Seleção (sim/não). | Resposta obrigatória caso a funcionalidade seja utilizada. | não | Explicar quais informações serão solicitadas ao selecionar a opção. | Permitir alterar a seleção. |
 | Análise | Quantidade de participantes | Domínio | Número de estudantes que realizaram a avaliação. | Numérico inteiro. | Não negativo; necessário quando forem utilizadas métricas reais. | Nenhum. | Informar que deve corresponder aos participantes da avaliação. | Permitir corrigir o valor informado. |
 | Análise | Acertos por questão | Domínio | Quantidade de estudantes que acertaram cada questão da avaliação. | Numérico inteiro por questão. | Não pode ultrapassar o número de participantes. | Nenhum. | Limitar os valores conforme a quantidade de participantes. | Permitir corrigir os acertos informados. |
 | Análise | Métricas estruturais | Aplicação | Conjunto de indicadores extraídos da prova, como quantidade de caracteres, palavras e presença de imagens. | Numérico e textual. | Depende das características identificadas no documento. | Nenhum. | Apresentar a descrição de cada métrica. | Informar quando não for possível extrair determinada característica. |
@@ -254,10 +254,6 @@ Consolide as informações em **uma tabela única**.
 | Navegação | Analisar | Aplicação | Aciona o processamento da prova e a geração das métricas solicitadas. | Botão e estado de processamento. | Exige o preenchimento dos dados obrigatórios. | Inativo até atender aos requisitos. | Validar os campos antes do processamento. | Apresentar mensagens de erro e permitir nova tentativa. |
 | Navegação | Menu de navegação | Convencional | Permite acessar as seções Análise, ENEM e Sobre. | Links de navegação. | Destinos devem estar disponíveis. | Análise. | Identificar a seção atual. | Permitir retornar à seção anterior. |
 
-
-| Análise | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
-
-| Análise | usuário | domínio | {{...}} | texto | não nulo | — | {{...}} | {{...}} |
 ### Regras para os signos
 
 - Use o vocabulário do domínio do usuário.
@@ -267,13 +263,15 @@ Consolide as informações em **uma tabela única**.
 
 ## Síntese
 
-Quais objetivos/tópicos/signos deverão necessariamente aparecer nos diagramas MoLIC?
+<!--Quais objetivos/tópicos/signos deverão necessariamente aparecer nos diagramas MoLIC?-->
+
+Usaremos todos os objetivos e signos listados acima para o desenvolvimento do MoLIC
 
 ## Checklist
 
-- [ ] Cenários de interação mostram alterações em relação aos cenários de problema.
-- [ ] Cada solução individual identifica autor e cenário de origem.
-- [ ] Tópicos/falas/signos são coerentes com objetivos do usuário.
-- [ ] Mapas individuais foram consolidados.
-- [ ] O esquema de signos está em uma tabela única e sem duplicações conceituais.
-- [ ] Nomes de objetivos/signos serão reutilizados na Entrega 10.
+- [X] Cenários de interação mostram alterações em relação aos cenários de problema.
+- [X] Cada solução individual identifica autor e cenário de origem.
+- [X] Tópicos/falas/signos são coerentes com objetivos do usuário.
+- [ ] Mapas individuais foram consolidados. --> obs tods fizeram sua respectiva parte no mapa consolidado
+- [X] O esquema de signos está em uma tabela única e sem duplicações conceituais.
+- [X] Nomes de objetivos/signos serão reutilizados na Entrega 10.
