@@ -111,18 +111,46 @@ Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada
 | Q8-interação | Para prever como o próprio feedback do sistema (as métricas e o impacto potencial de características como formalismo e extensão de texto) pode atuar como um evento inesperado que motiva o docente a modificar e refinar questões específicas antes da aplicação da prova e ajuda a prepararmos o sistema com base no que motiva o usuário a usá-lo | GOMS, CTT, Concorrência, H10, H11 |
 
 
-### CI03 — {{título}}
+### CI03 —  Professor quer comparar duas versões de uma avaliação
 
 **Autor(a):** Nuno Martins Guilhermino da Silva **RA:** 22.126.099-5<br>
 **Origem:** cenário problema C03 - Professor quer comparar duas versões de uma avaliação
 
 {{cenário de interação com alterações marcadas}}
 
+Vera é professora de inglês e preparou duas versões de uma avaliação para aplicar em turmas diferentes, buscando evitar o compartilhamento de respostas entre os alunos. Ela deseja verificar se as diferenças entre as versões podem fazer com que uma das turmas seja favorecida ou prejudicada.
+
+**Por possuir acesso a um computador com internet, Vera decide utilizar o sistema DesemProv para comparar as duas avaliações de forma rápida e objetiva.**
+
+[Q1] Para realizar a comparação, Vera pode precisar considerar os conteúdos avaliados, os objetivos de aprendizagem e as características das turmas, além de reconhecer quais aspectos da estrutura das questões merecem atenção. Os conhecimentos e critérios que ela efetivamente utiliza ainda precisam ser investigados.
+
+**[Q1] Vera acessa a plataforma e realiza o upload dos PDFs das duas versões da prova. O sistema processa os arquivos e extrai automaticamente métricas estruturais como contagem de palavras, presença de imagens, nível de formalidade e tempo estimado de leitura.**
+
+[Q2]A comparação ocorre no contexto de preparação das avaliações, antes de sua aplicação. [Q5]**Para mitigar a pressão dos prazos de entrega e a rotina corrida de aulas, [Q3]Vera utiliza seu computador com acesso à internet para enviar os PDFs à aplicação. O sistema realiza o processamento automatizado das duas versões em poucos segundos, fornecendo um relatório comparativo direto que elimina a necessidade de revisões manuais demoradas.**
+
+
+**[Q8]Ao visualizar o painel comparativo, Vera observa alertas visuais indicando as principais discrepâncias entre as provas. O sistema exibe explicações acessíveis em linguagem natural sobre o impacto de cada métrica no desempenho dos estudantes. [Q11] Vera utiliza esses dados como apoio pedagógico para identificar quais questões precisam de ajuste para equilibrar o nível de exigência entre as turmas.**
+
+[Q4] [Q6] Os resultados da comparação podem ser úteis para Vera na revisão das avaliações e, indiretamente, para os alunos que realizarão as provas. Também é necessário investigar se outras pessoas participam do processo, utilizam seus resultados ou fornecem informações que auxiliam a análise.
+
+[Q10] Durante a preparação, acontecimentos não previstos podem exigir mudanças no planejamento ou nas avaliações.**Se um dos arquivos contiver formatação incompatível, a plataforma interrompe a análise e exibe uma mensagem explicativa orientando o envio correto do documento.**
+
+[Q9] Ao final da comparação, Vera precisa avaliar se as diferenças identificadas foram tratadas adequadamente e se dispõe de informações suficientes para decidir que as avaliações estão prontas para aplicação.**Vera reanalisa as provas na aplicação e verifica que as disparidades foram corrigidas.**
+
+**Após revisar as diferenças apresentadas e realizar as alterações que considera necessárias, Vera utiliza as informações obtidas na comparação, juntamente com seus critérios pedagógicos, para avaliar se as duas versões estão adequadas para aplicação nas respectivas turmas.**
+
+**Com o auxílio da aplicação, Vera consegue visualizar de maneira organizada as diferenças estruturais entre as duas avaliações. Essas informações auxiliam sua revisão e permitem que ela identifique questões que podem precisar de alterações antes da aplicação das provas, sem substituir seus próprios critérios pedagógicos.**
 ### Diferenças relevantes
 
 | Alteração | Por que foi necessária | Evidência/artefato que justifica |
 |---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Introdução da Solução | Definir a tecnologia de suporte e o canal de interação, superando a análise manual do cenário problema. | Persona P03 (Vera), Protótipo em Papel. | 
+| Q1 | Especificar a entrada de dados via PDF e a extração automatizada de métricas estruturais (extensão, imagens, formalidade, tempo de leitura). | HTA, CTT, GOMS, F01, F02, Protótipo. | 
+| Q2, Q3, Q5 | Esclarecer a infraestrutura de uso e demonstrar como o processamento automatizado reduz a pressão de tempo na rotina corrida da docente. | Persona P03, Entrega 7, HTA, CTT. | 
+| Q8, Q11 | Mostrar como o sistema apresenta alertas visuais e descrições em linguagem natural, auxiliando na priorização e na decisão pedagógica de revisão. | H01, H02, H06, H08, H10, GOMS, CTT. | 
+| Q4, Q6 | Demonstrar como a ferramenta assegura a equivalência estrutural entre as provas aplicadas em turmas diferentes. | Análise de Concorrência, Requisitos do Sistema. | 
+| Q10 | Mapear o tratamento de falhas e exceções (ex.: arquivo incompatível), fornecendo feedback e instrução clara de recuperação. | H05, H09,CTT. | 
+| Q9 | Definir o critério objetivo de conclusão da tarefa através da reanálise no sistema e confirmação do equilíbrio das versões. | HTA, CTT. |
 
 ## 2. Design centrado na comunicação
 
@@ -149,8 +177,13 @@ Entretanto, mesmo após essas etapas, a análise da avaliação continua baseada
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
-| {{objetivo}} | `U: ...` / `D: ...` | {{...}} |
-| > {{subtópico}} | {{...}} | {{...}} |
+| Comparar duas versões de uma avaliação | `U: Quero comparar duas versões da minha avaliação para verificar se o nível de exigência está equivalente entre as turmas. `  | Estabelecer o objetivo da interação. |
+| > Enviar e validar primeira avaliação (Versão A)| `U: Vou enviar o arquivo PDF da Versão A da avaliação.` \ `D: Arquivo recebido. O documento foi validado e as métricas estruturais da Versão A foram geradas.` | Permitir o envio da primeira prova, confirmando a validação do documento e exibindo seus resultados estruturais. |
+| > Enviar e validar primeira avaliação (Versão B)| `U: Agora quero enviar o PDF da Versão B.` \ `D: Arquivo recebido. O documento foi validado e as métricas estruturais da Versão A foram geradas.` | Permitir o envio da segunda prova, confirmando a validação do documento e exibindo seus resultados estruturais. |
+| Explorar e comparar os relatórios de métricas | `U: Quero consultar os resultados das duas avaliações.` `D: Os relatórios apresentam as métricas estruturais de cada avaliação, acompanhadas de descrições que auxiliam sua interpretação..` | Permitir que Vera consulte os relatórios de cada prova e compare suas características estruturais para identificar possíveis desequilíbrios. | 
+| > Interpretar pontos de atenção e decidir ajustes | `U: Vou verificar e comparar as métricas das duas avaliações para ver se farei edições.`  | Apoiar Vera na interpretação pedagógica dos dados para que ela decida, com autonomia, qual versão necessita de alterações. | 
+| Reanalisar a avaliação ajustada| `U: Fiz alterações na Versão A e quero analisá-la novamente para verificar suas características estruturais` `D: A avaliação foi processada novamente. O relatório atualizado está disponível para consulta.` | Permitir que Vera obtenha novas métricas após realizar alterações na avaliação. | 
+| > Concluir a comparação e reanalisar prova ajustada | `U: Consultei os relatórios e quero decidir se as duas versões estão adequadas para aplicação.` `D: Reanálise concluída. Os novos relatórios foram feitos e podem ser usados.` | Finalizar o ciclo de revisão e apoiar a tomada de decisão final da docente. |
 
 **Convenção:** `U` = usuário; `D` = preposto do designer/sistema, conforme a abordagem de Engenharia Semiótica adotada na disciplina.
 
