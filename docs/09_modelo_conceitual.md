@@ -207,6 +207,18 @@ oq user deseja realizar, nao considero COMO realiza
 -->
 ![Mapa de objetivos ](../assets/09_modelo_conceitual/MapaObjetivos.png)
 
+<!--  Se eu preciso faze tudo em ordem as etapas tem q ser fluxo de obj leva seta pras atividades mostra q cada seta entr obj e atividade a atividade ja concretiza o obj 
+
+Se for atividade q eu faço e saio do sistema dps 
+Ex abri moodle e ele habilita ou n notificação se clicamos no video, isso eh obj instrumental de configuração  que dá bônus que permite alcança obj final, configura usuário n eh objetivo mas ajuda a entender obj.(tracejado)
+
+Caixa tracejada eh so se eh instrumental
+
+Arruma fluo das caixas e caixa cheia pras q n eh instrumental 
+
+Ligação entre caixas da o fluxo: pelo diagrama de obj vemos oq precisa faze p chega em obj -->
+
+
 ### Dicionário de objetivos do mapa consolidado <!-- mapa eh 1 p equipe toda-->
 
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
