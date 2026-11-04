@@ -26,10 +26,20 @@ Exemplos de perguntas:
 Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 
 ## A. Método DECIDE
-<!--No final do planejamento tem frameworek onde cada letra (DECIDE) TEM REGRA COMO PATTERN. PCRIA PLANEJAENTO DE TESTE, ENVOLVE OBJ, PUBLICO ALVO, ETICA, QUE INSTURMENTO VAI USA(COMO GRAVA INFO DE USABILIDADE) -->
+<!--No final do planejamento tem frameworek onde cada letra (DECIDE) TEM REGRA COMO PATTERN. PCRIA PLANEJAENTO DE TESTE, ENVOLVE OBJ, PUBLICO ALVO, ETICA, QUE INSTURMENTO VAI USA(COMO GRAVA INFO DE USABILIDADE)
+
+
+O da disciplina eh identifcia problemas  de iteracao e interface 
+
+ 
+
+Metodo: pega isnturentos ex braisntorm ,questionario, entrevista, observacao, investigacaocontextual.... tecnicas p levanta requistios e posso reutiliza p testa software 
+
+heristica segue roteiro desse de planejamento slide 35 do totpico 11 se relato dos resultados....
+ -->
 | Etapa | Aplicação no projeto |
 |---|---|
-| **D — Determine the goals** | Quais objetivos da avaliação? Relacione às metas de usabilidade da Entrega 8. |
+| **D — Determine the goals** | Quais objetivos da avaliação? Relacione às metas de usabilidade da Entrega 8. O  obj da disciplina eh identifcia problemas  de iteracao e interface (falo em aula topico 11) |
 | **E — Explore the questions** | Quais perguntas específicas a avaliação deve responder? |
 | **C — Choose the evaluation paradigm and techniques** | Quais métodos serão usados e por quê? Ex.: inspeção heurística + observação de usuários. |
 | **I — Identify the practical issues** | Participantes, recrutamento, ambiente, equipamentos, piloto, cronograma, responsáveis, riscos técnicos. |
