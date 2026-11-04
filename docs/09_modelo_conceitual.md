@@ -212,15 +212,15 @@ oq user deseja realizar, nao considero COMO realiza
 | ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
 |---|---|---|---|---|
 | O01 | Analisar a estrutrua de uma prova antes de aplicá-la  | P01 - professor | CI02 | Alta |
-| O02 | Analisar auma avaliação após identificar um desempenho abaixo do esperado  | P01 - professor | CI01 | Alta |
-| O03 | CCCCCCCCC | P01 - professor | CI03 | Alta |
-| O04 | Enviar a avaliação em PDF | P01 - professor | CI01, CI02 XXXXX | Alta |
-| O05 | Explorar os resultados por característica estrutural | P01 - professor | CI01, CI02 XXXXX | Alta |
-| O06 | Informar os dados necessários para a análise | P01 - professor | CI01, CI02 XXXXX | Alta |
-| O07 | Consultar as métricas e a análise da prova | P01 - professor | CI01, CI02 XXXXX | Alta |
-| O08 | Compreender e interpretar os resultados | P01 - professor | CI01, CI02 XXXXX | Alta |
-| O09 | Exportar os resultados | P01 - professor | CI01, CI02 XXXXX | Baixa |
-| O010 | Escolher o formato de exportação | P01 - professor | CI01, CI02 XXXXX | Baixa |
+| O02 | Analisar uma avaliação após identificar um desempenho abaixo do esperado  | P01 - professor | CI01 | Alta |
+| O03 | Analisar duas provas para verificar se não há discrepâncias de exigência| P01 - professor | CI03 | Alta |
+| O04 | Enviar a avaliação em PDF | P01 - professor | CI01, CI02, CI03 | Alta |
+| O05 | Explorar os resultados por característica estrutural | P01 - professor | CI01, CI02, CI03 | Alta |
+| O06 | Informar os dados necessários para a análise | P01 - professor | CI01, CI02, CI03 | Alta |
+| O07 | Consultar as métricas e a análise da prova | P01 - professor | CI01, CI02, CI03 | Alta |
+| O08 | Compreender e interpretar os resultados | P01 - professor | CI01, CI02, CI03 | Alta |
+| O09 | Exportar os resultados | P01 - professor | CI01, CI02, CI03 | Baixa |
+| O010 | Escolher o formato de exportação | P01 - professor | CI01, CI02, CI03| Baixa |
 
 ## 4. Esquema conceitual de signos
 <!--unico e alinhamento ebatido entre todos escolher , ipload,td input e output sao signos, se tem sinalizacao do sistem a eh sigo baseado so na parte de analise da tela é sobre obj ex analise de prova vai ter mtoo signos, dado exibidos e tem grupos de signos (grupo da prova, da área...  -->
@@ -232,7 +232,7 @@ Consolide as informações em **uma tabela única**.
 
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |
 |---|---|---|---|---|---|---|---|---|
-| Análise | Prova | Domínio | Avaliação elaborada pelo professor, composta por questões de múltipla escolha, enunciados e alternativas. é o documento fornecido pelo usuário que será processado pelo Desemprov para extração de características estruturais e análises comparativas com o ENEM | Documento digital(PDF), contendo textos e, eventualmente imagens. | Arquivo obrigatório, formato PDF e tamanho máximo de 10 MB. Deve atender aos requisitos da ferramenta | nenhum | Informar os formatos aceitos e o limite de tamanho antes do envio, validar o arquivo selecionado antes de iniciar o processamento | Exibir esagem explicativa caso o arquivo seja inválido ou não possa ser processado, permitindo que o professor envie outro documento. |
+| Análise | Prova | Domínio | Avaliação elaborada pelo professor, composta por questões de múltipla escolha, enunciados e alternativas. é o documento fornecido pelo usuário que será processado pelo Desemprov para extração de características estruturais e análises comparativas com o ENEM | Documento digital(PDF), contendo textos e, eventualmente imagens. | Arquivo obrigatório, formato PDF e tamanho máximo de 10 MB. Deve atender aos requisitos da ferramenta | nenhum | Informar os formatos aceitos e o limite de tamanho antes do envio, validar o arquivo selecionado antes de iniciar o processamento | Exibir mensagem explicativa caso o arquivo seja inválido ou não possa ser processado, permitindo que o professor envie outro documento. |
 | Análise | Tipo de análise | Aplicação | Define qual análise estrutural o professor deseja realizar. | Seleção (lista de opções). | Deve selecionar uma opção disponível. | Análise Completa. | Apresentar as análises disponíveis. | Permitir selecionar outra(s) análise(s). |
 | Análise | Duração da prova | Domínio | Tempo total disponibilizado para a realização da avaliação. | Numérico (horas e minutos). | Obrigatório; valores válidos de duração. | Nenhum. | Indicar os campos de horas e minutos e validar os valores. | Dar um aviso caso supere o tempo máximo de uma avaliação (6h) informando a necessidade de correção. |
 | Análise | Tempo de leitura | Domínio | Velocidade de leitura utilizada como referência para estimar o tempo necessário para ler os enunciados. | Numérico (caracteres por minuto). | Valor positivo. | 1100 caracteres/minuto. | Explicar a diferença entre velocidade padrão e personalizada e da onde veio o valor 1100 | Permitir retornar ao padrão ou informar outro valor. |
