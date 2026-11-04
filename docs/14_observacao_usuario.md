@@ -3,7 +3,10 @@
 **Data:** {{dd/mm/aaaa}}  
 **Status:** ⬜ não iniciada  
 **Responsabilidade:** solução consolidada por equipe. O número de participantes finais observados deve ser igual ao número de integrantes, conforme o modelo da disciplina; recomenda-se que cada integrante seja responsável por conduzir/analisar ao menos um participante.
+<!-- Prototipo uso p avaliacao herusitica e teste de obs de usuario 
 
+Faremos colocando pessoas de fora da equipe, colegas da turma, professores(preferencialmente), orientadors, familiares....  
+ -->
 ## Objetivo da atividade
 
 Observar usuários representativos realizando tarefas reais ou realisticamente simuladas para identificar problemas de eficácia, eficiência, compreensão e satisfação que não podem ser inferidos apenas por inspeção.

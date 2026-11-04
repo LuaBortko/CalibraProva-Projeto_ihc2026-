@@ -3,7 +3,25 @@
 **Data:** {{dd/mm/aaaa}}  <br> 
 **Status:** ⬜ não iniciada  <br> 
 **Responsabilidade:** 1 avaliação completa por integrante, sobre todas as telas/estados relevantes do projeto.<br> 
+<!-- 
+Metodo baseado em inspecao, que mfaz inspeco somos nos especialistas 
 
+Teste de usabilidade nao tem usuario, é so especialista, pego heuristicas (regras parecidas com diretrizes) e do ranking dd atrnedimento ou n (ranking de violacao), indico quem violou  
+
+No mercado indciamos violacoes 
+
+Na entrega do plinio: avlaiamos interface fazendo relatorio de heuristica, nos como especialsitas avaliando heuristica, indicando onde violou ex se tela violou todas as heuristics tenho exemplo de violacao, se nao tive violacao heuristica n estudo baseado em nd pq nao violei. 
+
+Ai pro plinio indico oq nao violei, oq foi atendido na avlaaicao heuristica 
+
+Avalaicao heuristica de mercado mostra oq a pessoa violou e qual o prejuizo, impacto daquela violacao 
+
+Pra disciplina coloca tb oq fizemos de bom 
+
+Prototipo uso p avaliacao herusitica e teste de obs de usuario  
+
+No mercado n faco avaliacao heurstica cm msm equipe q fez software pq tem regra de pricnipios de design e vo ve se desrregulou esses principios  
+-->
 ## Objetivo da atividade
 
 Encontrar problemas de usabilidade por inspeção sistemática da interface com as **10 heurísticas de Nielsen**. Cada avaliador trabalha individualmente primeiro; depois a equipe consolida problemas duplicados e prioridades.

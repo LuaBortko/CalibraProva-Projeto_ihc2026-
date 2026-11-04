@@ -4,6 +4,8 @@
 **Status:** ⬜ não iniciada  <br> 
 **Responsabilidade:** 1 solução por equipe<br> 
 
+<!--Entrega eh p entender tecnicas de planejamento, qnd fa zplanejamento resp perg e sabe se vai faze teste de avaliaco heuristica, ou comunicabilidade ou observacao do usuario, ensina a planejar -->
+
 ## Objetivo da atividade
 
 Planejar a avaliação antes de executá-la, ligando perguntas de avaliação a métodos, participantes, tarefas, métricas, aspectos práticos, ética e forma de análise.
@@ -24,7 +26,7 @@ Exemplos de perguntas:
 Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 
 ## A. Método DECIDE
-
+<!--No final do planejamento tem frameworek onde cada letra (DECIDE) TEM REGRA COMO PATTERN. PCRIA PLANEJAENTO DE TESTE, ENVOLVE OBJ, PUBLICO ALVO, ETICA, QUE INSTURMENTO VAI USA(COMO GRAVA INFO DE USABILIDADE) -->
 | Etapa | Aplicação no projeto |
 |---|---|
 | **D — Determine the goals** | Quais objetivos da avaliação? Relacione às metas de usabilidade da Entrega 8. |
