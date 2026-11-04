@@ -61,8 +61,8 @@ Modele também rupturas plausíveis: entrada inválida, falha de processamento, 
 **Autor(a):** Luana Bortko Rodrigues RA:24.123.006-9 <br>
 **Cenário de interação de origem:** CI01 <br>
 **Objetivo(s):** O02  <br>
-**Tarefa(s) relacionada(s):** {{T01}}  <!-- complete--><br>
-**Signos relevantes:** {{...}} <!-- complete--><br>
+**Tarefa(s) relacionada(s):** T01 - Analisar a prova  <!-- completei hihihi--><br>
+**Signos relevantes:** Prova, tipo de analise, duração da prova, tempo de leitura, quantidade de questões, dificuldade das questões, incluir métricas reais dos estudantes, quantidade de participantes, acertos por questão, métricas estruturais, tempo estimado de leitura, formalismo  <!-- complete--><br>
 
 ### Diagrama
 
