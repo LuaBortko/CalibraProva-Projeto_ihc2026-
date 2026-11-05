@@ -13,15 +13,14 @@ Ex: goms, de acordo com regra de selecao tem maneiras diferencas, conv alternati
 Nos signos definimos recuperacao de rupturas, dado essa modelagem do esquema conceitual de signos planejamos mecanismos p user se recuepra de problemas 
 
 
-pre cond: xxx acima do u:, condicao necessaria pra fala de transicao ocorrer, ex analisar  so é possivel se preencher campo de input obrigatorio
+IMPORTANTE: pre cond: xxx acima do u:, condicao necessaria pra fala de transicao ocorrer, ex analisar  so é possivel se preencher campo de input obrigatorio
 
- 
 
-NA MODELAGEM FAZEMOS CENA DETALHADA: cena composta pelo nome do topico e dialogos q ocorrem (dialog obaseado na lista de signo q compoe o dialog
+IMPORTANTE: NA MODELAGEM FAZEMOS CENA DETALHADA: cena composta pelo nome do topico e dialogos q ocorrem (dialog obaseado na lista de signo q compoe o dialog
 
 PROCESSO APOS CLICAR E MANALISAR 
 
-TRACEJADO para upload invalodo de pdf, tempo maior q o amx inserido…(acho)
+IMPORTANTE: TRACEJADO para upload invalodo de pdf, tempo maior q o amx inserido…(acho)
 
 cena comecando, carregei diretro a cena inicial 
 
@@ -30,16 +29,38 @@ MAPEAR INICIO E FIM DA META
 
 
 
+IMPORTANTE: Gco: obj quand oentra eh ver a lsita de documentos MTO IMPROTANTE TER GCO, pde taem hta, goms...
 
-Gco: obj quand oentra eh ver a lsita de documentos MTO IMPROTANTE TER GCO, pde taem hta, goms...
+IMPORTANTE: ACABO MODELAGEM OLHAS E TD SETA TEM FALA DE TREANSICAO (u: ou d:? Toda seta tem q ter, a uncia q n tem u: ou d: é a q sai p difurcaao (-----_ pq tem depois , pode n usa --- e puxa as 2 setas da caixa  
 
-ACABO MODELAGEM OLHAS E TD SETA TEM FALA DE TREANSICAO (u: ou d:? Toda seta tem q ter, a uncia q n tem u: ou d: é a q sai p difurcaao (-----_ pq tem depois , pode n usa --- e puxa as 2 setas da caixa  
-
-Se sai da cena 90% das vezes eh u: 
+IMPORTANTE: Se sai da cena 90% das vezes eh u: 
 Se entra no processamento (entra na caixa preta é u:, ta saind oda caixa preta é d:) 
 
  -->
 Modelar a interação como uma **conversa entre usuário e preposto do designer**, oferecendo visão global dos caminhos que permitem ao usuário atingir seus objetivos — incluindo alternativas e rupturas relevantes. MoLIC não deve ser reduzida a um fluxograma de telas.
+
+<!--
+Comeco a faze molic consumindo mapa de objetivos. 
+
+OBJETIVOS NUM GERAL (O01: Analisar a estrturua de uma prova antes de aplicá-la, O02: Analisar avaliação após um desempenho baixo na aplicação, O03: Comparar duas versÕes de uma avaliação para identificar possíveis diferenças injustas) É SEMPRE ANALISAR PROVA ENTAO VAMOS DIVIDIR AS TAREFAS PRA CADA UM MODELAR UMA:
+
+
+O04: enviar a avaliação em PDF (é uma cena, cena pode ser uma tela, ex menu de navegacao pode ser 1 cena e pop up de avisa upload invalido pode ser outra (navegacao como cena ubiqua), 
+
+tópico (nome da cena): só pro projetista entende oq ocorre
+
+
+PRIMEIRA FUNCIONALIDADE DO MOLIC: 
+Falas dde transicao: mmudanca de topico em determinado omento dainteracaosao cenas, estados do sistema, mudanca de estado sao cenas 
+u: fala d etransicao do usuario ( acao q user faz q motiva a ir p outra cena, estado )
+
+D+u-> user ta entrando input mas sistema ta ajudando user,  
+
+D+u, faco sistema que deixo user digita estado ex: nao deixa a pessoa digitar o estado, estado fornece um dropdown pra escolher 
+
+
+-->
+
 
 > Use a **notação MoLIC ensinada na disciplina**. Este template foca critérios de qualidade e não substitui a legenda/notação apresentada em aula.
 
@@ -56,7 +77,7 @@ Exemplos de conversas:
 
 Modele também rupturas plausíveis: entrada inválida, falha de processamento, ausência de resultado, permissão insuficiente, filtro sem resultados, conflito de alteração, cancelamento ou necessidade de recuperação.
 
-## M01 — Professor percebe um desempenho inesperadamente baixo
+## M01 — Informar dados necessários para a análise
 
 **Autor(a):** Luana Bortko Rodrigues RA:24.123.006-9 <br>
 **Cenário de interação de origem:** CI01 <br>
@@ -101,17 +122,17 @@ Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupt
 - [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 
-## M02 — Professor quer verificar uma prova antes de aplicá-la
+## M02 — Enviar a avaliação em PDF
 
 **Autor(a):** Beatriz Manaia Lourenço Berto <br>
 **Cenário de interação de origem:** CI02  <br>
 **Objetivo(s):** O01  <br>
-**Tarefa(s) relacionada(s):** {{T01}}  <!--complete--> <br>
+**Tarefa(s) relacionada(s):** T01 - Analisar a prova  <br>
 **Signos relevantes:** {{...}}<!-- complete--><br>
 
 ### Diagrama
 
-![MoLIC M01](../assets/10_molic/molic_m01.svg)
+![MoLIC M01](../assets/10_molic/molic_enviar_prova.jpeg)
 
 **Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
 
@@ -146,12 +167,12 @@ Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupt
 - [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 
-## M03 — Professor quer comparar duas versões de uma avaliação
+## M03 — Consultar as métricas/analise da prova
 
 **Autor(a):** Nuno Martins Guilhermino da Silva RA: 22.126.099-5 <br>
 **Cenário de interação de origem:** CI03 <br>
 **Objetivo(s):** O03  <br>
-**Tarefa(s) relacionada(s):** {{T01}}  <!-- complete --><br>
+**Tarefa(s) relacionada(s):**  T01 - Analisar a prova <br>
 **Signos relevantes:** {{...}}<!-- complete--><br>
 
 ### Diagrama

@@ -227,8 +227,8 @@ Ligação entre caixas da o fluxo: pelo diagrama de obj vemos oq precisa faze p 
 | O02 | Analisar uma avaliação após identificar um desempenho abaixo do esperado  | P01 - professor | CI01 | Alta |
 | O03 | Analisar duas provas para verificar se não há discrepâncias de exigência| P01 - professor | CI03 | Alta |
 | O04 | Enviar a avaliação em PDF | P01 - professor | CI01, CI02, CI03 | Alta |
-| O05 | Explorar os resultados por característica estrutural | P01 - professor | CI01, CI02, CI03 | Alta |
-| O06 | Informar os dados necessários para a análise | P01 - professor | CI01, CI02, CI03 | Alta |
+| O05 | Informar os dados necessários para a análise | P01 - professor | CI01, CI02, CI03 | Alta |
+| O06 | Explorar os resultados por característica estrutural | P01 - professor | CI01, CI02, CI03 | Alta |
 | O07 | Consultar as métricas e a análise da prova | P01 - professor | CI01, CI02, CI03 | Alta |
 | O08 | Compreender e interpretar os resultados | P01 - professor | CI01, CI02, CI03 | Alta |
 | O09 | Exportar os resultados | P01 - professor | CI01, CI02, CI03 | Baixa |
