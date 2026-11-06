@@ -1,7 +1,7 @@
 # Entrega 11 — Protótipo no Figma
 
-**Data:** {{dd/mm/aaaa}}  <br> 
-**Status:** ⬜ não iniciada  <br> 
+**Data:** 05/11/2026  <br> 
+**Status:** 🟨 Em andamento  <br> 
 **Responsabilidade:** 1 protótipo integrado por equipe cobrindo os fluxos MoLIC. Se a turma exigir divisão individual, identifique o responsável por cada fluxo/tela.<br> 
 
 ## Objetivo da atividade

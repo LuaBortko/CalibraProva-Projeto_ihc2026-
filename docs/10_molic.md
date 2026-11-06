@@ -1,7 +1,7 @@
 
 # Entrega 10 — MoLIC
 
-**Data:** 02/11 <br>
+**Data:** 02/11/2026 <br>
 **Status:**  🟨 Em andamento <br> 
 **Responsabilidade:** 1 solução completa por integrante<br> 
 
@@ -89,7 +89,7 @@ Modele também rupturas plausíveis: entrada inválida, falha de processamento, 
 
 ![MoLIC M01](../assets/10_molic/molic_m01.svg)
 
-**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
+**Fonte editável:** [link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
@@ -134,7 +134,7 @@ Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupt
 
 ![MoLIC M01](../assets/10_molic/molic_enviar_prova.jpeg)
 
-**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
+**Fonte editável:** [link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
@@ -199,7 +199,7 @@ Dado que a prova se encontra elaborada (precond: {prova elaborada}), o docente a
 
 ![MoLIC M01](../assets/10_molic/molic_m01.svg)
 
-**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
+**Fonte editável:** [link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
