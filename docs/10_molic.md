@@ -89,7 +89,7 @@ Modele também rupturas plausíveis: entrada inválida, falha de processamento, 
 
 ![MoLIC M01](../assets/10_molic/molic_m01.svg)
 
-**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
@@ -134,36 +134,56 @@ Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupt
 
 ![MoLIC M01](../assets/10_molic/molic_enviar_prova.jpeg)
 
-**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
-Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupturas mais importantes.
+<!--Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupturas mais importantes. -->
 
 #### Caminho principal
 
-1. {{ponto de abertura → cena...}}
-2. {{...}}
+Pré-condição (precond): {prova elaborada} <br>
+Objetivo (gco): Enviar arquivo de prova   <br>
+Garantia de Sucesso (gcc): Enviar arquivo de prova <br>
+1- (cena ubíqua)Acesso à plataforma: O docente acessa à plataforma e seleciona a opção "Analisar prova". <br>
+2- Visualização dos requisitos: Ao acessar a cena Enviar avaliação, o sistema exibe as informações e restrições que o documento PDF precisa cumprir para a submissão.<br>
+3- Confirmação do envio: O docente faz o upload do documento e confirma a ação ao clicar no botão "Enviar prova" (u: Enviar prova). <br>
+4- Processamento: O sistema inicia a leitura e validação do documento (d: lendo pdf...). <br>
+5- Validação de conformidade: O sistema confirma que o documento possui formato e tamanho válidos (d: arquivo em formato e tamanho válidos), satisfazendo a garantia de sucesso (gcc: Enviar arquivo de prova). <br>
+6- Transição de tela: A interface avança automaticamente para a cena informar dados da prova. 
+
+#### Caminho alternativo 1 (Cancelamento do carregamento)
+
+Dado que a prova se encontra elaborada (precond: {prova elaborada}), o docente acessa à plataforma e seleciona a opção "Analisar prova" (cena ubíqua) com o objetivo de submeter o documento da avaliação (gco: Enviar arquivo de prova). Na cena Enviar avaliação, o sistema exibe os requisitos para o envio correto do documento PDF. Após selecionar e anexar o arquivo, o sistema avança para a cena Carregar arquivo, apresentando as informações carregadas (d: nome e tamanho do arquivo). Ao constatar que anexou o documento incorreto, o docente aciona a opção de cancelamento (u: Cancelar), interrompendo o envio e retornando à cena Enviar avaliação para nova seleção do arquivo.
+
+#### Caminho alternativo 2 (Tratamento de Erro)
+
+Dado que a prova se encontra elaborada (precond: {prova elaborada}), o docente acede à plataforma e seleciona a opção "Analisar prova" (cena ubíqua) com o objetivo de submeter o documento da avaliação (gco: Enviar arquivo de prova). Ao acessar a cena Enviar avaliação, o sistema exibe as informações de envio do documento PDF. O docente confirma a submissão ao clicar em "Enviar prova" (u: Enviar prova), momento em que o sistema executa o processamento do arquivo (d: lendo pdf...). Caso ocorra uma falha na validação (d: erro 1, 2, 3, 4), a interface redireciona para a cena de erro, exibindo a mensagem correspondente ao problema identificado (erro1: Formato Inválido, erro2: Erro ao preparar a análise. nenhuma questão encontrada, erro3: Arquivo excede tamanho ou erro4: server error). Para prosseguir, o docente seleciona a opção de correção (u: Corrigir erros sinalizados), retornando à cena Enviar avaliação para realizar os ajustes necessários e tentar uma nova submissão.
+
 
 #### Alternativas e rupturas
 
 | Situação | Onde ocorre | Como o usuário percebe | Caminho de recuperação/saída |
 |---|---|---|---|
-| {{dado inválido}} | {{...}} | {{fala/feedback}} | {{...}} |
+| Formato de arquivo inválido | na validação do documento enviado | mensagem de erro(feedback) informando que o formato do arquivo não é aceito | o docente retorna à cena de Enviar avaliação, corrige o formato e envia o arquivo novamente |
+| Nenhuma questão encontrada | durante o processamento e a preparação da análise da prova, após o envio | mensagem informando que nenhuma questão foi identificada no documento(feedback) | o docente revisa o documento anexado, corrige possíveis problemas na estrutura da prova e realiza um novo envio |
+| Arquivo excede o tamanho permitido | na validação do arquivo enviado | mensagem informando que ocorreu um erro interno e que não foi possível concluir o processamento(feedback)) | o docente pode tentar enviar o arquivo novamente ou sair da operação |
+| Erro no servidor | durante o processamento do documento, após o envio | mensagem informando que ocorreu um erro interno e que não foi possível concluir o processamento(feedback) | o docnete pode tentar enviar o arquivo novamente ou sair da operação |
+| Cancelamento do envio | Após enviar a avaliação | o docente seleciona a opção "cancelar, simbolizada pelo botão "X"na cor vermelha | o sistema interrompe a operação/remove o arquivo anexado e retorna à etapa anterior de enviar avaliação, sem prosseguri com o envio da prova |
 
 ### Checklist específico de modelagem
 
-- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
-- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
-- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
-- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
-- [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
-- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
-- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
-- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
-- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
-- [ ] O diagrama é legível em tamanho normal no GitHub.
-- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [X] Existe **ponto de abertura** coerente com o início do objetivo.
+- [X] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [X] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [X] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [X] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
+- [X] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [X] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [X] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [X] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [X] O diagrama é legível em tamanho normal no GitHub.
+- [X] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
 - [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 
@@ -179,7 +199,7 @@ Explique em texto o caminho principal e pelo menos os caminhos alternativos/rupt
 
 ![MoLIC M01](../assets/10_molic/molic_m01.svg)
 
-**Fonte editável:** {{adicione aqui o link para o arquivo `.drawio`, `.svg` editável ou outro formato utilizado pela equipe}}
+**Fonte editável:** ![link editável](https://canva.link/tbgn4mxijuochce)
 
 ### Leitura do diagrama
 
